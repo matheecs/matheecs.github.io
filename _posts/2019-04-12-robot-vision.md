@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: math
 title: 我所理解的机器人视觉
 ---
 

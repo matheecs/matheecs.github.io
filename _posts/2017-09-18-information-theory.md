@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: math
 title: 信息论
 ---
 

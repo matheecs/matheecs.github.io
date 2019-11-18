@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: math
 title: Roomba变形记
 ---
 
