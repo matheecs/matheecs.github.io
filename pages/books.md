@@ -1,0 +1,220 @@
+---
+layout: page
+title: Books
+permalink: /books/
+---
+
+* toc
+{:toc}
+------
+
+### 编程与实践
+
+- 大话数据结构
+- 算法图解
+- 多型與虛擬——学C++务必读侯捷老师的书
+- Linux多线程服务端编程
+- 精通Linux
+- Running Linux
+- 鳥哥的 Linux 私房菜
+- C++程序设计：原理与实践
+- 新标准C++程序设计
+- 一站式学习C编程
+- C++ Primer
+- 21天学通C++
+- Effective C++
+- [More Effective C++（中文版） : 35个改善编程与设计的有效方法](https://book.douban.com/subject/5908727/)
+- [Effective Modern C++ 简体中文版 : 42招独家技巧助您改善C++11和C++14的高效用法](https://book.douban.com/subject/30178902/)
+- [Effective STL中文版 : 50条有效使用STL的经验](https://book.douban.com/subject/1792179/)
+- C++标准库
+- C++必知必会
+- 数据结构：思想与实现
+- Algorithms, data structures, and problem solving with C++
+- C程序员从校园到职场
+- 统计学习方法
+- [C++ API设计](https://book.douban.com/subject/24869855/)
+- ⭐️编码
+- 程序员的自我修养：链接、装载与库
+- STL源码剖析
+- UNIX环境高级编程
+- 计算机程序的构造和解释
+- ⭐️深入理解计算机系统
+- 算法导论
+- [**Algorithms, 4th Edition**](https://algs4.cs.princeton.edu/home/)
+- 数据结构与算法之美（王争）
+- 设计模式之美（王争）
+- 趣谈网络协议（刘超）
+- [Linkers and Loaders](https://book.douban.com/subject/1436811/)
+- 程序员面试白皮书
+- 剑指Offer
+- C语言接口与实现
+- Linux内核源代码情景分析
+
+### 机器人之眼
+
+- Learning OpenCV 3
+- ⭐️视觉SLAM十四讲
+- ⭐️由2维影像建立3维模型（写真から作る3次元CG）
+- 机器人感知
+- 增强现实：原理、算法与应用
+- Course on SLAM
+- Sensors for Mobile Robots
+- Handbook of Modern Sensors
+- Computer Vision: A Modern Approach
+- Computer Vision: Algorithms and Applications
+- **Multiple View Geometry in Computer Vision**
+- An Invitation to 3-D Vision: From Images to Geometric Models
+- 计算机视觉
+- Computer Vision: Models, Learning, and Inference
+- Pattern Recognition and Machine Learning
+- Deep Learning
+- Generalized Principal Component Analysis
+- Vision: A Computational Investigation into the Human Representation and Processing of Visual Information
+- 流体动画的计算艺术
+- Geometric Data Structures for Computer Graphics
+- [Introduction to Computing with Geometry Notes](https://pages.mtu.edu/~shene/COURSES/cs3621/NOTES/)
+
+### 数学与控制
+
+- [重修线性代数](http://blog.sciencenet.cn/blog-826653-1032025.html)
+- [重修微积分](http://blog.sciencenet.cn/blog-826653-863396.html)
+- Linear Algebra Done Right
+- Matrix Analysis & Applied Linear Algebra
+- Matrix Algebra: Theory, Computations and Applications in Statistics
+- 点集拓扑与代数拓扑引论
+- ⭐️陶哲轩实分析
+- 凸优化
+- 数值最优化方法
+- 数学简史
+- Matrix Analysis and Applied Linear Algebra
+- ⭐️How to Solve It
+- 矩阵代数、控制与博弈
+- 系统与控制中的近代数学基础
+- ⭐️线性代数应该这样学
+- 数值线性代数
+- Liner Multivariable Control — A Geometric Approach
+- ⭐️Stochastic Models, Estimation and Control
+- ⭐️State Estimation for Robotics
+- Applied Optimal Control
+- Stochastic Models, Information Theory, and Lie Groups
+- ⭐️数学家的眼光
+- ⭐️Nonlinear Dynamics and Chaos
+- [Mathematics for Computer Science](https://courses.csail.mit.edu/6.042/spring18/)
+- [**The Theoretical Minimum**](https://theoreticalminimum.com/)
+  - [中文版：理论物理极础](https://www.cnblogs.com/joyfulphysics/category/702893.html)
+- [**Quantum Mechanics**](https://book.douban.com/subject/25821853/)
+- [**Special Relativity and Classical Field Theory**](https://book.douban.com/subject/27154898/)
+
+### 机器人之魂
+
+- Behavior-Based Robotics
+- The Robotics Primer
+- ⭐️A Mathematical Introduction to Robotic Manipulation
+- Probabilistic Robotics
+- ⭐️Robot Programming : A Practical Guide to Behavior-Based Robotics
+- Mobile Robots Inspiration to Implementation
+- Robotic Explorations
+- ROS机器人开发实践
+- 机器人建模和控制
+- 机器人学：建模、规划与控制
+- 多旋翼飞行器设计与控制
+- Perceptrons
+- ⭐️Legged Robots That Balance
+- ⭐️[Underactuated Robotics](http://underactuated.csail.mit.edu/underactuated.html)
+- ⭐️Introduction to Autonomous Mobile Robots
+- ⭐️机器人学中的状态估计
+
+### 工程与教育
+
+- **Design Concepts For Engineers**
+- 技术的本质
+- 复杂（Complexity: A Guided Tour）
+- 伯克利札记
+- 游学波士顿
+- 大学之路——赠给高中毕业生最好的礼物
+- 浪潮之巅
+- 硅谷之谜
+- How to Solve It——教育是一门艺术
+- ⭐️CODE——抽象是CS的本质
+- 人工智能真的来了
+- 晨曦集
+- “Surely You're Joking, Mr. Feynman”
+- The Idea Factory: Learning to Think at MIT
+- Whiplash: How to Survive Our Faster Future
+- The Sorcerers and Their Apprentices
+- 像外行一样思考，像专家一样实践
+- 芝加哥大学论文写作指南
+- 流体动画的计算艺术
+
+### 生活与哲学
+
+- 原则
+- 哲学 科学 常识
+- 忏悔录
+- 社会契约论
+- ⭐️从卢梭到尼采
+- 医本正经——用中医的思维看生活
+- 如果舌尖能思考
+- 新教伦理与资本主义精神
+- 小顾聊绘画
+- ⭐️查拉图斯特拉如是说
+- 人生智慧录
+- **人生智慧箴言**
+- [叔本华与梵•高：箴言与绘画](https://book.douban.com/subject/30278635/)
+- [梵高手稿](https://book.douban.com/subject/26666533/)
+- 生存空虚说
+- 大问题
+- 文心
+- 超简单的乐理学习图解版
+- 我们仨
+- 文化苦旅
+- 百年孤独
+- 目送
+- 万年的竞争
+- 给青年编剧的信
+- 万历十五年
+- [生命是什么](https://book.douban.com/subject/30263244/)
+- [生命是什么 : 40亿年生命史诗的开端](https://book.douban.com/subject/30219714/)
+- [学术与政治](https://book.douban.com/subject/30423925/)
+- [最好的告别 : 关于衰老与死亡，你必须知道的常识](https://book.douban.com/subject/26576861/)
+- [褚时健 : 影响企业家的企业家](https://book.douban.com/subject/26220259/)
+- [医学就会](https://book.douban.com/subject/30176310/)
+- 寻美记
+- 逻辑哲学论
+- 科学与宗教的领地
+- [FLATLAND](http://wordyenglish.com/flatland/index.html)
+- [神奇的二维国](http://wordyenglish.com/flatland_chinese/flatland_chinese_index.html)
+- 世界美术名作二十讲
+- **侘寂**
+- 乡土中国
+- 2001太空漫游
+
+### 产品与设计
+
+- ⭐️写给大家看的设计书
+- 启示录
+- 结网
+- 产品思维30讲（梁宁）
+
+### 经济与管理
+
+- 管理学
+- 小狗钱钱——自信、目标、爱好
+- 富爸爸穷爸爸
+- 乡土中国
+
+### 电影与电视
+
+- 我们与恶的距离
+- 飞屋环游记
+- 寻梦环游记
+- 心灵捕手
+- 死亡诗社
+- 黑暗骑士
+- 2001太空漫游
+- 盗梦特攻队
+- 至爱梵高
+- 大闹天宫
+- 大话西游之大圣娶亲
+- 天空之城
+- 背靠背，脸对脸

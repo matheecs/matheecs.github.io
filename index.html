@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<!-- <p style="text-align: left;"> <img src="/images/blog-low.jpg" /></p> -->
+
+<div class="home">
+  <h1 class="page-heading">{{ site.title }}</h1>
+
+  <p1>Robot Perception and Planning<SUB>ICRA/IROS</SUB> + <i style="color:yellow">Van Gogh</i> + <i style="color:green">Schopenhauer</i> + <i style="color:red">Make</i></p1>
+
+  <hr>
+	<table>
+	{% for post in site.posts %}
+		<tr id="blog-table">
+		<td>{{ post.date | date: "%Y-%m-%d" }}</td>
+		<td><a class="post-list-item" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></td>
+		</tr>
+	{% endfor %}
+	</table>
+  <hr>
+</div>

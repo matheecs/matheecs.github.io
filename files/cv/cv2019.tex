@@ -1,0 +1,93 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{geometry}
+\geometry{top=0.7cm,bottom=0.6cm,left=1.5cm,right=1.5cm}
+\usepackage{amssymb}
+
+%\usepackage{zh_CN-Adobefonts_external}
+\usepackage{xeCJK}
+\usepackage{linespacing_fix}
+
+\begin{document}
+\pagenumbering{gobble}
+
+\name{张吉祥}
+
+\basicInfo{
+  \email{zhangjixiang1995@qq.com} \textperiodcentered\ 
+  \phone{(+86) 18883891249} \textperiodcentered\ 
+  \homepage{https://matheecs.github.io}
+}
+ 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{西安交通大学}}{2017.9$\rightarrow${\,\,\,\,\,}Now}
+\textbf{硕士}\ $\mathbf{GPA=3.79/4.00}$, 控制科学与工程(2020届)
+\datedsubsection{\textbf{University of Wisconsin-Milwaukee}}{2017.1$\rightarrow$2017.5}
+\textbf{优秀本科生国际交流项目}
+\datedsubsection{\textbf{重庆大学}}{2013.9$\rightarrow$2017.6}
+\textbf{学士}\ $\mathbf{GPA=3.57/4.00}$, 电气工程及其自动化
+
+\section{\faUsers\ 项目经历}
+\datedsubsection{\textbf{北京旷视科技有限公司, 研究院SLAM组实习生}}{2019.6$\rightarrow$2019.9}
+\begin{onehalfspacing}
+负责构建稀疏点云地图，提升室内\textbf{视觉重定位}精度，采用深度学习提取SuperPoint特征、光流跟踪、多帧三角化方法在TX2平台在线建图，最终让重定位精度提升了50\%；研究SfM、Visual Localization定位方法。
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{ICRA 2019 DJI RoboMaster 人工智能挑战赛}}{2019.1$\rightarrow$2019.5}
+\begin{onehalfspacing}
+负责开发全自动射击对抗机器人的多机器人自主决策模块，采用 ROS 和 C\texttt{++} 设计行为树实现决策功能，用目标检测(灯带)与PnP定位敌方，根据场上形势自主决策、运动规划与控制，通过发射弹丸击打敌方机器人进行射击对抗。凭借出色的决策算法和系统鲁棒性在国内外60支队伍的较量中取得全球季军。
+\end{onehalfspacing}
+\datedsubsection{\textbf{北京初速度科技有限公司, 足球机器人竞赛实习}}{2018.7$\rightarrow$2018.8}
+%\role{hackRobot团队组长}{\textbf{北京初速度科技有限公司}}
+\begin{onehalfspacing}
+担任团队组长，配合团队开发全自主足球机器人，采用 TurtleBot3 移动平台、树莓派、单目相机、IMU和码盘传感器，采用目标检测(门框)与PnP方法实现机器人的视觉重定位功能，最终取得团队亚军。
+\end{onehalfspacing}
+\datedsubsection{\textbf{视觉SLAM/VIO/SfM理论研究与工程实践}}{2018.1$\rightarrow${\,\,\,\,\,}Now}
+%\role{优秀学员}{\textbf{深蓝学院}}
+\begin{onehalfspacing}
+担任深蓝学院\textbf{从零开始手写VIO}课程助教。学习深蓝学院\textbf{视觉SLAM理论与实践}课程，独立完成作业，结业时被评为优秀学员(TOP 10\%)。研读视觉SLAM领域的论文著作：{视觉SLAM十四讲}、{Multiple View Geometry in Computer Vision}、{State Estimation for Robotics}，专研算法的工程实现，阅读S-MSCKF、ORB-SLAM2项目源代码，掌握COLMAP三维建模工具。
+\end{onehalfspacing}
+\datedsubsection{\textbf{中国大学生智能设计竞赛}}{2016.3$\rightarrow$2016.8}
+%\role{团队组长}{\textbf{中国大学生智能设计竞赛}}
+\begin{onehalfspacing}
+担任团队组长开发智能仓库机器人，负责设计仓库机器人的技术方案、设备采购与调试，采用TurtleBot2、ROS、Arduino、三自由度机械臂实现机器人的自主定位导航、目标识别与自主抓取的功能，最终带领团队在国内100多支队中取得全国一等奖。
+\end{onehalfspacing}
+%\datedsubsection{\textbf{STEM创客培训项目}}{2014年}
+%%\role{培训主讲}{\textbf{重庆大学}}
+%\begin{onehalfspacing}
+%%	\href{http://huxi.cqu.edu.cn/page/e8b514e32b9176cf}{作为项目发起人，负责培训项目的策划、申请、宣传组织和培训演讲}
+%本科期间第一个由自己构思、组织实施的创客培训项目，培训内容为电子设计和Arduino入门。
+%\end{onehalfspacing}
+\datedsubsection{\textbf{个人作品}}{}
+%\role{团队组长}{\textbf{大学生科研训练计划项目}}
+\begin{onehalfspacing}
+%\href{http://www.arduino.cn/thread-17552-1-1.html}{采用Arduino开源平台，负责软硬件系统设计}。采用MIT App Inventor实现上位机应用开发，用C\texttt{++}语言实现自主循迹模式与手机遥控模式
+\textbf{涵道式三维重建巡检机器人}、{仿Genghis六足机器人}、个人博客(\href{https://matheecs.github.io}{Big Picture, Big Idea})。
+\end{onehalfspacing}
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+\section{\faCogs\ 综合能力}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 理论基础: 多视图几何，状态估计，欠驱动机器人，凸优化，线性代数，概率统计
+  \item 软件技能: 掌握\textbf{C\texttt{++}}，\textbf{ROS}，\textbf{Linux}，Python，CMake，Git，\LaTeX
+  \item 硬件技能: 掌握Arduino，STM32，Raspberry Pi 嵌入式平台
+  \item 研究方向: \textbf{三维视觉}，\textbf{移动机器人}，\textbf{嵌入式开发}
+\end{itemize}
+
+\section{\faHeartO\ 获奖情况}
+\datedline{ICRA 2019 RoboMaster 人工智能挑战赛, \textbf{全球季军}}{2019年}
+\datedline{华为嵌入式精英挑战赛, \textbf{西北赛区一等奖}}{2019年}
+\datedline{第三期 Momenta 无人车足球赛, \textbf{团队亚军}}{2018年}
+\datedline{第六届“华为杯”中国大学生智能设计竞赛, \textbf{全国一等奖}}{2016年}
+\datedline{重庆大学大学生科研训练计划, \textbf{校级一等奖}}{2015年}
+\datedline{\textbf{国家奖学金}}{2014年}
+
+\end{document}

@@ -1,0 +1,11 @@
+# Site settings
+title: 我亦無他惟手熟爾
+email: matheecs@stu.xjtu.edu.cn
+description: Engineering, Sketching and Mathematics
+baseurl: "/"
+url: "https://matheecs.github.io"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
