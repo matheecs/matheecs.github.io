@@ -84,3 +84,8 @@ title: Robot Perception Software
   - Locking
   - Scheduling
   - File system
+
+[**Intel® RealSense™ SDK**](https://github.com/IntelRealSense/librealsense)
+
+- D435i
+- T265
