@@ -135,7 +135,8 @@ permalink: /books/
 - 浪潮之巅
 - 硅谷之谜
 - How to Solve It——教育是一门艺术
-- ⭐️CODE——抽象是CS的本质
+- ⭐️编码——Petzold大佬讲计算的实现
+- ⭐️图灵的秘密——Petzold大佬讲计算的本质
 - 人工智能真的来了
 - 晨曦集
 - “Surely You're Joking, Mr. Feynman”
