@@ -219,3 +219,5 @@ permalink: /books/
 - 大话西游之大圣娶亲
 - 天空之城
 - 背靠背，脸对脸
+- [Ruben Brandt, Collector](http://rubenbrandt.com/)
+- [Fast, Cheap & Out of Control](https://www.bilibili.com/video/av24048520)
