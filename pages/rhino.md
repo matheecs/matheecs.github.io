@@ -1,6 +1,7 @@
 ---
-layout: post
-title: 学习Rhino建模
+layout: page
+title: Rhino
+permalink: /rhino/
 ---
 
 Non-uniform Rational B-spline（NURBS）
