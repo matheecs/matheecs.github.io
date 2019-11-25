@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Maker
-permalink: /maker/
+title: Arduino
+permalink: /arduino/
 ---
+
+[爱上Arduino](https://book.douban.com/subject/6781677/)
 
 [OpenTX](http://www.open-tx.org/)
 
