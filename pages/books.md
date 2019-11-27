@@ -11,6 +11,7 @@ permalink: /books/
 ### 编程与实践
 
 - 大话数据结构
+- 大话设计模式
 - 算法图解
 - 多型與虛擬——学C++务必读侯捷老师的书
 - Linux多线程服务端编程
@@ -33,7 +34,6 @@ permalink: /books/
 - C程序员从校园到职场
 - 统计学习方法
 - [C++ API设计](https://book.douban.com/subject/24869855/)
-- ⭐️编码
 - 程序员的自我修养：链接、装载与库
 - STL源码剖析
 - UNIX环境高级编程
@@ -104,6 +104,8 @@ permalink: /books/
   - [中文版：理论物理极础](https://www.cnblogs.com/joyfulphysics/category/702893.html)
 - [**Quantum Mechanics**](https://book.douban.com/subject/25821853/)
 - [**Special Relativity and Classical Field Theory**](https://book.douban.com/subject/27154898/)
+- [**力学讲义**](https://book.douban.com/subject/30255619/)
+- 经典力学的数学方法
 
 ### 机器人之魂
 
@@ -123,6 +125,7 @@ permalink: /books/
 - ⭐️[Underactuated Robotics](http://underactuated.csail.mit.edu/underactuated.html)
 - ⭐️Introduction to Autonomous Mobile Robots
 - ⭐️机器人学中的状态估计
+- [PyTorch深度学习入门](https://book.douban.com/subject/34858119/)
 
 ### 工程与教育
 
@@ -149,7 +152,8 @@ permalink: /books/
 
 ### 生活与哲学
 
-- 原则
+- **原则**
+- [**Grit : The Power of Passion and Perseverance**](https://book.douban.com/subject/26664265/)
 - 哲学 科学 常识
 - 忏悔录
 - 社会契约论
