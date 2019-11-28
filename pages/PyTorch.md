@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PyTorch
-permalink: /PyTorch/
+permalink: /pytorch/
 ---
 
 **PyTorch** = Tensor + AD
