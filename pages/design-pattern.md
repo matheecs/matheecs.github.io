@@ -4,6 +4,8 @@ title: Design Pattern
 permalink: /design-pattern/
 ---
 
+![](/images/DP.png)
+
 **面向对象 to 设计模式**
 
 - 抽象
