@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Linear Algebra
+title: LinearAlgebra
 permalink: /linear-algebra/
 ---
 

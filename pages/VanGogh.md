@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Van Gogh
+title: VanGogh
 permalink: /van-gogh/
 ---
 

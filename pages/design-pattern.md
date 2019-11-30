@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Design Pattern
+title: DesignPattern
 permalink: /design-pattern/
 ---
 

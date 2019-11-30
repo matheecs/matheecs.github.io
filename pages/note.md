@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Note
-permalink: /note/
+title: Notes
+permalink: /notes/
 ---
 
 * toc

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Book
-permalink: /book/
+title: Books
+permalink: /books/
 ---
 
 * toc
