@@ -36,3 +36,6 @@ permalink: /delfly/
 - [Visualizing Local Properties and Characteristic Structures of Dynamical Systems](https://users.cg.tuwien.ac.at/helwig/diss/diss.htm)
 - [Flow Visualization: a Course in the Physics and Art of Fluid Flow](http://www.flowvis.org/)
 - [流体力学可视化演示 - 实验和方法](https://www.bilibili.com/video/av67344256/)
+- [流体力学经典演示实验](https://www.bilibili.com/video/av13921135/?spm_id_from=333.788.videocard.0)
+- [NSF流体力学教学系列](https://www.bilibili.com/video/av56775334/?spm_id_from=333.788.videocard.0)
+- [流体力学教学_北航王洪伟老师](https://www.bilibili.com/video/av52215252?p=1)
