@@ -30,4 +30,9 @@ permalink: /delfly/
 
 **参考文献**
 
-[DelFly扑翼机器人论文合集](https://pan.baidu.com/s/1uakPfuWY12g03PpR6EcGkA)
+- [DelFly扑翼机器人论文合集](https://pan.baidu.com/s/1uakPfuWY12g03PpR6EcGkA)
+- [The Flow of Dry Water](https://www.feynmanlectures.caltech.edu/II_40.html)
+- [The Flow of Wet Water](https://www.feynmanlectures.caltech.edu/II_41.html)
+- [Visualizing Local Properties and Characteristic Structures of Dynamical Systems](https://users.cg.tuwien.ac.at/helwig/diss/diss.htm)
+- [Flow Visualization: a Course in the Physics and Art of Fluid Flow](http://www.flowvis.org/)
+- [流体力学可视化演示 - 实验和方法](https://www.bilibili.com/video/av67344256/)
