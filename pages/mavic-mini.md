@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MavicMini
+title: Mavic Mini
 permalink: /mavic-mini/
 ---
 
