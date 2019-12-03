@@ -65,6 +65,23 @@ title: Robot Perception Software
 - io
 - visualization
 
+**Open3D**
+
+[Open3D: A Modern Library for 3D Data Processing](http://www.open3d.org/docs/release/index.html#)
+
+- Geometry
+  - PointCloud
+  - TriangleMesh
+  - Image
+- Camera
+- Odometry
+- Registration
+- Integration
+- I/O
+- Visualization
+- Utility
+- Python
+
 **PyTorch** = Tensor + AD
 
 - [Simple examples to introduce PyTorch](https://github.com/jcjohnson/pytorch-examples)
