@@ -67,7 +67,7 @@ title: Robot Perception Software
 
 **Open3D**
 
-[Open3D: A Modern Library for 3D Data Processing](http://www.open3d.org/docs/release/index.html#)
+[Document](www.open3d.org/docs)
 
 - Geometry
   - PointCloud
