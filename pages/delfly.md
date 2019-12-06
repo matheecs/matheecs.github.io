@@ -39,3 +39,4 @@ permalink: /delfly/
 - [流体力学经典演示实验](https://www.bilibili.com/video/av13921135/?spm_id_from=333.788.videocard.0)
 - [NSF流体力学教学系列](https://www.bilibili.com/video/av56775334/?spm_id_from=333.788.videocard.0)
 - [流体力学教学_北航王洪伟老师](https://www.bilibili.com/video/av52215252?p=1)
+- [Zhang Lab](https://physics.nyu.edu/~jz11/)
