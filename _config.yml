@@ -9,7 +9,9 @@ description: 我亦無他惟手熟爾
 url: "https://matheecs.github.io/"
 
 # Build settings
-theme: moving
+# theme: moving
+# remote_theme: huangyz0918/moving
+remote_theme: matheecs/moving
 plugins:
   - jekyll-feed
 
@@ -23,3 +25,5 @@ moving:
     github: matheecs 
     # facebook: matheecs
     # linkedin: matheecs
+
+markdown: kramdown
