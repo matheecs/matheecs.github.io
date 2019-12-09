@@ -149,6 +149,7 @@ permalink: /books/
 - 像外行一样思考，像专家一样实践
 - 芝加哥大学论文写作指南
 - 流体动画的计算艺术
+- [Just for Fun](https://book.douban.com/subject/1451172/)
 
 ### 生活与哲学
 
