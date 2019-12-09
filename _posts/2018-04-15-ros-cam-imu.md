@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "相机和IMU同步的ROS方案[译]"
+title: "相机和IMU同步方案[译]"
 categories: study
 author: "Grau GmbH"
 ---

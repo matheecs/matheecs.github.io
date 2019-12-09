@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "从晶体管到网络浏览器课程大纲"
+title: "从晶体管到浏览器"
 categories: tech
 author: "George Hotz"
 ---

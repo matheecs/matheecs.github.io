@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "State Estimation for Robotics 笔记"
+title: "状态估计笔记"
 categories: study
 author: "Jixiang Zhang"
 ---

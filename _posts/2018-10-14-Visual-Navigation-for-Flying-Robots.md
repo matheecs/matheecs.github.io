@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Visual Navigation for Flying Robots课程笔记"
+title: "飞行机器人视觉导航笔记"
 categories: study
 author: "Jixiang Zhang"
 ---
