@@ -21,6 +21,15 @@ author: "Jixiang Zhang"
 - 语音识别：把波形翻译为语言
 - 股票趋势：生财之道
 
+**核心概念**
+
+- H: 熵
+- I: 互信息
+- C: 信道容量
+- D: 相对熵
+- K: Kolmogorov复杂度
+- W: 双倍率
+
 重视习题！
 重视习题！
 重视习题！
@@ -28,3 +37,36 @@ author: "Jixiang Zhang"
 课堂上老师说道：做研究要看经典论文，而不是教材。我的理解是，看原始新闻，而不是翻译版，看原版书，翻译版难免会损失一些信息，并夹杂噪音。
 
 总之，信息论是一门交叉学科，也是“三论”（信息论、控制论、系统论）之一，对当代科技发展起着至关重要的作用。
+
+
+### Claude Elwood Shannon 简介
+
+**Date of birth**: 30 April 1916
+
+**Birthplace**: Petosky, Mich.
+
+**Height**: 178 centimeters
+
+**Weight**: 68 kilograms
+
+**Childhood hero**: Thomas Alva Edison
+
+**First job**: Western Union messenger boy
+
+**Family**: Married to Mary Elizabeth (Betty) Moore; three children: Robert J., computer engineer; Andrew M., musician; and Margarita C., geologist
+
+**Education**: B.S., 1936, University of Michigan; M.S., 1940, Ph.D., 1940, Massachusetts Institute of Technology
+
+**Hobbies**: Building gadgets, juggling, unicycling
+
+**Favorite invention**: A juggling W.C. Fields robot
+
+**Favorite author**: T. S. Eliot
+
+**Favorite music**: Dixieland jazz
+
+**Favorite food**: Vanilla ice cream with chocolate sauce
+
+**Memberships and awards**: Fellow, IEEE; member, National Academy of Sciences, American Academy of Arts and Sciences; 1966 IEEE Medal of Honor; 1966 National Medal of Science; 1972 Harvey Prize; 1985 Kyoto Prize
+
+**Favorite award**: 1940 American Institute of Electrical Engineers award for master’s thesis
