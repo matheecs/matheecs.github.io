@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 树莓派那些事儿
+title: "树莓派那些事儿"
+categories: tech
+author: "Jixiang Zhang"
 ---
 
 ### 把树莓派变成无线路由器

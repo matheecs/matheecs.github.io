@@ -1,7 +1,5 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: about
 ---
 
 **Resume**
@@ -78,4 +76,3 @@ WeChat ID: **JxMathematica**
   - Maker's DIY
   - Schopenhauer's 箴言
   - Van Gogh's 绘画
-

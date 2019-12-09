@@ -1,6 +1,8 @@
 ---
-layout: math
-title: 矩阵相乘的时间复杂度
+layout: post
+title: "矩阵相乘的时间复杂度"
+categories: study
+author: "Jixiang Zhang"
 ---
 
 #### Strassen 算法

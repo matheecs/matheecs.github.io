@@ -1,6 +1,8 @@
 ---
-layout: math
-title: 经典力学
+layout: post
+title: "经典力学"
+categories: study
+author: "Jixiang Zhang"
 ---
 
 **牛顿力学 & 拉格朗日力学 & 哈密顿力学**

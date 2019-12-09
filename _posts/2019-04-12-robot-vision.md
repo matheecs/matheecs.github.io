@@ -1,6 +1,8 @@
 ---
-layout: math
-title: 我所理解的机器人视觉
+layout: post
+title: "我所理解的机器人视觉"
+categories: study
+author: "Jixiang Zhang"
 ---
 
 ### 背景

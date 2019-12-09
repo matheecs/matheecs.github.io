@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 阅读C++源码
+title: "阅读C++源码"
+categories: study
+author: "Jixiang Zhang"
 ---
 
 ##### 参考网址

@@ -1,2 +1,0 @@
-# matheecs.github.io
-myBlog

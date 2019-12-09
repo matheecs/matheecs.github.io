@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Robot Perception Software
+title: "机器人感知软件清单"
+categories: study
+author: "Jixiang Zhang"
 ---
 
 ![](/images/SPATIAL-AI.png)

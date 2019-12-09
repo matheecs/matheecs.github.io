@@ -1,6 +1,8 @@
 ---
-layout: math
-title: 张氏相机标定
+layout: post
+title: "张氏相机标定"
+categories: study
+author: "Jixiang Zhang"
 ---
 
 #### 预备知识

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 一些思考与记录
+title: "一些思考与记录"
+categories: study
+author: "Jixiang Zhang"
 ---
 
 ##### 机器人的本质是什么？

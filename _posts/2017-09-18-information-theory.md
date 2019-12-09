@@ -1,6 +1,8 @@
 ---
-layout: math
-title: 信息论
+layout: post
+title: "信息论"
+categories: study
+author: "Jixiang Zhang"
 ---
 
 蹭课，一种学习的方式。“现代信息论”采用教材了 Thomas M. Cover 的《信息论基础》，内容涉及概率、统计等，一门交叉学科。课堂上老师手写板书（个人认为基于传统写手板书的课堂干货多，灵活性好），并阐述个别公式的背景和应用价值，趣味盎然。如：

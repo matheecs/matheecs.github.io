@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 相机和IMU同步的ROS方案[译]
+title: "相机和IMU同步的ROS方案[译]"
+categories: study
+author: "Grau GmbH"
 ---
 
 原文：[ROS CAMERA AND IMU SYNCHRONIZATION](http://grauonline.de/wordpress/?page_id=1951)

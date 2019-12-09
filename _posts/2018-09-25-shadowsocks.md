@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 科研那些事儿
+title: "科研那些事儿"
+categories: study
+author: "Jixiang Zhang"
 ---
 
 ### Shadowsocks使用方式

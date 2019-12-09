@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 机器人教育普及进行时[转]
+title: "机器人教育普及进行时[转]"
+categories: stem
+author: "全权, 王帅"
 ---
 
 ------

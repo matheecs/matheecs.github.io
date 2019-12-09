@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Linux那些事儿
+title: "Linux那些事儿"
+categories: tech
+author: "Jixiang Zhang"
 ---
 
 ##### Linux自学资料

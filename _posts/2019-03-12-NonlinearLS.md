@@ -1,6 +1,8 @@
 ---
-layout: math
-title: 非线性最小二乘
+layout: post
+title: "非线性最小二乘"
+categories: study
+author: "Jixiang Zhang"
 ---
 
 Google 的 Ceres 优化库的名称来源于 Gauss 用最小二乘发现的谷神星。该库用于求解以下模型：

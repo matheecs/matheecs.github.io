@@ -1,6 +1,8 @@
 ---
-layout: math
-title: Roomba变形记
+layout: post
+title: "Roomba变形记"
+categories: tech
+author: "Jixiang Zhang"
 ---
 
 去年在密村购了一台 iRobot  Create 2（Roomba 600），最近打算对它改造一下：加个脑子（Raspberry Pi）和眼睛（单目相机）。改造结果：

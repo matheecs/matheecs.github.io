@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 视觉SLAM学习资料汇总
+title: "视觉SLAM学习资料汇总"
+categories: research
+author: "Jixiang Zhang"
 ---
 
 ![Stanley](/images/640px-Stanley2.JPG)

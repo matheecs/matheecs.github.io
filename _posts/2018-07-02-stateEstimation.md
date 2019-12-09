@@ -1,6 +1,8 @@
 ---
-layout: math
-title: State Estimation for Robotics 笔记
+layout: post
+title: "State Estimation for Robotics 笔记"
+categories: study
+author: "Jixiang Zhang"
 ---
 
 某某说：*State Estimation for Robotics* 是学习 SLAM 的必读书籍。看完高翔的 *视觉 SLAM 十四讲*，再读 *State Estimation for Robotics*，把十四讲里的一些概念彻底弄明白。

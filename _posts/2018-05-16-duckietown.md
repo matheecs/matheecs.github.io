@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 工程教育与Duckietown
+title: "工程教育与Duckietown"
+categories: stem
+author: "Jixiang Zhang"
 ---
 
 [Duckietown](http://duckietown.org/index.html)

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 飞行机器人学习资料
+title: "飞行机器人学习资料"
+categories: tech
+author: "Jixiang Zhang"
 ---
 
 [Autonomous Navigation for Flying Robots](https://www.edx.org/course/autonomous-navigation-flying-robots-tumx-autonavx-0)

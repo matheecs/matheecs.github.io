@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 数学之美
+title: "数学之美"
+categories: study
+author: "Jixiang Zhang"
 ---
 
 快速浏览完一遍李航的《统计学习方法》，总体感觉比周志华的《机器学习》易读，容易理解，不啰嗦。周的书读来有点晦涩，有空下次再读一遍《机器学习》。

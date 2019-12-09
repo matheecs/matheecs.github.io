@@ -1,6 +1,8 @@
 ---
 layout: post
-title: 科研小技能
+title: "科研小技能"
+categories: study
+author: "Jixiang Zhang"
 ---
 
 - Google，文献搜索

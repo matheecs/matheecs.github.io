@@ -1,11 +1,14 @@
 ---
-layout: video
-title: 局域网内多Master通信方法
+layout: post
+title: "局域网内多Master通信方法"
+categories: tech
+author: "Jixiang Zhang"
 ---
 
 ![](/images/ros_multimaster.png)
 
 视频效果：
+
 <video style="display:block; margin: 0 auto;" src="/files/icra2019.mp4" width="654" height="368" controls preload></video>
 
 本文局域网特指单网络环境，比如只有一个路由器的情况。

@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Effective C++
+title: "Effective C++目录"
+categories: study
+author: "Jixiang Zhang"
 ---
 
 ##### 让自己习惯C++

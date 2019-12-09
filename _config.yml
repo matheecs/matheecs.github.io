@@ -1,13 +1,25 @@
-# Site settings
+title: Jixiang's Blog
 # 我亦無他 惟手熟爾
 # Big Picture, Big Idea
-title: Passion and Perseverance
+# Passion and Perseverance
+# Stay Hungry Stay Foolish
+author: Jixiang Zhang
 email: matheecs@stu.xjtu.edu.cn
-description: Engineering, Sketching and Mathematics
-baseurl: "/"
-url: "https://matheecs.github.io"
+description: 我亦無他惟手熟爾
+url: "https://matheecs.github.io/"
 
 # Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
+theme: moving
+plugins:
+  - jekyll-feed
+
+moving:
+  about_you: Big Picture, Big Idea
+  avatar_url: https://i.loli.net/2019/12/09/hOuI8ycULbeEs2i.jpg
+  date_format: "%b %d"
+  back_to: "Index"
+  social_links:
+    # rss: RSS
+    github: matheecs 
+    # facebook: matheecs
+    # linkedin: matheecs

@@ -1,6 +1,8 @@
 ---
-layout: math
-title: 「Visual Navigation for Flying Robots」课程笔记
+layout: post
+title: "Visual Navigation for Flying Robots课程笔记"
+categories: study
+author: "Jixiang Zhang"
 ---
 
 Homepage: [Visual Navigation for Flying Robots](https://vision.in.tum.de/teaching/ss2013/visnav2013)
