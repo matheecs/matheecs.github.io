@@ -2,14 +2,14 @@
 layout: about
 ---
 
-**Resume**
+**Resume / CV**
 
-- [Chinese Version](/files/cv/cv2019.pdf)
-- [Highlights](/files/cv/Highlights.pdf)
+- [Resume / CV (Chinese)](/files/cv/cv2019.pdf)
+- [Highlights (Chinese)](/files/cv/Highlights.pdf)
 
 Research Interests: **Visual SLAM & Robotics & Engineering Education**
 
-E-mail: 
+E-mail:
 
 - <zhangjixiang1995@qq.com>
 
