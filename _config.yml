@@ -5,7 +5,7 @@ title: Jixiang's Blog
 # Stay Hungry Stay Foolish
 author: Jixiang Zhang
 email: matheecs@stu.xjtu.edu.cn
-description: 我亦無他惟手熟爾
+description: Big Picture, Big Idea
 url: "https://matheecs.github.io/"
 
 # Build settings
@@ -21,6 +21,6 @@ moving:
   back_to: "Index"
   social_links:
     rss: RSS
-    github: matheecs 
+    github: matheecs
     # facebook: matheecs
     # linkedin: matheecs
