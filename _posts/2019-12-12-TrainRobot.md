@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Train Your Robot[转]"
+title: "如何造机器人[转]"
 categories: study
 author: "Blooma Goldberg"
 ---
