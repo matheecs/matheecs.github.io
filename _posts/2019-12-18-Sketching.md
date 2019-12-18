@@ -11,3 +11,4 @@ author: "Jixiang Zhang"
 
 - https://www.skillshare.com/projects/PRUNE-The-shears-that-shovel/44821
 - [Sketching](https://book.douban.com/subject/6787985/)
+- [Successful Drawing](https://book.douban.com/subject/30304734/)
