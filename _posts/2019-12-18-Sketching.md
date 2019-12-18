@@ -1,0 +1,12 @@
+---
+layout: post
+title: "学习工业设计手绘"
+categories: study
+author: "Jixiang Zhang"
+---
+
+![https://www.skillshare.com/projects/PRUNE-The-shears-that-shovel/44821](https://i.loli.net/2019/12/18/uMIqcRz942CJbwK.jpg)
+
+**参考文献**
+
+- https://www.skillshare.com/projects/PRUNE-The-shears-that-shovel/44821
