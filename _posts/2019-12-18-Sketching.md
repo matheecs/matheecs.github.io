@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "学习工业设计手绘"
+title: "学习手绘"
 categories: study
 author: "Jixiang Zhang"
 ---
