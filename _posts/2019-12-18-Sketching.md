@@ -10,3 +10,4 @@ author: "Jixiang Zhang"
 **参考文献**
 
 - https://www.skillshare.com/projects/PRUNE-The-shears-that-shovel/44821
+- [Sketching](https://book.douban.com/subject/6787985/)
