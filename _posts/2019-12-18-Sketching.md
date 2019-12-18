@@ -15,3 +15,4 @@ author: "Jixiang Zhang"
 - [Sketching](https://book.douban.com/subject/6787985/)
 - [Successful Drawing](https://book.douban.com/subject/30304734/)
 - [理解漫画](https://book.douban.com/subject/26336970/)
+- [Perspective Made Easy](https://book.douban.com/subject/26436490/)
