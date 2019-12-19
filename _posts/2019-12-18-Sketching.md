@@ -9,6 +9,14 @@ author: "Jixiang Zhang"
 
 ![Successful Drawing.jpg](https://i.loli.net/2019/12/18/gPMna6hkwFI2oBK.jpg)
 
+**透视的线索：视平线**
+
+![视平线](https://i.loli.net/2019/12/19/qX6iHIEz1eFgAL2.png)
+
+**圆柱透视里的直角**
+
+![圆柱透视里的直角](https://i.loli.net/2019/12/19/i6sxCgo7S8QYeUA.png)
+
 **参考文献**
 
 - https://www.skillshare.com/projects/PRUNE-The-shears-that-shovel/44821
