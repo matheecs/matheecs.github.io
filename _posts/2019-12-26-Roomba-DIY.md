@@ -22,3 +22,5 @@ author: "Jixiang Zhang"
 ### 参考文献
 
 - [Roomblock: a Platform for Learning ROS Navigation With Roomba, Raspberry Pi and RPLIDAR](https://www.instructables.com/id/Roomblock-a-Platform-for-Learning-ROS-Navigation-W/)
+- [Roomba](http://wiki.ros.org/Robots/Roomba)
+- [Running the navigation stack on the Roomba](http://wiki.ros.org/lse_roomba_toolbox/Tutorials/navigation%20on%20the%20Roomba)
