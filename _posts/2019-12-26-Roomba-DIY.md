@@ -19,6 +19,10 @@ author: "Jixiang Zhang"
 - [RPLIDAR ROS package](https://github.com/slamtec/rplidar_ros)
 - [Roomblock](https://github.com/tork-a/roomblock)
 
+### 组装方案
+
+![IMG_7089](https://tvax3.sinaimg.cn/mw690/d494c514ly1gaca6r5h6vj21if1ji1kx.jpg)
+
 ### 参考文献
 
 - [Roomblock: a Platform for Learning ROS Navigation With Roomba, Raspberry Pi and RPLIDAR](https://www.instructables.com/id/Roomblock-a-Platform-for-Learning-ROS-Navigation-W/)
