@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "低成本改造家庭扫地机"
+title: "低成本改造扫地机"
 categories: study
 author: "Jixiang Zhang"
 ---
@@ -12,6 +12,7 @@ author: "Jixiang Zhang"
 - Roomba 600
 - RPLIDAR S1/A1/A2/A3
 - 自己的笔记本
+- Xbox 360 Joysticks
 
 ### 所需软件
 
@@ -23,8 +24,22 @@ author: "Jixiang Zhang"
 
 ![IMG_7089](https://tvax3.sinaimg.cn/mw690/d494c514ly1gaca6r5h6vj21if1ji1kx.jpg)
 
+### TurtleBot3
+
+![turtlebot3_dimension1](https://tva1.sinaimg.cn/large/d494c514ly1gadu7xomncj20xj0o3n35.jpg)
+![turtlebot3_burger_components](https://tva1.sinaimg.cn/large/d494c514ly1gadu7xvjxtj20p80n4k1g.jpg)
+
+DIY路线
+
+1. Setup
+2. Bringup
+3. Basic Operation
+4. SLAM
+5. Navigation
+
 ### 参考文献
 
 - [Roomblock: a Platform for Learning ROS Navigation With Roomba, Raspberry Pi and RPLIDAR](https://www.instructables.com/id/Roomblock-a-Platform-for-Learning-ROS-Navigation-W/)
 - [Roomba](http://wiki.ros.org/Robots/Roomba)
 - [Running the navigation stack on the Roomba](http://wiki.ros.org/lse_roomba_toolbox/Tutorials/navigation%20on%20the%20Roomba)
+- [TurtleBot3手册](http://emanual.robotis.com/docs/en/platform/turtlebot3/setup/#setup)

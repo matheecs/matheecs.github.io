@@ -28,6 +28,7 @@ author: "Jixiang Zhang"
 
 - [Turtlebot Autonomous Exploration (3D)](https://github.com/RobustFieldAutonomyLab/turtlebot_exploration_3d)
 - [Receding Horizon Next Best View Planning](https://github.com/ethz-asl/nbvplanner)
+- [frontier_exploration](https://github.com/paulbovbel/frontier_exploration)
 
 
 **文献**
