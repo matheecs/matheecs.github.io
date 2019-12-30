@@ -12,13 +12,23 @@ author: "Jixiang Zhang"
 - Roomba 600
 - RPLIDAR S1/A1/A2/A3
 - 自己的笔记本
-- Xbox 360 Joysticks
+- Xbox 360 手柄
+  ![xbox-default-linux](https://tvax3.sinaimg.cn/large/d494c514ly1gaevjuaepsj20p00fan2r.jpg)
+
+  所有通道（8个模拟[-1.0,+1.0] + 11个数字{0,1}）默认初始值：
+
+  ```
+  axes: [-0.0, -0.0, -0.0, -0.0, 1.0, 1.0, -0.0, -0.0]
+  buttons: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  ```
 
 ### 所需软件
 
 - [create_autonomy](https://github.com/AutonomyLab/create_autonomy#create_autonomy)
 - [RPLIDAR ROS package](https://github.com/slamtec/rplidar_ros)
 - [Roomblock](https://github.com/tork-a/roomblock)
+- [xboxdrv](https://gitlab.com/xboxdrv/xboxdrv/)
+- [Joystick Drivers](https://github.com/ros-drivers/joystick_drivers)
 
 ### 组装方案
 
