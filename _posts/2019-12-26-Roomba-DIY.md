@@ -12,7 +12,7 @@ author: "Jixiang Zhang"
 - Roomba 600
 - RPLIDAR S1/A1/A2/A3
 - 自己的笔记本
-- Xbox 360 手柄
+- Xbox 360 手柄（阿修罗2无线版）
   ![xbox-default-linux](https://tvax3.sinaimg.cn/large/d494c514ly1gaevjuaepsj20p00fan2r.jpg)
 
   所有通道（8个模拟[-1.0,+1.0] + 11个数字{0,1}）默认初始值：
@@ -47,9 +47,12 @@ DIY路线
 4. SLAM
 5. Navigation
 
+![坐标关系](https://tva2.sinaimg.cn/large/d494c514ly1gaf3s8f17uj20d608qt8r.jpg)
+
 ### 参考文献
 
-- [Roomblock: a Platform for Learning ROS Navigation With Roomba, Raspberry Pi and RPLIDAR](https://www.instructables.com/id/Roomblock-a-Platform-for-Learning-ROS-Navigation-W/)
+- [Roomblock](https://www.instructables.com/id/Roomblock-a-Platform-for-Learning-ROS-Navigation-W/)
 - [Roomba](http://wiki.ros.org/Robots/Roomba)
 - [Running the navigation stack on the Roomba](http://wiki.ros.org/lse_roomba_toolbox/Tutorials/navigation%20on%20the%20Roomba)
 - [TurtleBot3手册](http://emanual.robotis.com/docs/en/platform/turtlebot3/setup/#setup)
+- [Coordinate Frames for Mobile Platforms](https://www.ros.org/reps/rep-0105.html)
