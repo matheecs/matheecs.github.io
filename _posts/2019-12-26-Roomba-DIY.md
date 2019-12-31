@@ -29,6 +29,7 @@ author: "Jixiang Zhang"
 - [Roomblock](https://github.com/tork-a/roomblock)
 - [xboxdrv](https://gitlab.com/xboxdrv/xboxdrv/)
 - [Joystick Drivers](https://github.com/ros-drivers/joystick_drivers)
+  ![IMG_7102](https://tva4.sinaimg.cn/large/d494c514ly1gafm8tf2gkj21kq19dtpj.jpg)
 
 ### 组装方案
 
