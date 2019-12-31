@@ -50,6 +50,8 @@ DIY路线
 
 ![坐标关系](https://tva2.sinaimg.cn/large/d494c514ly1gaf3s8f17uj20d608qt8r.jpg)
 
+![nav configuration](https://tvax2.sinaimg.cn/large/d494c514ly1gag51ui1yjj20lo08vwfx.jpg)
+
 ### 参考文献
 
 - [Roomblock](https://www.instructables.com/id/Roomblock-a-Platform-for-Learning-ROS-Navigation-W/)
