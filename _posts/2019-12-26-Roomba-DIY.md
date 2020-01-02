@@ -55,6 +55,8 @@ DIY路线
 
 ![laser scanner view](https://tva4.sinaimg.cn/large/d494c514ly1gaikgo5td2j20dy05ht9r.jpg)
 
+![S1](https://tvax1.sinaimg.cn/large/d494c514ly1gainldvkgrj20s80kun0j.jpg)
+
 ### 参考文献
 
 - [Roomblock](https://www.instructables.com/id/Roomblock-a-Platform-for-Learning-ROS-Navigation-W/)
@@ -64,3 +66,6 @@ DIY路线
 - [Coordinate Frames for Mobile Platforms](https://www.ros.org/reps/rep-0105.html)
 - [Setup and Configuration of the Navigation Stack on a Robot](http://wiki.ros.org/navigation/Tutorials/RobotSetup#Navigation_Stack_Setup)
 - [ROS中发布激光扫描消息](https://www.cnblogs.com/21207-iHome/p/7840129.html)
+- [rplidar 扫描角度设置](https://www.cnblogs.com/lovebay/p/10400762.html)
+- [裁剪rplidar的扫描数据](https://blog.csdn.net/sunyoop/article/details/78302090)
+- [通过修改rplidar的ros包源码达到屏蔽雷达角度的目的](https://blog.csdn.net/dzhongjie/article/details/84575482)
