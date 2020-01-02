@@ -51,6 +51,10 @@ DIY路线
 
 ![nav configuration](https://tvax2.sinaimg.cn/large/d494c514ly1gag51ui1yjj20lo08vwfx.jpg)
 
+### LaserScan消息
+
+![laser scanner view](https://tva4.sinaimg.cn/large/d494c514ly1gaikgo5td2j20dy05ht9r.jpg)
+
 ### 参考文献
 
 - [Roomblock](https://www.instructables.com/id/Roomblock-a-Platform-for-Learning-ROS-Navigation-W/)
@@ -59,3 +63,4 @@ DIY路线
 - [TurtleBot3手册](http://emanual.robotis.com/docs/en/platform/turtlebot3/setup/#setup)
 - [Coordinate Frames for Mobile Platforms](https://www.ros.org/reps/rep-0105.html)
 - [Setup and Configuration of the Navigation Stack on a Robot](http://wiki.ros.org/navigation/Tutorials/RobotSetup#Navigation_Stack_Setup)
+- [ROS中发布激光扫描消息](https://www.cnblogs.com/21207-iHome/p/7840129.html)
