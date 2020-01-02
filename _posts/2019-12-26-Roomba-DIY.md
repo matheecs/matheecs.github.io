@@ -35,10 +35,9 @@ author: "Jixiang Zhang"
 
 ![IMG_7089](https://tvax3.sinaimg.cn/mw690/d494c514ly1gaca6r5h6vj21if1ji1kx.jpg)
 
-### TurtleBot3
+### AhaBot
 
-![turtlebot3_dimension1](https://tva1.sinaimg.cn/large/d494c514ly1gadu7xomncj20xj0o3n35.jpg)
-![turtlebot3_burger_components](https://tva1.sinaimg.cn/large/d494c514ly1gadu7xvjxtj20p80n4k1g.jpg)
+![ahabot](https://tvax1.sinaimg.cn/large/d494c514ly1gaiawqrx4lj20sl0dc76e.jpg)
 
 DIY路线
 
