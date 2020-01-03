@@ -79,6 +79,76 @@ scan_filter_chain:
 
 最后加载`angular_bounds_filter_example.launch`文件。
 
+### Ubuntu: udev rules for USB scanner
+
+How to create a udev rule to get a USB scanner working in Ubuntu jaunty.
+
+Assumes that: (1) user is a member of group `scanner`, (2) sane is installed.
+
+Symptoms of problem: "sane-find-scanner" detects the existence of the scanner, but "scanimage -L" does not report it when run with user permissions, only when run with root permissions. Scanning works as root, but not as a normal user.
+
+1) Run `lsusb` to find the scanner's manufacturer and device IDs. Example output:
+
+```bash
+$ lsusb
+Bus 003 Device 014: ID 04b8:012e Seiko Epson Corp.
+Bus 003 Device 012: ID 046d:c408 Logitech, Inc. Marble Mouse (4-button)
+Bus 003 Device 011: ID 05e3:0608 Genesys Logic, Inc. USB-2.0 4-Port HUB
+Bus 003 Device 001: ID 0000:0000
+Bus 002 Device 001: ID 0000:0000
+Bus 001 Device 013: ID 04b8:0005 Seiko Epson Corp. Stylus Printer
+Bus 001 Device 001: ID 0000:0000
+$
+```
+
+In the above example, the first line relates to the scanner... in this case an Epson Perfection V200... it is somewhat unhelpful that this particular scanner's text ID string is nothing more than "Seiko Epson Corp.", but it is easy to determine that that device is indeed the scanner by running "lsusb" both with and without the scanner plugged in.
+
+The four-digit hex number `04b8` is the manufacturer ID (observe that the Epson printer on the penultimate line has the same manufacturer ID), and `012e` is the device ID.
+
+2) Create a file `/etc/udev/rules.d/40-scanner.rules` containing the following (your browser may have wrapped this; it should be all on one line):
+
+```
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="04b8", ATTRS{idProduct}=="012e", ENV{libsane_matched}="yes", GROUP="scanner"
+```
+
+Of course you will substitute the appropriate values for your scanner, obtained from `lsusb`, for the idVendor and idProduct entries.
+
+The SUBSYSTEMS and ATTRS entries have double == signs whereas the ENV and GROUP entries have single = signs. This is not a typo.
+
+3) Restart udev:
+
+```bash
+$ sudo /etc/init.d/udev restart
+* Stopping kernel event manager... [ OK ]
+* Starting kernel event manager... [ OK ]
+```
+
+4) Unplug the scanner and plug it in again.
+
+5) Check that it has obtained the correct permissions. Run "lsusb" again to determine the bus and device IDs - they will have changed due to the unplugging and replugging. Then check the appropriate device node in /dev/bus/usb:
+
+```bash
+$ lsusb
+Bus 003 Device 015: ID 04b8:012e Seiko Epson Corp.
+Bus 003 Device 012: ID 046d:c408 Logitech, Inc. Marble Mouse (4-button)
+Bus 003 Device 011: ID 05e3:0608 Genesys Logic, Inc. USB-2.0 4-Port HUB
+Bus 003 Device 001: ID 0000:0000
+Bus 002 Device 001: ID 0000:0000
+Bus 001 Device 013: ID 04b8:0005 Seiko Epson Corp. Stylus Printer
+Bus 001 Device 001: ID 0000:0000
+$ ls -l /dev/bus/usb/003/015
+crw-rw-r-- 1 root scanner 189, 269 Apr 24 19:10 /dev/bus/usb/003/015
+```
+
+If the output corresponds with the above, all should be well, and running "scanimage -L" with user permissions should now pick the scanner up:
+
+```bash
+$ scanimage -L
+device `epkowa:libusb:003:015' is a Epson Perfection V200 flatbed scanner
+```
+
+Note that the V200 requires a driver; this document does not cover that, only the setting of the permissions.
+
 ### 参考文献
 
 - [Roomblock](https://www.instructables.com/id/Roomblock-a-Platform-for-Learning-ROS-Navigation-W/)
@@ -94,3 +164,7 @@ scan_filter_chain:
 - [ROS机器人底盘(38)-laser_filters的使用（3）-屏蔽指定角度](https://www.jianshu.com/p/fc4b57fd6006)
 - [小强ROS机器人教程](https://xq-manual.bwbot.org/)
 - [ROS By Example Volume 1](https://github.com/pirobot/rbx1)
+- [urdf-XML-link](http://wiki.ros.org/urdf/XML/link)
+- [urdf-XML-joint](http://wiki.ros.org/urdf/XML/joint)
+- [udev — Linux dynamic device management](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/hotplug/udev/udev.html)
+- [Writing udev rules](http://www.reactivated.net/writing_udev_rules.html)
