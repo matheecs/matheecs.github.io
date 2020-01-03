@@ -51,11 +51,33 @@ DIY路线
 
 ![nav configuration](https://tvax2.sinaimg.cn/large/d494c514ly1gag51ui1yjj20lo08vwfx.jpg)
 
-### LaserScan消息
+### 利用laser_filters裁剪雷达数据
 
-![laser scanner view](https://tva4.sinaimg.cn/large/d494c514ly1gaikgo5td2j20dy05ht9r.jpg)
+<!-- ![laser scanner view](https://tva4.sinaimg.cn/large/d494c514ly1gaikgo5td2j20dy05ht9r.jpg) -->
 
-![S1](https://tvax1.sinaimg.cn/large/d494c514ly1gainldvkgrj20s80kun0j.jpg)
+<!-- ![S1](https://tvax1.sinaimg.cn/large/d494c514ly1gainldvkgrj20s80kun0j.jpg) -->
+
+新建文件`angular_bounds_filter_example.launch`：
+
+```xml
+<launch>
+<node pkg="laser_filters" type="scan_to_scan_filter_chain" output="screen" name="laser_filter">
+    <rosparam command="load" file="path to angular_bounds_filter.yaml" />
+</node>
+</launch>
+```
+
+和`angular_bounds_filter.yaml`：
+```yaml
+scan_filter_chain:
+- name: angle
+  type: laser_filters/LaserScanAngularBoundsFilterInPlace
+  params:
+    lower_angle: -1.57
+    upper_angle: 1.57
+```
+
+最后加载`angular_bounds_filter_example.launch`文件。
 
 ### 参考文献
 
@@ -65,7 +87,8 @@ DIY路线
 - [TurtleBot3手册](http://emanual.robotis.com/docs/en/platform/turtlebot3/setup/#setup)
 - [Coordinate Frames for Mobile Platforms](https://www.ros.org/reps/rep-0105.html)
 - [Setup and Configuration of the Navigation Stack on a Robot](http://wiki.ros.org/navigation/Tutorials/RobotSetup#Navigation_Stack_Setup)
-- [ROS中发布激光扫描消息](https://www.cnblogs.com/21207-iHome/p/7840129.html)
-- [rplidar 扫描角度设置](https://www.cnblogs.com/lovebay/p/10400762.html)
-- [裁剪rplidar的扫描数据](https://blog.csdn.net/sunyoop/article/details/78302090)
-- [通过修改rplidar的ros包源码达到屏蔽雷达角度的目的](https://blog.csdn.net/dzhongjie/article/details/84575482)
+- ~~[ROS中发布激光扫描消息](https://www.cnblogs.com/21207-iHome/p/7840129.html)~~
+- ~~[rplidar 扫描角度设置](https://www.cnblogs.com/lovebay/p/10400762.html)~~
+- ~~[裁剪rplidar的扫描数据](https://blog.csdn.net/sunyoop/article/details/78302090)~~
+- ~~[通过修改rplidar的ros包源码达到屏蔽雷达角度的目的](https://blog.csdn.net/dzhongjie/article/details/84575482)~~
+- [ROS机器人底盘(38)-laser_filters的使用（3）-屏蔽指定角度](https://www.jianshu.com/p/fc4b57fd6006)
