@@ -29,7 +29,7 @@ author: "Jixiang Zhang"
 - [Roomblock](https://github.com/tork-a/roomblock)
 - [xboxdrv](https://gitlab.com/xboxdrv/xboxdrv/)
 - [Joystick Drivers](https://github.com/ros-drivers/joystick_drivers)
-  ![IMG_7102](https://tva4.sinaimg.cn/large/d494c514ly1gafm8tf2gkj21kq19dtpj.jpg)
+  <!-- ![IMG_7102](https://tva4.sinaimg.cn/large/d494c514ly1gafm8tf2gkj21kq19dtpj.jpg) -->
 
 ### 组装方案
 
@@ -47,7 +47,7 @@ DIY路线
 4. SLAM
 5. Navigation
 
-![坐标关系](https://tva2.sinaimg.cn/large/d494c514ly1gaf3s8f17uj20d608qt8r.jpg)
+<!-- ![坐标关系](https://tva2.sinaimg.cn/large/d494c514ly1gaf3s8f17uj20d608qt8r.jpg) -->
 
 ![nav configuration](https://tvax2.sinaimg.cn/large/d494c514ly1gag51ui1yjj20lo08vwfx.jpg)
 
@@ -98,7 +98,6 @@ Bus 003 Device 001: ID 0000:0000
 Bus 002 Device 001: ID 0000:0000
 Bus 001 Device 013: ID 04b8:0005 Seiko Epson Corp. Stylus Printer
 Bus 001 Device 001: ID 0000:0000
-$
 ```
 
 In the above example, the first line relates to the scanner... in this case an Epson Perfection V200... it is somewhat unhelpful that this particular scanner's text ID string is nothing more than "Seiko Epson Corp.", but it is easy to determine that that device is indeed the scanner by running "lsusb" both with and without the scanner plugged in.
