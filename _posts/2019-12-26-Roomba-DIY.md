@@ -92,3 +92,5 @@ scan_filter_chain:
 - ~~[裁剪rplidar的扫描数据](https://blog.csdn.net/sunyoop/article/details/78302090)~~
 - ~~[通过修改rplidar的ros包源码达到屏蔽雷达角度的目的](https://blog.csdn.net/dzhongjie/article/details/84575482)~~
 - [ROS机器人底盘(38)-laser_filters的使用（3）-屏蔽指定角度](https://www.jianshu.com/p/fc4b57fd6006)
+- [小强ROS机器人教程](https://xq-manual.bwbot.org/)
+- [ROS By Example Volume 1](https://github.com/pirobot/rbx1)
