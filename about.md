@@ -15,6 +15,7 @@ E-mail:
 
 WeChat ID: **JxMathematica**
 
+![JxMathematica](https://tvax4.sinaimg.cn/large/d494c514ly1gakypy0tsqj21uy0gatdf.jpg)
 <!-- ![JxMathematica](/images/myWechat.jpeg) -->
 
 - Google Blogger: [matheecs](http://www.matheecs.com)
