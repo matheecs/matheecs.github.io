@@ -83,6 +83,11 @@ scan_filter_chain:
 
 ![aha](https://tva2.sinaimg.cn/large/d494c514ly1gakn9ag6zej21fj0tctce.jpg)
 
+### TODO
+
+1. 激光数据去畸变
+2. 压缩mesh模型，提高RViz加载速度
+
 ### Ubuntu: udev rules for USB scanner
 
 How to create a udev rule to get a USB scanner working in Ubuntu jaunty.
