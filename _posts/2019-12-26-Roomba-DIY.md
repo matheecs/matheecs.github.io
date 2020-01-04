@@ -79,9 +79,10 @@ scan_filter_chain:
 
 最后加载`angular_bounds_filter_example.launch`文件。
 
-### RViz导入模型
+### RViz导入模型与底盘驱动测试
 
 ![aha](https://tva2.sinaimg.cn/large/d494c514ly1gakn9ag6zej21fj0tctce.jpg)
+![aha-bot](https://tvax2.sinaimg.cn/large/d494c514ly1gakxug6l2kj20zk0zf154.jpg)
 
 ### TODO
 
