@@ -9,9 +9,7 @@ layout: about
 
 Research Interests: **Visual SLAM & Robotics & Engineering Education**
 
-E-mail:
-
-- <zhangjixiang1995@qq.com>
+E-mail: <zhangjixiang1995@qq.com>
 
 WeChat ID: **JxMathematica**
 
@@ -61,7 +59,7 @@ WeChat ID: **JxMathematica**
     - **Literature Works:** Cien años de soledad
     - **Movies:** Hidden Figures, The Dark Knight, The Shawshank Redemption
     - **Music:** What are words
-    - **Design:** [MacBook Pro](https://www.apple.com/macbook-pro/), UM-100, FS-i6, Arduino, LEGO, ThinkPad
+    - **Design:** [MacBook Pro](https://www.apple.com/macbook-pro/)
 
   - Favorite Tools
 
@@ -71,6 +69,11 @@ WeChat ID: **JxMathematica**
     - FS-i6
     - Raspberry Pi
     - ThinkPad
+    - TurtleBot3
+    - iRobot Create 2
+    - Intel RealSense D435
+    - Nintendo Entertainment System
+    - Xbox 360 Game Joystick
 
 - Hobbies
 
