@@ -79,6 +79,10 @@ scan_filter_chain:
 
 最后加载`angular_bounds_filter_example.launch`文件。
 
+### RViz导入模型
+
+![aha](https://tva2.sinaimg.cn/large/d494c514ly1gakn9ag6zej21fj0tctce.jpg)
+
 ### Ubuntu: udev rules for USB scanner
 
 How to create a udev rule to get a USB scanner working in Ubuntu jaunty.
