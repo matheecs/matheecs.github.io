@@ -16,7 +16,7 @@ WeChat ID: **JxMathematica**
 ![JxMathematica](https://tvax4.sinaimg.cn/large/d494c514ly1gakypy0tsqj21uy0gatdf.jpg)
 <!-- ![JxMathematica](/images/myWechat.jpeg) -->
 
-- Google Blogger: [matheecs](http://www.matheecs.com)
+<!-- - Google Blogger: [matheecs](http://www.matheecs.com) -->
 
 - Education
 
@@ -25,7 +25,7 @@ WeChat ID: **JxMathematica**
 
 - STEAM Experience
 
-  - Quadcopter
+  - Quadcopter DIY
   - [AppInventor + Arduino Bluetooth Car](https://www.arduino.cn/thread-17552-1-1.html)
   - LeapMotion + Arduino
   - [Intelligent Warehouse Robot](https://github.com/matheecs/Auto-Picking-Robot)
@@ -33,7 +33,7 @@ WeChat ID: **JxMathematica**
 
 - Skills
 
-  - **Programming:** C, Python, Scheme, Processing, MTALAB, App Inventor 2, Ubuntu
+  - **Programming:** C/C++, Python, Scheme, Processing, MTALAB, App Inventor 2, Linux
   - **Web:** JavaScript, CSS, HTML
   - **2D Design:** OmniGraffle
   - **Electronics:** Arduino, STM32, DSP, Raspberry Pi
@@ -41,18 +41,19 @@ WeChat ID: **JxMathematica**
 
 - Honors/Awards
 
+  - 1st Prize, Award on ICRA 2019 Robomaster AI Challenge
   - 1st Prize, Award on The 6th Huawei Cup Chinese University Students Intelligent Design Contest
   - 1st Prize, Award on Chongqing University Undergraduate Research Training Program
   - Won a National Scholarship
 
 - Favorites
 
-  - Favorite People
+  - People
 
     - **Philosophers:** Arthur Schopenhauer
     - **Scientists:** Richard Feynman
 
-  - Favorite Works
+  - Works
 
     - **Games:** [Super Mario Bros.](http://www.freesupergames.com/super-mario-bros.php)
     - **Series:** Legend of Sword and Fairy/Chinese Paladin, My Own Swordsman, iPartment
@@ -61,7 +62,7 @@ WeChat ID: **JxMathematica**
     - **Music:** What are words
     - **Design:** [MacBook Pro](https://www.apple.com/macbook-pro/)
 
-  - Favorite Tools
+  - Tools
 
     - LaTeX
     - Arduino
