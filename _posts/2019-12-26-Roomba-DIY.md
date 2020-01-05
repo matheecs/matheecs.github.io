@@ -79,6 +79,8 @@ scan_filter_chain:
 
 最后加载`angular_bounds_filter_example.launch`文件。
 
+![scan_to_scan_filter_chain](https://tvax2.sinaimg.cn/large/d494c514ly1galeiijyedj20j40a4gmf.jpg)
+
 ### RViz导入模型与底盘驱动测试
 
 ![aha](https://tva2.sinaimg.cn/large/d494c514ly1gakn9ag6zej21fj0tctce.jpg)
@@ -177,3 +179,4 @@ Note that the V200 requires a driver; this document does not cover that, only th
 - [urdf-XML-joint](http://wiki.ros.org/urdf/XML/joint)
 - [udev — Linux dynamic device management](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/hotplug/udev/udev.html)
 - [Writing udev rules](http://www.reactivated.net/writing_udev_rules.html)
+- [激光slam理论与实践](https://blog.csdn.net/qq_29230261/article/details/83146147)
