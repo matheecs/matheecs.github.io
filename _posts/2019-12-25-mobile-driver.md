@@ -112,3 +112,10 @@ if __name__ == '__main__':
     except:
         rospy.loginfo("Out-and-Back node terminated.")
 ```
+
+启动底盘后执行测试脚本
+
+```bash
+roslaunch xqserial_server xqserial.launch
+rosrun rbx1_nav timed_out_and_back.py
+```
