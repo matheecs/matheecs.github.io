@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "用COLMAP与PMVS做三维重建"
+title: "用PMVS做稠密重建"
 categories: study
 author: "Jixiang Zhang"
 ---
