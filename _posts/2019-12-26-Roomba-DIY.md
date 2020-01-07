@@ -180,3 +180,4 @@ Note that the V200 requires a driver; this document does not cover that, only th
 - [udev — Linux dynamic device management](https://mirrors.edge.kernel.org/pub/linux/utils/kernel/hotplug/udev/udev.html)
 - [Writing udev rules](http://www.reactivated.net/writing_udev_rules.html)
 - [激光slam理论与实践](https://blog.csdn.net/qq_29230261/article/details/83146147)
+- [ROS 学习系列 -- 执行turtlebot navigation的方法](https://blog.csdn.net/crazyquhezheng/article/details/49909817)
