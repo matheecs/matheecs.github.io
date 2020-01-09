@@ -5,7 +5,7 @@ title: Jixiang's Blog
 # Stay Hungry Stay Foolish
 author: Jixiang Zhang
 email: matheecs@stu.xjtu.edu.cn
-description: Robotics Engineer = {ROS,RPi,Uno...}
+description: Robotics Engineer = {ROS={node,rviz},Drake={modeling,solving,multibody}}
 url: "https://matheecs.github.io/"
 
 # Build settings
