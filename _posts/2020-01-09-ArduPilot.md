@@ -12,5 +12,11 @@ author: "Jixiang Zhang"
 **软件**
 
 - [**ArduPilot**](https://github.com/ArduPilot/ardupilot)
+  - Copter
+  - Plane
+  - Rover
+    - **Boat**
+  - Sub
+  - Antenna Tracker
 - [~~PX4~~](https://github.com/PX4/Firmware)
-- [Paparazzi](https://github.com/paparazzi/paparazzi)
+- [~~Paparazzi~~](https://github.com/paparazzi/paparazzi)
