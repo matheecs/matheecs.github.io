@@ -3,9 +3,10 @@ title: Jixiang's Blog
 # Big Picture, Big Idea
 # Passion and Perseverance
 # Stay Hungry Stay Foolish
+# {ROS={node,rviz},Drake={modeling,solving,multibody}}
 author: Jixiang Zhang
 email: matheecs@stu.xjtu.edu.cn
-description: Robotics Engineer = {ROS={node,rviz},Drake={modeling,solving,multibody}}
+description: Robotics/Autonomy Engineer
 url: "https://matheecs.github.io/"
 
 # Build settings
