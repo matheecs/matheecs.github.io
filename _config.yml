@@ -3,11 +3,11 @@ title: Jixiang's Blog
 # Big Picture, Big Idea
 # Passion and Perseverance
 # Stay Hungry Stay Foolish
-# {ROS={node,rviz},Drake={modeling,solving,multibody}}
+# ROS={node,rviz}, Drake={modeling,solving,multibody}
 author: Jixiang Zhang
 email: zhangjixiang1995@qq.com
 description: Autonomy Engineer
-url: "https://matheecs.github.io/"
+url: "https://matheecs.tech/"
 
 # Build settings
 # theme: moving
@@ -17,7 +17,7 @@ plugins:
 
 moving:
   about_you: Big Picture, Big Idea
-  avatar_url: https://i.loli.net/2019/12/09/hOuI8ycULbeEs2i.jpg
+  avatar_url: https://tva4.sinaimg.cn/large/d494c514ly1gcj6lwgm0hj22042ca7wh.jpg
   date_format: "%b %d"
   back_to: "Index"
   social_links:
