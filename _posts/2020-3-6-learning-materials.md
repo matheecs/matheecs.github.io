@@ -41,6 +41,7 @@ author: "Jixiang Zhang"
 #### iOS应用
 
 - 极客时间
+- 得到
 - 知乎
 - 下厨房
 - 网易云音乐
@@ -59,6 +60,3 @@ author: "Jixiang Zhang"
 #### DIY动手做
 
 #### @师兄老师
-
-
-
