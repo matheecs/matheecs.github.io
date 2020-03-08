@@ -11,3 +11,4 @@ author: "Jixiang Zhang"
 - [DARPA SubT城市挑战赛落幕，波士顿动力Spot机器人助CoSTAR团队获胜](https://mp.weixin.qq.com/s/WqzNl6toBz-Eo--jP-TrNQ)
   ![波士顿动力Spot机器人助CoSTAR团队获胜](https://tvax4.sinaimg.cn/large/d494c514ly1gcjaky1jouj20ei0a3aag.jpg)
 - [DARPA地下城市挑战赛 (SubT)概览](https://www.bilibili.com/video/av92384110?from=search&seid=14726092299430831659)
+- Active SLAM using Connectivity Graphs as Priors (IROS 2019)

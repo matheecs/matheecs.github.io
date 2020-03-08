@@ -3,11 +3,11 @@ title: Jixiang's Blog
 # Big Picture, Big Idea
 # Passion and Perseverance
 # Stay Hungry Stay Foolish
-# ROS={node,rviz}, Drake={modeling,solving,multibody}
 author: Jixiang Zhang
 email: zhangjixiang1995@qq.com
 description: Autonomy Engineer
 url: "https://matheecs.tech/"
+favicon: "./favicon.ico"
 
 # Build settings
 # theme: moving
@@ -23,5 +23,4 @@ moving:
   social_links:
     rss: RSS
     github: matheecs
-    # facebook: matheecs
     linkedin: matheecs-tech
