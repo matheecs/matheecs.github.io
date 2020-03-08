@@ -11,16 +11,17 @@ favicon: "./favicon.ico"
 
 # Build settings
 # theme: moving
-remote_theme: huangyz0918/moving
+remote_theme: matheecs/moving
 plugins:
   - jekyll-feed
 
 moving:
   about_you: Big Picture, Big Idea
-  avatar_url: https://tva4.sinaimg.cn/large/d494c514ly1gcj6lwgm0hj22042ca7wh.jpg
+  avatar_url: https://tva1.sinaimg.cn/large/d494c514ly1gcmbadww41j2204201nk4.jpg
   date_format: "%b %d"
   back_to: "Index"
   social_links:
     rss: RSS
     github: matheecs
     linkedin: matheecs-tech
+    bilibili: 395348622
