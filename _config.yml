@@ -21,7 +21,7 @@ moving:
   date_format: "%b %d"
   back_to: "Index"
   social_links:
-    rss: RSS
+    # rss: RSS
     github: matheecs
-    linkedin: matheecs-tech
+    # linkedin: matheecs-tech
     bilibili: '395348622'
