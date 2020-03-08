@@ -9,7 +9,7 @@ layout: about
 
 Research Interests: **Visual SLAM & Robotics & Engineering Education**
 
-E-mail: <zhangjixiang1995@qq.com>
+E-mail: <matheecs@qq.com>
 
 WeChat ID: **JxMathematica**
 
