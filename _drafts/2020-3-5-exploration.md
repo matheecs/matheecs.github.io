@@ -12,3 +12,6 @@ author: "Jixiang Zhang"
   ![波士顿动力Spot机器人助CoSTAR团队获胜](https://tvax4.sinaimg.cn/large/d494c514ly1gcjaky1jouj20ei0a3aag.jpg)
 - [DARPA地下城市挑战赛 (SubT)概览](https://www.bilibili.com/video/av92384110?from=search&seid=14726092299430831659)
 - Active SLAM using Connectivity Graphs as Priors (IROS 2019)
+- [Late Nights, Cool Hacks, and More Stories From the DARPA SubT Urban Circuit](https://spectrum.ieee.org/automaton/robotics/robotics-hardware/late-nights-cool-hacks-and-more-stories-from-the-darpa-subt-urban-circuit)
+- [DARPA Subterranean Challenge: Teams of Robots Compete to Explore Underground Worlds](https://spectrum.ieee.org/automaton/robotics/industrial-robots/subt-the-next-darpa-challenge-for-robotics)
+- [How Robotics Teams Prepared for DARPA's SubT Challenge: Urban Circuit](https://spectrum.ieee.org/automaton/robotics/robotics-hardware/robotics-teams-prepare-darpa-subt-challenge-urban-circuit)
