@@ -5,7 +5,7 @@ categories: study
 author: "Blooma Goldberg"
 ---
 
-**Book**: How to Train Your Robot
+引自：**Book**: How to Train Your Robot
 
 <!-- ![How-to-Train-Your-Robot-Childrens-Book-1.jpg](/images/How-to-Train-Your-Robot-Childrens-Book-1.jpg)
 ![How-to-Train-Your-Robot-Childrens-Book-2.jpg](/images/How-to-Train-Your-Robot-Childrens-Book-2.jpg)
