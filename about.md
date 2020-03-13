@@ -2,68 +2,45 @@
 layout: about
 ---
 
-**Resume / CV**
-
-- [Resume / CV (Chinese)](/files/cv/cv2019.pdf)
-- [Highlights (Chinese)](/files/cv/Highlights.pdf)
-
-Research Interests: **Visual SLAM & Robotics & Engineering Education**
-
-E-mail: <matheecs@qq.com>
-
-WeChat ID: **JxMathematica**
+- [Resume/CV (Chinese)](/files/cv/cv2019.pdf)
+- Research Interests: Visual SLAM & Robotics & Engineering Education
+- E-mail: <matheecs@qq.com>
+- WeChat ID: JxMathematica
 
 ![JxMathematica](https://tvax4.sinaimg.cn/large/d494c514ly1gakypy0tsqj21uy0gatdf.jpg)
-<!-- ![JxMathematica](/images/myWechat.jpeg) -->
-
-<!-- - Google Blogger: [matheecs](http://www.matheecs.com) -->
 
 - Education
-
   - Master, Control Science and Engineering, [Xi'an Jiaotong University](http://www.xjtu.edu.cn) (2017-Now)
   - B.S., Electrical Engineering, [Chongqing University](http://www.cqu.edu.cn/v1/) (2013-2017)
-
 - STEAM Experience
-
   - Quadcopter DIY
   - [AppInventor + Arduino Bluetooth Car](https://www.arduino.cn/thread-17552-1-1.html)
   - LeapMotion + Arduino
   - [Intelligent Warehouse Robot](https://github.com/matheecs/Auto-Picking-Robot)
   - [iRobot Create 2 + Python](https://github.com/matheecs/iRobot-Create-2-OI-Python)
-
 - Skills
-
-  - **Programming:** C/C++, Python, Scheme, Processing, MTALAB, App Inventor 2, Linux
-  - **Web:** JavaScript, CSS, HTML
-  - **2D Design:** OmniGraffle
-  - **Electronics:** Arduino, STM32, DSP, Raspberry Pi
-  - **Relevant Coursework:** Linear Algebra
-
+  - Programming: C/C++, Python, Scheme, Processing, MTALAB, App Inventor 2, Linux
+  - Web: JavaScript, CSS, HTML
+  - 2D Design OmniGraffle
+  - Electronics Arduino, STM32, DSP, Raspberry Pi
+  - Relevant Coursework Linear Algebra
 - Honors/Awards
-
   - 1st Prize, Award on ICRA 2019 Robomaster AI Challenge
   - 1st Prize, Award on The 6th Huawei Cup Chinese University Students Intelligent Design Contest
   - 1st Prize, Award on Chongqing University Undergraduate Research Training Program
   - Won a National Scholarship
-
 - Favorites
-
   - People
-
-    - **Philosophers:** Arthur Schopenhauer
-    - **Scientists:** Richard Feynman
-
+    - Philosophers Arthur Schopenhauer
+    - Scientists Richard Feynman
   - Works
-
-    - **Games:** [Super Mario Bros.](http://www.freesupergames.com/super-mario-bros.php)
-    - **Series:** Legend of Sword and Fairy/Chinese Paladin, My Own Swordsman, iPartment
-    - **Literature Works:** Cien años de soledad
-    - **Movies:** Hidden Figures, The Dark Knight, The Shawshank Redemption
-    - **Music:** What are words
-    - **Design:** [MacBook Pro](https://www.apple.com/macbook-pro/)
-
+    - Games [Super Mario Bros.](http://www.freesupergames.com/super-mario-bros.php)
+    - Series Legend of Sword and Fairy/Chinese Paladin, My Own Swordsman, iPartment
+    - Literature Works Cien años de soledad
+    - Movies Hidden Figures, The Dark Knight, The Shawshank Redemption
+    - Music What are words
+    - Design [MacBook Pro](https://www.apple.com/macbook-pro/)
   - Tools
-
     - LaTeX
     - Arduino
     - LEGO
@@ -75,9 +52,7 @@ WeChat ID: **JxMathematica**
     - Intel RealSense D435
     - Nintendo Entertainment System
     - Xbox 360 Game Joystick
-
 - Hobbies
-
   - Maker's DIY
   - Schopenhauer's 箴言
   - Van Gogh's 绘画
