@@ -6,9 +6,7 @@ layout: about
 - Research Interests: Visual SLAM & Robotics & Engineering Education
 - E-mail: <matheecs@qq.com>
 - WeChat ID: JxMathematica
-
-![JxMathematica](https://tvax4.sinaimg.cn/large/d494c514ly1gakypy0tsqj21uy0gatdf.jpg)
-
+  ![JxMathematica](https://tvax4.sinaimg.cn/large/d494c514ly1gakypy0tsqj21uy0gatdf.jpg)
 - Education
   - Master, Control Science and Engineering, [Xi'an Jiaotong University](http://www.xjtu.edu.cn) (2017-Now)
   - B.S., Electrical Engineering, [Chongqing University](http://www.cqu.edu.cn/v1/) (2013-2017)
@@ -18,14 +16,23 @@ layout: about
   - LeapMotion + Arduino
   - [Intelligent Warehouse Robot](https://github.com/matheecs/Auto-Picking-Robot)
   - [iRobot Create 2 + Python](https://github.com/matheecs/iRobot-Create-2-OI-Python)
+  - TurtleBot 2/3
+  - PX4
+  - LEGO
+  - NAO
+  - Six-Legged Robot
+  ![](https://tva1.sinaimg.cn/large/d494c514ly1gcmbadww41j2204201nk4.jpg)
+  - [S-MSCKF图解](https://www.bilibili.com/video/av94771869)
+  - [ICRA 2019 RoboMaster AI Challenge](https://www.bilibili.com/video/av94578715)
 - Skills
   - Programming: C/C++, Python, Scheme, Processing, MTALAB, App Inventor 2, Linux
-  - Web: JavaScript, CSS, HTML
-  - 2D Design OmniGraffle
-  - Electronics Arduino, STM32, DSP, Raspberry Pi
-  - Relevant Coursework Linear Algebra
+  - 2D Design: OmniGraffle
+  - 3D Design: Rhino
+  - Electronics: Arduino, STM32, DSP, Raspberry Pi
+  - 3 Ball Juggling
+  ![out](https://tva3.sinaimg.cn/large/d494c514ly1gcsglssxgdg20go0b4qv5.gif)
 - Honors/Awards
-  - 1st Prize, Award on ICRA 2019 Robomaster AI Challenge
+  - 1st Prize, Award on ICRA 2019 RoboMaster AI Challenge
   - 1st Prize, Award on The 6th Huawei Cup Chinese University Students Intelligent Design Contest
   - 1st Prize, Award on Chongqing University Undergraduate Research Training Program
   - Won a National Scholarship
