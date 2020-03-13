@@ -9,7 +9,7 @@ author: Jixiang Zhang (matheecs)
 email: matheecs@qq.com
 description: Computational Geometry
 url: "https://matheecs.tech"
-favicon: "./favicon.ico"
+favicon: "favicon.ico"
 
 # Build settings
 # theme: moving

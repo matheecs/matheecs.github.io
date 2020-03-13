@@ -3,14 +3,14 @@ layout: about
 ---
 
 - [Resume/CV (Chinese)](/files/cv/cv2019.pdf)
-- Research Interests: Visual SLAM & Robotics & Engineering Education
-- E-mail: <matheecs@qq.com>
+- Research Interests: Visual SLAM & Robotics & Engineering Education (STEM)
+- Email: <matheecs@qq.com>
 - WeChat ID: JxMathematica
   ![JxMathematica](https://tvax4.sinaimg.cn/large/d494c514ly1gakypy0tsqj21uy0gatdf.jpg)
 - Education
   - Master, Control Science and Engineering, [Xi'an Jiaotong University](http://www.xjtu.edu.cn) (2017-Now)
   - B.S., Electrical Engineering, [Chongqing University](http://www.cqu.edu.cn/v1/) (2013-2017)
-- STEAM Experience
+- STEM Experience
   - Quadcopter DIY
   - [AppInventor + Arduino Bluetooth Car](https://www.arduino.cn/thread-17552-1-1.html)
   - LeapMotion + Arduino
@@ -18,12 +18,13 @@ layout: about
   - [iRobot Create 2 + Python](https://github.com/matheecs/iRobot-Create-2-OI-Python)
   - TurtleBot 2/3
   - PX4
-  - LEGO
+  - LEGO WeDo
   - NAO
   - Six-Legged Robot
   ![](https://tva1.sinaimg.cn/large/d494c514ly1gcmbadww41j2204201nk4.jpg)
   - [S-MSCKF图解](https://www.bilibili.com/video/av94771869)
   - [ICRA 2019 RoboMaster AI Challenge](https://www.bilibili.com/video/av94578715)
+  - RC
 - Skills
   - Programming: C/C++, Python, Scheme, Processing, MTALAB, App Inventor 2, Linux
   - 2D Design: OmniGraffle
