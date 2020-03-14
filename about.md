@@ -24,6 +24,8 @@ layout: about
   ![](https://tva1.sinaimg.cn/large/d494c514ly1gcmbadww41j2204201nk4.jpg)
   - [S-MSCKF图解](https://www.bilibili.com/video/av94771869)
   - [ICRA 2019 RoboMaster AI Challenge](https://www.bilibili.com/video/av94578715)
+  - AhaBot
+  ![](https://tvax1.sinaimg.cn/large/d494c514ly1gaiawqrx4lj20sl0dc76e.jpg)
   - RC
 - Skills
   - Programming: C/C++, Python, Scheme, Processing, MTALAB, App Inventor 2, Linux
