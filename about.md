@@ -24,9 +24,11 @@ layout: about
   ![](https://tva1.sinaimg.cn/large/d494c514ly1gcmbadww41j2204201nk4.jpg)
   - [S-MSCKF图解](https://www.bilibili.com/video/av94771869)
   - [ICRA 2019 RoboMaster AI Challenge](https://www.bilibili.com/video/av94578715)
+  ![ICRA2019](https://tva2.sinaimg.cn/large/d494c514ly1gctqafk8cfj22k62yo7wk.jpg)
   - AhaBot
   ![](https://tvax1.sinaimg.cn/large/d494c514ly1gaiawqrx4lj20sl0dc76e.jpg)
-  - RC
+  - Assistant
+  ![IMG_7670](https://tvax1.sinaimg.cn/large/d494c514ly1gctqcv7ifuj21wy2pgkjn.jpg)
 - Skills
   - Programming: C/C++, Python, Scheme, Processing, MTALAB, App Inventor 2, Linux
   - 2D Design: OmniGraffle
