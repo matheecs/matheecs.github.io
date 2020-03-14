@@ -8,8 +8,8 @@ layout: about
 - WeChat ID: JxMathematica
   ![JxMathematica](https://tvax4.sinaimg.cn/large/d494c514ly1gakypy0tsqj21uy0gatdf.jpg)
 - Education
-  - Master, Control Science and Engineering, [Xi'an Jiaotong University](http://www.xjtu.edu.cn) (2017-Now)
-  - B.S., Electrical Engineering, [Chongqing University](http://www.cqu.edu.cn/v1/) (2013-2017)
+  - Master, Control Science and Engineering, [Xi'an Jiaotong University](http://www.xjtu.edu.cn)
+  - B.S., Electrical Engineering, [Chongqing University](http://www.cqu.edu.cn/v1/)
 - STEM Experience
   - Quadcopter DIY
   - [AppInventor + Arduino Bluetooth Car](https://www.arduino.cn/thread-17552-1-1.html)
