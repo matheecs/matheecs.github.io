@@ -41,15 +41,15 @@ layout: about
   - National Scholarship
 - Favorites
   - People
-    - Philosophers Arthur Schopenhauer
-    - Scientists Richard Feynman
+    - Arthur Schopenhauer
+    - Richard Feynman
   - Works
-    - Games [Super Mario Bros.](http://www.freesupergames.com/super-mario-bros.php)
-    - Series Legend of Sword and Fairy/Chinese Paladin, My Own Swordsman, iPartment
-    - Literature Works Cien años de soledad
-    - Movies Hidden Figures, The Dark Knight, The Shawshank Redemption
-    - Music What are words
-    - Design [MacBook Pro](https://www.apple.com/macbook-pro/)
+    - Games: [Super Mario Bros.](http://www.freesupergames.com/super-mario-bros.php)
+    - Series: Legend of Sword and Fairy/Chinese Paladin, My Own Swordsman, iPartment
+    - Literature Works: Cien años de soledad
+    - Movies: Hidden Figures, The Dark Knight, The Shawshank Redemption
+    - Music: What are words
+    - Design: [MacBook Pro](https://www.apple.com/macbook-pro/)
   - Tools
     - LaTeX
     - Arduino
