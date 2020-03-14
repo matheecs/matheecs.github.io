@@ -99,6 +99,59 @@ scan_filter_chain:
 
 ![截屏2020-01-10下午10.45.30](https://tva3.sinaimg.cn/large/d494c514gy1garummvn9zj20n704u3z3.jpg)
 
+### 王晋泰《自主导航机器人制作十日谈》课程内容
+
+1. 项目准备
+   1. 课程内容解读
+   2. 软件环境配置
+2. 项目分析与采购技巧
+   1. 自主导航机器人能力的分析
+   2. 硬件选型及其注意事项
+   3. 物料采购技巧
+3. 开源硬件与开源项目
+   1. Arduino开源硬件及编程
+   2. 底盘控制器开源项目分析
+   3. 原理草图绘制
+4. 底盘控制器电路设计与制作
+   1. 控制板制作方式分析
+   2. 布局草图绘制
+   3. 焊接并连接线路
+   4. 控制板软硬件测试
+5. 机器人本体组装
+   1. 差速模型解读
+   2. 机器人本体设计与组装
+   3. 记录机器人差速模型参数
+6. 机器人操作系统的使用与配置
+   1. Linux与ROS基础命令
+   2. 底盘控制器驱动功能包配置
+   3. 底盘控制器驱动功能包调试
+7. 功能包与移动控制
+   1. ROS常见功能包演示
+   2. 移动控制功能整合
+   3. 使用手机控制机器人
+8. 激光雷达与可视化工具
+   1. 激光雷达传感器使用
+   2. 深度相机传感器使用
+   3. 机器人操作系统可视化工具
+9. 自主导航
+   1.  仿真环境中的自主导航
+   2.  自主导航功能包
+   3.  自主导航功能的整合与调试
+10. 回顾与总结
+    1. 知识的类型
+    2. 抽象层次
+    3. 学习方法分享
+
+### 我最想设计的一门移动机器人课程
+
+1. Concepts of Robotics
+2. Perception
+3. Planning & Control
+4. ROS, C++, Ubuntu, Arduino
+5. Encoder, Motor, Power
+6. URDF Modeling and Simulation
+7. SLAM and Navigation
+
 ### 参考文献
 
 - [Roomblock](https://www.instructables.com/id/Roomblock-a-Platform-for-Learning-ROS-Navigation-W/)
