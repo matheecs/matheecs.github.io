@@ -37,8 +37,8 @@ layout: about
 - Honors/Awards
   - 1st Prize, Award on ICRA 2019 RoboMaster AI Challenge
   - 1st Prize, Award on The 6th Huawei Cup Chinese University Students Intelligent Design Contest
-  - 1st Prize, Award on Chongqing University Undergraduate Research Training Program
-  - Won a National Scholarship
+  - 1st Prize, Award on Chongqing University Student Research Training Program (SRTP)
+  - National Scholarship
 - Favorites
   - People
     - Philosophers Arthur Schopenhauer
@@ -66,3 +66,4 @@ layout: about
   - Maker's DIY
   - Schopenhauer's 箴言
   - Van Gogh's 绘画
+  - Juggling
