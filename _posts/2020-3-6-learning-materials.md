@@ -23,6 +23,8 @@ author: "Jixiang Zhang"
   - 微信读书
   - libgen.is
 - 论文期刊专利
+  - [IEEE Spectrum Robotics](https://spectrum.ieee.org/robotics)
+  - [cn.arXiv.org](http://cn.arxiv.org/)
   - Sci-Hub
   - Web of Science
   - PubMed
