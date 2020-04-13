@@ -6,7 +6,7 @@ layout: about
 - Research Interests: Visual SLAM & Robotics & Engineering Education (STEM)
 - Email: <matheecs@qq.com>
 - WeChat ID: JxMathematica
-  ![JxMathematica](https://tvax4.sinaimg.cn/large/d494c514ly1gakypy0tsqj21uy0gatdf.jpg)
+  <!-- ![JxMathematica](https://tvax4.sinaimg.cn/large/d494c514ly1gakypy0tsqj21uy0gatdf.jpg) -->
 - Education
   - Master, Control Science and Engineering, [Xi'an Jiaotong University](http://www.xjtu.edu.cn)
   - B.S., Electrical Engineering, [Chongqing University](http://www.cqu.edu.cn/v1/)
@@ -27,15 +27,15 @@ layout: about
   ![ICRA2019](https://tva2.sinaimg.cn/large/d494c514ly1gctqafk8cfj22k62yo7wk.jpg)
   - AhaBot
   ![](https://tvax1.sinaimg.cn/large/d494c514ly1gaiawqrx4lj20sl0dc76e.jpg)
-  - Assistant
-  ![IMG_7670](https://tvax1.sinaimg.cn/large/d494c514ly1gctqcv7ifuj21wy2pgkjn.jpg)
+  <!-- - Assistant -->
+  <!-- ![IMG_7670](https://tvax1.sinaimg.cn/large/d494c514ly1gctqcv7ifuj21wy2pgkjn.jpg) -->
 - Skills
   - Programming: C/C++, Python, Scheme, Processing, MTALAB, App Inventor 2, Linux
   - 2D Design: OmniGraffle
   - 3D Design: Rhino
   - Electronics: Arduino, STM32, DSP, Raspberry Pi
   - 3 Ball Juggling
-  ![out](https://tva3.sinaimg.cn/large/d494c514ly1gcsglssxgdg20go0b4qv5.gif)
+  <!-- ![out](https://tva3.sinaimg.cn/large/d494c514ly1gcsglssxgdg20go0b4qv5.gif) -->
 - Honors/Awards
   - 1st Prize, Award on ICRA 2019 RoboMaster AI Challenge
   - 1st Prize, Award on The 6th Huawei Cup Chinese University Students Intelligent Design Contest
