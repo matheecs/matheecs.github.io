@@ -72,6 +72,8 @@ layout: about
   - 编码
   - SICP
   - CSAPP
+  - 算法
+    - 计算几何
   - 侯捷
     - STL源码剖析
     - 程序员的自我修养
