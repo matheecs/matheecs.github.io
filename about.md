@@ -44,14 +44,27 @@ layout: about
     - ORB-SLAM
     - MSCKF
     - VINS
+    - SfM
   - Underactuated Robotics
     - Marc Raibert
       - Legged Robots That Balance
     - Russ Tedrake
+      - Drake
     - Zachary Jackowski
+      - Compass Gait Walking Robot (Master)
+      - Ornithopter (Bachelor)
     - YY硕
   - Rodney Brooks
     - Cambrian Intelligence: The Early History of the New AI
+    - Behavior-Based Robotics
+  - ROS
+    - TurtleBot
+    - iRobot Create 2
+    - RoboMaster EP
+    - LEGO
+    - NAO
+  - ICRA/IROS
+  - MIT/ETH/CMU
 - Math
   - 数学家的眼光
   - 怎样解题
@@ -62,6 +75,7 @@ layout: about
   - 微积分
 - EE
   - 6.002
+  - Arduino/K210/RPi/MicroPython
   - Nikola Tesla
   - Shannon
     - 信息论
@@ -76,6 +90,7 @@ layout: about
   - CSAPP
   - 算法
     - 计算几何
+    - C++/Python/Linux
   - 侯捷
     - STL源码剖析
     - 程序员的自我修养
@@ -92,6 +107,8 @@ layout: about
   - Feynman
   - Carlo Rovelli
     - 现实不似你所见
+  - 动力系统
+    - Steven Strogatz
 
 **艺术设计**
 
@@ -106,6 +123,8 @@ layout: about
     - 点线面
 - Design
   - 日常的设计
+  - 排版
+    - LaTeX
 - Drawing
   - Drawing on the Right Side of the Brain
 - 陈丹青
@@ -113,3 +132,5 @@ layout: about
 - 工业设计
   - Jony Ive
   - 硅谷革命（苹果往事）
+  - OmniGraffle/Rhino
+- 厨房
