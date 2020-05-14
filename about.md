@@ -50,8 +50,6 @@ layout: about
     - Russ Tedrake
     - Zachary Jackowski
     - YY硕
-  - Rodney Brooks
-    - Cambrian Intelligence: The Early History of the New AI
 - Math
   - 数学家的眼光
   - 怎样解题
