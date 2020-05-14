@@ -1,71 +1,84 @@
 ---
 layout: about
 ---
+### 个人信息
 
-- [Resume/CV (Chinese)](/files/cv/cv2019.pdf)
-- Research Interests: Visual SLAM & Robotics & Engineering Education (STEM)
+- Interests: SLAM, Robotics, Design
 - Email: <matheecs@qq.com>
-- WeChat ID: JxMathematica
-  <!-- ![JxMathematica](https://tvax4.sinaimg.cn/large/d494c514ly1gakypy0tsqj21uy0gatdf.jpg) -->
+- WeChat: JxMathematica
 - Education
   - Master, Control Science and Engineering, [Xi'an Jiaotong University](http://www.xjtu.edu.cn)
   - B.S., Electrical Engineering, [Chongqing University](http://www.cqu.edu.cn/v1/)
-- STEM Experience
-  - Quadcopter DIY
-  - [AppInventor + Arduino Bluetooth Car](https://www.arduino.cn/thread-17552-1-1.html)
-  - LeapMotion + Arduino
-  - [Intelligent Warehouse Robot](https://github.com/matheecs/Auto-Picking-Robot)
-  - [iRobot Create 2 + Python](https://github.com/matheecs/iRobot-Create-2-OI-Python)
-  - TurtleBot 2/3
-  - PX4
-  - LEGO WeDo
-  - NAO
-  - Six-Legged Robot
-  ![](https://tva1.sinaimg.cn/large/d494c514ly1gcmbadww41j2204201nk4.jpg)
-  - [S-MSCKF图解](https://www.bilibili.com/video/av94771869)
-  - [ICRA 2019 RoboMaster AI Challenge](https://www.bilibili.com/video/av94578715)
-  ![ICRA2019](https://tva2.sinaimg.cn/large/d494c514ly1gctqafk8cfj22k62yo7wk.jpg)
-  - AhaBot
-  ![](https://tvax1.sinaimg.cn/large/d494c514ly1gaiawqrx4lj20sl0dc76e.jpg)
-  <!-- - Assistant -->
-  <!-- ![IMG_7670](https://tvax1.sinaimg.cn/large/d494c514ly1gctqcv7ifuj21wy2pgkjn.jpg) -->
-- Skills
-  - Programming: C/C++, Python, Scheme, Processing, MTALAB, App Inventor 2, Linux
-  - 2D Design: OmniGraffle
-  - 3D Design: Rhino
-  - Electronics: Arduino, STM32, DSP, Raspberry Pi
-  - 3 Ball Juggling
-  <!-- ![out](https://tva3.sinaimg.cn/large/d494c514ly1gcsglssxgdg20go0b4qv5.gif) -->
-- Honors/Awards
-  - 1st Prize, Award on ICRA 2019 RoboMaster AI Challenge
-  - 1st Prize, Award on The 6th Huawei Cup Chinese University Students Intelligent Design Contest
-  - 1st Prize, Award on Chongqing University Student Research Training Program (SRTP)
-  - National Scholarship
-- Favorites
-  - People
-    - Arthur Schopenhauer
-    - Richard Feynman
-  - Works
-    - Games: [Super Mario Bros.](http://www.freesupergames.com/super-mario-bros.php)
-    - Series: Legend of Sword and Fairy/Chinese Paladin, My Own Swordsman, iPartment
-    - Literature Works: Cien años de soledad
-    - Movies: Hidden Figures, The Dark Knight, The Shawshank Redemption
-    - Music: What are words
-    - Design: [MacBook Pro](https://www.apple.com/macbook-pro/)
-  - Tools
-    - LaTeX
-    - Arduino
-    - LEGO
-    - FS-i6
-    - Raspberry Pi
-    - ThinkPad
-    - TurtleBot3
-    - iRobot Create 2
-    - Intel RealSense D435
-    - Nintendo Entertainment System
-    - Xbox 360 Game Joystick
-- Hobbies
-  - Maker's DIY
-  - Schopenhauer's 箴言
-  - Van Gogh's 绘画
-  - Juggling
+
+### 知识树
+
+**人文学 (Humanity)**
+
+- 哲学
+- 心理学
+  - Drawing on the Right Side of the Brain
+  - 快思慢想
+  - 影响力
+  - 原则
+- 钱穆
+
+**Social Science**
+
+- 费孝通
+  - 乡土中国
+  - 江村经济
+- 卢梭
+  - 社会契约论
+- 马基雅维利
+  - 君主论
+
+**Natural Science**
+
+- Robotics
+  - SLAM
+    - ORB-SLAM
+    - MSCKF
+    - VINS
+  - Underactuated Robotics
+    - Marc Raibert
+    - Russ Tedrake
+    - Zachary Jackowski
+    - YY硕
+- Math
+  - 线性代数
+    - Linear Algebra Done Right
+    - Gilbert Strang
+  - 微积分
+- EE
+  - 6.002
+  - Nikola Tesla
+- CS
+  - 编码
+  - SICP
+  - CSAPP
+  - 侯捷
+    - STL源码剖析
+    - 程序员的自我修养
+  - 吴军
+    - 浪潮之巅
+    - 大学之路
+    - 硅谷之谜
+- 物理学
+  - Freeman Dyson
+    - 反叛的科学家
+  - Feynman
+
+**Art&Culture**
+
+- Renaissance
+  - Leonardo da Vinci
+- Bauhaus
+  - 康定斯基
+    - 点线面
+- Design
+- Drawing
+  - Drawing on the Right Side of the Brain
+- 陈丹青
+- 梁文道
+- 工业设计
+  - Jony Ive
