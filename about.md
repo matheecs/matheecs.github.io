@@ -36,6 +36,10 @@ layout: about
   - 君主论
 - Max Weber
   - 新教伦理与资本主义精神
+- 木心
+  - 文学回忆录
+- 汪丁丁
+  - 行为经济学讲义
 
 **自然科学**
 
@@ -128,9 +132,11 @@ layout: about
 - Drawing
   - Drawing on the Right Side of the Brain
 - 陈丹青
+  - 局部
 - 梁文道
 - 工业设计
   - Jony Ive
   - 硅谷革命（苹果往事）
+    - 重返小王国
   - OmniGraffle/Rhino
 - 厨房
