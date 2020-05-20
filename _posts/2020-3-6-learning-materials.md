@@ -47,6 +47,8 @@ author: "Jixiang Zhang"
   - QQ
 - GitHub
 - Google
+- Stack Overflow
+- Medium
 - 讲座直播
 - 观察模仿，设计制造
 - @高手大牛
