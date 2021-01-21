@@ -37,6 +37,9 @@ author: "Jixiang Zhang"
 ![](https://i.imgur.com/pvHhVsL.png/)
 
 * [**Point Cloud** Library](https://github.com/PointCloudLibrary/pcl)
+* [Mesh](https://github.com/uos/mesh_navigation)
+
+![](https://github.com/uos/mesh_navigation/raw/master/docs/images/demo.gif?raw=true)
 
 地图解析
 
