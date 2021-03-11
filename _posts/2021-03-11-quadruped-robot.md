@@ -5,4 +5,4 @@ categories: study
 author: "Jixiang Zhang"
 ---
 
-![](images/../../images/hack.jpeg)
+![](/images/hack.jpeg)
