@@ -56,7 +56,7 @@ Drake 用 Bazel 作为脚手架，搭建了一个面向机器人领域的建模�
   - fbstab
     - components
   - test_utilities
-- `systems`
+- `systems/`
   - analysis
     - test_utilities
   - controllers
