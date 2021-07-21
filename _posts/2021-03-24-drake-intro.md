@@ -70,3 +70,14 @@ Drake 用 Bazel 作为脚手架，搭建了一个面向机器人领域的建模�
   - rendering
   - sensors
   - trajectory_optimization
+
+### [MultibodyPlant](https://drake.mit.edu/doxygen_cxx/classdrake_1_1multibody_1_1_multibody_plant.html)
+
+- Input and output ports
+- Construction
+- Geometry
+- State accessors and mutators
+- Working with free bodies
+- Kinematic and dynamic computations
+- System matrix computations
+- Introspection
