@@ -6,9 +6,10 @@ title: Jixiang's Notebook
 # Echo & Convex Hull
 # I design and make robots.
 # MPC=Mapping+Planning+Control
+# to learn, READ. to know, WRITE. to master, TEACH.
 author: Jixiang Zhang (matheecs)
 email: matheecs@qq.com
-description: to learn, READ. to know, WRITE. to master, TEACH.
+description: I Make Quadruped and Quadcopter Robot.
 url: "https://matheecs.tech"
 favicon: "favicon.ico"
 
@@ -27,4 +28,4 @@ moving:
     # rss: RSS
     github: matheecs
     linkedin: matheecs-tech
-    bilibili: '395348622'
+    bilibili: "395348622"
