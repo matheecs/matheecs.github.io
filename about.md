@@ -5,154 +5,54 @@ layout: about
 
 - Email: <matheecs@qq.com>
 - Education
-  - Master, Control Science and Engineering, [XJTU](http://www.xjtu.edu.cn)
-  - B.S., Electrical Engineering, [CQU](http://www.cqu.edu.cn/v1/)
+  - Master, Control Science and Engineering, [XJTU](http://en.xjtu.edu.cn)
+  - Student Exchange Program, [UWM](https://uwm.edu)
+  - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
 
-### 知识树
+### My Tree
 
-**人文社会**
-
-- 哲学
-  - 叔本华
-    - 人生智慧箴言
-    - 生存空虚说
-  - 尼采
-    - 查拉图斯特拉如是说
-- 心理学
-  - Drawing on the Right Side of the Brain
-  - 快思慢想
-  - 影响力
-  - 原则
-  - 暗时间
-- 钱穆
-  - 晚学盲言
-- 黄仁宇
-  - 万历十五年
-- 何兆武
-  - 上学记
-- 费孝通
-  - 乡土中国
-  - 江村经济
-- 卢梭
-  - 社会契约论
-- 马基雅维利
-  - 君主论
-- Max Weber
-  - 新教伦理与资本主义精神
-- 木心
-  - 文学回忆录
-- 汪丁丁
-  - 行为经济学讲义
-- 富爸爸穷爸爸
-- 明朝那些事儿
-
-**自然科学**
-
-- Robotics
-  - SLAM
-    - ORB-SLAM
-    - MSCKF
-    - VINS
-    - SfM
-  - Underactuated Robotics
-    - Marc Raibert
-      - Legged Robots That Balance
-    - Russ Tedrake
-      - Drake
-    - Zachary Jackowski
-      - Compass Gait Walking Robot (Master)
-      - Ornithopter (Bachelor)
-    - YY硕
-  - Rodney Brooks
-    - Cambrian Intelligence: The Early History of the New AI
-    - Behavior-Based Robotics
-  - ROS
-    - TurtleBot
-    - iRobot Create 2
-    - RoboMaster EP
-    - LEGO
-    - NAO
-  - ICRA/IROS
-  - MIT/ETH/CMU
-- Math
-  - 数学家的眼光
-  - 怎样解题
-  - 数学欣赏
-  - 线性代数
-    - Linear Algebra Done Right
-    - Gilbert Strang
-  - 微积分
-- EE
-  - 6.002
-  - Arduino/K210/RPi/MicroPython
-  - Nikola Tesla
-  - Shannon
-    - 信息论
-    - Shannon’s Juggling Theorem
-    - A Symbolic Analysis of Relay and Switching Circuits
-  - 大话自动化
-- CS
-  - 图灵
-  - 哥德尔
-  - 编码
-  - SICP
-    - CS 61A
-  - CSAPP
-  - 算法
-    - 计算几何
-    - C++/Python/Linux
-    - 大话数据结构
-    - Effective C++
-  - 侯捷
-    - STL源码剖析
-    - 程序员的自我修养
-  - 吴军
-    - 浪潮之巅
-    - 大学之路
-    - 硅谷之谜
-  - 云风
-    - 游戏之旅
-    - 程序员修炼之道：通向务实的最高境界
-  - 陈皓
-- 物理
-  - Freeman Dyson
-    - 反叛的科学家
-  - Feynman
-  - Carlo Rovelli
-    - 现实不似你所见
-  - 动力系统
-    - Steven Strogatz
-  - The Theoretical Minimum
-
-**艺术设计**
-
-- 文艺复兴
-  - Leonardo da Vinci
-- 印象派
+- **人文社会**
+  - 哲学
+    - 叔本华
+    - 尼采
+  - 心理学
+  - 历史
+  - 社会
+- **自然科学**
+  - Robotics
+    - SLAM
+    - Optimal Control: LQR -> SLQ
+      - Marc Raibert
+      - Russ Tedrake
+      - Scott Kuindersma
+      - Zac Manchester
+    - ROS
+    - C++
+    - Linux
+    - Docker
+  - Math
+    - 数值优化
+    - 线性代数
+  - EE
+    - 6.002
+    - Arduino
+    - Nikola Tesla
+    - Shannon
+  - CS
+    - 哥德尔
+    - 编码
+    - SICP
+    - CSAPP
+    - 算法
+    - 侯捷
+    - 云风
+    - 陈皓
+  - 物理
+- **艺术生活**
+  - 文艺复兴
   - 梵高
-  - 高更
-    - 月亮与六便士
-- Bauhaus
-  - 康定斯基
-    - 点线面
-- Design
-  - 日常的设计
-  - 排版
-    - LaTeX
-  - 写给大家看的设计书
-  - 启示录
-  - 破立
-- Drawing
-  - Drawing on the Right Side of the Brain
-- 陈丹青
-  - 局部
-- 梁文道
-- 工业设计
-  - Jony Ive
-  - 硅谷革命（苹果往事）
-    - 重返小王国
-  - OmniGraffle/Rhino
-- 厨房
-  - 日日之食
-- 中医
-- 侘寂
+  - Bauhaus
+  - LaTeX
+  - 厨房
+  - 中医
+  - 侘寂
