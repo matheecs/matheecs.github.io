@@ -5,6 +5,8 @@ categories: study
 author: "Jixiang Zhang"
 ---
 
+![](/images/movebase.jpg)
+
 ```
 ┌────────────────────┐
 │                ┌───┴──────────────┐    ┌──────────────────┐
