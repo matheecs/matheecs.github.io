@@ -192,11 +192,11 @@ Kinodynamic RRT* 适用于全局大空间，引入时间。前向/后向可达�
 
 #### 仿真代码框架
 
-![](/images/sim.jpg)
+![](/images/sim_ros.jpg)
 
 #### 实机代码框架
 
-![](/images/real.jpg)
+![](/images/real_ros.jpg)
 
 #### MINCO 实验
 
