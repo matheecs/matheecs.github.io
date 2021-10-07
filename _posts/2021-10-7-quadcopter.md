@@ -20,6 +20,8 @@ author: "Jixiang Zhang"
 
 本课程自底向上介绍了无人机系统，从硬件到软件，从理论到实践，从控制到规划。重点讲解了无人机的最新规划控制算法。
 
+---
+
 ### 第1天 概论与DIY
 
 无人机系统子模块
@@ -51,6 +53,8 @@ author: "Jixiang Zhang"
 Linux基础：文件目录、常用命令、进程管理。
 
 ROS基础：文件系统、Topic、launch 文件参数功能、rqt 工具、RViz、Gazebo。
+
+---
 
 ### 第2天 控制与规划
 
@@ -100,6 +104,8 @@ min snap QP 迭代法复杂度 O(n*n*log(n))，分离 XYZ 求解效率更高；�
 
 时间归一化提升数值稳定性（条件数）。
 
+---
+
 ### 第3天 GCOPTER 或无人机轨迹优化终极方案
 
 之前方法存在的缺点：Heuristic 太保守、约束太多、非时间最优、数值迭代存在数值稳定性差的问题、微分平坦把无人机当作一个质点。
@@ -127,6 +133,8 @@ ETH 最新 SQP 求解器 HPIPM。
 从状态空间求解到平坦空间求解，变量和约束大大减少。
 
 GCOPTER 把轨迹表征为 {waypoint + time}。学习 CFD 的思路，把 waypoint + time 作为关键参数。MINCO 具备线性复杂度。不要把等式约束喂给求解器。用微分几何方法处理安全走廊几何体约束。
+
+---
 
 ### 第4天 路径规划
 
@@ -168,11 +176,15 @@ PRM -> RRT -> RRT* -> RRT#。
 
 PRM = Learning Phase 利用先验或者学习方法 + Query Phase。缺点是效率低，实际只需要一条路径。改进用 Lazy collision checking。RRT 构建了一个树，边构图边探索。Bidirectional RRT 加速找到第一个解。RRT* 渐近最优。RRT# 找到第一个解后加速收敛，解决了 over-exploration 和 under-exploration 的问题。
 
+---
+
 ### 第5天 全局规划
 
 Informed-RRT*、GuILD 只适用于 L2 norm。Informed-RRT* 改变了采样集合。
 
 Kinodynamic RRT* 适用于全局大空间，引入时间。前向/后向可达解。路径规划提取骨架，然后在附近采样。全局采样 + 局部优化。**STD-Trees** 时空形变树，Kinodynamic RRT* 引入局部优化思想来提升轨迹收敛速度，优化树的质量。形变单元的代价设计。采用 Penaty 把有约束问题转化为无约束问题。考虑到 SDF 不连续采用 LMBM。
+
+---
 
 ### 总结
 
@@ -204,4 +216,4 @@ Kinodynamic RRT* 适用于全局大空间，引入时间。前向/后向可达�
 
 最后感谢各位老师助教同学和深蓝学院工作人员，特别是第三组的小伙伴，一起努力实现了线性控制器、SE3控制器、min snap和MINCO轨迹规划及其实验。
 
-![](/images/group3.jpg)
+<!-- ![](/images/group3.jpg) -->
