@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "《智能无人机》课程要点"
+title: "智能无人机笔记🚁"
 categories: study
 author: "Jixiang Zhang"
 ---
