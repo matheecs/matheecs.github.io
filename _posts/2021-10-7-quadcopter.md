@@ -211,6 +211,9 @@ Kinodynamic RRT* 适用于全局大空间，引入时间。前向/后向可达�
 - [FAST Lab 实验室主页](http://zju-fast.com)
 - [ZJU FAST Lab 代码主页](https://github.com/ZJU-FAST-Lab)
 - [GCOPTER](https://github.com/ZJU-FAST-Lab/GCOPTER)
+  - [Vertex Enumeration 3D](https://github.com/ZJU-FAST-Lab/VertexEnumeration3D)
+  - [LBFGS-Lite](https://github.com/ZJU-FAST-Lab/LBFGS-Lite)
+  - [SDLP 源自计算几何的线性规划求解器](https://github.com/ZJU-FAST-Lab/SDLP)
 - [FASTLAB 自主导航无人机硬件](https://github.com/ZJU-FAST-Lab/Fast-Drone-250)
 - [自主旋翼无人机导论](https://www.shenlanxueyuan.com/course/385)
 
