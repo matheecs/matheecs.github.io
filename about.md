@@ -3,7 +3,7 @@ layout: about
 ---
 ### 个人信息
 
-- Email: <matheecs@qq.com>
+- Email: <matheecs[at]qq[dot]com>
 - Education
   - Master, Control Science and Engineering, [XJTU](http://en.xjtu.edu.cn)
   - Student Exchange Program, [UWM](https://uwm.edu)
