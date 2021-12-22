@@ -4,6 +4,7 @@ layout: about
 ### 个人信息
 
 - Email: <matheecs[at]qq[dot]com>
+- [Resume/CV (Chinese)](/files/cv/cv2019.pdf)
 - Education
   - Master, Control Science and Engineering, [XJTU](http://en.xjtu.edu.cn)
   - Student Exchange Program, [UWM](https://uwm.edu)
