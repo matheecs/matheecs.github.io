@@ -10,6 +10,20 @@ layout: about
   - Student Exchange Program, [UWM](https://uwm.edu)
   - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
 
+### Related Researchers
+
+- [Russ Tedrake](https://groups.csail.mit.edu/locomotion/russt.html)
+- [Benjamin Stephens](https://www.cs.cmu.edu/~bstephe1/)
+- [Tobia Marcucci](https://tobiamarcucci.github.io)
+- [andrew j. barry](https://abarry.org)
+- [Hongkai Dai](https://hongkai-dai.github.io)
+- [Scott Kuindersma](https://scottk.seas.harvard.edu)
+- [Matthew Kelly](http://www.matthewpeterkelly.com)
+- [Thomas Geijtenbeek](https://www.goatstream.com/research/)
+- [Daniel E. Koditschek](https://www.seas.upenn.edu/~kod/)
+- [Michiel van de Panne](https://www.cs.ubc.ca/~van/)
+- [Jason K. Moore](https://www.moorepants.info)
+
 ### My Tree
 
 - **人文社会**
