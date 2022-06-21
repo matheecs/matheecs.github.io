@@ -23,6 +23,7 @@ layout: about
 - [Daniel E. Koditschek](https://www.seas.upenn.edu/~kod/)
 - [Michiel van de Panne](https://www.cs.ubc.ca/~van/)
 - [Jason K. Moore](https://www.moorepants.info)
+- [Wei ZHANG](http://www.wzhanglab.site/members/)
 
 ### My Tree
 
