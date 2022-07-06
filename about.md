@@ -24,6 +24,18 @@ layout: about
 - [Michiel van de Panne](https://www.cs.ubc.ca/~van/)
 - [Jason K. Moore](https://www.moorepants.info)
 - [Wei ZHANG](http://www.wzhanglab.site/members/)
+- [Lars Blackmore](http://larsblackmore.com)
+- [Wenzel Jakob](https://rgl.epfl.ch/people/wjakob)
+
+### Algorithm Tree
+
+1. State Estimation
+   - [MSF](https://github.com/ethz-asl/ethzasl_msf)
+2. Perception
+3. Planning
+4. Control
+5. Simulation
+   - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
 
 ### My Tree
 
