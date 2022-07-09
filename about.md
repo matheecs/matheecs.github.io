@@ -26,6 +26,9 @@ layout: about
 - [Wei ZHANG](http://www.wzhanglab.site/members/)
 - [Lars Blackmore](http://larsblackmore.com)
 - [Wenzel Jakob](https://rgl.epfl.ch/people/wjakob)
+- [Yuto Nakanishi](https://spectrum.ieee.org/schaft-robot-company-bought-by-google-darpa-robotics-challenge-winner)
+- [Eric Whitman](https://www.cs.cmu.edu/~cga/ewhitman/)
+- [Pierre-Brice Wieber](http://www.inrialpes.fr/bipop/people/wieber/)
 
 ### Algorithm Tree
 
