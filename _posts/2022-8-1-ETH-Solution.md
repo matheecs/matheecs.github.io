@@ -9,6 +9,8 @@ author: "Jixiang Zhang"
 
 TODO
 
+[An OMPL Tutorial with Examples](https://www.youtube.com/watch?v=yggi7QjfOUM)
+
 **Tech Areas**
 
 - Mobility (S3.1)
