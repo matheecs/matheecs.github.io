@@ -10,6 +10,12 @@ layout: about
   - Student Exchange Program, [UWM](https://uwm.edu)
   - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
 
+### Useful Notes
+
+1. [工程日志🛠](https://matheecs.tech/study/2014/11/11/buglist.html)
+2. [机器之美🤖](https://matheecs.tech/study/2014/11/11/botlist.html)
+3. [个人书单📚](https://matheecs.tech/study/2014/11/11/booklist.html)
+
 ### Related Researchers
 
 - [Russ Tedrake](https://groups.csail.mit.edu/locomotion/russt.html)
@@ -29,17 +35,26 @@ layout: about
 - [Yuto Nakanishi](https://spectrum.ieee.org/schaft-robot-company-bought-by-google-darpa-robotics-challenge-winner)
 - [Eric Whitman](https://www.cs.cmu.edu/~cga/ewhitman/)
 - [Pierre-Brice Wieber](http://www.inrialpes.fr/bipop/people/wieber/)
+- [Zac Manchester](http://roboticexplorationlab.org)
 
 ### Algorithm Tree
 
-1. State Estimation
+1. Estimation
    - [MSF](https://github.com/ethz-asl/ethzasl_msf)
 2. Perception
 3. Planning
+   - [ANYmal Rough Terrain Planner](https://github.com/leggedrobotics/art_planner)
+   - [OMPL](https://ompl.kavrakilab.org)
+   - [GCOPTER](https://github.com/ZJU-FAST-Lab/GCOPTER)
 4. Control
 5. Simulation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
-
+   - [Dojo](https://github.com/dojo-sim/Dojo.jl)
+6. Visualization
+   - [Vis: Asynchronous 3D Visualization Tool](https://github.com/rvbust/Vis)
+   - [MeshCat](https://github.com/rdeits/meshcat-python)
+7. Optimization
+   - [SDLP](https://github.com/ZJU-FAST-Lab/SDLP)
 ### My Tree
 
 - **人文社会**
