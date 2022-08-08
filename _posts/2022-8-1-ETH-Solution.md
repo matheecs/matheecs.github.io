@@ -1,11 +1,32 @@
 ---
 layout: post
-title: "解析ETH四足机器人局部路径规划"
+title: "解析ETH局部规划"
 categories: study
 author: "Jixiang Zhang"
 ---
 
-## OMPL
+[ANYmal Rough Terrain Planner](https://github.com/leggedrobotics/art_planner)
+
+## 局部规划器
+
+### Dependencies
+
+| Names         | Function |
+| ------------- | -------- |
+| OMPL          | 规划框架 |
+| ODE           | 碰撞检测 |
+| OpenCV        | 图像处理 |
+| grid_map_core | 地图数据 |
+| Boost         | Graph/A* |
+
+**Terminology**
+
+- **Clearance** : 机器人与障碍物的距离
+- **Milestone** : 图的节点
+
+### OMPL
+
+> LazyPRM is a planner that constructs a roadmap of **milestones** that approximate the connectivity of the state space, just like PRM does. The difference is that the planner uses lazy collision checking.
 
 <!-- ![api](/images/ompl_api.png) -->
 <p align="center">
