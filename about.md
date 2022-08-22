@@ -1,6 +1,11 @@
 ---
 layout: about
 ---
+
+<p align="center">
+  <img src="/images/note2022.png" width="500"/>
+</p>
+
 ### 个人信息
 
 - Email: <matheecs[at]qq[dot]com>
