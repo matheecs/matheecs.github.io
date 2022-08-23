@@ -15,7 +15,13 @@ layout: about
   - Student Exchange Program, [UWM](https://uwm.edu)
   - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
 
-### Useful Notes
+### Useful Links
+
+- [计算机教育中缺失的一课](https://missing-semester-cn.github.io)
+- [操作系统：设计与实现](http://jyywiki.cn/OS/2022/)
+  - [计算机系统基础 课程实验](https://nju-projectn.github.io/ics-pa-gitbook/ics2021/index.html)
+
+### My Notes
 
 1. [工程日志🛠](https://matheecs.tech/study/2014/11/11/buglist.html)
 2. [机器之美🤖](https://matheecs.tech/study/2014/11/11/botlist.html)
