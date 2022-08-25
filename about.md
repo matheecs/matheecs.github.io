@@ -20,6 +20,7 @@ layout: about
 - [计算机教育中缺失的一课](https://missing-semester-cn.github.io)
 - [操作系统：设计与实现](http://jyywiki.cn/OS/2022/)
   - [计算机系统基础 课程实验](https://nju-projectn.github.io/ics-pa-gitbook/ics2021/index.html)
+- [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
 
 ### My Notes
 
