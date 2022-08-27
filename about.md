@@ -6,6 +6,8 @@ layout: about
   <img src="/images/note2022.png" width="500"/>
 </p>
 
+Planning = Formulation + Optimization(OSQP/ALM/IPM) + Visualization
+
 ### 个人信息
 
 - Email: <matheecs[at]qq[dot]com>
