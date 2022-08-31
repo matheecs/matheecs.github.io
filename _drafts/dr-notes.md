@@ -11,7 +11,7 @@ Tech Mana
 - no test/bechmark
 - tech issue
   - bad comm api
-    - delay
+    - delay, solution: Delay-aware Robust Control for Safe Autonomous Driving
     - remote devel use teamv.
   - wo sdk
   - wo rules
