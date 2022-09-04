@@ -24,6 +24,7 @@ Planning = Formulation + Optimization(OSQP/ALM/IPM) + Visualization
 - [操作系统：设计与实现](http://jyywiki.cn/OS/2022/)
   - [计算机系统基础 课程实验](https://nju-projectn.github.io/ics-pa-gitbook/ics2021/index.html)
 - [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
+- [一生一芯](https://ysyx.oscc.cc)
 
 ### Related Researchers
 
