@@ -48,6 +48,7 @@ Planning = Formulation + Optimization(OSQP/ALM/IPM) + Visualization
 - [C. Karen Liu](https://profiles.stanford.edu/c-karen-liu)
 - [Minchen Li](https://www.math.ucla.edu/~minchen/)
 - [Chenfanfu Jiang](https://www.math.ucla.edu/~cffjiang/)
+- [Anant Agarwal](https://en.wikipedia.org/wiki/Anant_Agarwal)
 
 ### Algorithm Tree
 
