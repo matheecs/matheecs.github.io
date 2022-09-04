@@ -25,12 +25,6 @@ Planning = Formulation + Optimization(OSQP/ALM/IPM) + Visualization
   - [计算机系统基础 课程实验](https://nju-projectn.github.io/ics-pa-gitbook/ics2021/index.html)
 - [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
 
-### My Notes
-
-1. [工程日志🛠](https://matheecs.tech/study/2014/11/11/buglist.html)
-2. [机器之美🤖](https://matheecs.tech/study/2014/11/11/botlist.html)
-3. [个人书单📚](https://matheecs.tech/study/2014/11/11/booklist.html)
-
 ### Related Researchers
 
 - [Russ Tedrake](https://groups.csail.mit.edu/locomotion/russt.html)
