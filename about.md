@@ -45,6 +45,8 @@ Planning = Formulation + Optimization(OSQP/ALM/IPM) + Visualization
 - [Eric Whitman](https://www.cs.cmu.edu/~cga/ewhitman/)
 - [Pierre-Brice Wieber](http://www.inrialpes.fr/bipop/people/wieber/)
 - [Zac Manchester](http://roboticexplorationlab.org)
+- [C. Karen Liu](https://profiles.stanford.edu/c-karen-liu)
+- [Minchen Li](https://www.math.ucla.edu/~minchen/)
 
 ### Algorithm Tree
 
