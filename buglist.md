@@ -3170,3 +3170,8 @@ git apply mypatch.patch
 ![](https://camo.githubusercontent.com/18e0a894d89fbe3a2118ec3d98c760409f32101de3d2a6d9ceaaaa84e4cd89e8/687474703a2f2f7068696c7365727665722e62706c616365642e6e65742f696d672f7271745f6c61756e6368747265655f73637265656e73686f742e706e67)
 
 Cite: [rqt_launchtree](https://github.com/Kuo-Feng/rqt_launchtree/tree/noetic)
+
+### Entity Component System
+
+- [什么是DOTS？为什么说DOTS非常重要？](https://learn.unity.com/tutorial/shi-yao-shi-dots-wei-shi-yao-shuo-dotsfei-chang-zhong-yao)
+- [MassEntity](https://docs.unrealengine.com/5.0/en-US/overview-of-mass-entity-in-unreal-engine/)
