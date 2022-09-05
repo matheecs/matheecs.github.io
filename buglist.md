@@ -3175,3 +3175,11 @@ Cite: [rqt_launchtree](https://github.com/Kuo-Feng/rqt_launchtree/tree/noetic)
 
 - [什么是DOTS？为什么说DOTS非常重要？](https://learn.unity.com/tutorial/shi-yao-shi-dots-wei-shi-yao-shuo-dotsfei-chang-zhong-yao)
 - [MassEntity](https://docs.unrealengine.com/5.0/en-US/overview-of-mass-entity-in-unreal-engine/)
+
+### Operation Costs in CPU Clock Cycles
+
+<p align="center">
+  <img src="/images/part101_infographics_v08.png" width="500"/>
+</p>
+
+Cite: http://ithare.com/infographics-operation-costs-in-cpu-clock-cycles/
