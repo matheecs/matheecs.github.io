@@ -3182,4 +3182,15 @@ Cite: [rqt_launchtree](https://github.com/Kuo-Feng/rqt_launchtree/tree/noetic)
   <img src="/images/part101_infographics_v08.png" width="500"/>
 </p>
 
-Cite: http://ithare.com/infographics-operation-costs-in-cpu-clock-cycles/
+Cite: [Infographics: Operation Costs in CPU Clock Cycles](http://ithare.com/infographics-operation-costs-in-cpu-clock-cycles/)
+
+### CMake: Finding Qt 5 the “Right Way”
+
+```cmake
+set(QT5_ROOT_PATH CACHE PATH "Qt5 root directory (i.e. where the 'bin' folder lies)")
+if (QT5_ROOT_PATH)
+    list(APPEND CMAKE_PREFIX_PATH ${QT5_ROOT_PATH})
+endif ()
+```
+
+Cite: [CMake: Finding Qt 5 the “Right Way”](https://www.kitware.com/cmake-finding-qt5-the-right-way/)
