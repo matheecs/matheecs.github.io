@@ -3194,3 +3194,23 @@ endif ()
 ```
 
 Cite: [CMake: Finding Qt 5 the “Right Way”](https://www.kitware.com/cmake-finding-qt5-the-right-way/)
+
+### 批量转图像格式
+
+```bash
+for f in *.HEIC; do heif-convert -q 100 $f $f.jpg; done
+```
+
+Optional
+
+```bash# install imagemagick
+brew install imagemagick
+
+# convert a single image
+magick convert foo.HEIC foo.jpg
+
+# bulk convert multiple images
+magick mogrify -monitor -format jpg *.HEIC
+```
+
+Cite: [How to convert a HEIF/HEIC image to JPEG in macOS?](https://apple.stackexchange.com/questions/297134/how-to-convert-a-heif-heic-image-to-jpeg-in-macos)
