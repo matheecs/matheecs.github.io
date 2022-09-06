@@ -2155,7 +2155,7 @@ copyPointCloud(cloud_xyz, cloud_xyzrgb);
 
 [How to convert between different point cloud types using PCL?](https://answers.ros.org/question/9515/how-to-convert-between-different-point-cloud-types-using-pcl/)
 
-### ldd 可视化版本 libtree
+### ldd(Linux) 可视化版本 libtree
 
 [libtree](https://github.com/haampie/libtree)
 
@@ -2164,6 +2164,8 @@ copyPointCloud(cloud_xyz, cloud_xyzrgb);
 - [cxxopts](https://github.com/jarro2783/cxxopts)
 - [ELFIO](https://github.com/serge1/ELFIO)
 - [Termcolor](https://github.com/ikalnytskyi/termcolor)
+
+Note: Use `otool -L libfile` on macOS.
 
 ### What does if __name__ == "__main__": do?
 
@@ -3214,3 +3216,12 @@ magick mogrify -monitor -format jpg *.HEIC
 ```
 
 Cite: [How to convert a HEIF/HEIC image to JPEG in macOS?](https://apple.stackexchange.com/questions/297134/how-to-convert-a-heif-heic-image-to-jpeg-in-macos)
+
+### PCA vs Moment of Inertia
+
+主成分可以在科学的各个领域找到。例如，有一个与物理学相类似的例子。如果把三维数据点看作是一个刚体的质量点，那么特征值对应于惯性的主矩，主成分对应于身体的主轴。
+
+Ref:
+
+1. [Principal Axis via Moment of Inertia](https://www.researchgate.net/publication/326546791_A_Tutorial_on_Principal_Component_Analysis_Part_2_Principal_Axis_via_Moment_of_Inertia)
+2. [Principal Component Analysis](https://users.ics.aalto.fi/praiko/papers/dippa/node12.html)
