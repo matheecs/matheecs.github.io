@@ -2,13 +2,7 @@
 layout: about
 ---
 
-<p align="center">
-  <img src="/images/note2022.png" width="500"/>
-</p>
-
-Planning = Formulation + Optimization(OSQP/ALM/IPM) + Visualization
-
-### 个人信息
+### About
 
 - Email: <matheecs[at]qq[dot]com>
 - [Resume/CV (Chinese)](/files/cv/cv2022.pdf)
@@ -28,6 +22,7 @@ Planning = Formulation + Optimization(OSQP/ALM/IPM) + Visualization
 
 ### Related Researchers
 
+- [Marc Raibert](http://www.ai.mit.edu/projects/leglab/old-leglab/people/mxr.html)
 - [Russ Tedrake](https://groups.csail.mit.edu/locomotion/russt.html)
 - [Benjamin Stephens](https://www.cs.cmu.edu/~bstephe1/)
 - [Tobia Marcucci](https://tobiamarcucci.github.io)
@@ -50,70 +45,72 @@ Planning = Formulation + Optimization(OSQP/ALM/IPM) + Visualization
 - [Minchen Li](https://www.math.ucla.edu/~minchen/)
 - [Chenfanfu Jiang](https://www.math.ucla.edu/~cffjiang/)
 - [Anant Agarwal](https://en.wikipedia.org/wiki/Anant_Agarwal)
+- [Shuo Yang](https://shuoyangrobotics.github.io)
 
 ### Algorithm Tree
 
-1. Estimation
+1. Estimation & Calibration
    - [MSF](https://github.com/ethz-asl/ethzasl_msf)
+   - [visual-inertial-leg odometry](https://github.com/ShuoYangRobotics/tightly-coupled-visual-inertial-leg-odometry)
+   - [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)
+   - [MVStudio](https://github.com/LiangliangNan/MVStudio)
 2. Perception
-3. Planning
-   - [ANYmal Rough Terrain Planner](https://github.com/leggedrobotics/art_planner)
+   - [Elevation Mapping CuPy](https://github.com/leggedrobotics/elevation_mapping_cupy)
+3. Planning & Control (**Formulation**)
+   - [Terrain Planner](https://github.com/leggedrobotics/art_planner)
    - [OMPL](https://ompl.kavrakilab.org)
    - [GCOPTER](https://github.com/ZJU-FAST-Lab/GCOPTER)
-4. Control
-5. Simulation
+   - [Cheetah-Software](https://github.com/mit-biomimetics/Cheetah-Software)
+   - [A1-QP-MPC-Controller](https://github.com/matheecs/A1-QP-MPC-Controller)
+   - [OCS2](https://github.com/leggedrobotics/ocs2)
+   - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
+   - [towr](https://github.com/ethz-adrl/towr)
+   - [Drake](https://github.com/RobotLocomotion/drake)
+   - [Representation-Free](https://github.com/YanranDing/RF-MPC)
+4. Dynamics & Simulation (Animation)
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
+   - [RBDL](https://github.com/rbdl/rbdl)
+   - [Pinocchio](https://github.com/stack-of-tasks/pinocchio)
    - [Dojo](https://github.com/dojo-sim/Dojo.jl)
-6. Visualization
-   - [Vis: Asynchronous 3D Visualization Tool](https://github.com/rvbust/Vis)
+   - [Bullet](https://github.com/bulletphysics/bullet3)
+   - [MuJoCo](https://github.com/deepmind/mujoco)
+   - [Incremental Potential Contact](https://github.com/ipc-sim/IPC)
+   - [ZENO](https://github.com/zenustech/zeno)
+   - [Piccolo](https://github.com/BoomingTech/Piccolo)
+5. Visualization
+   - [Vis](https://github.com/rvbust/Vis)
    - [MeshCat](https://github.com/rdeits/meshcat-python)
-7. Optimization
+   - [Easy3D](https://github.com/LiangliangNan/Easy3D)
+   - [ImGui](https://github.com/ocornut/imgui)
+6. Optimization
    - [SDLP](https://github.com/ZJU-FAST-Lab/SDLP)
+   - [SDQP](https://github.com/ZJU-FAST-Lab/SDQP)
+   - [LBFGS-Lite](https://github.com/ZJU-FAST-Lab/LBFGS-Lite)
+   - [ProxQP](https://github.com/Simple-Robotics/proxsuite)
+   - [HPIPM](https://github.com/giaf/hpipm)
+   - [ECOS](https://github.com/embotech/ecos)
+   - [SymForce](https://github.com/symforce-org/symforce)
+   - [GTSAM](https://github.com/borglab/gtsam)
+   - [Ceres](https://github.com/ceres-solver/ceres-solver)
+   - [g2o](https://github.com/RainerKuemmerle/g2o)
+7. Numerical Computation
+   - [NumPy](https://numpy.org)
+   - [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page)
+8. Tools
+   - [ROS](https://github.com/ros/ros_comm)
+   - LCM
+   - C++
+   - Python
+   - Linux
+   - Git/GitHub/CI
+   - CMake
+   - [catkin](https://github.com/ros/catkin)
+   - [Timer](https://github.com/LiangliangNan/Timer)
+   - [SIMD Everywhere](https://github.com/simd-everywhere/simde)
+   - [xsimd](https://github.com/xtensor-stack/xsimd)
 
-### My Tree
+<p align="center">
+  <img src="/images/note2022.png" width="500"/>
+</p>
 
-- **人文社会**
-  - 哲学
-    - 叔本华
-    - 尼采
-  - 心理学
-  - 历史
-  - 社会
-- **自然科学**
-  - Robotics
-    - SLAM
-    - Optimal Control: LQR -> SLQ
-      - Marc Raibert
-      - Russ Tedrake
-      - Scott Kuindersma
-      - Zac Manchester
-    - ROS
-    - C++
-    - Linux
-    - Docker
-  - Math
-    - 数值优化
-    - 线性代数
-  - EE
-    - 6.002
-    - Arduino
-    - Nikola Tesla
-    - Shannon
-  - CS
-    - 哥德尔
-    - 编码
-    - SICP
-    - CSAPP
-    - 算法
-    - 侯捷
-    - 云风
-    - 陈皓
-  - 物理
-- **艺术生活**
-  - 文艺复兴
-  - 梵高
-  - Bauhaus
-  - LaTeX
-  - 厨房
-  - 中医
-  - 侘寂
+Planning = Formulation + Optimization(OSQP/ALM/IPM) + Visualization
