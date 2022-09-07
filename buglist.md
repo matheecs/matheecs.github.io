@@ -3205,7 +3205,8 @@ for f in *.HEIC; do heif-convert -q 100 $f $f.jpg; done
 
 Optional
 
-```bash# install imagemagick
+```bash
+# install imagemagick
 brew install imagemagick
 
 # convert a single image
