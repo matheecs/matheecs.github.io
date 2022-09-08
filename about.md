@@ -66,7 +66,7 @@ layout: about
    - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
    - [towr](https://github.com/ethz-adrl/towr)
    - [Drake](https://github.com/RobotLocomotion/drake)
-   - [Representation-Free](https://github.com/YanranDing/RF-MPC)
+   - [Representation-Free MPC](https://github.com/YanranDing/RF-MPC)
 4. Dynamics & Simulation (Animation)
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RBDL](https://github.com/rbdl/rbdl)
