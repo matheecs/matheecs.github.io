@@ -19,6 +19,12 @@ author: "Jixiang Zhang"
 
 #### SpotMini
 ![SpotMini.jpg](https://i.loli.net/2019/12/22/ogBiM2wJmUsENTO.jpg)
+#### Stretch
+![](https://www.bostondynamics.com/sites/default/files/inline-images/stretch-transparent_0.png)
+#### Atlas
+![](https://www.bostondynamics.com/sites/default/files/2021-08/atlas-dynamic.jpg)
+#### One-Legged Hopping
+![](https://la.disneyresearch.com/wp-content/uploads/Untethered-One-Legged-Hopping-in-3D-Using-Linear-Elastic-Actuator-in-Parallel-LEAP-Image-768x450.png)
 #### iCub
 ![iCub.jpg](https://i.loli.net/2019/12/22/iLew1SVYymoBvXK.jpg)
 #### Skydio 2
@@ -67,3 +73,9 @@ author: "Jixiang Zhang"
 [![](http://kakutaclinic.life.coocan.jp/image2094.jpg)](https://www.youtube.com/watch?v=59jjqsiCTBw)
 #### LEGO MINDSTORMS Robot Inventor
 ![](https://i.pcmag.com/imagery/reviews/04zMkbHynkLyz3nQaI5PAKy-6..v1602523749.jpg)
+#### Unitree Go1
+![](https://oss-global-cdn.unitree.com/static/7ba3cc3b4e9f43ef97ce086afb1ea207_622x531.png)
+#### TurtleBot 4
+![](https://s3.amazonaws.com/assets.clearpathrobotics.com/wp-content/uploads/2022/05/04081633/TTB4facing-1-1024x435.jpg)
+#### Apple M1
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Apple_M1.jpg/502px-Apple_M1.jpg)
