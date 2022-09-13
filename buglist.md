@@ -3226,3 +3226,8 @@ Ref:
 
 1. [Principal Axis via Moment of Inertia](https://www.researchgate.net/publication/326546791_A_Tutorial_on_Principal_Component_Analysis_Part_2_Principal_Axis_via_Moment_of_Inertia)
 2. [Principal Component Analysis](https://users.ics.aalto.fi/praiko/papers/dippa/node12.html)
+
+### 搜索重复文件
+
+- [FDUPES](https://github.com/adrianlopezroche/fdupes)
+- [find-dupes.awk](https://github.com/taltman/scripts/blob/master/unix_utils/find-dupes.awk)

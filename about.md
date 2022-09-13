@@ -84,6 +84,10 @@ layout: about
    - [Incremental Potential Contact](https://github.com/ipc-sim/IPC)
    - [ZENO](https://github.com/zenustech/zeno)
    - [Piccolo](https://github.com/BoomingTech/Piccolo)
+   - [SCONE](https://scone.software/doku.php)
+     - [scone-core](https://github.com/tgeijten/scone-core)
+     - [scone-studio](https://github.com/tgeijten/scone-studio)
+   - [OpenSim](https://simtk.org/projects/opensim)
 5. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [MeshCat](https://github.com/rdeits/meshcat-python)
@@ -105,9 +109,13 @@ layout: about
    - [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page)
 8. Tools
    - [ROS](https://github.com/ros/ros_comm)
-   - LCM
+     - [RossROS](https://github.com/rlhatton/RossROS)
+   - [LCM](https://github.com/lcm-proj/lcm)
+     - [LCM to ROS](https://github.com/nrjl/lcm_to_ros)
    - C++
    - Python
+   - Markdown
+   - LaTeX
    - Linux
    - Git/GitHub/CI
    - CMake

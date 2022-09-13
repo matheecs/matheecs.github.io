@@ -63,3 +63,7 @@ author: "Jixiang Zhang"
 ![lego ev3](https://tva4.sinaimg.cn/large/d494c514gy1gayi0900lij20hs0hswgl.jpg)
 #### AeroVironment Nano Hummingbird
 ![](https://tvax4.sinaimg.cn/large/d494c514gy1gazd2rhex9j20go0ezwge.jpg)
+#### New Servo Flap System by K.Kakuta
+[![](http://kakutaclinic.life.coocan.jp/image2094.jpg)](https://www.youtube.com/watch?v=59jjqsiCTBw)
+#### LEGO MINDSTORMS Robot Inventor
+![](https://i.pcmag.com/imagery/reviews/04zMkbHynkLyz3nQaI5PAKy-6..v1602523749.jpg)
