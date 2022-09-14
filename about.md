@@ -11,7 +11,7 @@ layout: about
   - Student Exchange Program, [UWM](https://uwm.edu)
   - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
 
-### Useful Links
+### Favorite Lectures
 
 - [计算机教育中缺失的一课](https://missing-semester-cn.github.io)
 - [GAMES104现代游戏引擎](https://space.bilibili.com/512313464/channel/collectiondetail?sid=292637)
@@ -19,6 +19,7 @@ layout: about
   - [计算机系统基础 课程实验](https://nju-projectn.github.io/ics-pa-gitbook/ics2021/index.html)
 - [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
 - [一生一芯](https://ysyx.oscc.cc)
+- [高性能并行编程与优化](https://github.com/parallel101/course)
 
 ### Related Researchers
 
