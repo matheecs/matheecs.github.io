@@ -23,6 +23,10 @@ layout: about
 ### Related Researchers
 
 - [Marc Raibert](http://www.ai.mit.edu/projects/leglab/old-leglab/people/mxr.html)
+- [Alfred A. Rizzi](https://scholar.google.com/citations?user=GAwdhxEAAAAJ&hl=en)
+- [Rodney Brooks](https://rodneybrooks.com)
+- [David C. Conner](https://scholar.google.com/citations?user=sb3lPX8AAAAJ&hl=en)
+- [Howie Choset](https://www.cs.cmu.edu/~./choset/)
 - [Russ Tedrake](https://groups.csail.mit.edu/locomotion/russt.html)
 - [Benjamin Stephens](https://www.cs.cmu.edu/~bstephe1/)
 - [Tobia Marcucci](https://tobiamarcucci.github.io)
@@ -74,6 +78,10 @@ layout: about
    - [towr](https://github.com/ethz-adrl/towr)
    - [Drake](https://github.com/RobotLocomotion/drake)
    - [Representation-Free MPC](https://github.com/YanranDing/RF-MPC)
+   - [BehaviorTree.CPP](https://github.com/BehaviorTree/BehaviorTree.CPP)
+     - **Sequential Composition**
+     - [Subsumption Architecture](http://users.dimi.uniud.it/~antonio.dangelo/Robotica/2013/lessons/M02mar20.pdf)
+     - State Machine
 4. Dynamics & Simulation (**Animation**)
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RBDL](https://github.com/rbdl/rbdl)
