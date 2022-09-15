@@ -2,7 +2,7 @@
 layout: about
 ---
 
-### About
+### About Me
 
 - Email: <matheecs[at]qq[dot]com>
 - [Resume/CV (Chinese)](/files/cv/cv2022.pdf)
@@ -10,6 +10,7 @@ layout: about
   - Master, Control Science and Engineering, [XJTU](http://en.xjtu.edu.cn)
   - Student Exchange Program, [UWM](https://uwm.edu)
   - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
+- Research Interests: Perception, Planning and Control of Robotics
 
 ### Favorite Lectures
 
@@ -21,7 +22,7 @@ layout: about
 - [一生一芯](https://ysyx.oscc.cc)
 - [高性能并行编程与优化](https://github.com/parallel101/course)
 
-### Related Researchers
+### Researchers
 
 - [Marc Raibert](http://www.ai.mit.edu/projects/leglab/old-leglab/people/mxr.html)
 - [Alfred A. Rizzi](https://scholar.google.com/citations?user=GAwdhxEAAAAJ&hl=en)
@@ -51,6 +52,14 @@ layout: about
 - [Chenfanfu Jiang](https://www.math.ucla.edu/~cffjiang/)
 - [Anant Agarwal](https://en.wikipedia.org/wiki/Anant_Agarwal)
 - [Shuo Yang](https://shuoyangrobotics.github.io)
+- [Patrick M. Wensing](https://sites.nd.edu/pwensing/)
+- [Tobia Marcucci](https://tobiamarcucci.github.io)
+- [Twan Koolen](https://scholar.google.com/citations?user=0k4k1WUAAAAJ&hl=en)
+- [Salman Faraji](https://salmanfaraji.github.io)
+- [Eric Whitman](https://www.cs.cmu.edu/~cga/ewhitman/)
+- [Christopher G. Atkeson](http://www.cs.cmu.edu/~cga/)
+- [Alexander Winkler](http://alex-winkler.com)
+- [Gill Pratt](https://scholar.google.com/citations?user=lvUyYroAAAAJ&hl=en)
 
 ### Algorithm Tree
 
@@ -58,6 +67,7 @@ layout: about
    - [MSF](https://github.com/ethz-asl/ethzasl_msf)
    - [visual-inertial-leg odometry](https://github.com/ShuoYangRobotics/tightly-coupled-visual-inertial-leg-odometry)
    - [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)
+   - [Pronto](https://github.com/ori-drs/pronto)
    - [MVStudio](https://github.com/LiangliangNan/MVStudio)
      - [OpenMVG](https://github.com/openMVG/openMVG)
      - [OpenMVS](https://github.com/cdcseacave/openMVS)
@@ -72,13 +82,15 @@ layout: about
    - [Terrain Planner](https://github.com/leggedrobotics/art_planner)
    - [OMPL](https://ompl.kavrakilab.org)
    - [GCOPTER](https://github.com/ZJU-FAST-Lab/GCOPTER)
-   - [Cheetah-Software](https://github.com/mit-biomimetics/Cheetah-Software)
+   - [**Cheetah-Software**](https://github.com/mit-biomimetics/Cheetah-Software)
+     - [IHMC-Robotics](https://github.com/GabrielEGC/IHMC-Robotics)
    - [A1-QP-MPC-Controller](https://github.com/matheecs/A1-QP-MPC-Controller)
    - [OCS2](https://github.com/leggedrobotics/ocs2)
    - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
    - [towr](https://github.com/ethz-adrl/towr)
    - [Drake](https://github.com/RobotLocomotion/drake)
    - [Representation-Free MPC](https://github.com/YanranDing/RF-MPC)
+   - [**IJRR_WBLC**](https://github.com/dhkim0821/IJRR_WBLC)
    - [BehaviorTree.CPP](https://github.com/BehaviorTree/BehaviorTree.CPP)
      - **Sequential Composition**
      - [Subsumption Architecture](http://users.dimi.uniud.it/~antonio.dangelo/Robotica/2013/lessons/M02mar20.pdf)
@@ -87,6 +99,7 @@ layout: about
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RBDL](https://github.com/rbdl/rbdl)
    - [Pinocchio](https://github.com/stack-of-tasks/pinocchio)
+   - [spatial_v2_extended](https://github.com/ROAM-Lab-ND/spatial_v2_extended)
    - [Dojo](https://github.com/dojo-sim/Dojo.jl)
    - [Bullet](https://github.com/bulletphysics/bullet3)
    - [MuJoCo](https://github.com/deepmind/mujoco)
@@ -97,6 +110,7 @@ layout: about
      - [scone-core](https://github.com/tgeijten/scone-core)
      - [scone-studio](https://github.com/tgeijten/scone-studio)
    - [OpenSim](https://simtk.org/projects/opensim)
+   - [B-Human](https://github.com/bhuman/BHumanCodeRelease)
 5. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [MeshCat](https://github.com/rdeits/meshcat-python)
@@ -132,6 +146,8 @@ layout: about
    - [Timer](https://github.com/LiangliangNan/Timer)
    - [SIMD Everywhere](https://github.com/simd-everywhere/simde)
    - [xsimd](https://github.com/xtensor-stack/xsimd)
+   - [IHMC Open Robotics Software](https://github.com/ihmcrobotics/ihmc-open-robotics-software)
+   - **Arduino**
 
 <p align="center">
   <img src="/images/note2022.png" width="500"/>
