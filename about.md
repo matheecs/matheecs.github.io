@@ -62,6 +62,7 @@ layout: about
 - [Gill Pratt](https://scholar.google.com/citations?user=lvUyYroAAAAJ&hl=en)
 - [Stelian Coros](http://crl.ethz.ch/people/coros/index.html)
 - [Donghyun Kim](https://dhkim0821.github.io)
+- [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 
 ### Algorithm Tree
 
@@ -71,15 +72,19 @@ layout: about
    - [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)
    - [Pronto](https://github.com/ori-drs/pronto)
    - [MVStudio](https://github.com/LiangliangNan/MVStudio)
-     - [OpenMVG](https://github.com/openMVG/openMVG)
-     - [OpenMVS](https://github.com/cdcseacave/openMVS)
-     - [Multi-View Environment](https://github.com/simonfuhrmann/mve)
-     - [COLMAP](https://github.com/colmap/colmap)
+     - [Lectures🏫](https://3d.bk.tudelft.nl/courses/geo1016/lectures.html)
+   - [OpenMVG](https://github.com/openMVG/openMVG)
+   - [OpenMVS](https://github.com/cdcseacave/openMVS)
+   - [Multi-View Environment](https://github.com/simonfuhrmann/mve)
+   - [COLMAP](https://github.com/colmap/colmap)
 2. Perception
    - [Elevation Mapping CuPy](https://github.com/leggedrobotics/elevation_mapping_cupy)
    - [OpenVDB](https://www.openvdb.org)
    - [voxblox](https://github.com/ethz-asl/voxblox)
    - [nvblox](https://github.com/nvidia-isaac/nvblox)
+   - [Fast Plane Extraction](https://github.com/ai4ce/peac)
+   - [TEASER++](https://github.com/MIT-SPARK/TEASER-plusplus)
+   - [Open3D](https://github.com/isl-org/Open3D)
 3. Planning & Control (**Formulation**)
    - [Terrain Planner](https://github.com/leggedrobotics/art_planner)
    - [OMPL](https://ompl.kavrakilab.org)
@@ -113,6 +118,7 @@ layout: about
      - [scone-studio](https://github.com/tgeijten/scone-studio)
    - [OpenSim](https://simtk.org/projects/opensim)
    - [B-Human](https://github.com/bhuman/BHumanCodeRelease)
+   - [Taichi](https://github.com/taichi-dev/taichi)
 5. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [MeshCat](https://github.com/rdeits/meshcat-python)
