@@ -61,6 +61,7 @@ layout: about
 - [Alexander Winkler](http://alex-winkler.com)
 - [Gill Pratt](https://scholar.google.com/citations?user=lvUyYroAAAAJ&hl=en)
 - [Stelian Coros](http://crl.ethz.ch/people/coros/index.html)
+- [Donghyun Kim](https://dhkim0821.github.io)
 
 ### Algorithm Tree
 
