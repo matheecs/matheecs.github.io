@@ -63,6 +63,7 @@ layout: about
 - [Stelian Coros](http://crl.ethz.ch/people/coros/index.html)
 - [Donghyun Kim](https://dhkim0821.github.io)
 - [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
+- [Nicolò Valigi](https://nicolovaligi.com)
 
 ### Algorithm Tree
 
