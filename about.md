@@ -60,6 +60,7 @@ layout: about
 - [Christopher G. Atkeson](http://www.cs.cmu.edu/~cga/)
 - [Alexander Winkler](http://alex-winkler.com)
 - [Gill Pratt](https://scholar.google.com/citations?user=lvUyYroAAAAJ&hl=en)
+- [Stelian Coros](http://crl.ethz.ch/people/coros/index.html)
 
 ### Algorithm Tree
 
