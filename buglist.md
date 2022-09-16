@@ -3231,3 +3231,15 @@ Ref:
 
 - [FDUPES](https://github.com/adrianlopezroche/fdupes)
 - [find-dupes.awk](https://github.com/taltman/scripts/blob/master/unix_utils/find-dupes.awk)
+
+### View Image in CLI
+
+```bash
+brew install viu
+```
+
+### A code-searching tool
+
+```bash
+brew install the_silver_searcher
+```
