@@ -88,6 +88,8 @@ layout: about
    - [Open3D](https://github.com/isl-org/Open3D)
 3. Planning & Control (**Formulation**)
    - [Terrain Planner](https://github.com/leggedrobotics/art_planner)
+   - [flight](https://github.com/andybarry/flight)
+   - [ego-planner-swarm](https://github.com/ZJU-FAST-Lab/ego-planner-swarm)
    - [OMPL](https://ompl.kavrakilab.org)
    - [GCOPTER](https://github.com/ZJU-FAST-Lab/GCOPTER)
    - [**Cheetah-Software**](https://github.com/mit-biomimetics/Cheetah-Software)
