@@ -10,7 +10,7 @@ layout: about
   - Master, Control Science and Engineering, [XJTU](http://en.xjtu.edu.cn)
   - Student Exchange Program, [UWM](https://uwm.edu)
   - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
-- Research Interests: Perception, Planning and Control of Robotics
+- Research Interests: <mark style="background-color: green">Perception</mark>, <mark style="background-color: blue">Planning</mark> and <mark style="background-color: red">Control</mark> of <mark>Underactuated Robotics<mark/>
 
 ### Favorite Lectures
 
