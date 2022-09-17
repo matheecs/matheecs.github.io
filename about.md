@@ -127,6 +127,7 @@ layout: about
    - [OpenSim](https://simtk.org/projects/opensim)
    - [B-Human](https://github.com/bhuman/BHumanCodeRelease)
    - [Taichi](https://github.com/taichi-dev/taichi)
+   - Maya
 5. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [MeshCat](https://github.com/rdeits/meshcat-python)
