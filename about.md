@@ -96,16 +96,18 @@ layout: about
    - [**Cheetah-Software**](https://github.com/mit-biomimetics/Cheetah-Software)
      - [IHMC-Robotics](https://github.com/GabrielEGC/IHMC-Robotics)
    - [A1-QP-MPC-Controller](https://github.com/matheecs/A1-QP-MPC-Controller)
+   - [IHMC Open Robotics Software](https://github.com/ihmcrobotics/ihmc-open-robotics-software)
    - [OCS2](https://github.com/leggedrobotics/ocs2)
    - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
    - [towr](https://github.com/ethz-adrl/towr)
    - [Drake](https://github.com/RobotLocomotion/drake)
    - [Representation-Free MPC](https://github.com/YanranDing/RF-MPC)
    - [**IJRR_WBLC**](https://github.com/dhkim0821/IJRR_WBLC)
+     - [Video: Lecture on Whole Body Control](https://www.youtube.com/watch?v=RXT6Q96SRO4)
    - [BehaviorTree.CPP](https://github.com/BehaviorTree/BehaviorTree.CPP)
      - [**Sequential Composition**](https://matheecs.tech/study/2022/08/23/SC.html)
        - [Planning on Motion Primitive Graphs](https://www.youtube.com/watch?v=K3-xVWL08nk)
-       - [Verifying Safe Transitions between Dynamic Motion Primitives](https://www.youtube.com/watch?v=3vsk00a4XBg)
+       - [Motion Primitive Graphs](https://www.youtube.com/watch?v=3vsk00a4XBg)
      - [Subsumption Architecture](http://users.dimi.uniud.it/~antonio.dangelo/Robotica/2013/lessons/M02mar20.pdf)
      - State Machine
 4. Dynamics & Simulation (**Animation**)
@@ -130,7 +132,7 @@ layout: about
    - [MeshCat](https://github.com/rdeits/meshcat-python)
    - [Easy3D](https://github.com/LiangliangNan/Easy3D)
    - [ImGui](https://github.com/ocornut/imgui)
-6. Optimization
+6. *Numerical Optimization*
    - [SDLP](https://github.com/ZJU-FAST-Lab/SDLP)
    - [SDQP](https://github.com/ZJU-FAST-Lab/SDQP)
    - [LBFGS-Lite](https://github.com/ZJU-FAST-Lab/LBFGS-Lite)
@@ -141,10 +143,10 @@ layout: about
    - [GTSAM](https://github.com/borglab/gtsam)
    - [Ceres](https://github.com/ceres-solver/ceres-solver)
    - [g2o](https://github.com/RainerKuemmerle/g2o)
-7. Numerical Computation
+7. *Numerical Computation*
    - [NumPy](https://numpy.org)
    - [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page)
-8. Tools
+8. *Tools*
    - [ROS](https://github.com/ros/ros_comm)
      - [RossROS](https://github.com/rlhatton/RossROS)
    - [LCM](https://github.com/lcm-proj/lcm)
@@ -160,7 +162,6 @@ layout: about
    - [Timer](https://github.com/LiangliangNan/Timer)
    - [SIMD Everywhere](https://github.com/simd-everywhere/simde)
    - [xsimd](https://github.com/xtensor-stack/xsimd)
-   - [IHMC Open Robotics Software](https://github.com/ihmcrobotics/ihmc-open-robotics-software)
    - **Arduino**
 
 <p align="center">
