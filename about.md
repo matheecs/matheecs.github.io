@@ -21,6 +21,9 @@ layout: about
 - [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
 - [一生一芯](https://ysyx.oscc.cc)
 - [高性能并行编程与优化](https://github.com/parallel101/course)
+- [Underactuated Robotics](http://underactuated.mit.edu)
+- [Robotic Manipulation](https://manipulation.csail.mit.edu)
+- [机器人中的数值优化](https://www.shenlanxueyuan.com/course/531)
 
 ### Researchers
 
@@ -128,6 +131,8 @@ layout: about
    - [B-Human](https://github.com/bhuman/BHumanCodeRelease)
    - [Taichi](https://github.com/taichi-dev/taichi)
    - Maya
+   - [Blender](https://github.com/blender/blender)
+   - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
 5. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [MeshCat](https://github.com/rdeits/meshcat-python)

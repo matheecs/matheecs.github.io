@@ -12,3 +12,4 @@
 - solver
 - openwalk
 - support Ubuntu & OS
+- create animation editor for t.o.
