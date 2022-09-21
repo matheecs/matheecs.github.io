@@ -24,6 +24,7 @@ layout: about
 - [Underactuated Robotics](http://underactuated.mit.edu)
 - [Robotic Manipulation](https://manipulation.csail.mit.edu)
 - [机器人中的数值优化](https://www.shenlanxueyuan.com/course/531)
+- [Michigan Robotics Free Online Courses](https://robotics.umich.edu/academics/courses/online-courses/)
 
 ### Researchers
 
