@@ -119,6 +119,7 @@ layout: about
      - [Subsumption Architecture](http://users.dimi.uniud.it/~antonio.dangelo/Robotica/2013/lessons/M02mar20.pdf)
      - State Machine
    - [OpenRAVE](https://github.com/rdiankov/openrave)
+   - [mpc_controller](https://github.com/google-research/motion_imitation/tree/master/mpc_controller)
 4. Dynamics & Simulation (**Animation**)
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RBDL](https://github.com/rbdl/rbdl)
