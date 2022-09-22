@@ -118,6 +118,7 @@ layout: about
        - [Motion Primitive Graphs](https://www.youtube.com/watch?v=3vsk00a4XBg)
      - [Subsumption Architecture](http://users.dimi.uniud.it/~antonio.dangelo/Robotica/2013/lessons/M02mar20.pdf)
      - State Machine
+   - [OpenRAVE](https://github.com/rdiankov/openrave)
 4. Dynamics & Simulation (**Animation**)
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RBDL](https://github.com/rbdl/rbdl)
@@ -138,6 +139,7 @@ layout: about
    - Maya
    - [Blender](https://github.com/blender/blender)
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
+   - [mjbots quad](https://github.com/mjbots/quad)
 5. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [MeshCat](https://github.com/rdeits/meshcat-python)
@@ -174,7 +176,13 @@ layout: about
      - [SIMD Everywhere](https://github.com/simd-everywhere/simde)
      - [xsimd](https://github.com/xtensor-stack/xsimd)
      - [sse2neon](https://github.com/DLTcollab/sse2neon)
-   - **Arduino**
+   - Arduino
+     - [SimpleFOClibrary](https://github.com/simplefoc/Arduino-FOC)
+     - [freeRTOS](https://github.com/feilipu/Arduino_FreeRTOS_Library)
+   - STM32
+     - [motorcontrol](https://github.com/bgkatz/motorcontrol) & STM32CubeIDE
+     - [ODrive](https://github.com/odriverobotics/ODrive)
+     - [moteus brushless servo](https://github.com/mjbots/moteus)
 
 <p align="center">
   <img src="/images/note2022.png" width="500"/>

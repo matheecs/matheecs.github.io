@@ -13,5 +13,6 @@ Tech Mana
   - bad comm api
     - delay, solution: Delay-aware Robust Control for Safe Autonomous Driving
     - remote devel use teamv.
+    - control api (leg od)
   - wo sdk
   - wo rules

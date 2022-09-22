@@ -1981,7 +1981,7 @@ References:
 
 ### 惯性张量的一个必要条件
 
-```txt
+```text
 The PRINCIPAL moments of inertia for that body about Bcm are:
 [Imin = 0.0004078925; Imedium = 0.001790823; Imax = 0.002295285]
 Real physical bodies require the "triangle-inequality" Imax <= Imin + Imed.
@@ -3242,4 +3242,33 @@ brew install viu
 
 ```bash
 brew install the_silver_searcher
+```
+
+### STM32CubeIDE 安装报错(文件损坏)
+
+```bash
+xattr -c /Applications/STM32CubeIDE.app
+```
+
+### LCM 局域网通信
+
+```c++
+lcm::LCM lcm("udpm://239.255.76.67:7667?ttl=255");
+```
+
+Cite: [UDP Multicast Setup](https://lcm-proj.github.io/multicast_setup.html)
+
+### Header files for x86 SIMD intrinsics
+
+```text
+<mmintrin.h>  MMX
+<xmmintrin.h> SSE
+<emmintrin.h> SSE2
+<pmmintrin.h> SSE3
+<tmmintrin.h> SSSE3
+<smmintrin.h> SSE4.1
+<nmmintrin.h> SSE4.2
+<ammintrin.h> SSE4A
+<wmmintrin.h> AES
+<immintrin.h> AVX, AVX2, FMA
 ```
