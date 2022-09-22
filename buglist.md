@@ -9,6 +9,7 @@ author: "Jixiang Zhang"
 
 * toc
 {:toc}
+
 ------
 
 ### 参数取值范围错误
@@ -17,7 +18,7 @@ author: "Jixiang Zhang"
 
 使用 CLion，强烈推荐，比 Qt Creator 好用。调试终止在 solvePnPRansac 函数：
 
-```shell
+```bash
 OpenCV Error: Assertion failed (confidence > 0 && confidence < 1) in run, file /Users/zhangjixiang/Downloads/opencv-3.3.1/modules/calib3d/src/ptsetreg.cpp, line 178`
 `libc++abi.dylib: terminating with uncaught exception of type cv::Exception: /Users/zhangjixiang/Downloads/opencv-3.3.1/modules/calib3d/src/ptsetreg.cpp:178: error: (-215) confidence > 0 && confidence < 1 in function run
 ```
@@ -35,9 +36,8 @@ cv::solvePnPRansac( pts_obj, pts_img, cameraMatrix, cv::Mat(), rvec, tvec, false
 ```c++
 cv::solvePnPRansac( pts_obj, pts_img, cameraMatrix, cv::Mat(), rvec, tvec, false, 100, 1.0, 0.99, inliers );
 ```
-可正常运行。
 
-------
+可正常运行。
 
 ### 多余的括号
 
@@ -46,17 +46,19 @@ Bug来源：多余的括号
 ```c++
 string value = str.substr((pos+1, str.length()));
 ```
+
 运行时错误：
 
-```shell
+```text
 OpenCV Error: Assertion failed (npoints >= 4 && npoints == std::max(ipoints.checkVector(2, 5), ipoints.checkVector(2, 6))) in solvePnPRansac, file /Users/zhangjixiang/Downloads/opencv-3.3.1/modules/calib3d/src/solvepnp.cpp, line 252
 libc++abi.dylib: terminating with uncaught exception of type cv::Exception: /Users/zhangjixiang/Downloads/opencv-3.3.1/modules/calib3d/src/solvepnp.cpp:252: error: (-215) npoints >= 4 && npoints == std::max(ipoints.checkVector(2, 5), ipoints.checkVector(2, 6)) in function solvePnPRansac
 ```
+
 程序可修改为：
+
 ```c++
 string value = str.substr(pos+1, str.length());
 ```
-------
 
 ### macOS 线程与 UI
 
@@ -73,27 +75,26 @@ while(!viewer.wasStopped())
 
 运行时出错提示：
 
-```shell
+```text
 2018-01-31 19:30:31.598 joinPointCloud[57826:4712504] *** Assertion failure in +[NSUndoManager _endTopLevelGroupings], /BuildRoot/Library/Caches/com.apple.xbs/Sources/Foundation/Foundation-1450.16/Foundation/Misc.subproj/NSUndoManager.m:361
 2018-01-31 19:30:31.599 joinPointCloud[57826:4712504] *** Terminating app due to uncaught exception 'NSInternalInconsistencyException', reason: '+[NSUndoManager(NSInternal) _endTopLevelGroupings] is only safe to invoke on the main thread.'
 *** First throw call stack:
 (
-	0   CoreFoundation                      0x00007fff551cc00b __exceptionPreprocess + 171
-	1   libobjc.A.dylib                     0x00007fff7be59c76 objc_exception_throw + 48
-	2   CoreFoundation                      0x00007fff551d1da2 +[NSException raise:format:arguments:] + 98
-	3   Foundation                          0x00007fff572de260 -[NSAssertionHandler handleFailureInMethod:object:file:lineNumber:description:] + 193
-	4   Foundation                          0x00007fff5726cdb4 +[NSUndoManager(NSPrivate) _endTopLevelGroupings] + 469
-	5   AppKit                              0x00007fff5271de56 -[NSApplication run] + 997
-	6   libpcl_visualization.1.8.dylib      0x0000000105611c50 _ZN3pcl13visualization13PCLVisualizer8spinOnceEib + 318
-	7   libpcl_visualization.1.8.dylib      0x00000001056323a1 _ZN3pcl13visualization11CloudViewer16CloudViewer_implclEv + 699
-	8   libboost_thread-mt.dylib            0x00000001017902ac _ZN5boost12_GLOBAL__N_1L12thread_proxyEPv + 156
-	9   libsystem_pthread.dylib             0x00007fff7ccd46c1 _pthread_body + 340
-	10  libsystem_pthread.dylib             0x00007fff7ccd456d _pthread_body + 0
-	11  libsystem_pthread.dylib             0x00007fff7ccd3c5d thread_start + 13
+ 0   CoreFoundation                      0x00007fff551cc00b __exceptionPreprocess + 171
+ 1   libobjc.A.dylib                     0x00007fff7be59c76 objc_exception_throw + 48
+ 2   CoreFoundation                      0x00007fff551d1da2 +[NSException raise:format:arguments:] + 98
+ 3   Foundation                          0x00007fff572de260 -[NSAssertionHandler handleFailureInMethod:object:file:lineNumber:description:] + 193
+ 4   Foundation                          0x00007fff5726cdb4 +[NSUndoManager(NSPrivate) _endTopLevelGroupings] + 469
+ 5   AppKit                              0x00007fff5271de56 -[NSApplication run] + 997
+ 6   libpcl_visualization.1.8.dylib      0x0000000105611c50 _ZN3pcl13visualization13PCLVisualizer8spinOnceEib + 318
+ 7   libpcl_visualization.1.8.dylib      0x00000001056323a1 _ZN3pcl13visualization11CloudViewer16CloudViewer_implclEv + 699
+ 8   libboost_thread-mt.dylib            0x00000001017902ac _ZN5boost12_GLOBAL__N_1L12thread_proxyEPv + 156
+ 9   libsystem_pthread.dylib             0x00007fff7ccd46c1 _pthread_body + 340
+ 10  libsystem_pthread.dylib             0x00007fff7ccd456d _pthread_body + 0
+ 11  libsystem_pthread.dylib             0x00007fff7ccd3c5d thread_start + 13
 )
 libc++abi.dylib: terminating with uncaught exception of type NSException
 ```
-
 
 解决方法：用[PCLVisualizer](http://pointclouds.org/documentation/tutorials/pcl_visualizer.php)代替CloudViewer
 
@@ -104,9 +105,10 @@ pcl::visualization::PCLVisualizer viewer("viewer");
 viewer.addPointCloud<pcl::PointXYZRGBA>(output);
 while(!viewer.wasStopped())
 {
-	viewer.spinOnce();
+ viewer.spinOnce();
 }
 ```
+
 类似的错误同样发生在**ORB_SLAM2**
 
 ```c++
@@ -115,10 +117,8 @@ auto resultFuture = async(launch::async, processing, argv, &SLAM);
 
 异常原因：
 
-- 线程**Thread**
-- UI
-
-------
+* 线程**Thread**
+* UI
 
 ### PCL 显示问题
 
@@ -128,7 +128,7 @@ auto resultFuture = async(launch::async, processing, argv, &SLAM);
 pcl::visualization::CloudViewer viewer("viewer");
 ...
 if ( visualize == true )
-	viewer.showCloud( cloud );
+ viewer.showCloud( cloud );
 ```
 
 解决方法：用[PCLVisualizer](http://pointclouds.org/documentation/tutorials/pcl_visualizer.php)代替CloudViewer
@@ -140,19 +140,20 @@ pcl::visualization::PCLVisualizer viewer("viewer");
 ...
 if ( visualize == true )
 {
-	viewer.removeAllPointClouds();
-	viewer.addPointCloud( cloud, "hello");
-	viewer.updatePointCloud( cloud, "hello" );
-	viewer.spinOnce(0.0000000000001);
+ viewer.removeAllPointClouds();
+ viewer.addPointCloud( cloud, "hello");
+ viewer.updatePointCloud( cloud, "hello" );
+ viewer.spinOnce(0.0000000000001);
 }
 ```
 
 附赠一个bug：漏写函数返回值，运行时异常停止，提示函数的参数错误：
 
-```shell
+```text
 OpenCV Error: Assertion failed (npoints >= 4 && npoints == std::max(ipoints.checkVector(2, 5), ipoints.checkVector(2, 6))) in solvePnPRansac, file /Users/zhangjixiang/Downloads/opencv-3.3.1/modules/calib3d/src/solvepnp.cpp, line 252
 libc++abi.dylib: terminating with uncaught exception of type cv::Exception: /Users/zhangjixiang/Downloads/opencv-3.3.1/modules/calib3d/src/solvepnp.cpp:252: error: (-215) npoints >= 4 && npoints == std::max(ipoints.checkVector(2, 5), ipoints.checkVector(2, 6)) in function solvePnPRansac
 ```
+
 修改建议：
 
 ```c++
@@ -168,46 +169,39 @@ inline static CAMERA_INTRINSIC_PARAMETERS getDefaultCamera()
     return camera;// Bug
 }
 ```
-------
 
 ### 用好调试器 lldb/gdb
 
 CLion IDE 优点和缺点一样明显：
 
-- 代码补全
-- 支持CMake
-- 跳转
-- 方便代码查看
-- 慢，不能容忍！
-
+* 代码补全
+* 支持CMake
+* 跳转
+* 方便代码查看
+* 慢，不能容忍！
 
 故提出替代方案：**CMake + GCC + LLDB + Sublime Text**
 
 替代方案的优点：
 
-- 快，爽！
-- 灵活
-- 支持基本调试功能
+* 快，爽！
+* 灵活
+* 支持基本调试功能
 
 IDE 不过是偷偷地帮你调用了 GCC，LLDB……
 
 调试方法
 
-```shell
-
+```bash
 $ gdb ./my_program          # Start GDB on your program
 > run                       # Start running your program
 ...                         # Now reproduce the crash!
 > bt                        # Obtain the backtrace
 ```
 
-
-
 资料与参考文献：
 
 1. [The LLDB Debugger](http://lldb.llvm.org/lldb-gdb.html)
-
-------
 
 ### 编译器优化
 
@@ -220,7 +214,7 @@ set( CMAKE_CXX_FLAGS "-std=c++11 -march=native -O3" )
 
 导致运行时错误
 
-```shell
+```text
 Assertion failed: (( ((internal::UIntPtr(m_data) % internal::traits<Derived>::Alignment) == 0) || (cols() * rows() * innerStride() * sizeof(Scalar)) < internal::traits<Derived>::Alignment ) && "data is not aligned"), function checkSanity, file /usr/local/include/eigen3/Eigen/src/Core/MapBase.h, line 191.
 ```
 
@@ -235,7 +229,7 @@ set( CMAKE_CXX_FLAGS "-std=c++11" )
 
 但运行终止于
 
-```shell
+```text
 ****** loop 347 ******
 extract keypoints cost time: 0.008442
 descriptor computation cost time: 0.008491
@@ -288,15 +282,15 @@ if ( match_2dkp_index_.size() < 200 )
 \usepackage{listings}
 \usepackage{xcolor}
 \lstset{
-%	numbers=left,
-	numberstyle= \tiny,
-	keywordstyle= \color{ blue!70},
-	commentstyle= \color{red!50!green!50!blue!50},
-	frame=shadowbox, % 阴影效果
-	rulesepcolor= \color{ red!20!green!20!blue!20} ,
-	escapeinside=``, % 英文分号中可写入中文
-%	xleftmargin=2em,xrightmargin=2em, aboveskip=1em,
-%	framexleftmargin=2em
+% numbers=left,
+ numberstyle= \tiny,
+ keywordstyle= \color{ blue!70},
+ commentstyle= \color{red!50!green!50!blue!50},
+ frame=shadowbox, % 阴影效果
+ rulesepcolor= \color{ red!20!green!20!blue!20} ,
+ escapeinside=``, % 英文分号中可写入中文
+% xleftmargin=2em,xrightmargin=2em, aboveskip=1em,
+% framexleftmargin=2em
 }
 ...
 \begin{lstlisting}
@@ -411,8 +405,6 @@ a_{y}&=K_{A}\theta_{y}+K_{AV}\dot{\theta}_{y}+K_{T}(y-y_{0})+K_{V}v_{y}
 {}^{e}\dot{p}
 ```
 
-
-
 ### 计算运行时间(单线程)
 
 ```c++
@@ -457,8 +449,6 @@ FPGA重新学习需要时间，但不想在硬件上面花太多时间，还是�
 
 每一个领域（双目视觉）都是坑，一不小心就跳下去出不来了～
 
-
-
 ### 思索 SLAM 的真正目的
 
 1. 生成高精度地图
@@ -473,7 +463,7 @@ FPGA重新学习需要时间，但不想在硬件上面花太多时间，还是�
 
 树莓派需要先修改**软件源**、安装**依赖库**。
 
-```shell
+```bash
 $ cmake \
 -DCMAKE_BUILD_TYPE=RELEASE \
 -DCMAKE_INSTALL_PREFIX=/usr/local \
@@ -491,16 +481,16 @@ $ sudo make install
 
 ### C++11/17 编译命令
 
-```shell
-$ clang++ -std=c++11 edX.cpp
-$ clang++ -std=c++17 edX.cpp
+```bash
+clang++ -std=c++11 edX.cpp
+clang++ -std=c++17 edX.cpp
 ```
 
 ### Valgrind安装(macOS High Sierra)
 
-```shell
+```bash
 $ brew edit valgrind
-	'https://sourceware.org/git/valgrind.git'->'git://sourceware.org/git/valgrind.git'
+ 'https://sourceware.org/git/valgrind.git'->'git://sourceware.org/git/valgrind.git'
 $ brew update
 $ brew install --HEAD valgrind
 ```
@@ -509,9 +499,9 @@ $ brew install --HEAD valgrind
 
 使用方法
 
-```shell
-$ gcc main.cpp -g
-$ valgrind --tool=memcheck --leak-check=full --show-reachable=yes ./a.out
+```bash
+gcc main.cpp -g
+valgrind --tool=memcheck --leak-check=full --show-reachable=yes ./a.out
 ```
 
 ### libcreate安装(macOS)
@@ -536,13 +526,13 @@ tcflush(port.lowest_layer().native_handle(), TCIFLUSH);
 
 否则提示错误
 
-```shell
+```text
 error: no member named 'cout' in namespace 'std'
 ```
 
 ### Google Test安装
 
-```shell
+```bash
 make
 make install
 ```
@@ -556,8 +546,6 @@ make install
 > Any standard USB adapter (such as a cell phone wall charger) with at least 2A of current can be used as a power supply for the LattePanda.
 
 [LattePanda](http://docs.lattepanda.com)
-
-
 
 ### Pixhawk 创建 App
 
@@ -678,19 +666,19 @@ int main(int argc, char const *argv[]) {
 
 ### 在 macOS 上安装 TensorFlow
 
-```shell
-$ pip install tensorflow      # Python 2.7; CPU support
+```bash
+pip install tensorflow      # Python 2.7; CPU support
 ```
 
-### Host key verification failed...
+### Host key verification failed
 
-```shell
-$ ssh-keygen -R hostname
+```bash
+ssh-keygen -R hostname
 ```
 
 ### 禁用 Win10 驱动签名
 
-```
+```text
 点击通知，找到并进入“所有设置”
 在所有设置中找到并进入“更新和安全”
 找到恢复，点击“高级启动”下的“立即重启”，重启电脑
@@ -703,8 +691,8 @@ $ ssh-keygen -R hostname
 
 ### 用pandoc实现LaTeX转Word
 
-```shell
-$ pandoc -s document.tex -o word.docx
+```bash
+pandoc -s document.tex -o word.docx
 ```
 
 ### LaTeX导入pdf文档
@@ -717,7 +705,7 @@ $ pandoc -s document.tex -o word.docx
 
 ### 树莓派软件源配置
 
-```shell
+```bash
 $ sudo nano /etc/apt/sources.list
 
 deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-free contrib
@@ -726,16 +714,16 @@ deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ stretch main non-
 
 ### Raspbian Lite to Raspbian PIXEL
 
-```shell
-$ sudo apt-get install --no-install-recommends xserver-xorg
-$ sudo apt-get install --no-install-recommends xinit
-$ sudo apt-get install raspberrypi-ui-mods
-$ sudo apt-get install lightdm
+```bash
+sudo apt-get install --no-install-recommends xserver-xorg
+sudo apt-get install --no-install-recommends xinit
+sudo apt-get install raspberrypi-ui-mods
+sudo apt-get install lightdm
 ```
 
 ### 修改树莓派swap分区大小
 
-```shell
+```bash
 $ sudo vim /etc/dphys-swapfile
 ...
 修改 CONF_SWAPSIZE=2048
@@ -748,38 +736,32 @@ $ sudo /etc/init.d/dphys-swapfile restart
 相机设备 /dev/video0
 
 ```
-$ sudo modprobe bcm2835-v4l2
+sudo modprobe bcm2835-v4l2
 ```
-
-
 
 ### 图像窗口打开后马上关闭
 
 ```c++
 if ( (char) cv::waitKey(33) >= 0 )
-			break;
+   break;
 
 修改为：
 
 if ( cv::waitKey(33) >= 0 )
-			break;
+   break;
 ```
 
 掌握 gdb 单步调试
-
-
 
 ### 打开swf文件
 
 ```html
 <html>
-	<body>
-		<embed src="/Users/zhangjixiang/Downloads/dirtran_mintime_double_integrator_fine.swf" width="100%" height="100%"></embed>
-	</body>
+ <body>
+  <embed src="/Users/zhangjixiang/Downloads/dirtran_mintime_double_integrator_fine.swf" width="100%" height="100%"></embed>
+ </body>
 </html>
 ```
-
-
 
 ### Flask + Arduino Web应用程序
 
@@ -794,25 +776,23 @@ ser = serial.Serial('/dev/tty.usbmodem1411', 9600, timeout=1)
 
 @app.route("/", methods = ['POST', 'GET'])
 def hello():
-	if request.method == 'POST':
-		print request.form['submit']
-		# ser = serial.Serial('/dev/tty.usbmodem1411', 9600, timeout=1)
-		if request.form['submit'] == 'ON':
-			print '1'
-			ser.write(b'1')
-		elif request.form['submit'] == 'OFF':
-			print '0'
-			ser.write(b'0')
-		else:
-			pass # unknown
-	return '<form action="/" method="POST"><input type="submit" name="submit" value="ON"><input type="submit" name="submit" value="OFF"></form>'
+ if request.method == 'POST':
+  print request.form['submit']
+  # ser = serial.Serial('/dev/tty.usbmodem1411', 9600, timeout=1)
+  if request.form['submit'] == 'ON':
+   print '1'
+   ser.write(b'1')
+  elif request.form['submit'] == 'OFF':
+   print '0'
+   ser.write(b'0')
+  else:
+   pass # unknown
+ return '<form action="/" method="POST"><input type="submit" name="submit" value="ON"><input type="submit" name="submit" value="OFF"></form>'
 
 if __name__ == "__main__":
-	# app.run()
-	app.run(host='0.0.0.0')
+ # app.run()
+ app.run(host='0.0.0.0')
 ```
-
-
 
 ### Arduino串口测试程序
 
@@ -860,14 +840,12 @@ except Exception as e:
 
 SFTP = SSH File Transfer Protocol
 
-
-
 ### 打开Ubuntu SSH
 
 ```bash
-$ sudo apt-get update
-$ sudo apt-get install openssh-server
-$ sudo ufw allow 22
+sudo apt-get update
+sudo apt-get install openssh-server
+sudo ufw allow 22
 ```
 
 ### LaTeX 格式转换 Markdown
@@ -893,7 +871,7 @@ Solution：输入`c`，然后回车执行
 ### ImportError in system pip wrappers after an upgrade
 
 ```bash
-$ python -m pip uninstall pip
+python -m pip uninstall pip
 ```
 
 ### How do you calculate program run time in python?
@@ -908,10 +886,10 @@ stop = timeit.default_timer()
 print('Time: ', stop - start)
 ```
 
-### WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
+### WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED
 
 ```bash
-$ ssh-keygen -R <host>
+ssh-keygen -R <host>
 ```
 
 ### Catch a Ctrl-C Event (C++)
@@ -951,34 +929,34 @@ ss 偏好设置->HTTP->HTTP代理监听地址->修改为`0.0.0.0`。
 ### Ubuntu创建sudo用户
 
 ```bash
-$ sudo adduser username
-$ usermod -aG sudo username
-$ su - username
+sudo adduser username
+usermod -aG sudo username
+su - username
 ```
 
 ### ROS生成msg/srv/action后编译package
 
 ```bash
-$ catkin_make messages_generate_messages
-$ catkin_make
+catkin_make messages_generate_messages
+catkin_make
 ```
 
 ### Ubuntu系统下查看OpenCV版本
 
 ```bash
-$ dpkg -l | grep libopencv
+dpkg -l | grep libopencv
 ```
 
 ### 查看CUDA版本
 
 ```bash
-$ nvcc --version
+nvcc --version
 ```
 
 ### 查看CuDNN版本
 
 ```bash
-$ cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
+cat /usr/local/cuda/include/cudnn.h | grep CUDNN_MAJOR -A 2
 ```
 
 ### 使用pkg-config
@@ -1092,7 +1070,7 @@ int main ()
 
 ### Latency Numbers Every Programmer Should Know
 
-```
+```text
 Latency Comparison Numbers (~2012)
 ----------------------------------
 L1 cache reference                           0.5 ns
@@ -1153,8 +1131,8 @@ SymPy is a Python library for symbolic mathematics. It aims to become a full-fea
 ### Keynote 中插入高亮代码
 
 ```bash
-$ brew install highlight
-$ pbpaste | highlight --syntax=c++ -K 17 -u "utf-8" -t 2 -n -O rtf | pbcopy
+brew install highlight
+pbpaste | highlight --syntax=c++ -K 17 -u "utf-8" -t 2 -n -O rtf | pbcopy
 ```
 
 ### macOS 终端报错 ValueError: unknown locale: UTF-8
@@ -1195,9 +1173,9 @@ Solution：保留`/etc/apt/sources.list`默认配置，不要覆盖原有内容
 ### Ubuntu安装中文字体解决PDF文档无法显示
 
 ```bash
-$ sudo apt-get install language-pack-zh*
-$ sudo apt-get install chinese*
-$ sudo apt-get install fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core
+sudo apt-get install language-pack-zh*
+sudo apt-get install chinese*
+sudo apt-get install fonts-arphic-ukai fonts-arphic-uming fonts-ipafont-mincho fonts-ipafont-gothic fonts-unfonts-core
 ```
 
 ### 采用Homebrew国内源
@@ -1231,8 +1209,8 @@ macOS Catalina 开始默认采用 zsh，配合 [Oh My Zsh](https://github.com/ro
 ### 用终端命令烧录树莓派镜像
 
 ```bash
-$ sudo diskutil umount /dev/disk2s1
-$ sudo dd bs=8m if=./2019-09-26-raspbian-buster-full.img of=/dev/rdisk2
+sudo diskutil umount /dev/disk2s1
+sudo dd bs=8m if=./2019-09-26-raspbian-buster-full.img of=/dev/rdisk2
 ```
 
 ### pip3使用国内源
@@ -1259,17 +1237,17 @@ conda deactivate
 
 ### 树莓派3b+安装Ubuntu MATE 16.04后出现彩虹屏无法联网？
 
-### 安装ROS软件包出错提示 The following packages have unmet dependencies: ros-kinetic-...
+### 安装ROS软件包出错提示 The following packages have unmet dependencies: ros-kinetic-
 
 修改软件源配置文件
 
 ```bash
-$ sudo gedit /etc/apt/sources.list
+sudo gedit /etc/apt/sources.list
 ```
 
 参考
 
-```
+```text
 # deb cdrom:[Ubuntu 16.04.2 LTS _Xenial Xerus_ - Release amd64 (20170215.2)]/ xenial main restricted
 
 # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
@@ -1326,18 +1304,19 @@ deb http://security.ubuntu.com/ubuntu xenial-security multiverse
 最后更新
 
 ```bash
-$ sudo apt-get update
+sudo apt-get update
 ```
 
 ### 解决macOS 10.15 软件提示损坏/无法验证开发者等问题
 
-```shell
-$ sudo spctl --master-disable
+```bash
+sudo spctl --master-disable
 
-$ sudo xattr -r -d com.apple.quarantine /XXX/XXX.app/
+sudo xattr -r -d com.apple.quarantine /XXX/XXX.app/
 ```
 
 ### 如何安装 GTest
+
 ```bash
 git clone https://github.com/google/googletest
 cd googletest
@@ -1349,6 +1328,7 @@ make install
 ```
 
 ### 如何卸载 Java 8
+
 ```bash
 sudo rm -rf /Library/Java/JavaVirtualMachines/jdk<version>.jdk
 
@@ -1361,20 +1341,26 @@ sudo rm -rf /Library/Preferences/com.oracle.java.Helper-Tool.plist
 ```
 
 ### 视频转 GIF 动图
+
 安装软件
+
 ```bash
-$ brew install ffmpeg
-$ brew cask install xquartz #dependency for gifsicle, only required for mountain-lion and above
-$ open /usr/local/Caskroom/xquartz/2.7.11/XQuartz.pkg
-$ brew install gifsicle
+brew install ffmpeg
+brew cask install xquartz #dependency for gifsicle, only required for mountain-lion and above
+open /usr/local/Caskroom/xquartz/2.7.11/XQuartz.pkg
+brew install gifsicle
 ```
+
 生成GIF
+
 ```bash
-$ ffmpeg -i in.mov -s 600x400 -pix_fmt rgb24 -r 10 -f gif - | gifsicle --optimize=3 --delay=3 > out.gif
+ffmpeg -i in.mov -s 600x400 -pix_fmt rgb24 -r 10 -f gif - | gifsicle --optimize=3 --delay=3 > out.gif
 ```
+
 参考：[OS X Screencast to animated GIF](https://gist.github.com/dergachev/4627207)
 
 ### 安装字体解决 LaTeX 编译错误
+
 SimHei 和 SimSun 可以从 Word 软件中导出安装到 macOS 系统。Word 中自带字体的路径：
 
 ```bash
@@ -1382,13 +1368,15 @@ SimHei 和 SimSun 可以从 Word 软件中导出安装到 macOS 系统。Word �
 ```
 
 ### 配置 LaTeX + VS Code 环境
+
 [Configure Visual Stuido Code as LaTeX IDE](http://ddswhu.me/posts/2018-04/vs-code-for-latex/)
 
 ### 腾讯云域名绑定GitHub博客
+
 腾讯云域名解析配置：
 ![域名解析](https://tvax4.sinaimg.cn/large/d494c514ly1gcj5t561jfj20v006gaan.jpg)
 
-- [GitHub Pages域名绑定](https://blog.csdn.net/FlowerDance17/article/details/80685112)
+* [GitHub Pages域名绑定](https://blog.csdn.net/FlowerDance17/article/details/80685112)
 
 ### MacBook开发iOS应用真机调试无需开发者账号
 
@@ -1399,8 +1387,8 @@ Note that you may have to update "Team" to your own account (General Tab -> Sign
 1. **Team**: `xxxxxx (Personal Team)`
 2. **Bundle Identifier**: `xxxxxx.matheecs`
 
-- [A Swift Tour](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html)
-- [6.808 Lab 1: Location](https://6808.github.io/labs/lab1)
+* [A Swift Tour](https://docs.swift.org/swift-book/GuidedTour/GuidedTour.html)
+* [6.808 Lab 1: Location](https://6808.github.io/labs/lab1)
 
 ### 如何学习开源项目
 
@@ -1412,17 +1400,17 @@ Note that you may have to update "Team" to your own account (General Tab -> Sign
 
 ### OmniGraffle 学习资料
 
-- [OmniGraffle 基础入门](https://sspai.com/post/41950)
-- [B站: OmniGraffle入门教程](https://www.bilibili.com/video/av34797088)
-- [B站: Omnigraffle Tutorials 官方视频](https://www.bilibili.com/video/av23768665)
-- [官方英文手册7.11](https://support.omnigroup.com/documentation/omnigraffle/mac/7.11/en/)
-- [官方中文手册6.3](https://support.omnigroup.com/documentation/omnigraffle/mac/6.3/zh/)
-- [Stenciltown 模版库](https://stenciltown.omnigroup.com/)
+* [OmniGraffle 基础入门](https://sspai.com/post/41950)
+* [B站: OmniGraffle入门教程](https://www.bilibili.com/video/av34797088)
+* [B站: Omnigraffle Tutorials 官方视频](https://www.bilibili.com/video/av23768665)
+* [官方英文手册7.11](https://support.omnigroup.com/documentation/omnigraffle/mac/7.11/en/)
+* [官方中文手册6.3](https://support.omnigroup.com/documentation/omnigraffle/mac/6.3/zh/)
+* [Stenciltown 模版库](https://stenciltown.omnigroup.com/)
 
 ### Rhino 学习资料
 
-- [B站: Learning Rhino for Mac](https://www.bilibili.com/video/av43009297)
-- [官方手册](http://docs.mcneel.com/rhino/6mac/usersguide/en-us/index.htm#html/ch-01_introduction.htm%3FTocPath%3D_____1)
+* [B站: Learning Rhino for Mac](https://www.bilibili.com/video/av43009297)
+* [官方手册](http://docs.mcneel.com/rhino/6mac/usersguide/en-us/index.htm#html/ch-01_introduction.htm%3FTocPath%3D_____1)
 
 ### Git 底层原理
 
@@ -1437,8 +1425,8 @@ Note that you may have to update "Team" to your own account (General Tab -> Sign
 ### macOS 10.15 Catalina xxx.app已损坏，无法打开
 
 ```bash
-$ sudo spctl --master-disable
-$ sudo xattr -rd com.apple.quarantine /Applications/xxxxxx.app
+sudo spctl --master-disable
+sudo xattr -rd com.apple.quarantine /Applications/xxxxxx.app
 ```
 
 ### 如何用 GitHub 贡献代码
@@ -1451,9 +1439,9 @@ $ sudo xattr -rd com.apple.quarantine /Applications/xxxxxx.app
 ### Install gitk on Mac
 
 ```bash
-$ brew update
-$ brew install git
-$ brew install git-gui
+brew update
+brew install git
+brew install git-gui
 ```
 
 ### SQ4R学习方法
@@ -1466,10 +1454,10 @@ SQ4R = SURVEY + QUESTION + READ + RECITE + WRITE + REVIEW
 
 ### 英语口语发音技巧
 
-- 连读
-- 省略
-  - `t`, `d`, `and`→`n`
-- 重读
+* 连读
+* 省略
+  * `t`, `d`, `and`→`n`
+* 重读
 
 ![IMG_7827](https://tvax3.sinaimg.cn/large/d494c514ly1gcvnepcdw6j20p00m2whc.jpg)
 
@@ -1502,7 +1490,7 @@ SQ4R = SURVEY + QUESTION + READ + RECITE + WRITE + REVIEW
 > pip3 always operates on the Python3 environment only, as pip2 does with Python2. pip operates on whichever environment is appropriate to the context. For example if you are in a Python3 venv, pip will operate on the Python3 environment
 
 ```bash
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### FAT, ExFAT, NTFS 格式
@@ -1510,46 +1498,49 @@ $ pip install -r requirements.txt
 安卓系统默认只能识别 FAT 和 NTFS 格式，但是 macOS 不支持 NTFS 格式，需要安装软件（比如 Paragon NTFS for Mac）。FAT 要求每个文件大小不能超过 4G！
 
 ### Ignore formula on brew upgrade
+
 ```bash
-$ brew pin <formula>
+brew pin <formula>
 ```
+
 反之：
+
 ```bash
-$ brew unpin <formula>
+brew unpin <formula>
 ```
 
-### 高版本 OpenCV (> 3.4.2.16) 不提供 SIFT 功能!
+### 高版本 OpenCV (> 3.4.2.16) 不提供 SIFT 功能
 
 ```bash
-$ python -m pip install opencv-python==3.4.2.16
-$ python -m pip install opencv-contrib-python==3.4.2.16
+python -m pip install opencv-python==3.4.2.16
+python -m pip install opencv-contrib-python==3.4.2.16
 ```
 
 ### macOS 深度清理
 
-- [跟着这份清理教程，帮你的 Mac 腾出更多储存空间](https://sspai.com/post/44012)
-- [Keeping macOS clean: this is my osx/brew/… update CLI command](https://medium.com/@waxzce/keeping-macos-clean-this-is-my-osx-brew-update-cli-command-6c8f12dc1731)
-- 一款好用又免费的辅助清理软件：OmniDiskSweeper
+* [跟着这份清理教程，帮你的 Mac 腾出更多储存空间](https://sspai.com/post/44012)
+* [Keeping macOS clean: this is my osx/brew/… update CLI command](https://medium.com/@waxzce/keeping-macos-clean-this-is-my-osx-brew-update-cli-command-6c8f12dc1731)
+* 一款好用又免费的辅助清理软件：OmniDiskSweeper
 
 ### 终端的代理设置
 
 ```bash
-$ export http_proxy="http://127.0.0.1:8001"
-$ export https_proxy="http://127.0.0.1:8001"
+export http_proxy="http://127.0.0.1:8001"
+export https_proxy="http://127.0.0.1:8001"
 ```
 
 用类似的方法加速 `$ git clone ...`
 
 ```bash
-$ git config --global http.proxy 'socks5://127.0.0.1:1080'
-$ git config --global https.proxy 'socks5://127.0.0.1:1080'
+git config --global http.proxy 'socks5://127.0.0.1:1080'
+git config --global https.proxy 'socks5://127.0.0.1:1080'
 ```
 
 取消用
 
 ```bash
-$ git config --global --unset http.proxy
-$ git config --global --unset https.proxy
+git config --global --unset http.proxy
+git config --global --unset https.proxy
 ```
 
 ### FileZilla 传文件居然会改变文件的大小
@@ -1565,25 +1556,29 @@ $ git config --global --unset https.proxy
 解决方案：先点击 R2020a，再打开任意软件的界面，让 R2020a 在“后台”启动
 
 ### 使用 ROS 的 PCL 库
+
 ```
 set(PCL_DIR "/usr/lib/x86_64-linux-gnu/cmake/pcl")   #该路径中存放*.cmake文件
 find_package(PCL 1.7 REQUIRED)
 ```
 
 ### macOS Catalina 用 brew 安装 Python
+
 Homebrew provides a formula for Python 3.x (python@3.x). The executables are organised as follows:
 
-- `python3` points to Homebrew’s Python 3.x (if installed)
-- `pip3` points to Homebrew’s Python 3.x’s pip (if installed)
+* `python3` points to Homebrew’s Python 3.x (if installed)
+* `pip3` points to Homebrew’s Python 3.x’s pip (if installed)
 
 ### 卸载 CMAKE 安装的软件
+
 ```bash
-$ cat install_manifest.txt | sudo xargs rm
+cat install_manifest.txt | sudo xargs rm
 ```
 
 ### macOS 语音合成
+
 ```bash
-$ say 你好 -o out.wave
+say 你好 -o out.wave
 ```
 
 ### ROS 节点结束前任务自定义
@@ -1635,8 +1630,8 @@ $ brew link foo
 ### CPU 性能测试
 
 ```bash
-$ sudo apt install p7zip-full
-$ 7z b
+sudo apt install p7zip-full
+7z b
 ```
 
 ### 用 Backward Debug for C++
@@ -1656,16 +1651,16 @@ namespace backward {
 3. CATKIN_PACKAGE_SHARE_DESTINATION
 
 ```bash
-$ sudo apt-get install python-bloom
-$ cd path/to/your/catkin/package
-$ bloom-generate rosdebian
-$ fakeroot debian/rules binary
-$ bloom-generate rosdebian --os-name ubuntu --os-version xenial --ros-distro kinetic
-$ fakeroot debian/rules binary
+sudo apt-get install python-bloom
+cd path/to/your/catkin/package
+bloom-generate rosdebian
+fakeroot debian/rules binary
+bloom-generate rosdebian --os-name ubuntu --os-version xenial --ros-distro kinetic
+fakeroot debian/rules binary
 ```
 
-- [BuildingAPackage](https://wiki.debian.org/BuildingAPackage)
-- [catkin_make install安装与打包ros功能包](https://blog.csdn.net/lzy6041/article/details/122380484)
+* [BuildingAPackage](https://wiki.debian.org/BuildingAPackage)
+* [catkin_make install安装与打包ros功能包](https://blog.csdn.net/lzy6041/article/details/122380484)
 
 ### TexStudio 预览无法显示中文字体
 
@@ -1681,12 +1676,13 @@ $ fakeroot debian/rules binary
 
 ### Linux 性能分析工具
 
-- [Hotspot - the Linux perf GUI for performance analysis](https://github.com/KDAB/hotspot)
-- [heaptrack - a heap memory profiler for Linux](https://github.com/KDE/heaptrack)
+* [Hotspot - the Linux perf GUI for performance analysis](https://github.com/KDAB/hotspot)
+* [heaptrack - a heap memory profiler for Linux](https://github.com/KDE/heaptrack)
 
 ### [Steps to create Textured Mesh from Point Cloud using Meshlab](https://gist.github.com/shubhamwagh/0dc3b8173f662d39d4bf6f53d0f4d66b)
 
 #### Convert ".pcd" file to ".ply" file
+
 ```python
 import os
 import open3d as o3d
@@ -1698,10 +1694,13 @@ o3d.visualization.draw_geometries([map_pcd_data])
 
 o3d.io.write_point_cloud(map_ply_path, map_pcd_data)
 ```
+
 #### Get your PointCloud into MeshLab
+
 * Import the pointcloud file in ".ply" file format in Meshlab. Before importing make sure you do some pre-processing / cleaning on point cloud so as to ease the process of meshing.
 
 #### Point Cloud Simplification and Normals Computation
+
 * Next we need to reduce the number of point samples for smooth meshing.
   * So go to **Filters -> Point Set -> Point Cloud Simplification**. Enter **Number of samples** circa 5% of original number of points. Make sure **Best Sample Heuristic** is checked.
 * After point cloud simplification, make sure to select **Simplified** point cloud in the **Show Layer Dialog** on the right hand side. If not visible, it can opened by going to **View -> Show Layer Dialog**. Now we need to compute normals for point set.
@@ -1709,6 +1708,7 @@ o3d.io.write_point_cloud(map_ply_path, map_pcd_data)
 * Make sure if your normals are properly computed by going to  **Render -> Show Normal**.
 
 #### Meshing /  Poisson Surface Reconstruction
+
 * Next we are going to use Poisson Surface reconstruction to do meshing.
   * So go to **Filters ->Remeshing, Simplification and Reconstruction -> Screened Poisson Surface Reconstruction**. Initially try with default parameters then later one can play around with reconstruction depth, number of samples and interpolation weight values.
   * This will create another mesh layer called **Poisson** in the **Show layer Dialog** which has surfaces now. Make sure to select that to peform further operations.
@@ -1716,7 +1716,8 @@ o3d.io.write_point_cloud(map_ply_path, map_pcd_data)
   * After this operation, still some noise faces can be seen. To remove them go to **Filters -> Cleaning and Repairing -> Remove isolated pieces (wrt Face Num.)**. Use the default value and make sure **Remove unreferenced vertices** is checked. This will remove some noise faces.
   * Even after the above operation some noise faces are seen. To remove them go to **Filters -> Selection -> Select non Manifold Vertices**. Click apply. Then click on delete face button (triangle and threwe vertex with a cross over it). This will remove remaining extra faces.
 
-#### Texturizing the Mesh using pointcloud color attributes.
+#### Texturizing the Mesh using pointcloud color attributes
+
 * Now that we have a mesh, next step is to get the texture for the mesh from the pointcloud.
 * Make sure to select **Poisson** in the **Show layer Dialog** to peform further operations.
 * Go to **Filters -> Texture -> Per Vertex Texture Function**. Click on apply.
@@ -1748,9 +1749,9 @@ References:
 ### npm 安装软件包出错
 
 ```bash
-$ rm -rf node_modules package-lock.json
-$ npm audit fix --force
-$ npm i --package-lock-only
+rm -rf node_modules package-lock.json
+npm audit fix --force
+npm i --package-lock-only
 ```
 
 ### iPhone **本地网络**禁用导致无法传输文件
@@ -1785,7 +1786,7 @@ Solution:
 ### Use ffmpeg compress media file with GPU acceleration
 
 ```bash
-$ ffmpeg -i input.mp4 -r 20 -s vga -b:v 1.5M -c:v h264_videotoolbox output.mp4
+ffmpeg -i input.mp4 -r 20 -s vga -b:v 1.5M -c:v h264_videotoolbox output.mp4
 ```
 
 ### If this fails your Python may not be configured for Tk
@@ -1799,19 +1800,19 @@ brew install python-tk@3.9
 Error info: `error: argument to '-V' is missing (expected 1 value)`
 
 ```bash
-$ cmake .. -DCMAKE_C_COMPILER='/usr/local/bin/x86_64-apple-darwin20-gcc-11.1.0'
+cmake .. -DCMAKE_C_COMPILER='/usr/local/bin/x86_64-apple-darwin20-gcc-11.1.0'
 ```
 
 ### 修改安装路径
 
 ```bash
-$ cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+cmake .. -DCMAKE_INSTALL_PREFIX=/usr
 ```
 
 ### Eigen/Core: No such file or directory
 
 ```bash
-$ sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen
+sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen
 ```
 
 ### Use `sed` on macOS
@@ -1875,57 +1876,57 @@ Solution: 修改 `CATKIN_GLOBAL_BIN_DESTINATION` 为 `CATKIN_PACKAGE_BIN_DESTINA
 ### ROS 工作空间管理
 
 ```bash
-$ source ws/devel/setup.bash --extend
-$ echo $ROS_PACKAGE_PATH
+source ws/devel/setup.bash --extend
+echo $ROS_PACKAGE_PATH
 ```
 
 ### Ubuntu 安装 GCC-10/G++-10
 
 ```bash
-$ sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-$ sudo apt-get install gcc-10 g++-10
-$ sudo update-alternatives --remove-all gcc
-$ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 90 --slave /usr/bin/g++ g++ /usr/bin/g++-5
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get install gcc-10 g++-10
+sudo update-alternatives --remove-all gcc
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 90 --slave /usr/bin/g++ g++ /usr/bin/g++-5
 ```
 
 [Installing newer GCC versions in Ubuntu](https://tuxamito.com/wiki/index.php/Installing_newer_GCC_versions_in_Ubuntu)
 
 ### 优化/最优控制资料
 
-- [Convex Optimization: Fall 2019](http://www.stat.cmu.edu/~ryantibs/convexopt/)
-- [Optimal-Control-16-745](https://github.com/Optimal-Control-16-745)
+* [Convex Optimization: Fall 2019](http://www.stat.cmu.edu/~ryantibs/convexopt/)
+* [Optimal-Control-16-745](https://github.com/Optimal-Control-16-745)
 
 ### 代码优化资料
 
-- [6.172 Performance Engineering of Software Systems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/index.htm)
+* [6.172 Performance Engineering of Software Systems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/index.htm)
 
 ### macOS (Big Sur) 源码编译 ROS 2 (foxy)
 
 ```bash
-$ colcon build --symlink-install --packages-skip-by-dep python_qt_binding --packages-ignore turtlesim rviz2 rviz_visual_testing_framework rviz_default_plugins rviz_common
+colcon build --symlink-install --packages-skip-by-dep python_qt_binding --packages-ignore turtlesim rviz2 rviz_visual_testing_framework rviz_default_plugins rviz_common
 ```
 
 编译失败的包
 
-- turtlesim
-- rviz_common
-- rviz2
-- rviz_visual_testing_framework
-- rviz_default_plugins
+* turtlesim
+* rviz_common
+* rviz2
+* rviz_visual_testing_framework
+* rviz_default_plugins
 
 原因：qt5 与 qt6 冲突
 
 解决方法：删除 qt(v6)
 
 ```bash
-$ brew uninstall qt
+brew uninstall qt
 ```
 
 重新编译
 
 ```bash
-$ colcon build --symlink-install --packages-skip-by-dep python_qt_binding
-$ colcon build --symlink-install --packages-ignore rqt_gui_cpp qt_gui_cpp
+colcon build --symlink-install --packages-skip-by-dep python_qt_binding
+colcon build --symlink-install --packages-ignore rqt_gui_cpp qt_gui_cpp
 ```
 
 Note: 部分包需要修改 CMakeLists.txt 以支持 C++17 才能通过编译
@@ -1937,28 +1938,28 @@ set(CMAKE_CXX_STANDARD 17)
 加载环境
 
 ```bash
-$ source ~/ros2_foxy/install/setup.sh
+source ~/ros2_foxy/install/setup.sh
 ```
 
 References:
-- [Building ROS 2 on macOS](https://docs.ros.org/en/foxy/Installation/macOS-Development-Setup.html#)
-- [Failure to find SIP on macOS](https://github.com/ros-visualization/python_qt_binding/issues/103)
-- [ROS2 Fails to build qt_gui_cpp](https://github.com/ros2/ros2/issues/623)
+* [Building ROS 2 on macOS](https://docs.ros.org/en/foxy/Installation/macOS-Development-Setup.html#)
+* [Failure to find SIP on macOS](https://github.com/ros-visualization/python_qt_binding/issues/103)
+* [ROS2 Fails to build qt_gui_cpp](https://github.com/ros2/ros2/issues/623)
 
 ### Eigen 四元数或旋转矩阵转欧拉角出错
 
 转换规则
 
-- If the rotation we converting from is an EulerAngles, angles ranges are undefined.
-- otherwise, alpha and gamma angles will be in the range [-PI, PI]. As for Beta angle:
-  - If the system is Tait-Bryan, the beta angle will be in the range [-PI/2, PI/2].
-  - otherwise:
-    - If the beta axis is positive, the beta angle will be in the range [0, PI]
-    - If the beta axis is negative, the beta angle will be in the range [-PI, 0]
+* If the rotation we converting from is an EulerAngles, angles ranges are undefined.
+* otherwise, alpha and gamma angles will be in the range [-PI, PI]. As for Beta angle:
+  * If the system is Tait-Bryan, the beta angle will be in the range [-PI/2, PI/2].
+  * otherwise:
+    * If the beta axis is positive, the beta angle will be in the range [0, PI]
+    * If the beta axis is negative, the beta angle will be in the range [-PI, 0]
 
-- [Eigen::EulerAngles< _Scalar, _System > Class Template Reference](https://eigen.tuxfamily.org/dox/unsupported/classEigen_1_1EulerAngles.html)
-- [Euler angles](https://en.wikipedia.org/wiki/Euler_angles)
-- [Bug 1301 - The second angle returned from eulerAngles does not have range (-PI/2, PI/2\]](https://eigen.tuxfamily.org/bz/show_bug.cgi?id=1301)
+* [Eigen::EulerAngles< _Scalar, _System > Class Template Reference](https://eigen.tuxfamily.org/dox/unsupported/classEigen_1_1EulerAngles.html)
+* [Euler angles](https://en.wikipedia.org/wiki/Euler_angles)
+* [Bug 1301 - The second angle returned from eulerAngles does not have range (-PI/2, PI/2\]](https://eigen.tuxfamily.org/bz/show_bug.cgi?id=1301)
 
 ### 样条曲线
 
@@ -1972,8 +1973,8 @@ References:
 
 ### 稀疏矩阵存储
 
-- [稀疏矩阵（sparse matrix）的基本数据结构实现](https://zhuanlan.zhihu.com/p/22711401)
-- [Sparse Matrix Compression Formats](http://homepage.tudelft.nl/01q3u/sparse_matrix_compression.html)
+* [稀疏矩阵（sparse matrix）的基本数据结构实现](https://zhuanlan.zhihu.com/p/22711401)
+* [Sparse Matrix Compression Formats](http://homepage.tudelft.nl/01q3u/sparse_matrix_compression.html)
 
 ### ROS Server Parameters vs Dynamic Reconfigure?
 
@@ -2108,19 +2109,19 @@ if __name__ == '__main__':
 
 References
 
-- [How to use tf_remap?](https://answers.ros.org/question/216582/how-to-use-tf_remap/)
-- [tf_remapper_cpp](https://github.com/tradr-project/tf_remapper_cpp)
+* [How to use tf_remap?](https://answers.ros.org/question/216582/how-to-use-tf_remap/)
+* [tf_remapper_cpp](https://github.com/tradr-project/tf_remapper_cpp)
 
 ### **TF 原理**
 
-- [tf,tf2完全理解](https://www.slideshare.net/kojiterada5/tftf2)
-- [ROS Programming Guide (Japanese)](https://tail-island.github.io/six_point_two_eight/)
-  - [six_point_two_eight](https://github.com/tail-island/six_point_two_eight)
+* [tf,tf2完全理解](https://www.slideshare.net/kojiterada5/tftf2)
+* [ROS Programming Guide (Japanese)](https://tail-island.github.io/six_point_two_eight/)
+  * [six_point_two_eight](https://github.com/tail-island/six_point_two_eight)
 
 ### ROS1/2 相关学习资料
 
-- [ROS Industrial (Melodic) Training Exercises](https://industrial-training-master.readthedocs.io/en/melodic/)
-- [ROS 2 workshop](https://ros2-industrial-workshop.readthedocs.io/en/latest/index.html)
+* [ROS Industrial (Melodic) Training Exercises](https://industrial-training-master.readthedocs.io/en/melodic/)
+* [ROS 2 workshop](https://ros2-industrial-workshop.readthedocs.io/en/latest/index.html)
 
 ### ROS 日志配置 log4j
 
@@ -2140,9 +2141,9 @@ log4j.appender.rosout_a.layout.ConversionPattern = %-d{yyyy-MM-dd HH:mm:ss SSS} 
 
 References
 
-- [ROS中log4j的学习记录](https://blog.csdn.net/weixin_44388819/article/details/118407899)
-- [日志系统和log4cxx](https://charon-cheung.github.io/2018/11/06/ROS/ROS%20Kinetic知识/ROS日志系统和log4cxx/#log4cpp与log4cxx)
-- [log4j.properties配置详解](https://www.cnblogs.com/ITEagle/archive/2010/04/23/1718365.html)
+* [ROS中log4j的学习记录](https://blog.csdn.net/weixin_44388819/article/details/118407899)
+* [日志系统和log4cxx](https://charon-cheung.github.io/2018/11/06/ROS/ROS%20Kinetic知识/ROS日志系统和log4cxx/#log4cpp与log4cxx)
+* [log4j.properties配置详解](https://www.cnblogs.com/ITEagle/archive/2010/04/23/1718365.html)
 
 ### 点云格式转换 XYZ -> XYZRGB
 
@@ -2161,15 +2162,15 @@ copyPointCloud(cloud_xyz, cloud_xyzrgb);
 
 依赖库
 
-- [cxxopts](https://github.com/jarro2783/cxxopts)
-- [ELFIO](https://github.com/serge1/ELFIO)
-- [Termcolor](https://github.com/ikalnytskyi/termcolor)
+* [cxxopts](https://github.com/jarro2783/cxxopts)
+* [ELFIO](https://github.com/serge1/ELFIO)
+* [Termcolor](https://github.com/ikalnytskyi/termcolor)
 
 Note: Use `otool -L libfile` on macOS.
 
-### What does if __name__ == "__main__": do?
+### What does if **name** == "**main**": do?
 
-[What does if __name__ == "__main__": do?](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)
+[What does if **name** == "**main**": do?](https://stackoverflow.com/questions/419163/what-does-if-name-main-do)
 
 ### 拥抱 tf2_ros 舍弃 tf
 
@@ -2208,34 +2209,34 @@ tf 可能会导致程序异常
 
 [深入浅出讲解FOC算法与SVPWM技术](https://zhuanlan.zhihu.com/p/147659820)
 
-- FOC 驱动器 vs 无刷电调
+* FOC 驱动器 vs 无刷电调
 
 无刷直流电机（BLDC）vs 永磁同步电机（PMSM）
 
-- In simple terms, a BLDC motor has trapezoidal back-emf, whereas a PMSM has sinusoidal back-emf.
-- A BLDC motor works well with stepped input DC voltage, whereas a PMSM works well with purely sinusoidal voltage
-- PMSM has reduced torque ripple and current-ripple than BLDC motors.
-- BLDC motors have concentric windings whereas PMSM has distributed winding.
-- PMSMs are expensive, and highly efficienct. Suitable for high-power and high-efficiency applications.
-- BLDC motors are cost-effective. Suitable for low-power and low-cost applications.
-- Harmonic content is very high the stator current of BLDC motor due to its quazi-rectangular shape, whereas the stator current distortion in a PMSM is very less as it has a sinusoidal shape.
+* In simple terms, a BLDC motor has trapezoidal back-emf, whereas a PMSM has sinusoidal back-emf.
+* A BLDC motor works well with stepped input DC voltage, whereas a PMSM works well with purely sinusoidal voltage
+* PMSM has reduced torque ripple and current-ripple than BLDC motors.
+* BLDC motors have concentric windings whereas PMSM has distributed winding.
+* PMSMs are expensive, and highly efficienct. Suitable for high-power and high-efficiency applications.
+* BLDC motors are cost-effective. Suitable for low-power and low-cost applications.
+* Harmonic content is very high the stator current of BLDC motor due to its quazi-rectangular shape, whereas the stator current distortion in a PMSM is very less as it has a sinusoidal shape.
 
 BLDC 反电动势接近梯形波，所以依然是采用方波驱动；PMSM 反电动势被设计为正弦波（利用 SVPWM）
 
-- [Things in Motion](https://things-in-motion.blogspot.com/)
-- [FOC算法的简要介绍](https://docs.simplefoc.com/docs_chinese/foc_theory)
-- [SimpleFOClibrary](http://source.simplefoc.com)
-- [How to estimate the torque of a BLDC (PMSM) electric motor using only its Kv and current draw](https://things-in-motion.blogspot.com/2018/12/how-to-estimate-torque-of-bldc-pmsm.html)
-- [Field Oriented Control of Permanent Magnet Motors](https://www.youtube.com/watch?v=cdiZUszYLiA)
-- [Everything You Ever Wanted to Know About Brushless Motors](http://scolton.blogspot.com/2009/11/everything-you-ever-wanted-to-know.html)
+* [Things in Motion](https://things-in-motion.blogspot.com/)
+* [FOC算法的简要介绍](https://docs.simplefoc.com/docs_chinese/foc_theory)
+* [SimpleFOClibrary](http://source.simplefoc.com)
+* [How to estimate the torque of a BLDC (PMSM) electric motor using only its Kv and current draw](https://things-in-motion.blogspot.com/2018/12/how-to-estimate-torque-of-bldc-pmsm.html)
+* [Field Oriented Control of Permanent Magnet Motors](https://www.youtube.com/watch?v=cdiZUszYLiA)
+* [Everything You Ever Wanted to Know About Brushless Motors](http://scolton.blogspot.com/2009/11/everything-you-ever-wanted-to-know.html)
 
 ### 内存对齐
 
-- EIGEN_MAKE_ALIGNED_OPERATOR_NEW
-- `-march=native`
-- SSE/AVX
-- [从Eigen向量化谈内存对齐](https://zhuanlan.zhihu.com/p/93824687)
-- [Structures Having Eigen Members](http://eigen.tuxfamily.org/dox/group__TopicStructHavingEigenMembers.html)
+* EIGEN_MAKE_ALIGNED_OPERATOR_NEW
+* `-march=native`
+* SSE/AVX
+* [从Eigen向量化谈内存对齐](https://zhuanlan.zhihu.com/p/93824687)
+* [Structures Having Eigen Members](http://eigen.tuxfamily.org/dox/group__TopicStructHavingEigenMembers.html)
 
 ### 深度相机清单
 
@@ -2261,8 +2262,8 @@ Window::on_button_clicked()
 
 ### [YouTube Transcript 字幕提取](https://youtubetranscript.com)
 
-
 ### Roslaunch 使用方法
+
 1. [Roslaunch 节点调试](http://wiki.ros.org/roslaunch/Tutorials/Roslaunch%20Nodes%20in%20Valgrind%20or%20GDB)
 
 ```xml
@@ -2283,26 +2284,25 @@ Window::on_button_clicked()
 
 ### 图像与视频编辑工具
 
-- [ImageMagick](https://imagemagick.org/index.php)
-  - [man pages](http://www.noah.org/wiki/ImageMagick)
-- [FFmpeg](https://www.ffmpeg.org)
+* [ImageMagick](https://imagemagick.org/index.php)
+  * [man pages](http://www.noah.org/wiki/ImageMagick)
+* [FFmpeg](https://www.ffmpeg.org)
 
 ### [Phenomenological Introduction to PID controllers PID 原理](https://vanhunteradams.com/PID/PID.html)
 
 [V. Hunter Adams, Lecturer of Electrical Engineering, Cornell University](https://vanhunteradams.com)
 
-- [Estimation: Introduction by Example](https://vanhunteradams.com/Estimation/Estimation.html)
-- [How Kalman Filters Work](http://www.anuncommonlab.com/articles/how-kalman-filters-work/)
-- [Attitude Dynamics and Determination](https://vanhunteradams.com/5160/ADCS/Supplements/ADCS.html)
-- [NASA Mission Design Process](https://vanhunteradams.com/5160/MDP/Supplements/MDP.html)
+* [Estimation: Introduction by Example](https://vanhunteradams.com/Estimation/Estimation.html)
+* [How Kalman Filters Work](http://www.anuncommonlab.com/articles/how-kalman-filters-work/)
+* [Attitude Dynamics and Determination](https://vanhunteradams.com/5160/ADCS/Supplements/ADCS.html)
+* [NASA Mission Design Process](https://vanhunteradams.com/5160/MDP/Supplements/MDP.html)
 
 ### 视频搬运及其字幕下载根工具
 
-- [5s](https://yt5s.com/zh-cn29)
-- [DownSub](https://downsub.com)
+* [5s](https://yt5s.com/zh-cn29)
+* [DownSub](https://downsub.com)
 
 ### [中国大学MOOC---《机器人操作系统入门》课程讲义](https://sychaichangkun.gitbooks.io/ros-tutorial-icourse163/content/)
-
 
 ### [Ubuntu Install **librealsense2** from source](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation.md)
 
@@ -2311,8 +2311,8 @@ Window::on_button_clicked()
 [Building and using catkin packages in a workspace](http://wiki.ros.org/catkin/Tutorials/using_a_workspace#Installing_Packages)
 
 ```bash
-$ cd ~/catkin_ws
-$ catkin_make install
+cd ~/catkin_ws
+catkin_make install
 ```
 
 ### 用 CPack 生成 deb 安装包
@@ -2399,144 +2399,144 @@ void cv2eigen(const Mat& src, Eigen::Matrix<_Tp, _rows, _cols, _options, _maxRow
 
 ### Useful Tools & Links
 
-- [Gazebo Plugin: Robosense Simulator](https://github.com/tomlogan501/robosense_simulator)
-- [Gazebo Plugin: RealSense](https://github.com/intel/gazebo-realsense)
-- [Elevation Mapping cupy](https://github.com/leggedrobotics/elevation_mapping_cupy)
-- [Video Game Physics Tutorial - Part I: An Introduction to Rigid Body Dynamics](https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics)
-- [Video Game Physics Tutorial - Part II: Collision Detection for Solid Objects](https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects)
-- [Video Game Physics Tutorial - Part III: Constrained Rigid Body Simulation](https://www.toptal.com/game/video-game-physics-part-iii-constrained-rigid-body-simulation)
-- [Algorithmica](https://en.algorithmica.org)
-- [hacking C++](https://hackingcpp.com/index.html)
-- [Code Review](https://www.morling.dev/blog/the-code-review-pyramid/)
-- [A GPU-accelerated TSDF and ESDF library for robots equipped with RGB-D cameras](https://github.com/nvidia-isaac/nvblox)
-- [SIGGRAPH'21 Course: Contact and Friction Simulation for Computer Graphics](https://siggraphcontact.github.io)
-- [Ten Minute Physics](https://matthias-research.github.io/pages/tenMinutePhysics/index.html)
-- [CMPT 466/766: Computer Animation](https://www.cs.sfu.ca/~kkyin/cmpt466-766/index.html)
-- [OpenRAVE](https://github.com/rdiankov/openrave)
-- [Writing the first draft of your science paper — some dos and don’ts](https://www.elsevier.com/connect/writing-a-science-paper-some-dos-and-donts)
-- [MEE5114 Advanced Control for Robotics](https://www.wzhanglab.site/teaching/mee-5114-advanced-control-for-robotics/)
-- [Create® 3 Docs](https://iroboteducation.github.io/create3_docs/api/ros2/)
-- [JoltPhysics](https://github.com/jrouwe/JoltPhysics)
-- [Unicode Search](http://xahlee.info/comp/unicode_index.html)
+* [Gazebo Plugin: Robosense Simulator](https://github.com/tomlogan501/robosense_simulator)
+* [Gazebo Plugin: RealSense](https://github.com/intel/gazebo-realsense)
+* [Elevation Mapping cupy](https://github.com/leggedrobotics/elevation_mapping_cupy)
+* [Video Game Physics Tutorial - Part I: An Introduction to Rigid Body Dynamics](https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics)
+* [Video Game Physics Tutorial - Part II: Collision Detection for Solid Objects](https://www.toptal.com/game/video-game-physics-part-ii-collision-detection-for-solid-objects)
+* [Video Game Physics Tutorial - Part III: Constrained Rigid Body Simulation](https://www.toptal.com/game/video-game-physics-part-iii-constrained-rigid-body-simulation)
+* [Algorithmica](https://en.algorithmica.org)
+* [hacking C++](https://hackingcpp.com/index.html)
+* [Code Review](https://www.morling.dev/blog/the-code-review-pyramid/)
+* [A GPU-accelerated TSDF and ESDF library for robots equipped with RGB-D cameras](https://github.com/nvidia-isaac/nvblox)
+* [SIGGRAPH'21 Course: Contact and Friction Simulation for Computer Graphics](https://siggraphcontact.github.io)
+* [Ten Minute Physics](https://matthias-research.github.io/pages/tenMinutePhysics/index.html)
+* [CMPT 466/766: Computer Animation](https://www.cs.sfu.ca/~kkyin/cmpt466-766/index.html)
+* [OpenRAVE](https://github.com/rdiankov/openrave)
+* [Writing the first draft of your science paper — some dos and don’ts](https://www.elsevier.com/connect/writing-a-science-paper-some-dos-and-donts)
+* [MEE5114 Advanced Control for Robotics](https://www.wzhanglab.site/teaching/mee-5114-advanced-control-for-robotics/)
+* [Create® 3 Docs](https://iroboteducation.github.io/create3_docs/api/ros2/)
+* [JoltPhysics](https://github.com/jrouwe/JoltPhysics)
+* [Unicode Search](http://xahlee.info/comp/unicode_index.html)
 
 ReadMe (export from Safari 20220505)
 
 Solutions : Rethink Robotics
-https://support.rethinkrobotics.com/support/solutions
+<https://support.rethinkrobotics.com/support/solutions>
 
 Differential Equations, Mechanics, and Computation
-https://ode-math.com/
+<https://ode-math.com/>
 
 ros-drivers/video_stream_opencv: A package to open video streams and publish them in ROS using the opencv videocapture mechanism
-https://github.com/ros-drivers/video_stream_opencv
+<https://github.com/ros-drivers/video_stream_opencv>
 
 camera_calibration - ROS Wiki
-https://wiki.ros.org/camera_calibration
+<https://wiki.ros.org/camera_calibration>
 
 ldconfig(8) - Linux man page
-https://linux.die.net/man/8/ldconfig
+<https://linux.die.net/man/8/ldconfig>
 
 bernhardpg/collision-free-mixed-integer-planning-for-uavs: Collision-Free Mixed-Integer Planning for Quadrotors Using Convex Safe Regions
-https://github.com/bernhardpg/collision-free-mixed-integer-planning-for-uavs
+<https://github.com/bernhardpg/collision-free-mixed-integer-planning-for-uavs>
 
 python - how does cv2.VideoCapture() changes capture resolution? - Stack Overflow
-https://stackoverflow.com/questions/14011428/how-does-cv2-videocapture-changes-capture-resolution
+<https://stackoverflow.com/questions/14011428/how-does-cv2-videocapture-changes-capture-resolution>
 
 OpenCV: Video I/O with OpenCV Overview
-https://docs.opencv.org/4.5.5/d0/da7/videoio_overview.html
+<https://docs.opencv.org/4.5.5/d0/da7/videoio_overview.html>
 
 dottantgal/ROS2_learning: A useful collection of CPP examples to learn ROS2 from zero
-https://github.com/dottantgal/ROS2_learning
+<https://github.com/dottantgal/ROS2_learning>
 
 Tutorial · jbeder/yaml-cpp Wiki
-https://github.com/jbeder/yaml-cpp/wiki/Tutorial
+<https://github.com/jbeder/yaml-cpp/wiki/Tutorial>
 
 Drake Concepts - Drake Tutorial
-https://drake.guzhaoyuan.com/introduction/drake-concept
+<https://drake.guzhaoyuan.com/introduction/drake-concept>
 
-https://arxiv.org/pdf/1909.05700.pdf
-https://arxiv.org/pdf/1909.05700.pdf
+<https://arxiv.org/pdf/1909.05700.pdf>
+<https://arxiv.org/pdf/1909.05700.pdf>
 
 sebastianstarke/AI4Animation: Bringing Characters to Life with Computer Brains in Unity
-https://github.com/sebastianstarke/AI4Animation
+<https://github.com/sebastianstarke/AI4Animation>
 
 Humanoid Robot Animation | Udemy
-https://www.udemy.com/course/humanoid-robot-animation/
+<https://www.udemy.com/course/humanoid-robot-animation/>
 
 medalotte/sampling-based-planners: C++ implementation of RRT, RRT*, and Informed-RRT* using kd-tree for searching NN and NBHD nodes. Supports arbitrary dimensions and compiles as a shared library.
-https://github.com/medalotte/sampling-based-planners
+<https://github.com/medalotte/sampling-based-planners>
 
 ntnu-arl/gbplanner_ros: Graph-based Exploration Planner for Subterranean Environments
-https://github.com/ntnu-arl/gbplanner_ros
+<https://github.com/ntnu-arl/gbplanner_ros>
 
 static members - cppreference.com
-https://en.cppreference.com/w/cpp/language/static
+<https://en.cppreference.com/w/cpp/language/static>
 
 David-Haim/concurrencpp: Modern concurrency for C++. Tasks, executors, timers and C++20 coroutines to rule them all
-https://github.com/David-Haim/concurrencpp
+<https://github.com/David-Haim/concurrencpp>
 
 MLNLP-World/Paper-Writing-Tips: Paper Writing Tips
-https://github.com/MLNLP-World/Paper-Writing-Tips
+<https://github.com/MLNLP-World/Paper-Writing-Tips>
 
 Visualizing quaternions, an explorable video series
-https://eater.net/quaternions
+<https://eater.net/quaternions>
 
 geekan/HowToLiveLonger: 程序员延寿指南 | A programmer's guide to live longer
-https://github.com/geekan/HowToLiveLonger
+<https://github.com/geekan/HowToLiveLonger>
 
 miloyip/json-tutorial: 从零开始的 JSON 库教程
-https://github.com/miloyip/json-tutorial
+<https://github.com/miloyip/json-tutorial>
 
 InteractiveComputerGraphics/PositionBasedDynamics: PositionBasedDynamics is a library for the physically-based simulation of rigid bodies, deformable solids and fluids.
-https://github.com/InteractiveComputerGraphics/PositionBasedDynamics
+<https://github.com/InteractiveComputerGraphics/PositionBasedDynamics>
 
 CppCon 2018: Bjarne Stroustrup “Concepts: The Future of Generic Programming (the future is here)” - YouTube
-https://www.youtube.com/watch?v=HddFGPTAmtU
+<https://www.youtube.com/watch?v=HddFGPTAmtU>
 
 CppCon 2018: Michael Gopshtein “CUDA Kernels with C++” - YouTube
-https://www.youtube.com/watch?v=HIJTRrm9nzY
+<https://www.youtube.com/watch?v=HIJTRrm9nzY>
 
 Drake: MultibodyPlant< T > Class Template Reference
-https://drake.mit.edu/doxygen_cxx/classdrake_1_1multibody_1_1_multibody_plant.html#a029b22a36d5c6ee85247b9c1cfe84c6b
+<https://drake.mit.edu/doxygen_cxx/classdrake_1_1multibody_1_1_multibody_plant.html#a029b22a36d5c6ee85247b9c1cfe84c6b>
 
 parallel101/course: 高性能并行编程与优化 - 课件
-https://github.com/parallel101/course
+<https://github.com/parallel101/course>
 
 相关问题 · Issue #1 · ShuoYangRobotics/A1-QP-MPC-Controller
-https://github.com/ShuoYangRobotics/A1-QP-MPC-Controller
+<https://github.com/ShuoYangRobotics/A1-QP-MPC-Controller>
 
 Dual quaternion - Wikipedia
-https://en.wikipedia.org/wiki/Dual_quaternion
+<https://en.wikipedia.org/wiki/Dual_quaternion>
 
 udev - Assign webcam to a specific /dev/video# - Ask Ubuntu
-https://askubuntu.com/questions/715333/assign-webcam-to-a-specific-dev-video
+<https://askubuntu.com/questions/715333/assign-webcam-to-a-specific-dev-video>
 
 MatthewPeterKelly/OptimTraj: A trajectory optimization library for Matlab
-https://github.com/MatthewPeterKelly/OptimTraj
+<https://github.com/MatthewPeterKelly/OptimTraj>
 
 How to Write a Git Commit Message
-https://cbea.ms/git-commit/
+<https://cbea.ms/git-commit/>
 
 pdn odn on Behance
-https://www.behance.net/12f6
+<https://www.behance.net/12f6>
 
 hengli/camodocal: CamOdoCal: Automatic Intrinsic and Extrinsic Calibration of a Rig with Multiple Generic Cameras and Odometry
-https://github.com/hengli/camodocal
+<https://github.com/hengli/camodocal>
 
 narutojxl/direct_lidar_odometry_noted
-https://github.com/narutojxl/direct_lidar_odometry_noted
+<https://github.com/narutojxl/direct_lidar_odometry_noted>
 
 Quake Source Code Review
-https://fabiensanglard.net/quakeSource/
+<https://fabiensanglard.net/quakeSource/>
 
 Drake: MathematicalProgram Class Reference
-https://drake.mit.edu/doxygen_cxx/classdrake_1_1solvers_1_1_mathematical_program.html
+<https://drake.mit.edu/doxygen_cxx/classdrake_1_1solvers_1_1_mathematical_program.html>
 
 Ch. 22 - Multi-Body Dynamics
-http://underactuated.mit.edu/multibody.html#section1
+<http://underactuated.mit.edu/multibody.html#section1>
 
 C++语言的单元测试与代码覆盖率
-https://paul.pub/gtest-and-coverage/
+<https://paul.pub/gtest-and-coverage/>
 
 ### qmake convert to cmake
 
@@ -2593,34 +2593,34 @@ EOF
 fi
 ```
 
-Reference: https://github.com/KDAB/KDToolBox/tree/master/qt/cmake-project
+Reference: <https://github.com/KDAB/KDToolBox/tree/master/qt/cmake-project>
 
 ### 路径规划算法评价指标
 
-- **成功率**
-- **距离终点的距离**
-- **计算时间**
-- **与最短路径的偏差**
-- 路径长度
-- 搜索空间
-- 最大内存占用
-- 距离障碍物的平均距离
-- 轨迹平滑程度
+* **成功率**
+* **距离终点的距离**
+* **计算时间**
+* **与最短路径的偏差**
+* 路径长度
+* 搜索空间
+* 最大内存占用
+* 距离障碍物的平均距离
+* 轨迹平滑程度
 
 **定位算法评价指标**
 
-- absolute pose error
-- relative pose error
+* absolute pose error
+* relative pose error
 
 References
 
-- [PathBench](https://arxiv.org/pdf/2105.01777.pdf)
-- [Python package for the evaluation of odometry and SLAM](https://github.com/MichaelGrupp/evo)
-- [Metrics for System Assessment | Autonomous Navigation, Part 6](https://www.youtube.com/watch?v=k3bzouQNIwE)
+* [PathBench](https://arxiv.org/pdf/2105.01777.pdf)
+* [Python package for the evaluation of odometry and SLAM](https://github.com/MichaelGrupp/evo)
+* [Metrics for System Assessment | Autonomous Navigation, Part 6](https://www.youtube.com/watch?v=k3bzouQNIwE)
 
 ### Notes for Drake
 
-- [convexity of the quadratic cost](https://github.com/RobotLocomotion/drake/issues/15217#issuecomment-865357790)
+* [convexity of the quadratic cost](https://github.com/RobotLocomotion/drake/issues/15217#issuecomment-865357790)
 
 ### GoogleTest for CMake
 
@@ -2643,8 +2643,8 @@ FetchContent_MakeAvailable(googletest)
 
 Ref:
 
-- [CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
-- [Quickstart: Building with CMake](https://google.github.io/googletest/quickstart-cmake.html#set-up-a-project)
+* [CMake Tutorial](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)
+* [Quickstart: Building with CMake](https://google.github.io/googletest/quickstart-cmake.html#set-up-a-project)
 
 ### 自动微分 Automatic Differentiation = AD
 
@@ -2652,12 +2652,12 @@ Ref:
 
 Ref:
 
-- [A Hands-on Introduction to Automatic Differentiation P1 (forward mode)](https://mostafa-samir.github.io/auto-diff-pt1/)
-- [A Hands-on Introduction to Automatic Differentiation P2 (reverse mode)](https://mostafa-samir.github.io/auto-diff-pt2/)
-- [Hands-on-Intro-to-Auto-Diff](https://github.com/Mostafa-Samir/Hands-on-Intro-to-Auto-Diff)
-- [Autodiff Workshop](https://autodiff-workshop.github.io/2016.html)
-- [YouTube: Automatic Differentiation: History and Headroom](https://www.youtube.com/watch?v=zqaJeKZXS1U)
-- [YouTube: Autodiff generates your exponential family inference code](https://www.youtube.com/watch?v=ALMKFS_QFm4)
+* [A Hands-on Introduction to Automatic Differentiation P1 (forward mode)](https://mostafa-samir.github.io/auto-diff-pt1/)
+* [A Hands-on Introduction to Automatic Differentiation P2 (reverse mode)](https://mostafa-samir.github.io/auto-diff-pt2/)
+* [Hands-on-Intro-to-Auto-Diff](https://github.com/Mostafa-Samir/Hands-on-Intro-to-Auto-Diff)
+* [Autodiff Workshop](https://autodiff-workshop.github.io/2016.html)
+* [YouTube: Automatic Differentiation: History and Headroom](https://www.youtube.com/watch?v=zqaJeKZXS1U)
+* [YouTube: Autodiff generates your exponential family inference code](https://www.youtube.com/watch?v=ALMKFS_QFm4)
 
 ### 点云编辑工具 Point Clouds Editor
 
@@ -2668,19 +2668,19 @@ Ref:
 ### How to make uninstall
 
 ```bash
-$ sudo xargs rm < install_manifest.txt
+sudo xargs rm < install_manifest.txt
 ```
 
 ### Solution for `fatal error: 'opencv2/highgui.hpp' file not found`
 
 ```bash
-$ ln -s /usr/local/include/opencv4/opencv2/ /usr/local/include/opencv2
+ln -s /usr/local/include/opencv4/opencv2/ /usr/local/include/opencv2
 ```
 
 ### C++ 代码格式化
 
 ```bash
-$ find DIRECTORY -iname '*.h' -o -iname '*.hh' -o -iname '*.hpp' -o -iname '*.c' -o -iname '*.cc' -o -iname '*.cpp' | xargs clang-format -style=google -i
+find DIRECTORY -iname '*.h' -o -iname '*.hh' -o -iname '*.hpp' -o -iname '*.c' -o -iname '*.cc' -o -iname '*.cpp' | xargs clang-format -style=google -i
 ```
 
 ### Drake 优加入梯度信息
@@ -2714,23 +2714,23 @@ result = Solve(prog)
 
 Ref:
 
-- [A Visual Intro to NumPy](https://medium.com/@yp7121/a-visual-intro-to-numpy-2903458d25ea)
-- [Advanced NumPy: Master stride tricks with 25 illustrated exercises](https://towardsdatascience.com/advanced-numpy-master-stride-tricks-with-25-illustrated-exercises-923a9393ab20)
-  - [Internal memory layout of an ndarray](https://numpy.org/doc/stable/reference/arrays.ndarray.html#internal-memory-layout-of-an-ndarray)
-- [NumPy internals](https://numpy.org/doc/1.21/reference/internals.html)
-- [Understanding the internals of NumPy to avoid unnecessary array copying](https://ipython-books.github.io/45-understanding-the-internals-of-numpy-to-avoid-unnecessary-array-copying/)
-- [NumPy Illustrated: The Visual Guide to NumPy](https://betterprogramming.pub/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d)
-- [A Comprehensive Guide to NumPy Data Types](https://betterprogramming.pub/a-comprehensive-guide-to-numpy-data-types-8f62cb57ea83)
-- [Advanced NumPy](http://scipy-lectures.org/advanced/advanced_numpy/#findings-in-dissection)
-- [Scipy Lecture Notes](http://scipy-lectures.org/index.html)
-- [An Illustrated Guide to Shape and Strides](https://ajcr.net/stride-guide-part-1/)
-- [**Nature**: Array programming with NumPy](https://www.nature.com/articles/s41586-020-2649-2.pdf)
+* [A Visual Intro to NumPy](https://medium.com/@yp7121/a-visual-intro-to-numpy-2903458d25ea)
+* [Advanced NumPy: Master stride tricks with 25 illustrated exercises](https://towardsdatascience.com/advanced-numpy-master-stride-tricks-with-25-illustrated-exercises-923a9393ab20)
+  * [Internal memory layout of an ndarray](https://numpy.org/doc/stable/reference/arrays.ndarray.html#internal-memory-layout-of-an-ndarray)
+* [NumPy internals](https://numpy.org/doc/1.21/reference/internals.html)
+* [Understanding the internals of NumPy to avoid unnecessary array copying](https://ipython-books.github.io/45-understanding-the-internals-of-numpy-to-avoid-unnecessary-array-copying/)
+* [NumPy Illustrated: The Visual Guide to NumPy](https://betterprogramming.pub/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d)
+* [A Comprehensive Guide to NumPy Data Types](https://betterprogramming.pub/a-comprehensive-guide-to-numpy-data-types-8f62cb57ea83)
+* [Advanced NumPy](http://scipy-lectures.org/advanced/advanced_numpy/#findings-in-dissection)
+* [Scipy Lecture Notes](http://scipy-lectures.org/index.html)
+* [An Illustrated Guide to Shape and Strides](https://ajcr.net/stride-guide-part-1/)
+* [**Nature**: Array programming with NumPy](https://www.nature.com/articles/s41586-020-2649-2.pdf)
 
 ### djvu2pdf
 
 ```bash
-$ brew install djvu2pdf
-$ djvu2pdf INPUT.djvu OUTPUT.pdf
+brew install djvu2pdf
+djvu2pdf INPUT.djvu OUTPUT.pdf
 ```
 
 ### Orchestration vs. Choreography
@@ -2765,7 +2765,7 @@ int main() {
 
 ### An Introduction to real-time Linux
 
-https://www.youtube.com/watch?v=cZs6HQdbzX4
+<https://www.youtube.com/watch?v=cZs6HQdbzX4>
 
 ### Point-to-Point vs Contouring
 
@@ -2824,11 +2824,11 @@ $ defaults write org.python.python ApplePersistenceIgnoreState NO
 
 ### Apollo-Platform vs ROS
 
-- ROS Decentralization Feature
-- High Efficient Communication based on Shared Memory Transport Feature
-- Native Support with Protobuf Feature
+* ROS Decentralization Feature
+* High Efficient Communication based on Shared Memory Transport Feature
+* Native Support with Protobuf Feature
 
-Cite: https://github.com/ApolloAuto/apollo-platform/blob/master/ros/docs/design
+Cite: <https://github.com/ApolloAuto/apollo-platform/blob/master/ros/docs/design>
 
 ### 多 ROS1 Master 通信配置
 
@@ -2846,12 +2846,12 @@ Cite: https://github.com/ApolloAuto/apollo-platform/blob/master/ros/docs/design
 
 > Personally I managed to have ttyUSB appear through `$raspi-config`. You just have to go to `Interfaces Settings` and say you want the serial port activated. Finally, `$sudo reboot`.
 
-Cite: https://raspberrypi.stackexchange.com/questions/91181/serial-to-usb-no-ttyusb0
+Cite: <https://raspberrypi.stackexchange.com/questions/91181/serial-to-usb-no-ttyusb0>
 
 ### Drake 二进制安装方法
 
 ```bash
-$ sudo tar -xvzf drake-20220114-mac.tar.gz -C /opt
+sudo tar -xvzf drake-20220114-mac.tar.gz -C /opt
 ```
 
 ### MuJoCo 编译问题解决
@@ -2913,7 +2913,7 @@ $ iperf -c SERVER_IP
 
 ### TECH TALK: ALL ABOUT SPOT'S API
 
-https://www.bostondynamics.com/resources/webinar/API-tech-talk
+<https://www.bostondynamics.com/resources/webinar/API-tech-talk>
 
 Layerd API
 
@@ -2930,11 +2930,11 @@ Layerd API
    1. Data Acquisition
    2. Network Compute Bridge
 
-- [Manipulation API](https://www.bostondynamics.com/resources/webinar/mobile-manipulation)
+* [Manipulation API](https://www.bostondynamics.com/resources/webinar/mobile-manipulation)
 
 ### Ubuntu 16.04 install gcc9
 
-1. Download sources codes: https://link.zhihu.com/?target=http%3A//ftp.gnu.org/gnu/gcc/gcc-9.1.0/gcc-9.1.0.tar.gz
+1. Download sources codes: <https://link.zhihu.com/?target=http%3A//ftp.gnu.org/gnu/gcc/gcc-9.1.0/gcc-9.1.0.tar.gz>
 2. Unzip and `$ cd gcc-9.1.0`
 3. Download deps: `$ ./contrib/download_prerequisites`
 4. `$ mkdir build;cd build;../configure -enable-checking=release -enable-languages=c,c++ -disable-multilib`
@@ -2943,28 +2943,28 @@ Layerd API
 ### ROS bugs' solution
 
 ```bash
-$ sudo apt update
-$ sudo apt upgrade
+sudo apt update
+sudo apt upgrade
 ```
 
 ### COSTMAP_2D 图像坐标系 frames
 
-- Origin: left-down corner
-- X_axis: right→
-- Y_axis: up↑
+* Origin: left-down corner
+* X_axis: right→
+* Y_axis: up↑
 
 Ref: GridMap(ETH)
 
 ### 用命令行实现图像拼接
 
 ```bash
-$ convert 1.png 2.png 3.png -append 123.png
+convert 1.png 2.png 3.png -append 123.png
 ```
 
 ### 文件加密压缩
 
 ```bash
-$ zip -e name.zip raw_file
+zip -e name.zip raw_file
 ```
 
 ### 布料仿真流水线
@@ -2999,12 +2999,13 @@ ComputeNormals();                 // Compute vertex normals for rendering
 ### 统计代码量
 
 ```bash
-$ cloc file_or_directory
+cloc file_or_directory
 ```
 
 ### Markdown to PDF using pandoc & rmarkdown
 
 Setting
+
 ```markdown
 ---
 geometry: margin=2cm
@@ -3020,8 +3021,9 @@ author: matheecs
 ```
 
 Usages
+
 ```bash
-$ pandoc SLAM_Perceptioin_Planning.md -o SLAM_Perceptioin_Planning.pdf --pdf-engine=xelatex
+pandoc SLAM_Perceptioin_Planning.md -o SLAM_Perceptioin_Planning.pdf --pdf-engine=xelatex
 ```
 
 ### Pandoc Debug
@@ -3090,6 +3092,7 @@ export DISPLAY=:0
 ssh -Y remote_host
 xedit
 ```
+
 ### OMPL link error `library not found for -lode`
 
 Solution
@@ -3175,8 +3178,8 @@ Cite: [rqt_launchtree](https://github.com/Kuo-Feng/rqt_launchtree/tree/noetic)
 
 ### Entity Component System
 
-- [什么是DOTS？为什么说DOTS非常重要？](https://learn.unity.com/tutorial/shi-yao-shi-dots-wei-shi-yao-shuo-dotsfei-chang-zhong-yao)
-- [MassEntity](https://docs.unrealengine.com/5.0/en-US/overview-of-mass-entity-in-unreal-engine/)
+* [什么是DOTS？为什么说DOTS非常重要？](https://learn.unity.com/tutorial/shi-yao-shi-dots-wei-shi-yao-shuo-dotsfei-chang-zhong-yao)
+* [MassEntity](https://docs.unrealengine.com/5.0/en-US/overview-of-mass-entity-in-unreal-engine/)
 
 ### Operation Costs in CPU Clock Cycles
 
@@ -3229,8 +3232,8 @@ Ref:
 
 ### 搜索重复文件
 
-- [FDUPES](https://github.com/adrianlopezroche/fdupes)
-- [find-dupes.awk](https://github.com/taltman/scripts/blob/master/unix_utils/find-dupes.awk)
+* [FDUPES](https://github.com/adrianlopezroche/fdupes)
+* [find-dupes.awk](https://github.com/taltman/scripts/blob/master/unix_utils/find-dupes.awk)
 
 ### View Image in CLI
 
@@ -3255,6 +3258,13 @@ xattr -c /Applications/STM32CubeIDE.app
 ```c++
 lcm::LCM lcm("udpm://239.255.76.67:7667?ttl=255");
 ```
+
+LCM =
+
+* Type Specification
+* Marshalling
+* Communication
+* Tools
 
 Cite: [UDP Multicast Setup](https://lcm-proj.github.io/multicast_setup.html)
 
