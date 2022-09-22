@@ -3256,15 +3256,16 @@ xattr -c /Applications/STM32CubeIDE.app
 ### LCM 局域网通信
 
 ```c++
-lcm::LCM lcm("udpm://239.255.76.67:7667?ttl=255");
+/* multicast time-to-live = 0 or 1 */
+lcm::LCM lcm("udpm://239.255.76.67:7667?ttl=1");
 ```
 
 LCM =
 
 * Type Specification
-* Marshalling
-* Communication
-* Tools
+* Marshalling = Serialization (encode/decode)
+* Communication = **UDP Multicast**
+* Tools = **lcm-spy**
 
 Cite: [UDP Multicast Setup](https://lcm-proj.github.io/multicast_setup.html)
 
@@ -3281,4 +3282,10 @@ Cite: [UDP Multicast Setup](https://lcm-proj.github.io/multicast_setup.html)
 <ammintrin.h> SSE4A
 <wmmintrin.h> AES
 <immintrin.h> AVX, AVX2, FMA
+```
+
+### 循环执行程序
+
+```bash
+while :; do ./send-message; sleep 1; done
 ```

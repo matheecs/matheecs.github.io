@@ -1,4 +1,4 @@
-Tech Mana
+# Tech Mana
 
 - wo code review
 - wo gitlab/gh & ci
@@ -16,3 +16,4 @@ Tech Mana
     - control api (leg od)
   - wo sdk
   - wo rules
+  - version control

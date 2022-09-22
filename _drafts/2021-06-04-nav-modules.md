@@ -5,9 +5,9 @@ categories: study
 author: "Jixiang Zhang"
 ---
 
-![](/images/movebase.jpg)
+![movebase](/images/movebase.jpg)
 
-```
+```text
 ┌────────────────────┐
 │                ┌───┴──────────────┐    ┌──────────────────┐
 │                │ BaseGlobalPlanner◁────┤ GlobalPlanner    │
