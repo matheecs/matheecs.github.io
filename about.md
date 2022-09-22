@@ -2,7 +2,7 @@
 layout: about
 ---
 
-### About Me
+## About Me
 
 - Email: <matheecs[at]qq[dot]com>
 - [Resume/CV (Chinese)](/files/cv/cv2022.pdf)
@@ -12,7 +12,7 @@ layout: about
   - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
 - Research Interests: <mark style="background-color: green">Perception</mark>, <mark style="background-color: blue">Planning</mark> and <mark style="background-color: red">Control</mark> of <mark>Underactuated Robotics<mark/>
 
-### Favorite Lectures
+## Favorite Lectures
 
 - [计算机教育中缺失的一课](https://missing-semester-cn.github.io)
 - [GAMES104现代游戏引擎](https://space.bilibili.com/512313464/channel/collectiondetail?sid=292637)
@@ -26,7 +26,7 @@ layout: about
 - [机器人中的数值优化](https://www.shenlanxueyuan.com/course/531)
 - [Michigan Robotics Free Online Courses](https://robotics.umich.edu/academics/courses/online-courses/)
 
-### Researchers
+## Researchers
 
 - [Marc Raibert](http://www.ai.mit.edu/projects/leglab/old-leglab/people/mxr.html)
 - [Alfred A. Rizzi](https://scholar.google.com/citations?user=GAwdhxEAAAAJ&hl=en)
@@ -68,8 +68,10 @@ layout: about
 - [Donghyun Kim](https://dhkim0821.github.io)
 - [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 - [Nicolò Valigi](https://nicolovaligi.com)
+- [Robin Deits](https://blog.robindeits.com/pages/about/)
+  - [Old version of FIRI](https://github.com/ZJU-FAST-Lab/GCOPTER/blob/ebfbeaf49b2ea20618290e4b6eda3d0e4c333f44/gcopter/include/gcopter/firi.hpp#L25)
 
-### Algorithm Tree
+## Algorithm Tree
 
 1. Estimation & Calibration
    - [MSF](https://github.com/ethz-asl/ethzasl_msf)
@@ -85,11 +87,13 @@ layout: about
 2. Perception
    - [Elevation Mapping CuPy](https://github.com/leggedrobotics/elevation_mapping_cupy)
    - [OpenVDB](https://www.openvdb.org)
+     - [Bonxai](https://github.com/facontidavide/Bonxai)
    - [voxblox](https://github.com/ethz-asl/voxblox)
    - [nvblox](https://github.com/nvidia-isaac/nvblox)
    - [Fast Plane Extraction](https://github.com/ai4ce/peac)
    - [TEASER++](https://github.com/MIT-SPARK/TEASER-plusplus)
    - [Open3D](https://github.com/isl-org/Open3D)
+   - [IRIS](https://github.com/rdeits/iris-distro)
 3. Planning & Control (**Formulation**)
    - [Terrain Planner](https://github.com/leggedrobotics/art_planner)
    - [flight](https://github.com/andybarry/flight)
@@ -155,20 +159,21 @@ layout: about
    - [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page)
 8. *Tools*
    - [ROS](https://github.com/ros/ros_comm)
+     - [Tracing tools for ROS](https://github.com/boschresearch/ros1_tracetools)
      - [RossROS](https://github.com/rlhatton/RossROS)
-   - [LCM](https://github.com/lcm-proj/lcm)
-     - [LCM to ROS](https://github.com/nrjl/lcm_to_ros)
-   - C++
-   - Python
-   - Markdown
-   - LaTeX
+     - [LCM](https://github.com/lcm-proj/lcm)
+       - [LCM to ROS](https://github.com/nrjl/lcm_to_ros)
+     - [catkin](https://github.com/ros/catkin)
+   - PlotJuggler
+   - C++/Python
+   - Markdown/LaTeX
    - Linux
-   - Git/GitHub/CI
-   - CMake
-   - [catkin](https://github.com/ros/catkin)
+   - CMake/Git/GitHub/CI
    - [Timer](https://github.com/LiangliangNan/Timer)
-   - [SIMD Everywhere](https://github.com/simd-everywhere/simde)
-   - [xsimd](https://github.com/xtensor-stack/xsimd)
+   - SIMD
+     - [SIMD Everywhere](https://github.com/simd-everywhere/simde)
+     - [xsimd](https://github.com/xtensor-stack/xsimd)
+     - [sse2neon](https://github.com/DLTcollab/sse2neon)
    - **Arduino**
 
 <p align="center">

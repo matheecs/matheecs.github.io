@@ -79,3 +79,6 @@ author: "Jixiang Zhang"
 ![](https://s3.amazonaws.com/assets.clearpathrobotics.com/wp-content/uploads/2022/05/04081633/TTB4facing-1-1024x435.jpg)
 #### Apple M1
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Apple_M1.jpg/502px-Apple_M1.jpg)
+
+#### Loona
+![](https://ksr-ugc.imgix.net/assets/038/554/071/1884d89c5fb3384f796fe1c5b9109f49_original.png?ixlib=rb-4.0.2&w=680&fit=max&v=1662889920&gif-q=50&lossless=true&s=453424ef39998792a5eac319afe0fcc5)
