@@ -3289,3 +3289,9 @@ Cite: [UDP Multicast Setup](https://lcm-proj.github.io/multicast_setup.html)
 ```bash
 while :; do ./send-message; sleep 1; done
 ```
+
+### Find Custom Python using CMake
+
+```cmake
+set(Python3_FIND_FRAMEWORK NEVER)
+```
