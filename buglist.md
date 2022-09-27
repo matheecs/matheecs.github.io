@@ -3295,3 +3295,13 @@ while :; do ./send-message; sleep 1; done
 ```cmake
 set(Python3_FIND_FRAMEWORK NEVER)
 ```
+
+### Do not use `include_directories` in CMak
+
+Use
+
+```cmake
+target_include_directories
+```
+
+Cite [彭于斌](https://github.com/archibate)
