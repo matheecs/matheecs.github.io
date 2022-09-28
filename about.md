@@ -15,7 +15,12 @@ layout: about
 ## Favorite Lectures
 
 - [计算机教育中缺失的一课](https://missing-semester-cn.github.io)
-- [GAMES104现代游戏引擎](https://space.bilibili.com/512313464/channel/collectiondetail?sid=292637)
+- [GAMES](https://games-cn.org)
+  - [GAMES101 现代计算机图形学入门](https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html)
+  - [GAMES102 几何建模与处理](https://www.bilibili.com/video/BV1NA411E7Yr/?vd_source=4d7f675645b3ffca7ad639b9131e37b6)
+  - [GAMES103 基于物理的计算机动画入门](https://games-cn.org/games103/)
+  - [GAMES104 现代游戏引擎](https://space.bilibili.com/512313464/channel/collectiondetail?sid=292637)
+  - [GAMES105 计算机角色动画基础](https://games-cn.org/games105/)
 - [操作系统：设计与实现](http://jyywiki.cn/OS/2022/)
   - [计算机系统基础 课程实验](https://nju-projectn.github.io/ics-pa-gitbook/ics2021/index.html)
 - [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
@@ -25,6 +30,10 @@ layout: about
 - [Robotic Manipulation](https://manipulation.csail.mit.edu)
 - [机器人中的数值优化](https://www.shenlanxueyuan.com/course/531)
 - [Michigan Robotics Free Online Courses](https://robotics.umich.edu/academics/courses/online-courses/)
+- [Optimal Control 16-745](https://github.com/Optimal-Control-16-745)
+- [Advanced Robot Dynamics and Simulation 16-715](https://github.com/dynamics-simulation-16-715)
+- [Optimization-Based Robotics](http://sites.nd.edu/pwensing/ame-60621/)
+- [Analytical Dynamics](http://sites.nd.edu/pwensing/ame-40623-60623-analytical-dynamics/)
 
 ## Researchers
 
@@ -110,15 +119,16 @@ layout: about
      - [legged_control](https://github.com/qiayuanliao/legged_control)
    - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
    - [towr](https://github.com/ethz-adrl/towr)
+   - [GPOPS-II: Next-Generation Optimal Control Software](https://www.gpops2.com)
    - [Drake](https://github.com/RobotLocomotion/drake)
    - [Representation-Free MPC](https://github.com/YanranDing/RF-MPC)
    - [**IJRR_WBLC**](https://github.com/dhkim0821/IJRR_WBLC)
-     - [Video: Lecture on Whole Body Control](https://www.youtube.com/watch?v=RXT6Q96SRO4)
+     - [🎬Lecture on Whole Body Control](https://www.youtube.com/watch?v=RXT6Q96SRO4)
      - [DynaCoRE](https://github.com/DARoSLab/DynaCoRE)
    - [BehaviorTree.CPP](https://github.com/BehaviorTree/BehaviorTree.CPP)
      - [**Sequential Composition**](https://matheecs.tech/study/2022/08/23/SC.html)
-       - [Planning on Motion Primitive Graphs](https://www.youtube.com/watch?v=K3-xVWL08nk)
-       - [Motion Primitive Graphs](https://www.youtube.com/watch?v=3vsk00a4XBg)
+       - [🎬Planning on Motion Primitive Graphs](https://www.youtube.com/watch?v=K3-xVWL08nk)
+       - [🎬Motion Primitive Graphs](https://www.youtube.com/watch?v=3vsk00a4XBg)
      - [Subsumption Architecture](http://users.dimi.uniud.it/~antonio.dangelo/Robotica/2013/lessons/M02mar20.pdf)
      - State Machine
    - [OpenRAVE](https://github.com/rdiankov/openrave)
@@ -138,6 +148,8 @@ layout: about
      - [scone-core](https://github.com/tgeijten/scone-core)
      - [scone-studio](https://github.com/tgeijten/scone-studio)
    - [OpenSim](https://simtk.org/projects/opensim)
+     - [📖Biomechanics of Movement](https://biomech.stanford.edu)
+     - [🎬Biomechanics of Movement](https://www.youtube.com/channel/UCDNGy0KKNLQ-ztcL5h2Z6zA)
    - [B-Human](https://github.com/bhuman/BHumanCodeRelease)
    - [Taichi](https://github.com/taichi-dev/taichi)
    - Maya
@@ -160,6 +172,8 @@ layout: about
    - [GTSAM](https://github.com/borglab/gtsam)
    - [Ceres](https://github.com/ceres-solver/ceres-solver)
    - [g2o](https://github.com/RainerKuemmerle/g2o)
+   - [ALTRO](https://github.com/RoboticExplorationLab/Altro.jl)
+     - [AltroCpp](https://github.com/optimusride/altro-cpp)
 7. *Numerical Computation*
    - [NumPy](https://numpy.org)
    - [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page)

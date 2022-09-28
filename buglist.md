@@ -3296,7 +3296,7 @@ while :; do ./send-message; sleep 1; done
 set(Python3_FIND_FRAMEWORK NEVER)
 ```
 
-### Do not use `include_directories` in CMak
+### Do not use `include_directories` in CMake
 
 Use
 
