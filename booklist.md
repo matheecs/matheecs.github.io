@@ -57,6 +57,7 @@ author: "Jixiang Zhang"
 * Orange'S: 一个操作系统的实现
 * [现代 C++ 教程: 高速上手 C++ 11/14/17/20](https://changkun.de/modern-cpp/)
 * [每位程式設計師都該知道的記憶體知識](https://jason2506.gitbooks.io/cpumemory/content/)
+* Mac OS X Internals
 
 ### 机器人感知
 

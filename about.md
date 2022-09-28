@@ -181,6 +181,7 @@ layout: about
    - [ROS](https://github.com/ros/ros_comm)
      - [Tracing tools for ROS](https://github.com/boschresearch/ros1_tracetools)
      - [RossROS](https://github.com/rlhatton/RossROS)
+     - [📖Gently Down the Stream: A Gentle Introduction to Apache Kafka](http://gentlydownthe.stream/)
      - [LCM](https://github.com/lcm-proj/lcm)
        - [LCM to ROS](https://github.com/nrjl/lcm_to_ros)
      - [catkin](https://github.com/ros/catkin)

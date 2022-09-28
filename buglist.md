@@ -3305,3 +3305,9 @@ target_include_directories
 ```
 
 Cite [彭于斌](https://github.com/archibate)
+
+### macOS architecture
+
+![](images/macOS_architecture.png)
+
+Cite [Mac OS X Internals](https://www.amazon.com/Mac-OS-Internals-Approach-paperback/dp/0134426541)
