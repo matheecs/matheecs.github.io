@@ -107,6 +107,7 @@ layout: about
    - [Terrain Planner](https://github.com/leggedrobotics/art_planner)
    - [flight](https://github.com/andybarry/flight)
    - [ego-planner-swarm](https://github.com/ZJU-FAST-Lab/ego-planner-swarm)
+   - [Ewok](https://github.com/VladyslavUsenko/ewok)
    - [Motion Planning around Obstacles with Convex Optimization](https://github.com/mpetersen94/gcs)
    - [OMPL](https://ompl.kavrakilab.org)
    - [GCOPTER](https://github.com/ZJU-FAST-Lab/GCOPTER)
