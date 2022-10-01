@@ -153,10 +153,13 @@ layout: about
      - [🎬Biomechanics of Movement](https://www.youtube.com/channel/UCDNGy0KKNLQ-ztcL5h2Z6zA)
    - [B-Human](https://github.com/bhuman/BHumanCodeRelease)
    - [Taichi](https://github.com/taichi-dev/taichi)
-   - Maya
    - [Blender](https://github.com/blender/blender)
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [mjbots quad](https://github.com/mjbots/quad)
+   - [Choreonoid](https://github.com/choreonoid/choreonoid)
+     - [NAO Choregraphe](http://doc.aldebaran.com/1-14/software/choregraphe/index.html)
+     - [Spot Choreography](https://dev.bostondynamics.com/docs/concepts/choreography/readme)
+     - Maya
 5. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [MeshCat](https://github.com/rdeits/meshcat-python)
