@@ -78,6 +78,7 @@ layout: about
 - [Liangliang Nan](https://3d.bk.tudelft.nl/liangliang/)
 - [Nicolò Valigi](https://nicolovaligi.com)
 - [Robin Deits](https://blog.robindeits.com/pages/about/)
+- [Stéphane Caron](https://scaron.info)
 
 ## Algorithm Tree
 
@@ -160,6 +161,8 @@ layout: about
      - [NAO Choregraphe](http://doc.aldebaran.com/1-14/software/choregraphe/index.html)
      - [Spot Choreography](https://dev.bostondynamics.com/docs/concepts/choreography/readme)
      - Maya
+   - [pymanoid](https://github.com/stephane-caron/pymanoid)
+   - [LIPM Walking Controller](https://github.com/stephane-caron/lipm_walking_controller)
 5. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [MeshCat](https://github.com/rdeits/meshcat-python)
