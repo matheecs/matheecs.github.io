@@ -79,6 +79,9 @@ layout: about
 - [Nicolò Valigi](https://nicolovaligi.com)
 - [Robin Deits](https://blog.robindeits.com/pages/about/)
 - [Stéphane Caron](https://scaron.info)
+- [Stefano Dafarra](https://github.com/S-Dafarra)
+- [Robert Griffin](https://www.ihmc.us/groups/robert-griffin/)
+- [Joel Chestnutt](https://scholar.google.com/citations?user=8IH6kXQAAAAJ&hl=en)
 
 ## Algorithm Tree
 
@@ -93,6 +96,7 @@ layout: about
    - [OpenMVS](https://github.com/cdcseacave/openMVS)
    - [Multi-View Environment](https://github.com/simonfuhrmann/mve)
    - [COLMAP](https://github.com/colmap/colmap)
+   - [whole-body-estimators](https://github.com/robotology/whole-body-estimators)
 2. Perception
    - [Elevation Mapping CuPy](https://github.com/leggedrobotics/elevation_mapping_cupy)
    - [OpenVDB](https://www.openvdb.org)
@@ -116,7 +120,7 @@ layout: about
      - [IHMC-Robotics](https://github.com/GabrielEGC/IHMC-Robotics)
    - [A1-QP-MPC-Controller](https://github.com/matheecs/A1-QP-MPC-Controller)
      - [legged_mpc_control](https://github.com/RoboticExplorationLab/legged_mpc_control)
-   - [IHMC Open Robotics Software](https://github.com/ihmcrobotics/ihmc-open-robotics-software)
+   - [**IHMC Open Robotics Software**](https://github.com/ihmcrobotics/ihmc-open-robotics-software)
    - [OCS2](https://github.com/leggedrobotics/ocs2)
      - [legged_control](https://github.com/qiayuanliao/legged_control)
    - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
@@ -136,6 +140,8 @@ layout: about
    - [OpenRAVE](https://github.com/rdiankov/openrave)
    - [mpc_controller](https://github.com/google-research/motion_imitation/tree/master/mpc_controller)
    - [reactive_planners](https://github.com/machines-in-motion/reactive_planners)
+   - [bipedal-locomotion-framework](https://github.com/ami-iit/bipedal-locomotion-framework)
+   - [walking-controllers](https://github.com/robotology/walking-controllers)
 4. Dynamics & Simulation (**Animation**)
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RBDL](https://github.com/rbdl/rbdl)
@@ -162,6 +168,7 @@ layout: about
      - [NAO Choregraphe](http://doc.aldebaran.com/1-14/software/choregraphe/index.html)
      - [Spot Choreography](https://dev.bostondynamics.com/docs/concepts/choreography/readme)
      - Maya
+   - [variable-height-double-pendulum](https://github.com/S-Dafarra/variable-height-double-pendulum)
    - [pymanoid](https://github.com/stephane-caron/pymanoid)
    - [LIPM Walking Controller](https://github.com/stephane-caron/lipm_walking_controller)
 5. Visualization
