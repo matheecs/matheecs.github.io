@@ -143,3 +143,11 @@ author: "Jixiang Zhang"
 #### Loona
 
 ![](https://ksr-ugc.imgix.net/assets/038/554/071/1884d89c5fb3384f796fe1c5b9109f49_original.png?ixlib=rb-4.0.2&w=680&fit=max&v=1662889920&gif-q=50&lossless=true&s=453424ef39998792a5eac319afe0fcc5)
+
+#### ClicBot
+
+![](https://www.robotshop.com/media/catalog/product/cache/image/900x900/9df78eab33525d08d6e5fb8d27136e95/c/l/clicbot-stem-coding-robot-standard-kit-1.jpg)
+
+#### Mercury
+
+![](https://robots.ieee.org/robots/mercury/Photos/SD/mercury-photo1-full.jpg)
