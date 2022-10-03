@@ -82,6 +82,7 @@ layout: about
 - [Stefano Dafarra](https://github.com/S-Dafarra)
 - [Robert Griffin](https://www.ihmc.us/groups/robert-griffin/)
 - [Joel Chestnutt](https://scholar.google.com/citations?user=8IH6kXQAAAAJ&hl=en)
+- [Ye Zhao](https://www.me.gatech.edu/faculty/zhao)
 
 ## Algorithm Tree
 
