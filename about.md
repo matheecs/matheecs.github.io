@@ -136,6 +136,7 @@ layout: about
      - [**Sequential Composition**](https://matheecs.tech/study/2022/08/23/SC.html)
        - [🎬Planning on Motion Primitive Graphs](https://www.youtube.com/watch?v=K3-xVWL08nk)
        - [🎬Motion Primitive Graphs](https://www.youtube.com/watch?v=3vsk00a4XBg)
+       - [🎬Reactive Task and Motion Planning](https://www.youtube.com/watch?v=kZlbg5m9eck)
      - [Subsumption Architecture](http://users.dimi.uniud.it/~antonio.dangelo/Robotica/2013/lessons/M02mar20.pdf)
      - State Machine
    - [OpenRAVE](https://github.com/rdiankov/openrave)
