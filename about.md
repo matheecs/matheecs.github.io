@@ -88,7 +88,7 @@ layout: about
 
 1. Estimation & Calibration
    - [MSF](https://github.com/ethz-asl/ethzasl_msf)
-   - [visual-inertial-leg odometry](https://github.com/ShuoYangRobotics/tightly-coupled-visual-inertial-leg-odometry)
+   - [Cerberus](https://github.com/ShuoYangRobotics/Cerberus)
    - [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)
    - [Pronto](https://github.com/ori-drs/pronto)
    - [MVStudio](https://github.com/LiangliangNan/MVStudio)
