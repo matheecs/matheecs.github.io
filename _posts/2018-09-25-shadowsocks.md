@@ -15,9 +15,9 @@ author: "Jixiang Zhang"
 1. 第一步需要购买虚拟专用服务器（VPS），部署VPS作为服务端。推荐 [Vultr](https://www.vultr.com/) 提供商，支持支付宝付款。选择购买位于美国的服务器，建议选择安装好 Ubuntu 16.04 系统的服务器。购买好后开始部署。采用系统自带的终端即可SSH登录服务器。执行以下命令：
 
    ```shell
-   $ wget --no-check-certificate -O s.h.a.d.o.w.s.o.c.k.s-all.sh https://raw.githubusercontent.com/teddysun/s.h.a.d.o.w.s.o.c.k.s_install/master/s.h.a.d.o.w.s.o.c.k.s-all.sh
-   $ chmod +x s.h.a.d.o.w.s.o.c.k.s-all.sh
-   $ ./s.h.a.d.o.w.s.o.c.k.s-all.sh 2>&1 | tee s.h.a.d.o.w.s.o.c.k.s-all.log
+   wget --no-check-certificate -O s.h.a.d.o.w.s.o.c.k.s-all.sh https://raw.githubusercontent.com/teddysun/s.h.a.d.o.w.s.o.c.k.s_install/master/s.h.a.d.o.w.s.o.c.k.s-all.sh
+   chmod +x s.h.a.d.o.w.s.o.c.k.s-all.sh
+   ./s.h.a.d.o.w.s.o.c.k.s-all.sh 2>&1 | tee s.h.a.d.o.w.s.o.c.k.s-all.log
    ```
 
    根据提示输入端口、加密方式等信息。
@@ -27,7 +27,7 @@ author: "Jixiang Zhang"
    - [可选]安装 BBR 加速算法：
 
       ```shell
-      $ wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+      wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
       ```
 
 2. 第二步，在自己的设备上安装 Sh... 客户端（Win/macOS/Linux/iOS/Android/OpenWRT），输入账号信息，开启愉快的科研生活。

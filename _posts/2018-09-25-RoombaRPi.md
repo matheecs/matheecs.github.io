@@ -15,29 +15,21 @@ author: "Jixiang Zhang"
 
 采用航模3S锂电池，12V$\to$5V/3A DC/DC转换器，通过引脚4（5V）、引脚6（Ground）供电。
 
-
-
 ### 通信
 
 Roomba$\leftrightarrow$树莓派 之间采用 Serial$\leftrightarrow$USB 的方式通信，利用自带的转换线，避免了转换电平（Roomba 5V而树莓派串口3.3V）的麻烦。
 
 配置树莓派工作在 AP 热点模式，实现即时在没有路由器的环境下，也可用 SSH 方式远程登录树莓派。
 
-
-
 ### “大脑”
 
 考虑到成本问题，采用了Raspberry Pi 3b+。TX1/2 当然是更好的选择。
-
-
 
 ### “眼睛”
 
 TODO：RPi Camera（G），OV5647，160度视场角，同样是考虑到成本问题。全局曝光工业相机 MT9V034 是更好的选择。
 
 TODO：IR 测距传感器，用于绘画二维地图。
-
-
 
 ### 机器人和计算机的一个区别
 
@@ -144,8 +136,6 @@ except:
     print "\nPause iRobot..."
     irobot.close()
 ```
-
-
 
 ##### 参考文献
 

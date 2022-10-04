@@ -7,15 +7,13 @@ author: "Grau GmbH"
 
 原文：[ROS CAMERA AND IMU SYNCHRONIZATION](http://grauonline.de/wordpress/?page_id=1951)
 
-
-
 ### Idea
 
 针对 VIO 和 SLAM 应用，我们需要实现相机和 IMU 的硬件时间同步(微秒级的精度)：
 
-![](http://grauonline.de/wordpress/wp-content/uploads/bluefox2_mpu6050_synchronize.png)
+![bluefox2_mpu6050_synchronize](http://grauonline.de/wordpress/wp-content/uploads/bluefox2_mpu6050_synchronize.png)
 
-```
+```text
 time:   0 ms, IMU data, camera image #0
 time:   5 ms, IMU data
 time:  10 ms, IMU data
@@ -36,7 +34,7 @@ time: 100 ms, IMU data, camera image #2
 - 132 度鱼眼镜头
 - IMU（MPU6050），与 Arduino Nano 相连
 
-![](http://grauonline.de/wordpress/wp-content/uploads/visual_intertial-300x225.jpg)
+![visual_intertial](http://grauonline.de/wordpress/wp-content/uploads/visual_intertial-300x225.jpg)
 
 ### 概述
 
@@ -46,7 +44,7 @@ IMU –> Arduino –> PC (ROS IMU node) –> ROS camera node
 
 ROS trigger_time 通过 IMU 节点发布消息如下所示：
 
-```
+```text
 /imu/trigger_time  (TimeReference):
 
 header.seq   --> image sequence (triggerCounter)
@@ -88,7 +86,6 @@ header.stamp --> timestamp of image
    1. 校准 IMU 时间
    2. 校准相机时间和确定图像编号
 
-
 ### ROS: mpu6050_serial_to_imu
 
 1. 编写  src/mpu6050_serial_to_imu_node.cpp，用来接收来自 Arduino 的时间戳和触发计数器的消息。
@@ -110,77 +107,77 @@ header.stamp --> timestamp of image
    trigger_time_msg.time_ref = time_ref;          trigger_time_pub.publish(trigger_time_msg);
    ```
 
-   ### ROS: bluefox2
+### ROS: bluefox2
 
-   1. 安装 [ROS bluefox2](https://github.com/KumarRobotics/bluefox2) 包
+1. 安装 [ROS bluefox2](https://github.com/KumarRobotics/bluefox2) 包
 
-   2. 编写 src/single/single_node.cpp，用于相机节点订阅新的 trigger_time 消息：
+2. 编写 src/single/single_node.cpp，用于相机节点订阅新的 trigger_time 消息：
 
-      ```c++
-      subTimeRef = pnh.subscribe("/imu/trigger_time", 1000, &bluefox2::SingleNode::callback, this);
+   ```c++
+   subTimeRef = pnh.subscribe("/imu/trigger_time", 1000, &bluefox2::SingleNode::callback, this);
 
-      void SingleNode::callback(const sensor_msgs::TimeReference::ConstPtr &time_ref) {
-        bluefox2::TriggerPacket_t pkt;
-        pkt.triggerTime = time_ref->header.stamp;
-        pkt.triggerCounter = time_ref->header.seq;     
-        fifoWrite(pkt);
-      }
-      ```
+   void SingleNode::callback(const sensor_msgs::TimeReference::ConstPtr &time_ref) {
+     bluefox2::TriggerPacket_t pkt;
+     pkt.triggerTime = time_ref->header.stamp;
+     pkt.triggerCounter = time_ref->header.seq;     
+     fifoWrite(pkt);
+   }
+   ```
 
-   3. 修改 ‘Aquire’ 方法，为每张图片盖上时间戳：
+3. 修改 ‘Aquire’ 方法，为每张图片盖上时间戳：
 
-      ```c++
-      void SingleNode::Acquire() {
-        while (is_acquire() && ros::ok()) {
-          bluefox2_ros_->RequestSingle();
-          // wait for new trigger packet to receive
-          TriggerPacket_t pkt;
-          while (!fifoRead(pkt)) {    
-            ros::Duration(0.001).sleep();
-          }
-          // a new video frame was captured
-          // check if we need to skip it if one trigger packet was lost
-          if (pkt.triggerCounter == nextTriggerCounter) {
-                bluefox2_ros_->PublishCamera(pkt.triggerTime);
-          } else { 
-            ROS_WARN("trigger not in sync (seq expected %10u, got %10u)!",
-               nextTriggerCounter, pkt.triggerCounter);     
-          } 
-          nextTriggerCounter++;
-          Sleep();
-        }
-      }
-      ```
+   ```c++
+   void SingleNode::Acquire() {
+     while (is_acquire() && ros::ok()) {
+       bluefox2_ros_->RequestSingle();
+       // wait for new trigger packet to receive
+       TriggerPacket_t pkt;
+       while (!fifoRead(pkt)) {    
+         ros::Duration(0.001).sleep();
+       }
+       // a new video frame was captured
+       // check if we need to skip it if one trigger packet was lost
+       if (pkt.triggerCounter == nextTriggerCounter) {
+             bluefox2_ros_->PublishCamera(pkt.triggerTime);
+       } else { 
+         ROS_WARN("trigger not in sync (seq expected %10u, got %10u)!",
+            nextTriggerCounter, pkt.triggerCounter);     
+       } 
+       nextTriggerCounter++;
+       Sleep();
+     }
+   }
+   ```
 
-   4. 修改相机启动文件（launch/single_node.launch）
+4. 修改相机启动文件（launch/single_node.launch）
 
-      1. 关闭自动曝光时间，采用固定曝光时间。以此才能根据触发时间戳计算最后图像的时间戳
-      2. 用触发引脚（高电平触发）作为 camera digital input 0：
+   1. 关闭自动曝光时间，采用固定曝光时间。以此才能根据触发时间戳计算最后图像的时间戳
+   2. 用触发引脚（高电平触发）作为 camera digital input 0：
 
-      ```c++
-      <arg name="aec" default="false"/>
-      <arg name="expose_us" default="15000"/>
-      <!-- Trigger mode (ctm): 1=on demand (default), 3=hardware trigger -->     
-      <arg name="ctm" default="3"/> 
-      <arg name="cts" default="0"/>
-      ```
+   ```c++
+   <arg name="aec" default="false"/>
+   <arg name="expose_us" default="15000"/>
+   <!-- Trigger mode (ctm): 1=on demand (default), 3=hardware trigger -->     
+   <arg name="ctm" default="3"/> 
+   <arg name="cts" default="0"/>
+   ```
 
-   5. 为了让 IMU 节点和相机节点同时启动，在相机节点启动文件（launch/single_node.launch）里加入 IMU 节点：
+5. 为了让 IMU 节点和相机节点同时启动，在相机节点启动文件（launch/single_node.launch）里加入 IMU 节点：
 
-      ```c++
-      <node pkg="mpu6050_serial_to_imu" type="mpu6050_serial_to_imu_node" name="mpu6050_serial_to_imu_node" required="true">
-            <param name="port" value="/dev/ttyUSB0"/>
-      </node>
-      ```
+   ```c++
+   <node pkg="mpu6050_serial_to_imu" type="mpu6050_serial_to_imu_node" name="mpu6050_serial_to_imu_node" required="true">
+         <param name="port" value="/dev/ttyUSB0"/>
+   </node>
+   ```
 
-   6. 运行相机启动文件：
+6. 运行相机启动文件：
 
-      ```shell
-      $ roslaunch bluefox2 single_node.launch
-      ```
+   ```shell
+   roslaunch bluefox2 single_node.launch
+   ```
 
-   7. 确认未遗漏任何时间消息。
+7. 确认未遗漏任何时间消息。
 
-   ### 下载
+### 同步程序下载
 
-   [ROS_bluefox2_mpu6050_synchronization_hack](http://grauonline.de/wordpress/wp-content/uploads/bluefox2_mpu6050_synchronization.tar.gz)
+[ROS_bluefox2_mpu6050_synchronization_hack](http://grauonline.de/wordpress/wp-content/uploads/bluefox2_mpu6050_synchronization.tar.gz)

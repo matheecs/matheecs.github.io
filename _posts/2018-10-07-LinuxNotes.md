@@ -5,14 +5,12 @@ categories: tech
 author: "Jixiang Zhang"
 ---
 
-##### Linux自学资料
+## Linux自学资料
 
 1. [Linux 基礎學習篇訓練教材](http://linux.vbird.org/linux_basic_train/)
 2. Running Linux
 
-
-
-##### 第 1 堂課：初次使用 Linux 與指令列模式初探
+## 第 1 堂課：初次使用 Linux 與指令列模式初探
 
 CPU 架構：
 
@@ -27,19 +25,19 @@ Linux distribution = Linux Kernel + Softwares + Tools + 可完整安裝程序
 
 - [Ctrl] + [Alt] + [F1] ：圖形介面桌面
 
-##### 第 2 堂課：指令下達行為與基礎檔案管理
+## 第 2 堂課：指令下達行為與基礎檔案管理
 
 ```bash
-$ command  [-options]  [parameter1...]
+command  [-options]  [parameter1...]
 ```
 
 usr 不是 user 喔！是 unix software resource 的縮寫
 
-##### 第 3 堂課：檔案管理與 vim 初探
+## 第 3 堂課：檔案管理與 vim 初探
 
 萬用字元
 
-1. *
+-. *
 2. ?
 3. [ ]
 4. [ - ]
@@ -48,16 +46,16 @@ usr 不是 user 喔！是 unix software resource 的縮寫
 - **yy** -- 為複製游標所在行，5yy 為複製 5 行，nyy 為複製 n 行
 - **p** -- 為在游標底下貼上剛剛刪除/複製的資料
 
-##### 第 4 堂課：Linux 基礎檔案權限與基礎帳號管理
+## 第 4 堂課：Linux 基礎檔案權限與基礎帳號管理
 
-##### 第 5 堂課：權限應用、程序之觀察與基本管理
+## 第 5 堂課：權限應用、程序之觀察與基本管理
 
 - 程式 (program)：通常為 binary program ，放置在儲存媒體中 (如硬碟、光碟、軟碟、磁帶等)， 為實體檔案的型態存在；
 - 程序 (process)：程式被觸發後，執行者的權限與屬性、程式的程式碼與所需資料等都會被載入記憶體中，作業系統並給予這個記憶體內的單元一個識別碼 (**PID**)，可以說，程序就是一個正在運作中的程式。
 
-##### 第 6 堂課：基礎檔案系統管理
+## 第 6 堂課：基礎檔案系統管理
 
-##### 第 7 堂課：認識 bash 基礎與系統救援
+## 第 7 堂課：認識 bash 基礎與系統救援
 
 1. **env** -- set environment and execute command, or print environment
 2. **set**
@@ -75,23 +73,19 @@ usr 不是 user 喔！是 unix software resource 的縮寫
 
 由於 ~/.bash_profile 也是讀取 ~/.bashrc ，因此使用者只需要將設定放置於家目錄下的 .bashrc 就可以讓兩者讀取了。
 
-
-
 **系統救援**
 
 - systemd
 
+## 第 8 堂課：bash 指令連續下達與資料流重導向
 
-
-##### 第 8 堂課：bash 指令連續下達與資料流重導向
-
-##### 第 9 堂課：正規表示法與 shell script 初探
+## 第 9 堂課：正規表示法與 shell script 初探
 
 - ^word
 - word$
 - .
 - \
-- *
+    - *
 - [list]
 - [n1-n2]
 - [^list]
@@ -109,9 +103,9 @@ usr 不是 user 喔！是 unix software resource 的縮寫
 - [:space:]
 - [:xdigit:]
 
-##### 第 10 堂課：使用者管理與 ACL 權限設定
+## 第 10 堂課：使用者管理與 ACL 權限設定
 
-##### 第 11 堂課：基礎設定、備份、檔案壓縮打包與工作排程
+## 第 11 堂課：基礎設定、備份、檔案壓縮打包與工作排程
 
 firewall-cmd
 
@@ -120,7 +114,7 @@ firewall-cmd
 - tar
 - crontab
 
-##### 第 12 堂課：軟體管理與安裝及登錄檔初探
+## 第 12 堂課：軟體管理與安裝及登錄檔初探
 
 | distribution 代表 | 軟體管理機制 |   使用指令    | 線上升級機制(指令) |
 | :---------------: | :----------: | :-----------: | :----------------: |
@@ -129,7 +123,7 @@ firewall-cmd
 
 rsyslog
 
-##### 第 13 堂課：服務管理與開機流程管理
+## 第 13 堂課：服務管理與開機流程管理
 
 systemd
 
@@ -152,4 +146,4 @@ systemctl
    - systemd 執行 multi-user.target 下的 getty.target 及登入服務；
    - systemd 執行 graphical 需要的服務
 
-##### 第 14 堂課：進階檔案系統管理Hac
+## 第 14 堂課：進階檔案系統管理Hac

@@ -38,7 +38,6 @@ author: "Jixiang Zhang"
 
 总之，信息论是一门交叉学科，也是“三论”（信息论、控制论、系统论）之一，对当代科技发展起着至关重要的作用。
 
-
 ### Claude Elwood Shannon 简介
 
 **Date of birth**: 30 April 1916

@@ -9,20 +9,20 @@ Homepage: [Visual Navigation for Flying Robots](https://vision.in.tum.de/teachin
 
 Lectures: [visnav2013lecturenotes](https://vision.in.tum.de/_media/teaching/ss2013/visnav2013/visnav2013lecturenotes.pdf)
 
-##### Research Goal
+## Research Goal
 
 > Apply solutions from computer vision to real-world problems in robotics.
 
-##### Course Material
+## Course Material
 
 1. Probabilistic Robotics
 2. Computer Vision: Algorithms and Applications
 
-##### Lecture Plan
+## Lecture Plan
 
 Basics on Mobile Robotics $\to$ Camera-based Localization and Mapping $\to$ Advanced Topics
 
-##### Safety Warning!!!
+## Safety Warning
 
 1. Quadrocopters are dangerous objects
 2. Read the instructions carefully before you start
@@ -32,24 +32,25 @@ Basics on Mobile Robotics $\to$ Camera-based Localization and Mapping $\to$ Adva
 6. NEVER TOUCH THE PROPELLORS
 7. DO NOT TRY TO CATCH THE QUADROCOPTER WHEN IT FAILS – LET IT FALL/CRASH!
 
-##### Robot Design
+## Robot Design
 
 Imagine that we want to build a robot that has to perform navigation tasks...
 
 How would you tackle this?
+
 - What hardware would you choose?
 
 - What software architecture would you choose?
 
-##### Robot Hardware/Components
+## Robot Hardware/Components
 
 1. Sensors
 2. Actuators
 3. Control Unit/Software
 
-##### Software Architecture
+## Software Architecture
 
-##### **Computer Program $\neq$ Robot Program**
+## **Computer Program $\neq$ Robot Program**
 
 1. Classical robotics (Computer Programming Method, But **A Robot IS NOT A Computrer**)
    $$
@@ -66,7 +67,7 @@ How would you tackle this?
 
 4. Current trends
 
-##### Design Steps [jones1999mobile]
+## Design Steps [jones1999mobile]
 
 1. What is the robot supposed to do?
 2. What is the simplest way to accomplish the task?
@@ -75,7 +76,7 @@ How would you tackle this?
 5. What sensors can supply this information most effectively?
 6. How can the problem be **decomposed** into **behaviors**?
 
-##### Best Practices for Robot Architectures
+## Best Practices for Robot Architectures
 
 - Modular
 - Robust
@@ -86,22 +87,22 @@ How would you tackle this?
 - Data logging and playback
 - Easy to learn and to extend
 
-##### Robotic Middleware
+## Robotic Middleware
 
 - Provides infrastructure
 - Communication between modules
 - Data logging facilities
 - Tools for visualization
-- Several systems available 
+- Several systems available
   - Open-source: ROS (Robot Operating System), Player/Stage, CARMEN, YARP, OROCOS
   - Closed-source: Microsoft Robotics Studio
 
-##### Communication Paradigms
+## Communication Paradigms
 
 - Message-based communication
 - Direct (shared) memory access
 
-##### Forms of Communication
+## Forms of Communication
 
 - Push
 - Pull
@@ -110,7 +111,7 @@ How would you tackle this?
 - Remote procedure calls / service calls
 - Preemptive tasks / actions
 
-##### Useful Tools (ROS)
+## Useful Tools (ROS)
 
 - roscreate-pkg
 - rosmake
@@ -120,7 +121,7 @@ How would you tackle this?
 - rosbag record/play
 - rosrun
 
-##### Geometric Primitives in 2D
+## Geometric Primitives in 2D
 
 Line joining two points
 $$
@@ -131,7 +132,7 @@ $$
 \tilde x = \tilde l_1 \times \tilde l_2
 $$
 
-##### Geometric Primitives in 3D
+## Geometric Primitives in 3D
 
 - 3D point
   $$
@@ -144,15 +145,6 @@ $$
   \in
   \mathbf{R^3}
   $$
-
-
-
-
-
-
-
-
-
 
 - Augmented vector
   $$
@@ -167,15 +159,6 @@ $$
   \mathbf{R^4}
   $$
 
-
-
-
-
-
-
-
-
-
 - Homogeneous coordinates
   $$
   \tilde x =
@@ -189,26 +172,13 @@ $$
   \mathbf{P^3}
   $$
 
-
-
-
-
-
-
-
-
-
-##### Scientific Research
+## Scientific Research
 
 **Be Creative & Do Research** $\to$ Write and  Submit Paper $\to$ Prepare Talk/Poster $\to$ Present Work at Conference $\to$ Talk with People & Get Inspired $\to$ ...
 
-
-
 ![](/images/state.jpg)
 
-
-
-##### Sensor Model
+## Sensor Model
 
 $$
 z = h(x)
@@ -219,7 +189,7 @@ $$
 x=h^{-1}(x)
 $$
 
-##### Motion Model
+## Motion Model
 
 $$
 x^{\prime}=g(x,u)
@@ -227,7 +197,7 @@ $$
 
 ![](/images/control.jpg)
 
-##### Assumptions of Cascaded Control
+## Assumptions of Cascaded Control
 
 - Dynamics of inner loops is so fast that it is not visible from outer loops
 - Dynamics of outer loops is so slow that it appears as static to the inner loops
@@ -239,7 +209,7 @@ Example
 3. Position control (at 10 – 250 Hz)
 4. Trajectory (waypoint) control (at 0.1 – 1 Hz)
 
-##### Smith Predictor
+## Smith Predictor
 
 - Allows for higher gains
 
@@ -253,7 +223,7 @@ Why is this *unrealistic* in practice?
 
 ![](/images/PD.jpg)
 
-##### Advanced Control Techniques
+## Advanced Control Techniques
 
 - Adaptive control
 - Robust control
@@ -263,22 +233,16 @@ Why is this *unrealistic* in practice?
 - Inverse reinforcement learning
 - ... and many more
 
-
-
-##### Robust Error Metrics
+## Robust Error Metrics
 
 1. Sum of Squared Differences (SSD)
 2. Sum of absolute differences (SAD, L1 norm)
 3. Sum of truncated errors
 4. Geman-McClure
 
+## Exposure Differences？
 
-
-##### Exposure Differences？
-
-
-
-##### Ideas for Your Mini-Project
+## Ideas for Your Mini-Project
 
 - Person following (colored shirt or wearing a marker)
 - Flying camera for taking group pictures (possibly using the OpenCV face detector)
@@ -290,7 +254,7 @@ Why is this *unrealistic* in practice?
 - **Your own idea here – be creative!**
 - ...
 
-##### Four Important SfM Problems
+## Four Important SfM Problems
 
 - Camera calibration / resection
 
@@ -308,11 +272,9 @@ Why is this *unrealistic* in practice?
 
   Observe 2D point correspondences, compute camera pose and 3D points (up to scale)
 
-##### SVD
+## SVD
 
-
-
-##### RANSAC
+## RANSAC
 
 **Goal**: Robustly fit a model to a data set   which contains outliers
 **Algorithm**:
@@ -323,7 +285,7 @@ Why is this *unrealistic* in practice?
 4. Repeat 1-3 for N iterations
 5. Select the largest inlier set, and re-estimate the model from all points in this set
 
-##### Derivatives of the Error Terms
+## Derivatives of the Error Terms
 
 Jacobian is **sparse**
 $$
@@ -339,18 +301,16 @@ Hessian is
 - symmetric
 - sparse
 
-##### Motion Planning Sub-Problems
+## Motion Planning Sub-Problems
 
-1. C-Space discretization (generating a graph / roadmap) 
-2. Searchalgorithms (Dijkstra’s algorithm, A*, ...) 
-3. Re-planning (D*, ...) 
-4. Path tracking (PID control, potential fields, funnels, ...) 
+1. C-Space discretization (generating a graph / roadmap)
+2. Searchalgorithms (Dijkstra’s algorithm, A*, ...)
+3. Re-planning (D*, ...)
+4. Path tracking (PID control, potential fields, funnels, ...)
 
-##### Navigation with Funnels
+## Navigation with Funnels
 
-
-
-##### Motion Planning in ROS
+## Motion Planning in ROS
 
 - Executive: state machine (**move_base**)
 - Global costmap: grid with inflation (**costmap_2d**)
@@ -358,6 +318,6 @@ Hessian is
 - Local costmap (**costmap_2d**)
 - Local planner: Dynamic window approach (**base_local_planner**)
 
-##### Information Theory
+## Information Theory
 
 > **Entropy** is a general measure for the uncertainty of a probability distribution

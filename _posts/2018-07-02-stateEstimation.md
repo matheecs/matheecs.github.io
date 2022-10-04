@@ -35,4 +35,3 @@ $$
 $$
 \mathbf{iRobot Create 2} + \mathbf{Stereo Camera} \to \mathbf{vSLAM}
 $$
-
