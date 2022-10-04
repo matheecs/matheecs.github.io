@@ -17,7 +17,6 @@ author: "Jixiang Zhang"
 
 ![](https://tvax2.sinaimg.cn/large/d494c514ly1gauzvek0vtj20m80gyqi4.jpg)
 
-
 **参考文献**
 
 - [A Quick Guide to Using UTM Coordinates](https://maptools.com/tutorials/utm/quick_guide)

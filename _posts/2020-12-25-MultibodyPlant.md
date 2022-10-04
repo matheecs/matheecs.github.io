@@ -8,6 +8,7 @@ author: "Jixiang Zhang"
 MultibodyPlant 表示互连的多体物理系统。`model_instance_name[i]` 表示所有模型实例（model instances），且 `world_model_instance()` 和 `default_model_instance()` 一直都会存在。
 
 MultibodyPlant 提供的 API 接口：
+
 - Ports
   1. get_body_poses_output_port ()
   2. get_body_spatial_velocities_output_port ()
@@ -38,12 +39,12 @@ MultibodyPlant 提供的 API 接口：
 - Geometry
   1. RegisterAsSourceForSceneGraph (geometry::SceneGraph< T > *scene_graph)
   2. RegisterVisualGeometry
-  3. GetVisualGeometriesForBody (const Body< T > &body) 
+  3. GetVisualGeometriesForBody (const Body< T > &body)
   4. RegisterCollisionGeometry (const Body< T > &body, const math::RigidTransform< double > &X_BG, const geometry::Shape &shape, const std::string &name, geometry::ProximityProperties properties)
-  5. GetCollisionGeometriesForBody (const Body< T > &body) 
+  5. GetCollisionGeometriesForBody (const Body< T > &body)
   6. ExcludeCollisionGeometriesWithCollisionFilterGroupPair (const std::pair< std::string, geometry::GeometrySet > &collision_filter_group_a, const std::pair< std::string, geometry::GeometrySet > &collision_filter_group_b)
   7. CollectRegisteredGeometries (const std::vector< const Body< T > * > &bodies)
-  8. GetBodyFromFrameId (geometry::FrameId frame_id) 
+  8. GetBodyFromFrameId (geometry::FrameId frame_id)
   9. GetBodyFrameIdIfExists (BodyIndex body_index)
   10. GetBodyFrameIdOrThrow (BodyIndex body_index)
 - Contact modeling
@@ -52,22 +53,22 @@ MultibodyPlant 提供的 API 接口：
   3. get_contact_penalty_method_time_scale ()
   4. set_stiction_tolerance (double v_stiction=0.001)
 - State access and modification
-  1. GetPositionsAndVelocities (const systems::Context< T > &context) 
-  2. GetMutablePositionsAndVelocities (systems::Context< T > *context) 
+  1. GetPositionsAndVelocities (const systems::Context< T > &context)
+  2. GetMutablePositionsAndVelocities (systems::Context< T > *context)
   3. SetPositionsAndVelocities (systems::Context< T > *context, const VectorX< T > &q_v)
-  4. GetPositions (const systems::Context< T > &context) 
-  5. GetMutablePositions (systems::Context< T > *context) 
+  4. GetPositions (const systems::Context< T > &context)
+  5. GetMutablePositions (systems::Context< T > *context)
   6. SetPositions (systems::Context< T > *context, const VectorX< T > &q)
-  7. GetVelocities (const systems::Context< T > &context) 
+  7. GetVelocities (const systems::Context< T > &context)
   8. GetMutableVelocities (const systems::Context< T > &context, systems::State< T > *state)
   9. SetVelocities (systems::Context< T > *context, const VectorX< T > &v)
   10. SetDefaultState (const systems::Context< T > &context, systems::State< T > *state)
-  11. SetRandomState (const systems::Context< T > &context, systems::State< T > *state, RandomGenerator *generator)
-  12. GetActuationFromArray (ModelInstanceIndex model_instance, const Eigen::Ref< const VectorX< T >> &u) 
+  11. SetRandomState (const systems::Context< T > &context, systems::State< T > *state, RandomGenerator*generator)
+  12. GetActuationFromArray (ModelInstanceIndex model_instance, const Eigen::Ref< const VectorX< T >> &u)
   13. SetActuationInArray (ModelInstanceIndex model_instance, const Eigen::Ref< const VectorX< T >> &u_instance, EigenPtr< VectorX< T >> u)
-  14. GetPositionsFromArray (ModelInstanceIndex model_instance, const Eigen::Ref< const VectorX< T >> &q) 
+  14. GetPositionsFromArray (ModelInstanceIndex model_instance, const Eigen::Ref< const VectorX< T >> &q)
   15. SetPositionsInArray (ModelInstanceIndex model_instance, const Eigen::Ref< const VectorX< T >> &q_instance, EigenPtr< VectorX< T >> q)
-  16. GetVelocitiesFromArray (ModelInstanceIndex model_instance, const Eigen::Ref< const VectorX< T >> &v) 
+  16. GetVelocitiesFromArray (ModelInstanceIndex model_instance, const Eigen::Ref< const VectorX< T >> &v)
   17. SetVelocitiesInArray (ModelInstanceIndex model_instance, const Eigen::Ref< const VectorX< T >> &v_instance, EigenPtr< VectorX< T >> v)
 - Parameters
 - Free bodies
@@ -119,7 +120,9 @@ parser.AddModelFromFile(full_name);
 ```
 
 ### Working with SceneGraph
+
 #### Adding a MultibodyPlant connected to a SceneGraph to your Diagram
+
 ```c++
 MultibodyPlant<double>& plant =
     AddMultibodyPlantSceneGraph(&builder, 0.0 /* time_step */);
@@ -147,14 +150,18 @@ std::tie(plant, scene_graph) =
 plant->DoFoo(...);
 scene_graph->DoBar(...);
 ```
+
 #### Registering geometry with a SceneGraph
+
 In summary, if MultibodyPlant registers collision geometry, the setup process will include:
+
 1. Call to `RegisterAsSourceForSceneGraph()`.
 2. Calls to `RegisterCollisionGeometry()`, as many as needed.
 3. Call to `Finalize()`, user is done specifying the model.
 4. Connect SceneGraph::get_query_output_port() to `get_geometry_query_input_port()`.
 
 #### Accessing point contact parameters
+
 ```c++
 // For a SceneGraph<T> instance called scene_graph.
 const geometry::SceneGraphInspector<T>& inspector =
@@ -181,6 +188,7 @@ const CoulombFriction<T>& geometry_friction =
 ```
 
 ### Working with MultibodyElement parameters
+
 ```c++
 MultibodyPlant<double> plant;
 // ... Code to add bodies, finalize plant, and to obtain a context.
@@ -225,6 +233,7 @@ plant_autodiff->CalcMassMatrix(*context_autodiff, &M_autodiff);
 ### Finalize() stage
 
 ### References
+
 - [Drake Concepts](https://drake.guzhaoyuan.com/introduction/drake-concept)
 - [Drake Multibody](https://drake.guzhaoyuan.com/introduction/drake-multibody)
 - [Drake's documentation of Multibody](https://drake.mit.edu/doxygen_cxx/classdrake_1_1multibody_1_1_multibody_plant.html#details)

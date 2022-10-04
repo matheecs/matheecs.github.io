@@ -17,8 +17,10 @@ author: "Jixiang Zhang"
 2. SfM（COLMAP）
    ![COLMAP](https://tvax1.sinaimg.cn/large/d494c514ly1gan75lq9adj21r414s7gg.jpg)
 3. MVS（PMVS）
+
    ```bash
    ./pmvs2 /Users/zhangjixiang/Downloads/MVS/pmvs/ option-all
    ```
+
 4. 用 meshlab 观察重建结果
    ![snapshot00](https://tvax4.sinaimg.cn/large/d494c514ly1gamnople40j21we11443x.jpg)

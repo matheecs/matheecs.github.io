@@ -51,7 +51,6 @@ author: "Jixiang Zhang"
 `pip` 或 `brew`（以及其它合适的包管理器）来安装依赖的程序。
 - 遇到问题的话，请尝试使用 [Explainshell](http://explainshell.com/) 去获取相关命令、参数、管道等内容的解释。
 
-
 ## 基础
 
 - 学习 Bash 的基础知识。具体地，在命令行中输入 `man bash` 并至少全文浏览一遍; 它理解起来很简单并且不冗长。其他的 shell 可能很好用，但 Bash 的功能已经足够强大并且到几乎总是可用的（ 如果你*只*学习 zsh，fish 或其他的 shell 的话，在你自己的设备上会显得很方便，但过度依赖这些功能会给您带来不便，例如当你需要在服务器上工作时）。
@@ -78,13 +77,11 @@ author: "Jixiang Zhang"
 
 - 学会使用 `apt-get`，`yum`，`dnf` 或 `pacman` （具体使用哪个取决于你使用的 Linux 发行版）来查找和安装软件包。并确保你的环境中有 `pip` 来安装基于 Python 的命令行工具 （接下来提到的部分程序使用 `pip` 来安装会很方便）。
 
-
 ## 日常使用
 
 - 在 Bash 中，可以通过按 **Tab** 键实现自动补全参数，使用 **ctrl-r** 搜索命令行历史记录（按下按键之后，输入关键字便可以搜索，重复按下 **ctrl-r** 会向后查找匹配项，按下 **Enter** 键会执行当前匹配的命令，而按下右方向键会将匹配项放入当前行中，不会直接执行，以便做出修改）。
 
 - 在 Bash 中，可以按下 **ctrl-w** 删除你键入的最后一个单词，**ctrl-u** 可以删除行内光标所在位置之前的内容，**alt-b** 和 **alt-f** 可以以单词为单位移动光标，**ctrl-a** 可以将光标移至行首，**ctrl-e** 可以将光标移至行尾，**ctrl-k** 可以删除光标至行尾的所有内容，**ctrl-l** 可以清屏。键入 `man readline` 可以查看 Bash 中的默认快捷键。内容有很多，例如 **alt-.** 循环地移向前一个参数，而 **alt-*** 可以展开通配符。
-
 
 - 你喜欢的话，可以执行 `set -o vi` 来使用 vi 风格的快捷键，而执行 `set -o emacs` 可以把它改回来。
 
@@ -99,11 +96,11 @@ author: "Jixiang Zhang"
 - 如果你输入命令的时候中途改了主意，按下 **alt-#** 在行首添加 `#` 把它当做注释再按下回车执行（或者依次按下 **ctrl-a**， **#**， **enter**）。这样做的话，之后借助命令行历史记录，你可以很方便恢复你刚才输入到一半的命令。
 
 - 使用 `xargs` （ 或 `parallel`）。他们非常给力。注意到你可以控制每行参数个数（`-L`）和最大并行数（`-P`）。如果你不确定它们是否会按你想的那样工作，先使用 `xargs echo` 查看一下。此外，使用 `-I{}` 会很方便。例如：
+
 ```bash
       find . -name '*.py' | xargs grep some_function
       cat hosts | xargs -I{} ssh root@{} hostname
 ```
-
 
 - `pstree -p` 以一种优雅的方式展示进程树。
 
@@ -130,12 +127,14 @@ author: "Jixiang Zhang"
 - 当变量和文件名中包含空格的时候要格外小心。Bash 变量要用引号括起来，比如 `"$FOO"`。尽量使用 `-0` 或 `-print0` 选项以便用 NULL 来分隔文件名，例如 `locate -0 pattern | xargs -0 ls -al` 或 `find / -print0 -type d | xargs -0 ls -al`。如果 for 循环中循环访问的文件名含有空字符（空格、tab 等字符），只需用 `IFS=$'\n'` 把内部字段分隔符设为换行符。
 
 - 在 Bash 脚本中，使用 `set -x` 去调试输出（或者使用它的变体 `set -v`，它会记录原始输入，包括多余的参数和注释）。尽可能地使用严格模式：使用 `set -e` 令脚本在发生错误时退出而不是继续运行；使用 `set -u` 来检查是否使用了未赋值的变量；试试 `set -o pipefail`，它可以监测管道中的错误。当牵扯到很多脚本时，使用 `trap` 来检测 ERR 和 EXIT。一个好的习惯是在脚本文件开头这样写，这会使它能够检测一些错误，并在错误发生时中断程序并输出信息：
+
 ```bash
       set -euo pipefail
       trap "echo 'error: Script failed: see failed command above'" ERR
 ```
 
 - 在 Bash 脚本中，子 shell（使用括号 `(...)`）是一种组织参数的便捷方式。一个常见的例子是临时地移动工作路径，代码如下：
+
 ```bash
       # do something in current dir
       (cd /some/other/dir && other-command)
@@ -147,11 +146,13 @@ author: "Jixiang Zhang"
 - 使用括号扩展（`{`...`}`）来减少输入相似文本，并自动化文本组合。这在某些情况下会很有用，例如 `mv foo.{txt,pdf} some-dir`（同时移动两个文件），`cp somefile{,.bak}`（会被扩展成 `cp somefile somefile.bak`）或者 `mkdir -p test-{a,b,c}/subtest-{1,2,3}`（会被扩展成所有可能的组合，并创建一个目录树）。
 
 - 通过使用 `<(some command)` 可以将输出视为文件。例如，对比本地文件 `/etc/hosts` 和一个远程文件：
+
 ```sh
       diff /etc/hosts <(ssh somehost cat /etc/hosts)
 ```
 
 - 编写脚本时，你可能会想要把代码都放在大括号里。缺少右括号的话，代码就会因为语法错误而无法执行。如果你的脚本是要放在网上分享供他人使用的，这样的写法就体现出它的好处了，因为这样可以防止下载不完全代码被执行。
+
 ```bash
 {
       # 在这里写代码
@@ -169,6 +170,7 @@ author: "Jixiang Zhang"
 - ssh 中，了解如何使用 `-L` 或 `-D`（偶尔需要用 `-R`）开启隧道是非常有用的，比如当你需要从一台远程服务器上访问 web 页面。
 
 - 对 ssh 设置做一些小优化可能是很有用的，例如这个 `~/.ssh/config` 文件包含了防止特定网络环境下连接断开、压缩数据、多通道等选项：
+
 ```
       TCPKeepAlive=yes
       ServerAliveInterval=15
@@ -184,6 +186,7 @@ author: "Jixiang Zhang"
 - 考虑使用 [`mosh`](https://mosh.mit.edu/) 作为 ssh 的替代品，它使用 UDP 协议。它可以避免连接被中断并且对带宽需求更小，但它需要在服务端做相应的配置。
 
 - 获取八进制形式的文件访问权限（修改系统设置时通常需要，但 `ls` 的功能不那么好用并且通常会搞砸），可以使用类似如下的代码：
+
 ```sh
       stat -c '%A %a %n' /etc/timezone
 ```
@@ -202,11 +205,11 @@ author: "Jixiang Zhang"
 - 了解命令行的 [128K 限制](https://wiki.debian.org/CommonErrorMessages/ArgumentListTooLong)。使用通配符匹配大量文件名时，常会遇到“Argument list too long”的错误信息。（这种情况下换用 `find` 或 `xargs` 通常可以解决。）
 
 - 当你需要一个基本的计算器时，可以使用 `python` 解释器（当然你要用 python 的时候也是这样）。例如：
+
 ```
 >>> 2+3
 5
 ```
-
 
 ## 文件及数据处理
 
@@ -245,11 +248,13 @@ author: "Jixiang Zhang"
 - 了解如何使用 `awk` 和 `sed` 来进行简单的数据处理。 参阅 [One-liners](#one-liners) 获取示例。
 
 - 替换一个或多个文件中出现的字符串：
+
 ```sh
       perl -pi.bak -e 's/old-string/new-string/g' my-files-*.txt
 ```
 
 - 使用 [`repren`](https://github.com/jlevy/repren) 来批量重命名文件，或是在多个文件中搜索替换内容。（有些时候 `rename` 命令也可以批量重命名，但要注意，它在不同 Linux 发行版中的功能并不完全一样。）
+
 ```sh
       # 将文件、目录和内容全部重命名 foo -> bar:
       repren --full --preserve-case --from foo --to bar .
@@ -260,6 +265,7 @@ author: "Jixiang Zhang"
 ```
 
 - 根据 man 页面的描述，`rsync` 是一个快速且非常灵活的文件复制工具。它闻名于设备之间的文件同步，但其实它在本地情况下也同样有用。在安全设置允许下，用 `rsync` 代替 `scp` 可以实现文件续传，而不用重新从头开始。它同时也是删除大量文件的[最快方法](https://web.archive.org/web/20130929001850/http://linuxnote.net/jianingy/en/linux/a-fast-way-to-remove-huge-number-of-files.html)之一：
+
 ```sh
 mkdir empty && rsync -r --delete empty/ some-dir && rmdir some-dir
 ```
@@ -281,6 +287,7 @@ mkdir empty && rsync -r --delete empty/ some-dir && rmdir some-dir
 - 制作二进制差分文件（Delta 压缩），使用 `xdelta3`。
 
 - 使用 `iconv` 更改文本编码。需要更高级的功能，可以使用 `uconv`，它支持一些高级的 Unicode 功能。例如，这条命令移除了所有重音符号：
+
 ```sh
       uconv -f utf-8 -t utf-8 -x '::Any-Lower; ::Any-NFD; [:Nonspacing Mark:] >; ::Any-NFC; ' < input.txt > output.txt
 ```
@@ -294,6 +301,7 @@ mkdir empty && rsync -r --delete empty/ some-dir && rmdir some-dir
 - 文件属性可以通过 `chattr` 进行设置，它比文件权限更加底层。例如，为了保护文件不被意外删除，可以使用不可修改标记：`sudo chattr +i /critical/directory/or/file`
 
 - 使用 `getfacl` 和 `setfacl` 以保存和恢复文件权限。例如：
+
 ```sh
    getfacl -R /some/path > permissions.txt
    setfacl --restore=permissions.txt
@@ -344,12 +352,12 @@ mkdir empty && rsync -r --delete empty/ some-dir && rmdir some-dir
 - 如果你删除了一个文件，但通过 `du` 发现没有释放预期的磁盘空间，请检查文件是否被进程占用：
 `lsof | grep deleted | grep "filename-of-my-big-file"`
 
-
 ## 单行脚本
 
 一些命令组合的例子：
 
 - 当你需要对文本文件做集合交、并、差运算时，`sort` 和 `uniq` 会是你的好帮手。具体例子请参照代码后面的，此处假设 `a` 与 `b` 是两内容不同的文件。这种方式效率很高，并且在小文件和上 G 的文件上都能运用（注意尽管在 `/tmp` 在一个小的根分区上时你可能需要 `-T` 参数，但是实际上 `sort` 并不被内存大小约束），参阅前文中关于 `LC_ALL` 和 `sort` 的 `-u` 参数的部分。
+
 ```sh
       sort a b | uniq > c   # c 是 a 并 b
       sort a b | uniq -d > c   # c 是 a 交 b
@@ -358,18 +366,20 @@ mkdir empty && rsync -r --delete empty/ some-dir && rmdir some-dir
 
 - 使用 `grep . *`（每行都会附上文件名）或者 `head -100 *`（每个文件有一个标题）来阅读检查目录下所有文件的内容。这在检查一个充满配置文件的目录（如 `/sys`、`/proc`、`/etc`）时特别好用。
 
-
 - 计算文本文件第三列中所有数的和（可能比同等作用的 Python 代码快三倍且代码量少三倍）：
+
 ```sh
       awk '{ x += $3 } END { print x }' myfile
 ```
 
 - 如果你想在文件树上查看大小/日期，这可能看起来像递归版的 `ls -l` 但比 `ls -lR` 更易于理解：
+
 ```sh
       find . -type f -ls
 ```
 
 - 假设你有一个类似于 web 服务器日志文件的文本文件，并且一个确定的值只会出现在某些行上，假设一个 `acct_id` 参数在 URI 中。如果你想计算出每个 `acct_id` 值有多少次请求，使用如下代码：
+
 ```sh
       egrep -o 'acct_id=[0-9]+' access.log | cut -d= -f2 | sort | uniq -c | sort -rn
 ```
@@ -377,6 +387,7 @@ mkdir empty && rsync -r --delete empty/ some-dir && rmdir some-dir
 - 要持续监测文件改动，可以使用 `watch`，例如检查某个文件夹中文件的改变，可以用 `watch -d -n 2 'ls -rtlh | tail'`；或者在排查 WiFi 设置故障时要监测网络设置的更改，可以用 `watch -d -n 2 ifconfig`。
 
 - 运行这个函数从这篇文档中随机获取一条技巧（解析 Markdown 文件并抽取项目）：
+
 ```sh
       function taocl() {
         curl -s https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README-zh.md|
@@ -536,7 +547,6 @@ mkdir empty && rsync -r --delete empty/ some-dir && rmdir some-dir
 
 - `fortune`，`ddate` 和 `sl`：额，这主要取决于你是否认为蒸汽火车和莫名其妙的名人名言是否“有用”
 
-
 ## 仅限 OS X 系统
 
 以下是*仅限于* OS X 系统的技巧。
@@ -609,7 +619,6 @@ mkdir empty && rsync -r --delete empty/ some-dir && rmdir some-dir
 ## 免责声明
 
 除去特别小的工作，你编写的代码应当方便他人阅读。能力往往伴随着责任，你 *有能力* 在 Bash 中玩一些奇技淫巧并不意味着你应该去做！;)
-
 
 ## 授权条款
 
