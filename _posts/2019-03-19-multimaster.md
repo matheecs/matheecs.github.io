@@ -18,13 +18,13 @@ author: "Jixiang Zhang"
 - `master_discovery`：作用是周期性广播消息；检测本地 master 消息的变化并告知其他的 master；
 - `master_sync`：利用`master_discovery`提供的数据为本地 master 注册远程的 topic 和 service。
 
-##### 配置步骤
+## 配置步骤
 
 1. 修改`/etc/hosts`绑定主机名（Host）与IP
 2. 修改`~/.bashrc` 的 ROS_MASTER_URI 并 `$source ~/.bashrc`
 3. 开启组播（multicast）并确认，默认的组播IP地址是 `224.0.0.1`，确认是否开启`$ping 224.0.0.1`
 
-##### 示例
+## 示例
 
 ```xml
 <node name="master_discovery" pkg="master_discovery_fkie" type="master_discovery">
@@ -50,24 +50,19 @@ wing —— /wing/goal_task ——> master
 
 ```xml
 <group ns="master">
-	...
+ ...
 </group>
 ```
 
-
-
-##### Debug-**Namespace**（命名空间）
+## Debug-**Namespace**（命名空间）
 
 1. base
 2. relative/name
 3. /global/name
 4. ~private/name
 
-
-
-##### References
+## References
 
 1. [multimaster FKIE](http://fkie.github.io/multimaster_fkie/index.html)
 2. [**Multi-master ROS systems**](http://digital.csic.es/bitstream/10261/133333/1/ROS-systems.pdf)
 3. [Multimaster ROS configuration and multimaster_fkie](http://www.huyaoyu.com/technical/2018/08/27/multimaster-ros-configuration-and-multimaster-fkie.html)
-

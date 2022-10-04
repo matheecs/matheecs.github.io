@@ -77,15 +77,11 @@ int main(int argc, char** argv) {
 
 [Non-linear Least Squares](http://ceres-solver.org/nnls_tutorial.html)
 
-
-
 最小二乘问题属于数值线性代数的四大矩阵计算问题之一，另外三个是解方程组、特征值问题和奇异值分解。
 
 **敏度分析**：研究计算问题的原始数据有微小的变化将会引起解的多大变化。病态与否由问题本身属性决定，与采用的计算方法无关。
 
 **误差分析**是衡量算法优劣的重要标志。
-
-
 
 Levenberg 把梯度下降法和 G-N 法融合得到新的迭代方式
 

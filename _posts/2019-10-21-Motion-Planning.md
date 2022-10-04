@@ -12,7 +12,9 @@ author: "Jixiang Zhang"
 编程环境
 
 1. MATLAB
-  - Keyboard-Shorcuts 设置为 `Windows Default Set`
+
+- Keyboard-Shorcuts 设置为 `Windows Default Set`
+
 2. C++
 
 **A*算法** $f(n) = g(n) + h(n)$

@@ -73,4 +73,3 @@ $$
 
 1. [Strassen algorithm](https://en.wikipedia.org/wiki/Strassen_algorithm)
 2. [Cache-oblivious algorithm](https://en.wikipedia.org/wiki/Cache-oblivious_algorithm)
-

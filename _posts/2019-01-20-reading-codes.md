@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "阅读C++源码"
+title: "C++笔记"
 categories: study
 author: "Jixiang Zhang"
 ---
 
-##### 参考网址
+## 参考网址
 
 - [cplusplus.com](http://www.cplusplus.com)
 - [C++ reference](https://en.cppreference.com/w/)
 
-##### C++代码优化策略《C++性能优化指南》
+## C++代码优化策略《C++性能优化指南》
 
 1. 用好的编译器并用好编译器
 2. 使用更好的算法
@@ -21,7 +21,7 @@ author: "Jixiang Zhang"
 7. 提高并发性
 8. 优化内存管理
 
-##### 阅读项目
+## 阅读项目
 
 1. [**manif**](https://github.com/artivis/manif) & **Eigen**
 2. [**RoboRTS**](https://github.com/RoboMaster/RoboRTS)
@@ -29,7 +29,7 @@ author: "Jixiang Zhang"
 4. [**Caffe**](https://github.com/BVLC/caffe)
 5. [**ORB-SLAM2**](https://github.com/raulmur/ORB_SLAM2)
 
-##### 语法笔记
+## 语法笔记
 
 1. Type alias, alias template (since C++11)
 
@@ -97,5 +97,3 @@ author: "Jixiang Zhang"
    ```c++
    auto chassis_executor = std::make_shared<roborts_decision::ChassisExecutor>();
    ```
-
-   
