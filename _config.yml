@@ -28,8 +28,6 @@ moving:
   date_format: "%b %d"
   back_to: "Index"
   social_links:
-    # rss: RSS
     github: matheecs
-    # linkedin: matheecs-tech
     bilibili: "395348622"
     douban: matheecs
