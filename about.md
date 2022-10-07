@@ -23,17 +23,19 @@ layout: about
   - [GAMES105 计算机角色动画基础](https://games-cn.org/games105/)
 - [操作系统：设计与实现](http://jyywiki.cn/OS/2022/)
   - [计算机系统基础 课程实验](https://nju-projectn.github.io/ics-pa-gitbook/ics2021/index.html)
-- [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
 - [一生一芯](https://ysyx.oscc.cc)
 - [高性能并行编程与优化](https://github.com/parallel101/course)
-- [Underactuated Robotics](http://underactuated.mit.edu)
-- [Robotic Manipulation](https://manipulation.csail.mit.edu)
 - [机器人中的数值优化](https://www.shenlanxueyuan.com/course/531)
 - [Michigan Robotics Free Online Courses](https://robotics.umich.edu/academics/courses/online-courses/)
 - [Optimal Control 16-745](https://github.com/Optimal-Control-16-745)
 - [Advanced Robot Dynamics and Simulation 16-715](https://github.com/dynamics-simulation-16-715)
 - [Optimization-Based Robotics](http://sites.nd.edu/pwensing/ame-60621/)
 - [Analytical Dynamics](http://sites.nd.edu/pwensing/ame-40623-60623-analytical-dynamics/)
+- 📚Textbook or Documentation
+  - [Robotic Systems (draft)](https://motion.cs.illinois.edu/RoboticSystems/)
+  - [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
+  - [Underactuated Robotics](http://underactuated.mit.edu)
+  - [Robotic Manipulation](https://manipulation.csail.mit.edu)
 
 ## Researchers
 
