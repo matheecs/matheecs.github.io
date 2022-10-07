@@ -36,6 +36,7 @@ layout: about
   - [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
   - [Underactuated Robotics](http://underactuated.mit.edu)
   - [Robotic Manipulation](https://manipulation.csail.mit.edu)
+  - [Learn Multibody Dynamics](https://moorepants.github.io/learn-multibody-dynamics/)
 
 ## Researchers
 
