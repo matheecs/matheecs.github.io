@@ -83,6 +83,7 @@ layout: about
 - [Robert Griffin](https://www.ihmc.us/groups/robert-griffin/)
 - [Joel Chestnutt](https://scholar.google.com/citations?user=8IH6kXQAAAAJ&hl=en)
 - [Ye Zhao](https://www.me.gatech.edu/faculty/zhao)
+- [Kris Hauser](https://kkhauser.web.illinois.edu/#teaching)
 
 ## Algorithm Tree
 
@@ -124,12 +125,14 @@ layout: about
      - [legged_mpc_control](https://github.com/RoboticExplorationLab/legged_mpc_control)
    - [**IHMC Open Robotics Software**](https://github.com/ihmcrobotics/ihmc-open-robotics-software)
      - [🎬Invited talk (Deployment of humanoid robots for challenging tasks)](https://www.youtube.com/watch?v=rPqKbUkxayY)
+     - [🎬humanoid robotics chan](https://www.youtube.com/user/humanoidroboticschan)
    - [OCS2](https://github.com/leggedrobotics/ocs2)
      - [legged_control](https://github.com/qiayuanliao/legged_control)
    - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
    - [towr](https://github.com/ethz-adrl/towr)
    - [GPOPS-II: Next-Generation Optimal Control Software](https://www.gpops2.com)
    - [Drake](https://github.com/RobotLocomotion/drake)
+   - [Klampt](https://github.com/krishauser/Klampt)
    - [Representation-Free MPC](https://github.com/YanranDing/RF-MPC)
    - [**IJRR_WBLC**](https://github.com/dhkim0821/IJRR_WBLC)
      - [🎬Lecture on Whole Body Control](https://www.youtube.com/watch?v=RXT6Q96SRO4)
