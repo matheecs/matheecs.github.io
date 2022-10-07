@@ -239,3 +239,7 @@ layout: about
 </p>
 
 Planning = Formulation + Optimization(OSQP/ALM/IPM) + Visualization
+
+<p align="center">
+  <img src="/images/shenlan.jpg" width="500"/>
+</p>
