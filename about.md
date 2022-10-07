@@ -86,10 +86,13 @@ layout: about
 - [Joel Chestnutt](https://scholar.google.com/citations?user=8IH6kXQAAAAJ&hl=en)
 - [Ye Zhao](https://www.me.gatech.edu/faculty/zhao)
 - [Kris Hauser](https://kkhauser.web.illinois.edu/#teaching)
+- [Junhyeok Ahn](https://github.com/junhyeokahn)
+- [David E. Orin](http://www2.ece.ohio-state.edu/~orin/index.html)
+- [Roy Featherstone](https://royfeatherstone.org)
 
 ## Algorithm Tree
 
-1. Estimation & Calibration
+1. State Estimation & Calibration
    - [MSF](https://github.com/ethz-asl/ethzasl_msf)
    - [Cerberus](https://github.com/ShuoYangRobotics/Cerberus)
    - [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)
@@ -112,7 +115,7 @@ layout: about
    - [Open3D](https://github.com/isl-org/Open3D)
    - [IRIS](https://github.com/rdeits/iris-distro)
      - [Old version of FIRI](https://github.com/ZJU-FAST-Lab/GCOPTER/blob/ebfbeaf49b2ea20618290e4b6eda3d0e4c333f44/gcopter/include/gcopter/firi.hpp#L25)
-3. Planning & Control (**Formulation**)
+3. PnC (**Formulation**)
    - [Terrain Planner](https://github.com/leggedrobotics/art_planner)
    - [flight](https://github.com/andybarry/flight)
    - [ego-planner-swarm](https://github.com/ZJU-FAST-Lab/ego-planner-swarm)
@@ -128,6 +131,7 @@ layout: about
    - [**IHMC Open Robotics Software**](https://github.com/ihmcrobotics/ihmc-open-robotics-software)
      - [🎬Invited talk (Deployment of humanoid robots for challenging tasks)](https://www.youtube.com/watch?v=rPqKbUkxayY)
      - [🎬humanoid robotics chan](https://www.youtube.com/user/humanoidroboticschan)
+   - [Whole-Body Control and Simulation Software](https://www.whole-body-control.org/60.php)
    - [OCS2](https://github.com/leggedrobotics/ocs2)
      - [legged_control](https://github.com/qiayuanliao/legged_control)
    - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
@@ -144,6 +148,7 @@ layout: about
        - [🎬Planning on Motion Primitive Graphs](https://www.youtube.com/watch?v=K3-xVWL08nk)
        - [🎬Motion Primitive Graphs](https://www.youtube.com/watch?v=3vsk00a4XBg)
        - [🎬Task and Motion Planning](https://www.youtube.com/watch?v=l1u1bVskkzE)
+       - [Reactive Locomotion Decision-Making and Planning](https://www.youtube.com/watch?v=3ucH3Rflvwo)
      - [Subsumption Architecture](http://users.dimi.uniud.it/~antonio.dangelo/Robotica/2013/lessons/M02mar20.pdf)
      - State Machine
    - [OpenRAVE](https://github.com/rdiankov/openrave)
@@ -151,6 +156,10 @@ layout: about
    - [reactive_planners](https://github.com/machines-in-motion/reactive_planners)
    - [bipedal-locomotion-framework](https://github.com/ami-iit/bipedal-locomotion-framework)
    - [walking-controllers](https://github.com/robotology/walking-controllers)
+   - [variable-height-double-pendulum](https://github.com/S-Dafarra/variable-height-double-pendulum)
+   - [pymanoid](https://github.com/stephane-caron/pymanoid)
+   - [LIPM Walking Controller](https://github.com/stephane-caron/lipm_walking_controller)
+   - [Planning and Control Algorithms for Robotics](https://github.com/junhyeokahn/PnC)
 4. Dynamics & Simulation (**Animation**)
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RBDL](https://github.com/rbdl/rbdl)
@@ -177,9 +186,7 @@ layout: about
      - [NAO Choregraphe](http://doc.aldebaran.com/1-14/software/choregraphe/index.html)
      - [Spot Choreography](https://dev.bostondynamics.com/docs/concepts/choreography/readme)
      - Maya
-   - [variable-height-double-pendulum](https://github.com/S-Dafarra/variable-height-double-pendulum)
-   - [pymanoid](https://github.com/stephane-caron/pymanoid)
-   - [LIPM Walking Controller](https://github.com/stephane-caron/lipm_walking_controller)
+   - [dart](https://github.com/dartsim/dart)
 5. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [MeshCat](https://github.com/rdeits/meshcat-python)
