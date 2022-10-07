@@ -90,6 +90,7 @@ layout: about
 - [Junhyeok Ahn](https://github.com/junhyeokahn)
 - [David E. Orin](http://www2.ece.ohio-state.edu/~orin/index.html)
 - [Roy Featherstone](https://royfeatherstone.org)
+- [Dongho Kang](https://donghok.me)
 
 ## Algorithm Tree
 
