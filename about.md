@@ -31,6 +31,7 @@ layout: about
 - [Advanced Robot Dynamics and Simulation 16-715](https://github.com/dynamics-simulation-16-715)
 - [Optimization-Based Robotics](http://sites.nd.edu/pwensing/ame-60621/)
 - [Analytical Dynamics](http://sites.nd.edu/pwensing/ame-40623-60623-analytical-dynamics/)
+- [The Theoretical Minimum](https://theoreticalminimum.com)
 - 📚Textbook or Documentation
   - [Robotic Systems (draft)](https://motion.cs.illinois.edu/RoboticSystems/)
   - [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
@@ -152,7 +153,7 @@ layout: about
        - [🎬Task and Motion Planning](https://www.youtube.com/watch?v=l1u1bVskkzE)
        - [Reactive Locomotion Decision-Making and Planning](https://www.youtube.com/watch?v=3ucH3Rflvwo)
      - [Subsumption Architecture](http://users.dimi.uniud.it/~antonio.dangelo/Robotica/2013/lessons/M02mar20.pdf)
-     - State Machine
+     - State Machine: OS, State diagram
    - [OpenRAVE](https://github.com/rdiankov/openrave)
    - [mpc_controller](https://github.com/google-research/motion_imitation/tree/master/mpc_controller)
    - [reactive_planners](https://github.com/machines-in-motion/reactive_planners)
