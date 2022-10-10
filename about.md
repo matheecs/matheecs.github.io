@@ -36,7 +36,7 @@ layout: about
   - [Robotic Systems (draft)](https://motion.cs.illinois.edu/RoboticSystems/)
   - [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
   - [Underactuated Robotics](http://underactuated.mit.edu)
-    - [Dynamics of Contact $\phi(\bm q) \geq 0$](http://underactuated.mit.edu/multibody.html#contact)
+    - [Dynamics of Contact $\phi(\mathbf{q}) \geq 0$](http://underactuated.mit.edu/multibody.html#contact)
       1. rigid contact approximated with stiff compliant contact
       2. hybrid models with collision event detection, impulsive reset maps, and continuous (constrained) dynamics between collision events
       3. rigid contact approximated with time-averaged forces (impulses) in a time-stepping scheme
