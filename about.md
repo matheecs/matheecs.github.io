@@ -36,6 +36,10 @@ layout: about
   - [Robotic Systems (draft)](https://motion.cs.illinois.edu/RoboticSystems/)
   - [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
   - [Underactuated Robotics](http://underactuated.mit.edu)
+    - [Dynamics of Contact $\phi(\bold q) \geq 0$](http://underactuated.mit.edu/multibody.html#contact)
+      1. rigid contact approximated with stiff compliant contact
+      2. hybrid models with collision event detection, impulsive reset maps, and continuous (constrained) dynamics between collision events
+      3. rigid contact approximated with time-averaged forces (impulses) in a time-stepping scheme
   - [Robotic Manipulation](https://manipulation.csail.mit.edu)
   - [Learn Multibody Dynamics](https://moorepants.github.io/learn-multibody-dynamics/)
 
@@ -153,7 +157,7 @@ layout: about
        - [🎬Task and Motion Planning](https://www.youtube.com/watch?v=l1u1bVskkzE)
        - [Reactive Locomotion Decision-Making and Planning](https://www.youtube.com/watch?v=3ucH3Rflvwo)
      - [Subsumption Architecture](http://users.dimi.uniud.it/~antonio.dangelo/Robotica/2013/lessons/M02mar20.pdf)
-     - State Machine: OS, State diagram
+     - [Finite State Machine](https://github.com/mit-biomimetics/Cheetah-Software/tree/master/user/MIT_Controller/FSM_States): OS, State diagram
    - [OpenRAVE](https://github.com/rdiankov/openrave)
    - [mpc_controller](https://github.com/google-research/motion_imitation/tree/master/mpc_controller)
    - [reactive_planners](https://github.com/machines-in-motion/reactive_planners)
