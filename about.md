@@ -240,6 +240,7 @@ layout: about
      - [motorcontrol](https://github.com/bgkatz/motorcontrol) & STM32CubeIDE
      - [ODrive](https://github.com/odriverobotics/ODrive)
      - [moteus brushless servo](https://github.com/mjbots/moteus)
+     - [SPIne](https://os.mbed.com/users/benkatz/code/SPIne/)
 
 <p align="center">
   <img src="/images/note2022.png" width="500"/>
