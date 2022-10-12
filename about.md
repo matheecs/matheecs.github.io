@@ -20,7 +20,7 @@ layout: about
   - [GAMES102 几何建模与处理](https://www.bilibili.com/video/BV1NA411E7Yr/?vd_source=4d7f675645b3ffca7ad639b9131e37b6)
   - [GAMES103 基于物理的计算机动画入门](https://games-cn.org/games103/)
   - [GAMES104 现代游戏引擎](https://space.bilibili.com/512313464/channel/collectiondetail?sid=292637)
-  - [GAMES105 计算机角色动画基础](https://games-cn.org/games105/)
+  - [GAMES105 计算机角色动画基础](https://games-105.github.io)
 - [操作系统：设计与实现](http://jyywiki.cn/OS/2022/)
   - [计算机系统基础 课程实验](https://nju-projectn.github.io/ics-pa-gitbook/ics2021/index.html)
 - [一生一芯](https://ysyx.oscc.cc)
@@ -37,9 +37,6 @@ layout: about
   - [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
   - [Underactuated Robotics](http://underactuated.mit.edu)
     - [Dynamics of Contact $\phi(\mathbf{q}) \geq 0$](http://underactuated.mit.edu/multibody.html#contact)
-      1. rigid contact approximated with stiff compliant contact
-      2. hybrid models with collision event detection, impulsive reset maps, and continuous (constrained) dynamics between collision events
-      3. rigid contact approximated with time-averaged forces (impulses) in a time-stepping scheme
   - [Robotic Manipulation](https://manipulation.csail.mit.edu)
   - [Learn Multibody Dynamics](https://moorepants.github.io/learn-multibody-dynamics/)
 
@@ -96,6 +93,9 @@ layout: about
 - [David E. Orin](http://www2.ece.ohio-state.edu/~orin/index.html)
 - [Roy Featherstone](https://royfeatherstone.org)
 - [Dongho Kang](https://donghok.me)
+- [John Lasseter](https://disney.fandom.com/wiki/John_Lasseter)
+- [Libin Liu](http://libliu.info)
+- [KangKang Yin](https://www2.cs.sfu.ca/~kkyin/)
 
 ## Algorithm Tree
 
