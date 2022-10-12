@@ -122,7 +122,7 @@ layout: about
    - [Open3D](https://github.com/isl-org/Open3D)
    - [IRIS](https://github.com/rdeits/iris-distro)
      - [Old version of FIRI](https://github.com/ZJU-FAST-Lab/GCOPTER/blob/ebfbeaf49b2ea20618290e4b6eda3d0e4c333f44/gcopter/include/gcopter/firi.hpp#L25)
-3. PnC (**Formulation**)
+3. PnC = Formulation + Optimization(OSQP/ALM/IPM) + Visualization
    - [Terrain Planner](https://github.com/leggedrobotics/art_planner)
    - [flight](https://github.com/andybarry/flight)
    - [ego-planner-swarm](https://github.com/ZJU-FAST-Lab/ego-planner-swarm)
@@ -243,10 +243,12 @@ layout: about
      - [SPIne](https://os.mbed.com/users/benkatz/code/SPIne/)
 
 <p align="center">
-  <img src="/images/note2022.png" width="500"/>
+  <img src="/images/Games_105.png" width="500"/>
 </p>
 
-Planning = Formulation + Optimization(OSQP/ALM/IPM) + Visualization
+<p align="center">
+  <img src="/images/note2022.png" width="500"/>
+</p>
 
 <p align="center">
   <img src="/images/shenlan.jpg" width="500"/>
