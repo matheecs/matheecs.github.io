@@ -59,6 +59,7 @@ author: "Jixiang Zhang"
 * [每位程式設計師都該知道的記憶體知識](https://jason2506.gitbooks.io/cpumemory/content/)
 * Mac OS X Internals
 * Masters of Doom (DOOM 启世录)
+* 游戏编程精粹
 
 ### 机器人感知
 
@@ -146,6 +147,7 @@ author: "Jixiang Zhang"
 * [DK遇见未来：机器人](https://book.douban.com/subject/30365193/)
 * **GEB**: 哥德尔、艾舍尔、巴赫
 * Introduction to AI Robotics
+* Rigid Body Dynamics Algorithms
 
 ### 工程与教育
 
