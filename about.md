@@ -32,6 +32,7 @@ layout: about
 - [Optimization-Based Robotics](http://sites.nd.edu/pwensing/ame-60621/)
 - [Analytical Dynamics](http://sites.nd.edu/pwensing/ame-40623-60623-analytical-dynamics/)
 - [The Theoretical Minimum](https://theoreticalminimum.com)
+- [AirLab Summer School 2020](https://theairlab.org/summer2020/)
 - 📚Textbook or Documentation
   - [Robotic Systems (draft)](https://motion.cs.illinois.edu/RoboticSystems/)
   - [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
@@ -111,6 +112,7 @@ layout: about
    - [Multi-View Environment](https://github.com/simonfuhrmann/mve)
    - [COLMAP](https://github.com/colmap/colmap)
    - [whole-body-estimators](https://github.com/robotology/whole-body-estimators)
+   <!-- - [Lie Algebra Cheatsheet](https://github.com/norlab-ulaval/cheatsheet_LieAlgebra) -->
 2. Perception
    - [Elevation Mapping CuPy](https://github.com/leggedrobotics/elevation_mapping_cupy)
    - [OpenVDB](https://www.openvdb.org)
