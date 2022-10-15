@@ -58,7 +58,7 @@ author: "Jixiang Zhang"
 * [现代 C++ 教程: 高速上手 C++ 11/14/17/20](https://changkun.de/modern-cpp/)
 * [每位程式設計師都該知道的記憶體知識](https://jason2506.gitbooks.io/cpumemory/content/)
 * Mac OS X Internals
-* Masters of Doom
+* Masters of Doom (DOOM 启世录)
 
 ### 机器人感知
 
@@ -145,6 +145,7 @@ author: "Jixiang Zhang"
 * [PyTorch深度学习入门](https://book.douban.com/subject/34858119/)
 * [DK遇见未来：机器人](https://book.douban.com/subject/30365193/)
 * **GEB**: 哥德尔、艾舍尔、巴赫
+* Introduction to AI Robotics
 
 ### 工程与教育
 
@@ -249,6 +250,7 @@ author: "Jixiang Zhang"
 * 程序员修炼之道：通向务实的最高境界
 * 硅谷革命：成就苹果公司的疯狂往事
 * ⭐️设计心理学 4 = The Design of Future Things
+* ⭐️霍克尼论摄影
 
 ### 商业与管理
 

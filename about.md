@@ -40,6 +40,9 @@ layout: about
     - [Dynamics of Contact $\phi(\mathbf{q}) \geq 0$](http://underactuated.mit.edu/multibody.html#contact)
   - [Robotic Manipulation](https://manipulation.csail.mit.edu)
   - [Learn Multibody Dynamics](https://moorepants.github.io/learn-multibody-dynamics/)
+  - [十二年图形学物理模拟的自我回顾](https://zhuanlan.zhihu.com/p/560415998)
+  - [LearnOpenGL CN](https://learnopengl-cn.github.io)
+  - [机器人工程师学习计划](https://zhuanlan.zhihu.com/p/22266788)
 
 ## Researchers
 
@@ -113,6 +116,7 @@ layout: about
    - [COLMAP](https://github.com/colmap/colmap)
    - [whole-body-estimators](https://github.com/robotology/whole-body-estimators)
    <!-- - [Lie Algebra Cheatsheet](https://github.com/norlab-ulaval/cheatsheet_LieAlgebra) -->
+   - [Optimized Kalman Filter](https://github.com/ido90/Optimized-Kalman-Filter)
 2. Perception
    - [Elevation Mapping CuPy](https://github.com/leggedrobotics/elevation_mapping_cupy)
    - [OpenVDB](https://www.openvdb.org)
@@ -172,7 +176,7 @@ layout: about
    - [LIPM Walking Controller](https://github.com/stephane-caron/lipm_walking_controller)
    - [Planning and Control Algorithms for Robotics](https://github.com/junhyeokahn/PnC)
    - [SIMBICON: Simple Biped Locomotion Control](https://www.cs.ubc.ca/~van/papers/Simbicon.htm)
-4. Dynamics & Simulation (**Animation**)
+4. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RBDL](https://github.com/rbdl/rbdl)
    - [Pinocchio](https://github.com/stack-of-tasks/pinocchio)
@@ -198,7 +202,9 @@ layout: about
      - [NAO Choregraphe](http://doc.aldebaran.com/1-14/software/choregraphe/index.html)
      - [Spot Choreography](https://dev.bostondynamics.com/docs/concepts/choreography/readme)
      - Maya
-   - [dart](https://github.com/dartsim/dart)
+   - [Dynamic Animation and Robotics Toolkit](https://github.com/dartsim/dart)
+   - [DOOM source code](https://github.com/id-Software/DOOM)
+   - [Panda3D](https://github.com/panda3d/panda3d)
 5. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [MeshCat](https://github.com/rdeits/meshcat-python)
@@ -238,6 +244,7 @@ layout: about
      - [SIMD Everywhere](https://github.com/simd-everywhere/simde)
      - [xsimd](https://github.com/xtensor-stack/xsimd)
      - [sse2neon](https://github.com/DLTcollab/sse2neon)
+     - [SIMDe](https://github.com/simd-everywhere/simde)
    - Arduino
      - [SimpleFOClibrary](https://github.com/simplefoc/Arduino-FOC)
      - [freeRTOS](https://github.com/feilipu/Arduino_FreeRTOS_Library)
