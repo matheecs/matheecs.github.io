@@ -122,6 +122,7 @@ layout: about
    - [Open3D](https://github.com/isl-org/Open3D)
    - [IRIS](https://github.com/rdeits/iris-distro)
      - [Old version of FIRI](https://github.com/ZJU-FAST-Lab/GCOPTER/blob/ebfbeaf49b2ea20618290e4b6eda3d0e4c333f44/gcopter/include/gcopter/firi.hpp#L25)
+   - [GaitMesh](https://github.com/ori-drs/gaitmesh)
 3. PnC = Formulation + Optimization(OSQP/ALM/IPM) + Visualization
    - [Terrain Planner](https://github.com/leggedrobotics/art_planner)
    - [flight](https://github.com/andybarry/flight)
