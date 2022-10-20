@@ -177,6 +177,7 @@ layout: about
    - [LIPM Walking Controller](https://github.com/stephane-caron/lipm_walking_controller)
    - [Planning and Control Algorithms for Robotics](https://github.com/junhyeokahn/PnC)
    - [SIMBICON: Simple Biped Locomotion Control](https://www.cs.ubc.ca/~van/papers/Simbicon.htm)
+   - [ground_based_autonomy_basic](https://github.com/jizhang-cmu/ground_based_autonomy_basic)
 4. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RBDL](https://github.com/rbdl/rbdl)
