@@ -33,6 +33,7 @@ layout: about
 - [Analytical Dynamics](http://sites.nd.edu/pwensing/ame-40623-60623-analytical-dynamics/)
 - [The Theoretical Minimum](https://theoreticalminimum.com)
 - [AirLab Summer School 2020](https://theairlab.org/summer2020/)
+- [6.002](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)
 - 📚Textbook or Documentation
   - [Robotic Systems (draft)](https://motion.cs.illinois.edu/RoboticSystems/)
   - [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
@@ -43,6 +44,7 @@ layout: about
   - [十二年图形学物理模拟的自我回顾](https://zhuanlan.zhihu.com/p/560415998)
   - [LearnOpenGL CN](https://learnopengl-cn.github.io)
   - [机器人工程师学习计划](https://zhuanlan.zhihu.com/p/22266788)
+  - [Control Tutorials for MATLAB and Simulink (CTMS)](https://ctms.engin.umich.edu/CTMS/index.php?aux=Home)
 
 ## Researchers
 
