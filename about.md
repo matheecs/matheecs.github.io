@@ -100,6 +100,7 @@ layout: about
 - [John Lasseter](https://disney.fandom.com/wiki/John_Lasseter)
 - [Libin Liu](http://libliu.info)
 - [KangKang Yin](https://www2.cs.sfu.ca/~kkyin/)
+- [Fabrice Bellard](https://bellard.org)
 
 ## Algorithm Tree
 

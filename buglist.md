@@ -1942,6 +1942,7 @@ source ~/ros2_foxy/install/setup.sh
 ```
 
 References:
+
 * [Building ROS 2 on macOS](https://docs.ros.org/en/foxy/Installation/macOS-Development-Setup.html#)
 * [Failure to find SIP on macOS](https://github.com/ros-visualization/python_qt_binding/issues/103)
 * [ROS2 Fails to build qt_gui_cpp](https://github.com/ros2/ros2/issues/623)
@@ -3311,3 +3312,25 @@ Cite [彭于斌](https://github.com/archibate)
 ![](images/macOS_architecture.png)
 
 Cite [Mac OS X Internals](https://www.amazon.com/Mac-OS-Internals-Approach-paperback/dp/0134426541)
+
+### Mesh file format convert using MeshLab
+
+```bash
+meshlabserver -i source_file -o target_file -m vn
+```
+
+### C++ IDE using VS Code & clangd & Ccache
+
+```cmake
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+```
+
+### Screen record using OBS Studio
+
+[OBS Studio](https://obsproject.com)
+
+### Video format convert using FFmpeg
+
+```bash
+ffmpeg -ss 30 -t 3 -i input.mkv -vf "fps=10,scale=640:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 output.gif
+```
