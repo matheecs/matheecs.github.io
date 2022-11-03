@@ -3334,3 +3334,14 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 ```bash
 ffmpeg -ss 30 -t 3 -i input.mkv -vf "fps=10,scale=640:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 output.gif
 ```
+
+### How to keep environment variables when using `sudo`
+
+```bash
+man sudo
+sudo -E todooooooooo
+```
+
+### Use ROS packages via CMake
+
+[ros1_external_use](https://github.com/gerkey/ros1_external_use)

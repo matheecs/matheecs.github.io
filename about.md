@@ -26,6 +26,7 @@ layout: about
 - [一生一芯](https://ysyx.oscc.cc)
 - [高性能并行编程与优化](https://github.com/parallel101/course)
 - [机器人中的数值优化](https://www.shenlanxueyuan.com/course/531)
+- [Memmo 2020 Summer School](https://memory-of-motion.github.io/summer-school/): **Pinocchio, TSID & Crocoddyl**
 - [Michigan Robotics Free Online Courses](https://robotics.umich.edu/academics/courses/online-courses/)
 - [Optimal Control 16-745](https://github.com/Optimal-Control-16-745)
 - [Advanced Robot Dynamics and Simulation 16-715](https://github.com/dynamics-simulation-16-715)
@@ -45,6 +46,7 @@ layout: about
   - [LearnOpenGL CN](https://learnopengl-cn.github.io)
   - [机器人工程师学习计划](https://zhuanlan.zhihu.com/p/22266788)
   - [Control Tutorials for MATLAB and Simulink (CTMS)](https://ctms.engin.umich.edu/CTMS/index.php?aux=Home)
+  - [**RaiSim** Manual](https://slides.com/jeminhwangbo/raisim-manual)
 
 ## Researchers
 
@@ -215,6 +217,7 @@ layout: about
    - [MeshCat](https://github.com/rdeits/meshcat-python)
    - [Easy3D](https://github.com/LiangliangNan/Easy3D)
    - [ImGui](https://github.com/ocornut/imgui)
+   - [Matplot++](https://github.com/alandefreitas/matplotplusplus)
 6. *Numerical Optimization*
    - [SDLP](https://github.com/ZJU-FAST-Lab/SDLP)
    - [SDQP](https://github.com/ZJU-FAST-Lab/SDQP)
@@ -243,7 +246,9 @@ layout: about
    - C++/Python
    - Markdown/LaTeX
    - Linux
-   - CMake/Git/GitHub/CI
+   - CMake
+   - Git
+   - GitHub/CI
    - [Timer](https://github.com/LiangliangNan/Timer)
    - SIMD
      - [SIMD Everywhere](https://github.com/simd-everywhere/simde)
