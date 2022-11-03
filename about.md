@@ -35,6 +35,7 @@ layout: about
 - [The Theoretical Minimum](https://theoreticalminimum.com)
 - [AirLab Summer School 2020](https://theairlab.org/summer2020/)
 - [6.002](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)
+- [Numerical Optimization](https://www.syscop.de/teaching/ws2022/numerical-optimization)
 - 📚Textbook or Documentation
   - [Robotic Systems (draft)](https://motion.cs.illinois.edu/RoboticSystems/)
   - [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
@@ -47,6 +48,7 @@ layout: about
   - [机器人工程师学习计划](https://zhuanlan.zhihu.com/p/22266788)
   - [Control Tutorials for MATLAB and Simulink (CTMS)](https://ctms.engin.umich.edu/CTMS/index.php?aux=Home)
   - [**RaiSim** Manual](https://slides.com/jeminhwangbo/raisim-manual)
+  - [Lecture Notes on Numerical Optimization](https://www.syscop.de/files/2020ws/numopt/numopt.pdf)
 
 ## Researchers
 
@@ -105,6 +107,7 @@ layout: about
 - [Libin Liu](http://libliu.info)
 - [KangKang Yin](https://www2.cs.sfu.ca/~kkyin/)
 - [Fabrice Bellard](https://bellard.org)
+- [Moritz Diehl](https://www.syscop.de/people/moritz-diehl)
 
 ## Algorithm Tree
 
@@ -135,7 +138,7 @@ layout: about
      - [Old version of FIRI](https://github.com/ZJU-FAST-Lab/GCOPTER/blob/ebfbeaf49b2ea20618290e4b6eda3d0e4c333f44/gcopter/include/gcopter/firi.hpp#L25)
    - [GaitMesh](https://github.com/ori-drs/gaitmesh)
    - [Recast & Detour (Navigation-mesh Toolset)](https://github.com/recastnavigation/recastnavigation)
-3. PnC = Formulation + Optimization(OSQP/ALM/IPM) + Visualization
+3. PnC = Formulation(Pinocchio|CppAD&CppADCodeGen) + Optimization(DDP/SQP|OSQP/ALM/IPM) + Visualization
    - [Terrain Planner](https://github.com/leggedrobotics/art_planner)
    - [flight](https://github.com/andybarry/flight)
    - [ego-planner-swarm](https://github.com/ZJU-FAST-Lab/ego-planner-swarm)
@@ -265,6 +268,10 @@ layout: about
      - [SPIne](https://os.mbed.com/users/benkatz/code/SPIne/)
 
 <p align="center">
+  <img src="/images/some_def.jpg" width="500"/>
+</p>
+
+<p align="center">
   <img src="/images/Games_105.png" width="500"/>
 </p>
 
@@ -273,5 +280,5 @@ layout: about
 </p>
 
 <p align="center">
-  <img src="/images/shenlan.jpg" width="500"/>
+  <img src="/images/shenlan.jpg" width="200"/>
 </p>
