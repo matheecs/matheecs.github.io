@@ -3345,3 +3345,19 @@ sudo -E todooooooooo
 ### Use ROS packages via CMake
 
 [ros1_external_use](https://github.com/gerkey/ros1_external_use)
+
+### CMake target_link_libraries Interface Dependencies
+
+If you are creating a shared library and your source cpp files #include the headers of another library (Say, QtNetwork for example), but your header files don't include QtNetwork headers, then QtNetwork is a PRIVATE dependency.
+
+If your source files and your headers include the headers of another library, then it is a PUBLIC dependency.
+
+If your header files other than your source files include the headers of another library, then it is an INTERFACE dependency.
+
+Cite:
+
+1. <https://stackoverflow.com/questions/26037954/cmake-target-link-libraries-interface-dependencies>
+2. [cmake-buildsystem](https://cmake.org/cmake/help/latest/manual/cmake-buildsystem.7.html#transitive-usage-requirements)
+3. [CMake target_include_directories meaning of scope](https://stackoverflow.com/questions/26243169/cmake-target-include-directories-meaning-of-scope)
+4. [CMake: Public VS Private VS Interface](https://leimao.github.io/blog/CMake-Public-Private-Interface/)
+5. [Modern CMake is like inheritance](https://kubasejdak.com/modern-cmake-is-like-inheritance)
