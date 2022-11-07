@@ -257,7 +257,9 @@ layout: about
      - [catkin](https://github.com/ros/catkin)
    - PlotJuggler
    - C++/Python
-   - Markdown/LaTeX
+   - Markdown
+     - [**Marp**](https://marp.app)
+   - LaTeX
    - Linux
    - CMake
    - Git
