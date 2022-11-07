@@ -139,7 +139,7 @@ layout: about
      - [Old version of FIRI](https://github.com/ZJU-FAST-Lab/GCOPTER/blob/ebfbeaf49b2ea20618290e4b6eda3d0e4c333f44/gcopter/include/gcopter/firi.hpp#L25)
    - [GaitMesh](https://github.com/ori-drs/gaitmesh)
    - [Recast & Detour (Navigation-mesh Toolset)](https://github.com/recastnavigation/recastnavigation)
-3. PnC = Formulation(Pinocchio|CppAD&CppADCodeGen) + Optimization(DDP/SQP|OSQP/ALM/IPM) + Visualization
+3. PnC = Formulation(Pinocchio,CppAD&CppADCodeGen) + Optimization(DDP/SQP,OSQP/ALM/IPM) + Visualization
    - [Terrain Planner](https://github.com/leggedrobotics/art_planner)
    - [flight](https://github.com/andybarry/flight)
    - [ego-planner-swarm](https://github.com/ZJU-FAST-Lab/ego-planner-swarm)
