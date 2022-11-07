@@ -235,6 +235,9 @@ layout: about
    - [g2o](https://github.com/RainerKuemmerle/g2o)
    - [ALTRO](https://github.com/RoboticExplorationLab/Altro.jl)
      - [AltroCpp](https://github.com/optimusride/altro-cpp)
+   - [CppAD](https://github.com/coin-or/CppAD)
+     - [CppADCodeGen](https://github.com/joaoleal/CppADCodeGen)
+   - [CasADi](https://github.com/casadi/casadi)
 7. *Numerical Computation*
    - [NumPy](https://numpy.org)
    - [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page)
