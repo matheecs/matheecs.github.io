@@ -52,6 +52,7 @@ layout: about
   - [机器人的带约束轨迹规划](https://zhuanlan.zhihu.com/p/321720908)
   - [Model Predictive Control: Theory, Computation, and Design](https://sites.engineering.ucsb.edu/~jbraw/mpc/)
   - [Sumeet Singh: Introduction to Optimal Control](http://www.princeton.edu/~aaa/Public/Teaching/ORF523/ORF523_S21_Guest_Lecture.pdf)
+  - [Automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation)
 
 ## Researchers
 
@@ -128,6 +129,8 @@ layout: about
    - [whole-body-estimators](https://github.com/robotology/whole-body-estimators)
    <!-- - [Lie Algebra Cheatsheet](https://github.com/norlab-ulaval/cheatsheet_LieAlgebra) -->
    - [Optimized Kalman Filter](https://github.com/ido90/Optimized-Kalman-Filter)
+   - [OpenVINS](https://github.com/rpng/open_vins/)
+   - [MSCKF_VIO](https://github.com/KumarRobotics/msckf_vio)
 2. Perception
    - [Elevation Mapping CuPy](https://github.com/leggedrobotics/elevation_mapping_cupy)
    - [OpenVDB](https://www.openvdb.org)
