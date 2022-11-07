@@ -50,6 +50,7 @@ layout: about
   - [**RaiSim** Manual](https://slides.com/jeminhwangbo/raisim-manual)
   - [Lecture Notes on Numerical Optimization](https://www.syscop.de/files/2020ws/numopt/numopt.pdf)
   - [机器人的带约束轨迹规划](https://zhuanlan.zhihu.com/p/321720908)
+  - [Model Predictive Control: Theory, Computation, and Design](https://sites.engineering.ucsb.edu/~jbraw/mpc/)
 
 ## Researchers
 
