@@ -168,7 +168,8 @@ layout: about
    - [towr](https://github.com/ethz-adrl/towr)
    - [GPOPS-II: Next-Generation Optimal Control Software](https://www.gpops2.com)
    - [Drake](https://github.com/RobotLocomotion/drake)
-   - [Klampt](https://github.com/krishauser/Klampt)
+   - [Fast Robot Optimization and Simulation Toolkit](https://github.com/ayonga/frost-dev)
+   - [Kris' Locomotion and Manipulation Planning Toolbox](https://github.com/krishauser/Klampt)
    - [Representation-Free MPC](https://github.com/YanranDing/RF-MPC)
    - [**IJRR_WBLC**](https://github.com/dhkim0821/IJRR_WBLC)
      - [🎬Lecture on Whole Body Control](https://www.youtube.com/watch?v=RXT6Q96SRO4)
@@ -181,6 +182,7 @@ layout: about
        - [Reactive Locomotion Decision-Making and Planning](https://www.youtube.com/watch?v=3ucH3Rflvwo)
      - [Subsumption Architecture](http://users.dimi.uniud.it/~antonio.dangelo/Robotica/2013/lessons/M02mar20.pdf)
      - [Finite State Machine](https://github.com/mit-biomimetics/Cheetah-Software/tree/master/user/MIT_Controller/FSM_States): OS, State diagram
+   - [Cassie Gait Library Optimization using C-FROST](https://github.com/UMich-BipedLab/Cassie_CFROST)
    - [OpenRAVE](https://github.com/rdiankov/openrave)
    - [mpc_controller](https://github.com/google-research/motion_imitation/tree/master/mpc_controller)
    - [reactive_planners](https://github.com/machines-in-motion/reactive_planners)
