@@ -35,7 +35,7 @@ layout: about
 - [The Theoretical Minimum](https://theoreticalminimum.com)
 - [AirLab Summer School 2020](https://theairlab.org/summer2020/)
 - [6.002](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)
-- [Numerical Optimization](https://www.syscop.de/teaching/ws2022/numerical-optimization)
+- [Numerical Optimization (Prof. Dr. Moritz Diehl)](https://www.syscop.de/teaching/ws2022/numerical-optimization)
 - 📚Textbook or Documentation
   - [Robotic Systems (draft)](https://motion.cs.illinois.edu/RoboticSystems/)
   - [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
@@ -53,6 +53,7 @@ layout: about
   - [Model Predictive Control: Theory, Computation, and Design](https://sites.engineering.ucsb.edu/~jbraw/mpc/)
   - [Sumeet Singh: Introduction to Optimal Control](http://www.princeton.edu/~aaa/Public/Teaching/ORF523/ORF523_S21_Guest_Lecture.pdf)
   - [Automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation)
+  - [Numerical Optimization](https://www.csie.ntu.edu.tw/~r97002/temp/num_optimization.pdf)
 
 ## Researchers
 
