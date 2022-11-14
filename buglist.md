@@ -3361,3 +3361,7 @@ Cite:
 3. [CMake target_include_directories meaning of scope](https://stackoverflow.com/questions/26243169/cmake-target-include-directories-meaning-of-scope)
 4. [CMake: Public VS Private VS Interface](https://leimao.github.io/blog/CMake-Public-Private-Interface/)
 5. [Modern CMake is like inheritance](https://kubasejdak.com/modern-cmake-is-like-inheritance)
+
+### GCC -> Clang
+
+[Template instantiation of templated class constructor](https://stackoverflow.com/questions/62675256/template-instantiation-of-templated-class-constructor)
