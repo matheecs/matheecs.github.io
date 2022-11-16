@@ -172,6 +172,7 @@ layout: about
    - [Fast Robot Optimization and Simulation Toolkit](https://github.com/ayonga/frost-dev)
    - [Kris' Locomotion and Manipulation Planning Toolbox](https://github.com/krishauser/Klampt)
    - [Representation-Free MPC](https://github.com/YanranDing/RF-MPC)
+   - [Global Body Planner](https://github.com/jcnorby/global_body_planner)
    - [**IJRR_WBLC**](https://github.com/dhkim0821/IJRR_WBLC)
      - [🎬Lecture on Whole Body Control](https://www.youtube.com/watch?v=RXT6Q96SRO4)
      - [DynaCoRE](https://github.com/DARoSLab/DynaCoRE)
