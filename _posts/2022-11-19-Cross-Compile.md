@@ -50,3 +50,4 @@ scp test pi@10.0.0.11:~
 ### Cite
 
 1. [Cross compiling C/C++ from macOS to Raspberry Pi in 2 easy steps](https://medium.com/@haraldfernengel/cross-compiling-c-c-from-macos-to-raspberry-pi-in-2-easy-steps-23f391a8c63)
+2. [Cross-compiling for Raspberry Pi](https://github.com/sony/nmos-cpp/blob/master/Documents/Raspberry-Pi.md)
