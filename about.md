@@ -239,6 +239,7 @@ layout: about
    - [LBFGS-Lite](https://github.com/ZJU-FAST-Lab/LBFGS-Lite)
    - [ProxQP](https://github.com/Simple-Robotics/proxsuite)
    - [HPIPM](https://github.com/giaf/hpipm)
+     - [BLAS For Embedded Optimization](https://github.com/giaf/blasfeo)
    - [ECOS](https://github.com/embotech/ecos)
    - [SymForce](https://github.com/symforce-org/symforce)
    - [GTSAM](https://github.com/borglab/gtsam)
@@ -297,5 +298,5 @@ layout: about
 </p>
 
 <p align="center">
-  <img src="/images/shenlan.jpg" width="200"/>
+  <img src="/images/juggling.gif" width="500"/>
 </p>
