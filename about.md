@@ -268,6 +268,8 @@ layout: about
    - Markdown
      - [**Marp**](https://marp.app)
    - LaTeX
+   - Inkscape
+     - [TexText](https://github.com/textext/textext)
    - Linux
    - CMake
    - Git
