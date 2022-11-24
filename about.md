@@ -54,6 +54,7 @@ layout: about
   - [Sumeet Singh: Introduction to Optimal Control](http://www.princeton.edu/~aaa/Public/Teaching/ORF523/ORF523_S21_Guest_Lecture.pdf)
   - [Automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation)
   - [Numerical Optimization](https://www.csie.ntu.edu.tw/~r97002/temp/num_optimization.pdf)
+  - [Optimization-Based Control for Dynamic Legged Robots](https://arxiv.org/abs/2211.11644)
 
 ## Researchers
 
@@ -172,6 +173,7 @@ layout: about
    - [Fast Robot Optimization and Simulation Toolkit](https://github.com/ayonga/frost-dev)
    - [Kris' Locomotion and Manipulation Planning Toolbox](https://github.com/krishauser/Klampt)
    - [Representation-Free MPC](https://github.com/YanranDing/RF-MPC)
+   - [Quad-SDK](https://github.com/robomechanics/quad-sdk)
    - [Global Body Planner](https://github.com/jcnorby/global_body_planner)
    - [ANYmal Rough Terrain Planner](https://github.com/leggedrobotics/art_planner)
    - [**IJRR_WBLC**](https://github.com/dhkim0821/IJRR_WBLC)
