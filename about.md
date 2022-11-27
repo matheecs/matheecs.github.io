@@ -114,6 +114,7 @@ layout: about
 - [KangKang Yin](https://www2.cs.sfu.ca/~kkyin/)
 - [Fabrice Bellard](https://bellard.org)
 - [Moritz Diehl](https://www.syscop.de/people/moritz-diehl)
+- [Justin Carpentier](https://jcarpent.github.io)
 
 ## Algorithm Tree
 
@@ -275,6 +276,10 @@ layout: about
    - Git
    - GitHub/CI
    - [Timer](https://github.com/LiangliangNan/Timer)
+     - [realtime_tools](https://github.com/ros-controls/realtime_tools)
+   - Sourcetrail
+   - [macOS Cross toolchain](https://github.com/tpoechtrager/osxcross)
+   - [TVM](https://github.com/apache/tvm)
    - SIMD
      - [SIMD Everywhere](https://github.com/simd-everywhere/simde)
      - [xsimd](https://github.com/xtensor-stack/xsimd)
