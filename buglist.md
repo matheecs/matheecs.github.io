@@ -3365,3 +3365,9 @@ Cite:
 ### GCC -> Clang
 
 [Template instantiation of templated class constructor](https://stackoverflow.com/questions/62675256/template-instantiation-of-templated-class-constructor)
+
+### 用 `ffmpeg` 添加字幕
+
+```bash
+ffmpeg -i nmpc_wbc_with_raibert.mp4 -vf "subtitles=sub.srt:force_style='Fontsize=24'" -c:a copy mysubtitledmovie.mp4
+```
