@@ -115,6 +115,7 @@ layout: about
 - [Fabrice Bellard](https://bellard.org)
 - [Moritz Diehl](https://www.syscop.de/people/moritz-diehl)
 - [Justin Carpentier](https://jcarpent.github.io)
+- [Dario Bellicoso](https://dbellicoso.github.io)
 
 ## Algorithm Tree
 
