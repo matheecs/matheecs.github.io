@@ -3371,3 +3371,7 @@ Cite:
 ```bash
 ffmpeg -i nmpc_wbc_with_raibert.mp4 -vf "subtitles=sub.srt:force_style='Fontsize=24'" -c:a copy mysubtitledmovie.mp4
 ```
+
+### C++ Thread Synchronization
+
+[C++ Thread Synchronization](https://chrizog.com/cpp-thread-synchronization)
