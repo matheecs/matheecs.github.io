@@ -265,6 +265,7 @@ layout: about
      - [LCM](https://github.com/lcm-proj/lcm)
        - [LCM to ROS](https://github.com/nrjl/lcm_to_ros)
      - [catkin](https://github.com/ros/catkin)
+   - [mc_rtc](https://github.com/jrl-umi3218/mc_rtc)
    - PlotJuggler
    - C++/Python
    - Markdown
