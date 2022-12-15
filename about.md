@@ -12,6 +12,8 @@ layout: about
   - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
 - Research Interests: <mark style="background-color: green">Perception</mark>, <mark style="background-color: blue">Planning</mark> and <mark style="background-color: red">Control</mark> of <mark>Underactuated Robotics<mark/>
 
+---
+
 ## Favorite Lectures
 
 - [计算机教育中缺失的一课](https://missing-semester-cn.github.io)
@@ -135,6 +137,8 @@ layout: about
    - [Optimized Kalman Filter](https://github.com/ido90/Optimized-Kalman-Filter)
    - [OpenVINS](https://github.com/rpng/open_vins/)
    - [MSCKF_VIO](https://github.com/KumarRobotics/msckf_vio)
+   - [FAST-LIVO](https://github.com/hku-mars/FAST-LIVO)
+   - [SVO Pro](https://github.com/uzh-rpg/rpg_svo_pro_open)
 2. Perception
    - [Elevation Mapping CuPy](https://github.com/leggedrobotics/elevation_mapping_cupy)
    - [OpenVDB](https://www.openvdb.org)
@@ -171,6 +175,7 @@ layout: about
    - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
    - [towr](https://github.com/ethz-adrl/towr)
    - [GPOPS-II: Next-Generation Optimal Control Software](https://www.gpops2.com)
+   - [PSOPT](https://github.com/PSOPT/psopt)
    - [Drake](https://github.com/RobotLocomotion/drake)
    - [Fast Robot Optimization and Simulation Toolkit](https://github.com/ayonga/frost-dev)
    - [Kris' Locomotion and Manipulation Planning Toolbox](https://github.com/krishauser/Klampt)
@@ -202,6 +207,7 @@ layout: about
    - [SIMBICON: Simple Biped Locomotion Control](https://www.cs.ubc.ca/~van/papers/Simbicon.htm)
    - [ground_based_autonomy_basic](https://github.com/jizhang-cmu/ground_based_autonomy_basic)
    - [octave-mpctools](https://bitbucket.org/rawlings-group/octave-mpctools/src/master/)
+   - [bipedal-locomotion-framework](https://github.com/ami-iit/bipedal-locomotion-framework)
 4. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RBDL](https://github.com/rbdl/rbdl)
@@ -279,6 +285,7 @@ layout: about
    - GitHub/CI
    - [Timer](https://github.com/LiangliangNan/Timer)
      - [realtime_tools](https://github.com/ros-controls/realtime_tools)
+   - [ThreadPool](https://github.com/progschj/ThreadPool)
    - Sourcetrail
    - [macOS Cross toolchain](https://github.com/tpoechtrager/osxcross)
    - [TVM](https://github.com/apache/tvm)
