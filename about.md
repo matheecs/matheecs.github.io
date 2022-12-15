@@ -232,6 +232,7 @@ layout: about
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [mjbots quad](https://github.com/mjbots/quad)
    - [Choreonoid](https://github.com/choreonoid/choreonoid)
+     - [OpenHRP3](https://fkanehiro.github.io/openhrp3-doc/en/index.html)
      - [NAO Choregraphe](http://doc.aldebaran.com/1-14/software/choregraphe/index.html)
      - [Spot Choreography](https://dev.bostondynamics.com/docs/concepts/choreography/readme)
      - Maya
