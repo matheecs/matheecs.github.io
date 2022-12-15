@@ -118,6 +118,7 @@ layout: about
 - [Moritz Diehl](https://www.syscop.de/people/moritz-diehl)
 - [Justin Carpentier](https://jcarpent.github.io)
 - [Dario Bellicoso](https://dbellicoso.github.io)
+- [Junjie Shen](http://www.seas.ucla.edu/~junjie/)
 
 ## Algorithm Tree
 
