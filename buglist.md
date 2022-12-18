@@ -3375,3 +3375,9 @@ ffmpeg -i nmpc_wbc_with_raibert.mp4 -vf "subtitles=sub.srt:force_style='Fontsize
 ### C++ Thread Synchronization
 
 [C++ Thread Synchronization](https://chrizog.com/cpp-thread-synchronization)
+
+### SVG to PDF using inkscape
+
+```bash
+inkscape -D image.svg  -o image.pdf --export-latex
+```
