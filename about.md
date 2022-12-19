@@ -172,6 +172,7 @@ layout: about
    - [Whole-Body Control and Simulation Software](https://www.whole-body-control.org/60.php)
    - [OCS2](https://github.com/leggedrobotics/ocs2)
      - [legged_control](https://github.com/qiayuanliao/legged_control)
+     - [Perceptive MPC](https://github.com/leggedrobotics/perceptive_mpc)
    - [Control Toolbox](https://github.com/ethz-adrl/control-toolbox)
    - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
    - [towr](https://github.com/ethz-adrl/towr)
