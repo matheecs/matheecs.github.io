@@ -240,6 +240,7 @@ layout: about
    - [Dynamic Animation and Robotics Toolkit](https://github.com/dartsim/dart)
    - [DOOM source code](https://github.com/id-Software/DOOM)
    - [Panda3D](https://github.com/panda3d/panda3d)
+   - [DynaMechs](https://github.com/yiping/DynaMechs)
 5. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [MeshCat](https://github.com/rdeits/meshcat-python)
