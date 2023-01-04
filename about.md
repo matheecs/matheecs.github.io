@@ -119,6 +119,7 @@ layout: about
 - [Justin Carpentier](https://jcarpent.github.io)
 - [Dario Bellicoso](https://dbellicoso.github.io)
 - [Junjie Shen](http://www.seas.ucla.edu/~junjie/)
+- [Nicolas Mansard](https://gepettoweb.laas.fr/index.php/Members/NicolasMansard)
 
 ## Algorithm Tree
 
