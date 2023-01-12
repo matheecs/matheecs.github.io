@@ -141,6 +141,7 @@ layout: about
    - [MSCKF_VIO](https://github.com/KumarRobotics/msckf_vio)
    - [FAST-LIVO](https://github.com/hku-mars/FAST-LIVO)
    - [SVO Pro](https://github.com/uzh-rpg/rpg_svo_pro_open)
+   - [**legged_state_estimator**](https://github.com/mayataka/legged_state_estimator)
 2. Perception
    - [Elevation Mapping CuPy](https://github.com/leggedrobotics/elevation_mapping_cupy)
    - [OpenVDB](https://www.openvdb.org)
@@ -174,6 +175,9 @@ layout: about
    - [OCS2](https://github.com/leggedrobotics/ocs2)
      - [legged_control](https://github.com/qiayuanliao/legged_control)
      - [Perceptive MPC](https://github.com/leggedrobotics/perceptive_mpc)
+   - [Crocoddyl](https://github.com/loco-3d/crocoddyl)
+   - [robotoc](https://github.com/mayataka/robotoc)
+   - [TSID](https://github.com/stack-of-tasks/tsid)
    - [Control Toolbox](https://github.com/ethz-adrl/control-toolbox)
    - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
    - [towr](https://github.com/ethz-adrl/towr)
