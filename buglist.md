@@ -3381,3 +3381,11 @@ ffmpeg -i nmpc_wbc_with_raibert.mp4 -vf "subtitles=sub.srt:force_style='Fontsize
 ```bash
 inkscape -D image.svg  -o image.pdf --export-latex
 ```
+
+### OCR for PDF files using [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)
+
+```bash
+brew install ocrmypdf
+
+ocrmypdf -l eng --deskew --jobs 4 --force-ocr input.pdf output.pdf
+```
