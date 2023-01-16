@@ -3316,7 +3316,10 @@ Cite [Mac OS X Internals](https://www.amazon.com/Mac-OS-Internals-Approach-paper
 ### Mesh file format convert using MeshLab
 
 ```bash
-meshlabserver -i source_file -o target_file -m vn
+for file in *.STL
+do
+  meshlabserver -i $file -o ${file%.*}.obj -m vn
+done
 ```
 
 ### C++ IDE using VS Code & clangd & Ccache
