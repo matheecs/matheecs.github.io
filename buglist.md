@@ -3396,3 +3396,9 @@ ocrmypdf -l eng --deskew --jobs 4 --force-ocr input.pdf output.pdf
 ### Ubuntu install latest CMake
 
 [Kitware APT Repository](https://apt.kitware.com/)
+
+### ROS workspace setup for VSCode IDE
+
+```bash
+catkin_make -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=Yes
+```
