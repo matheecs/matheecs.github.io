@@ -3402,3 +3402,12 @@ ocrmypdf -l eng --deskew --jobs 4 --force-ocr input.pdf output.pdf
 ```bash
 catkin_make -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=Yes
 ```
+
+### Convert Mesh files
+
+```bash
+#!/bin/sh
+for i in `find . -name '*.STL'`; do
+    meshlabserver -i $i -o `pwd`/$(echo `basename $i` | sed 's|.STL$|.obj|')
+done
+```
