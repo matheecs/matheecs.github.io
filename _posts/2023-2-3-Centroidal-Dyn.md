@@ -7,7 +7,7 @@ author: "Jixiang Zhang"
 
 ![](/images/RMP.gif)
 
-Cite: [Reaction Mass Pendulum (RMP) : An explicit model for centroidal angular momentum of humanoid robots](https://www.youtube.com/watch?v=Qf3iyco-3rc)
+Cite: [Reaction Mass Pendulum](https://www.youtube.com/watch?v=Qf3iyco-3rc)
 
 # Formulas
 
@@ -18,6 +18,8 @@ Cite: [Reaction Mass Pendulum (RMP) : An explicit model for centroidal angular m
 * $\mathbf{h}_g = (m\dot{c}, L_g)$
 * $\dot{\mathbf{h}}_g = (m\ddot{c}, \dot{L}_g)$
 * $\mathbf{h}_g = I_g v_{mean}$
+
+and
 
 $$
 d\dot{\mathbf{h}}_g = \frac{\partial \dot{\mathbf{h}}_g}{\partial q} dq
