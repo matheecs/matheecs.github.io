@@ -14,10 +14,10 @@ Cite: [Reaction Mass Pendulum](https://www.youtube.com/watch?v=Qf3iyco-3rc)
 ## Task
 
 * $\mathbf{h}_g = A_g(q) \dot{q}$
-* $\dot{\mathbf{h}}_g = A_g(q) \ddot{q}\ + \dot{A_g}(q,\dot{q})\dot{q}$
+* $\dot{\mathbf{h}}_g = A_g(q) \ddot{q} + \dot{A_g}(q,\dot{q})\dot{q}$
 * $\mathbf{h}_g = (m\dot{c}, L_g)$
 * $\dot{\mathbf{h}}_g = (m\ddot{c}, \dot{L}_g)$
-* $\mathbf{h}_g = I_g v_{mean}$
+* $\mathbf{h}_g = I_g v_g$
 
 and
 
