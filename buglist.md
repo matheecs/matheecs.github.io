@@ -3411,3 +3411,35 @@ for i in `find . -name '*.STL'`; do
     meshlabserver -i $i -o `pwd`/$(echo `basename $i` | sed 's|.STL$|.obj|')
 done
 ```
+
+### A bug funded by Clang
+
+bug
+
+```text
+fatal error: qualified reference to 'MultidimensionalPenalty' is a constructor name rather than a type
+```
+
+```c++
+template <>
+MultidimensionalPenalty::MultidimensionalPenalty<augmented::AugmentedPenaltyBase>(
+    std::vector<std::unique_ptr<augmented::AugmentedPenaltyBase>> penaltyPtrArray)
+    : penaltyPtrArray_(std::move(penaltyPtrArray)) {
+  if (penaltyPtrArray_.empty()) {
+    throw std::runtime_error("[MultidimensionalPenalty::MultidimensionalPenalty] The penalty array cannot be empty!");
+  }
+}
+```
+
+fix
+
+```c++
+template <>
+MultidimensionalPenalty::MultidimensionalPenalty(
+    std::vector<std::unique_ptr<augmented::AugmentedPenaltyBase>> penaltyPtrArray)
+    : penaltyPtrArray_(std::move(penaltyPtrArray)) {
+  if (penaltyPtrArray_.empty()) {
+    throw std::runtime_error("[MultidimensionalPenalty::MultidimensionalPenalty] The penalty array cannot be empty!");
+  }
+}
+```
