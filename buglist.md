@@ -3443,3 +3443,11 @@ MultidimensionalPenalty::MultidimensionalPenalty(
   }
 }
 ```
+
+### Inertia Convention of SolidWorks
+
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/8a01acaa1d453d5d3f4c7faf8a74da5b2637bb01)
+
+> There are some CAD and CAE applications such as SolidWorks, Unigraphics NX/Siemens NX and MSC Adams that use an alternate convention for the products of inertia. According to this convention, the minus sign is removed from the product of inertia formulas and instead inserted in the inertia matrix.
+
+cite: <https://en.wikipedia.org/wiki/Moment_of_inertia>
