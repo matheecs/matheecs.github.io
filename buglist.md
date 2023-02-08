@@ -3451,3 +3451,11 @@ MultidimensionalPenalty::MultidimensionalPenalty(
 > There are some CAD and CAE applications such as SolidWorks, Unigraphics NX/Siemens NX and MSC Adams that use an alternate convention for the products of inertia. According to this convention, the minus sign is removed from the product of inertia formulas and instead inserted in the inertia matrix.
 
 cite: <https://en.wikipedia.org/wiki/Moment_of_inertia>
+
+### Enable Dark Mode in Chrome on Ubuntu
+
+* Type `chrome://flags` in the address bar;
+* Type “dark mode” in the search bar;
+* Select Enabled for Force Dark Mode for Web Contents.
+
+Cite: [How to Enable Dark Mode in Chrome on Ubuntu](https://dev.to/felixdusengimana/how-to-enable-dark-mode-in-chrome-on-ubuntuno-code-apps-themes-2p41)
