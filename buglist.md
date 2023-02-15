@@ -3473,3 +3473,12 @@ error: return type ...::RCmpEQReturnType of selected 'operator==' function for r
 Solution: use C++17
 
 Cite: [Breaking change in C++20 or regression in clang-trunk/gcc-trunk when overloading equality comparison with non-Boolean return value?](https://stackoverflow.com/questions/60568088/breaking-change-in-c20-or-regression-in-clang-trunk-gcc-trunk-when-overloading)
+
+### Python to UML
+
+```bash
+# pip install pylint
+pyreverse -o png <path_to_src>
+```
+
+Cite: [How to Generate UML Diagrams from Python Source Code?](https://www.bhavaniravi.com/python/generate-uml-diagrams-from-python-code)
