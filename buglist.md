@@ -3463,3 +3463,13 @@ Cite: [How to Enable Dark Mode in Chrome on Ubuntu](https://dev.to/felixdusengim
 ### Fix bug of ROS with PyQt?
 
 Solution: use `pip` to uninstall PyQt5 and PyQt5-sip
+
+### C++20 Eigen Bug
+
+```bash
+error: return type ...::RCmpEQReturnType of selected 'operator==' function for rewritten '!=' comparison is not 'bool'
+```
+
+Solution: use C++17
+
+Cite: [Breaking change in C++20 or regression in clang-trunk/gcc-trunk when overloading equality comparison with non-Boolean return value?](https://stackoverflow.com/questions/60568088/breaking-change-in-c20-or-regression-in-clang-trunk-gcc-trunk-when-overloading)
