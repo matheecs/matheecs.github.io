@@ -7,7 +7,7 @@ author: "Jixiang Zhang"
 
 Cite: A curated list of solvers/software/frameworks relevant for dynamic optimiation.[^1]
 
-<table>
+<table border="1" class="table_legenda" width="100%">
     <tr>
         <td>Name</td>
         <td>Interface level</td>
