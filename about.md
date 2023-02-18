@@ -2,7 +2,7 @@
 layout: about
 ---
 
-## About Me
+## About Me (I am a Robotics Engineer)
 
 - Email: <matheecs[at]qq[dot]com>
 - [Resume/CV (Chinese)](/files/cv/cv2022.pdf)
