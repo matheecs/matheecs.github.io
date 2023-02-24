@@ -3482,3 +3482,9 @@ pyreverse -o png <path_to_src>
 ```
 
 Cite: [How to Generate UML Diagrams from Python Source Code?](https://www.bhavaniravi.com/python/generate-uml-diagrams-from-python-code)
+
+### Teleoperation with the mouse
+
+```bash
+rosrun mouse_teleop mouse_teleop.py /mouse_vel:=/cmd_vel
+```
