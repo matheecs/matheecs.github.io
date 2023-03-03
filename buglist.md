@@ -3403,6 +3403,44 @@ ocrmypdf -l eng --deskew --jobs 4 --force-ocr input.pdf output.pdf
 catkin_make -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=Yes
 ```
 
+Cite: <https://github.com/catkin/catkin_tools/issues/551>
+
+Or
+
+```bash
+catkin build -DCMAKE_EXPORT_COMPILE_COMMANDS=1
+```
+
+with follow scripts
+
+```bash
+#!/bin/sh
+
+cd `catkin locate --workspace $(pwd)`
+
+concatenated="build/compile_commands.json"
+
+echo "[" > $concatenated
+
+first=1
+for d in build/*
+do
+    f="$d/compile_commands.json"
+
+    if test -f "$f"; then
+        if [ $first -eq 0 ]; then
+            echo "," >> $concatenated
+        fi
+
+        cat $f | sed '1d;$d' >> $concatenated
+    fi
+
+    first=0
+done
+
+echo "]" >> $concatenated
+```
+
 ### Convert Mesh files
 
 ```bash
