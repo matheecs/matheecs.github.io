@@ -144,6 +144,7 @@ layout: about
    - [**legged_state_estimator**](https://github.com/mayataka/legged_state_estimator)
 2. Perception
    - [Elevation Mapping CuPy](https://github.com/leggedrobotics/elevation_mapping_cupy)
+   - [ROG-Map](https://github.com/hku-mars/ROG-Map)
    - [OpenVDB](https://www.openvdb.org)
      - [Bonxai](https://github.com/facontidavide/Bonxai)
    - [voxblox](https://github.com/ethz-asl/voxblox)
@@ -178,9 +179,12 @@ layout: about
    - [Crocoddyl](https://github.com/loco-3d/crocoddyl)
    - [robotoc](https://github.com/mayataka/robotoc)
    - [TSID](https://github.com/stack-of-tasks/tsid)
+   - [Pink](https://github.com/tasts-robots/pink)
    - [Control Toolbox](https://github.com/ethz-adrl/control-toolbox)
    - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
    - [towr](https://github.com/ethz-adrl/towr)
+   - [horizon](https://github.com/ADVRHumanoids/horizon)
+   - [PlanningWithAttitude](https://github.com/RoboticExplorationLab/PlanningWithAttitude)
    - [GPOPS-II: Next-Generation Optimal Control Software](https://www.gpops2.com)
    - [PSOPT](https://github.com/PSOPT/psopt)
    - [Drake](https://github.com/RobotLocomotion/drake)
@@ -201,6 +205,7 @@ layout: about
        - [Reactive Locomotion Decision-Making and Planning](https://www.youtube.com/watch?v=3ucH3Rflvwo)
      - [Subsumption Architecture](http://users.dimi.uniud.it/~antonio.dangelo/Robotica/2013/lessons/M02mar20.pdf)
      - [Finite State Machine](https://github.com/mit-biomimetics/Cheetah-Software/tree/master/user/MIT_Controller/FSM_States): OS, State diagram
+     - [KinodynamicFabrics.jl](https://github.com/adubredu/KinodynamicFabrics.jl)
    - [Cassie Gait Library Optimization using C-FROST](https://github.com/UMich-BipedLab/Cassie_CFROST)
    - [OpenRAVE](https://github.com/rdiankov/openrave)
    - [mpc_controller](https://github.com/google-research/motion_imitation/tree/master/mpc_controller)
@@ -219,6 +224,7 @@ layout: about
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RBDL](https://github.com/rbdl/rbdl)
    - [Pinocchio](https://github.com/stack-of-tasks/pinocchio)
+     - [doc](https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/master/doxygen-html/namespacepinocchio.html#details)
    - [spatial_v2_extended](https://github.com/ROAM-Lab-ND/spatial_v2_extended)
    - [Dojo](https://github.com/dojo-sim/Dojo.jl)
    - [Bullet](https://github.com/bulletphysics/bullet3)
@@ -269,6 +275,9 @@ layout: about
    - [CppAD](https://github.com/coin-or/CppAD)
      - [CppADCodeGen](https://github.com/joaoleal/CppADCodeGen)
    - [CasADi](https://github.com/casadi/casadi)
+   - [Manopt](https://github.com/NicolasBoumal/manopt)
+   - [MPOPT](https://github.com/mpopt/mpopt)
+   - [JuMP](https://github.com/jump-dev/JuMP.jl)
 7. *Numerical Computation*
    - [NumPy](https://numpy.org)
    - [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page)
@@ -281,8 +290,13 @@ layout: about
        - [LCM to ROS](https://github.com/nrjl/lcm_to_ros)
      - [catkin](https://github.com/ros/catkin)
    - [mc_rtc](https://github.com/jrl-umi3218/mc_rtc)
+   - [The Super Tiny Compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
    - PlotJuggler
    - C++/Python
+   - Julia
+   - Jupyter
+     - [RISE](https://github.com/damianavila/RISE)
+     - [jupyterlab_rise](https://github.com/jupyterlab-contrib/rise)
    - Markdown
      - [**Marp**](https://marp.app)
    - LaTeX
