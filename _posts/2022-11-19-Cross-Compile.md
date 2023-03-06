@@ -47,6 +47,52 @@ scp test pi@10.0.0.11:~
 ./test
 ```
 
+## Demo from [cyberdog_motor_sdk](https://github.com/MiRoboticsLab/cyberdog_motor_sdk)
+
+```cmake
+# this is required
+#SET(CMAKE_SYSTEM_NAME Linux)
+
+# specify the cross compiler
+#SET(CMAKE_C_COMPILER   aarch64-openwrt-linux-gnu-gcc)
+#SET(CMAKE_CXX_COMPILER aarch64-openwrt-linux-gnu-g++)
+
+# where is the target environment 
+#SET(CMAKE_FIND_ROOT_PATH  /toolchain)
+
+# search for programs in the build host directories (not necessary)
+#SET(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+# for libraries and headers in the target directories
+#SET(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+#SET(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
+
+
+set(CMAKE_SYSTEM_NAME Linux)
+set(CMAKE_SYSTEM_VERSION 1)
+set(CMAKE_SYSTEM_PROCESSOR aarch64)
+set(cross_triple "aarch64-openwrt-linux-gnu")
+set(cross_root /usr/xcc/${cross_triple})
+
+set(CMAKE_C_COMPILER $ENV{CC})
+set(CMAKE_CXX_COMPILER $ENV{CXX})
+#set(CMAKE_Fortran_COMPILER $ENV{FC})
+
+#set(CMAKE_CXX_FLAGS "-I ${cross_root}/include/")
+
+set(CMAKE_FIND_ROOT_PATH ${cross_root} ${cross_root}/${cross_triple})
+set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
+set(CMAKE_SYSROOT ${cross_root}/${cross_triple})
+# set(CMAKE_STAGING_PREFIX ${cross_root}/${cross_triple}/usr)
+
+#set(CMAKE_CROSSCOMPILING_EMULATOR /usr/bin/qemu-arm)
+```
+
+<p align="center">
+  <img src="/images/carbon.png" width="500"/>
+</p>
+
 ### Cite
 
 1. [Cross compiling C/C++ from macOS to Raspberry Pi in 2 easy steps](https://medium.com/@haraldfernengel/cross-compiling-c-c-from-macos-to-raspberry-pi-in-2-easy-steps-23f391a8c63)
