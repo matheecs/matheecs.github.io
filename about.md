@@ -220,6 +220,7 @@ layout: about
    - [ground_based_autonomy_basic](https://github.com/jizhang-cmu/ground_based_autonomy_basic)
    - [octave-mpctools](https://bitbucket.org/rawlings-group/octave-mpctools/src/master/)
    - [bipedal-locomotion-framework](https://github.com/ami-iit/bipedal-locomotion-framework)
+   - [Vulp (Real-time motion control for Python)](https://github.com/tasts-robots/vulp#performance)
 4. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RBDL](https://github.com/rbdl/rbdl)
