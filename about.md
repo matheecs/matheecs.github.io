@@ -120,6 +120,7 @@ layout: about
 - [Dario Bellicoso](https://dbellicoso.github.io)
 - [Junjie Shen](http://www.seas.ucla.edu/~junjie/)
 - [Nicolas Mansard](https://gepettoweb.laas.fr/index.php/Members/NicolasMansard)
+- [Yuval Tassa](https://www.cs.washington.edu/people/postdocs/tassa)
 
 ## Algorithm Tree
 
