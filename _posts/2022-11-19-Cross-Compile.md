@@ -49,6 +49,12 @@ scp test pi@10.0.0.11:~
 
 ## Demo from [cyberdog_motor_sdk](https://github.com/MiRoboticsLab/cyberdog_motor_sdk)
 
+```bash
+cmake -DCMAKE_TOOLCHAIN_FILE=/usr/xcc/aarch64-openwrt-linux-gnu/Toolchain.cmake ..
+```
+
+**Toolchain.cmake**
+
 ```cmake
 # this is required
 #SET(CMAKE_SYSTEM_NAME Linux)
@@ -73,6 +79,8 @@ set(CMAKE_SYSTEM_PROCESSOR aarch64)
 set(cross_triple "aarch64-openwrt-linux-gnu")
 set(cross_root /usr/xcc/${cross_triple})
 
+# /usr/xcc/aarch64-openwrt-linux-gnu/bin/aarch64-openwrt-linux-gnu-gcc
+# /usr/xcc/aarch64-openwrt-linux-gnu/bin/aarch64-openwrt-linux-gnu-g++
 set(CMAKE_C_COMPILER $ENV{CC})
 set(CMAKE_CXX_COMPILER $ENV{CXX})
 #set(CMAKE_Fortran_COMPILER $ENV{FC})
