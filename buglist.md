@@ -3526,3 +3526,11 @@ Cite: [How to Generate UML Diagrams from Python Source Code?](https://www.bhavan
 ```bash
 rosrun mouse_teleop mouse_teleop.py /mouse_vel:=/cmd_vel
 ```
+
+### Weixin for Linux
+
+Cite: <https://www.ubuntukylin.com/applications/106-cn.html>
+
+### Pinyin for Chrome
+
+[Google Input Tools](https://chrome.google.com/webstore/detail/google-input-tools/mclkkofklkfljcocdinagocijmpgbhab)
