@@ -3534,3 +3534,9 @@ Cite: <https://www.ubuntukylin.com/applications/106-cn.html>
 ### Pinyin for Chrome
 
 [Google Input Tools](https://chrome.google.com/webstore/detail/google-input-tools/mclkkofklkfljcocdinagocijmpgbhab)
+
+### fatal error: Eigen/Core: No such file or directory
+
+```bash
+sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen
+```
