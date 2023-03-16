@@ -3540,3 +3540,23 @@ Cite: <https://www.ubuntukylin.com/applications/106-cn.html>
 ```bash
 sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen
 ```
+
+### Proxy setup for Docker
+
+Add file: `~/.docker/config.json`
+
+```json
+{
+ "proxies":
+ {
+   "default":
+   {
+     "httpProxy": "http://192.168.1.12:3128",
+     "httpsProxy": "http://192.168.1.12:3128",
+     "noProxy": "*.test.example.com,.example2.com,127.0.0.0/8"
+   }
+ }
+}
+```
+
+Cite: [Configure Docker to use a proxy server](https://docs.docker.com/network/proxy/)
