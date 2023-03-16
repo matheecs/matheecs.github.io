@@ -3541,7 +3541,7 @@ Cite: <https://www.ubuntukylin.com/applications/106-cn.html>
 sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen
 ```
 
-### Proxy setup for Docker
+### Docker: Proxy setup
 
 Add file: `~/.docker/config.json`
 
@@ -3560,3 +3560,11 @@ Add file: `~/.docker/config.json`
 ```
 
 Cite: [Configure Docker to use a proxy server](https://docs.docker.com/network/proxy/)
+
+### Docker: Networking using the host network
+
+```bash
+docker run --network host -it -v $PWD:"/github/workspace" qsim /bin/bash
+```
+
+Cite: [Networking using the host network](https://docs.docker.com/network/network-tutorial-host/)
