@@ -3568,3 +3568,16 @@ docker run --network host -it -v $PWD:"/github/workspace" qsim /bin/bash
 ```
 
 Cite: [Networking using the host network](https://docs.docker.com/network/network-tutorial-host/)
+
+### Docker: 镜像加速器
+
+Docker Desktop -> Perferences -> Docker Engine -> Add JSON
+
+```json
+{
+  "registry-mirrors": [
+    "https://hub-mirror.c.163.com",
+    "https://mirror.baidubce.com"
+  ]
+}
+```
