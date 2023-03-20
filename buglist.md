@@ -3629,3 +3629,11 @@ Cite:
 
 * [cmake で ccache を有効化するための設定](https://www.qoosky.io/techs/cf31def8e4)
 * [How to Install GCC Compiler](https://vegastack.com/tutorials/how-to-install-gcc-compiler-on-ubuntu-20-04/)
+
+### Ubuntu: Install AppImageLauncher
+
+```bash
+sudo add-apt-repository ppa:appimagelauncher-team/stable
+sudo apt-get update
+sudo apt-get install appimagelauncher
+```
