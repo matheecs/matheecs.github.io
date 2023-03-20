@@ -3624,3 +3624,8 @@ lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-gcc-9 -> ../../bi
 $ which gcc
 /usr/lib/ccache/gcc
 ```
+
+Cite:
+
+* [cmake で ccache を有効化するための設定](https://www.qoosky.io/techs/cf31def8e4)
+* [How to Install GCC Compiler](https://vegastack.com/tutorials/how-to-install-gcc-compiler-on-ubuntu-20-04/)
