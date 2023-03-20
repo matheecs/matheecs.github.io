@@ -3581,3 +3581,46 @@ Docker Desktop -> Perferences -> Docker Engine -> Add JSON
   ]
 }
 ```
+
+### Ubuntu: Setup GCC and Ccache
+
+```bash
+sudo apt install gcc-8 g++-8 gcc-9 g++-9 gcc-10 g++-10
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-10 100 --slave /usr/bin/g++ g++ /usr/bin/g++-10 --slave /usr/bin/gcov gcov /usr/bin/gcov-10
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 90 --slave /usr/bin/g++ g++ /usr/bin/g++-9 --slave /usr/bin/gcov gcov /usr/bin/gcov-9
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 80 --slave /usr/bin/g++ g++ /usr/bin/g++-8 --slave /usr/bin/gcov gcov /usr/bin/gcov-8
+sudo update-alternatives --config gcc
+
+export PATH=/usr/lib/ccache:$PATH
+```
+
+```bash
+$ ls -l /usr/lib/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 c++ -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 c89-gcc -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 c99-gcc -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 cc -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 g++ -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 g++-10 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 g++-11 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 g++-8 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 g++-9 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 gcc -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 gcc-10 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 gcc-11 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 gcc-8 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 gcc-9 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-g++ -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-g++-10 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-g++-11 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-g++-8 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-g++-9 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-gcc -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-gcc-10 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-gcc-11 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-gcc-8 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-gcc-9 -> ../../bin/ccache
+
+$ which gcc
+/usr/lib/ccache/gcc
+```
