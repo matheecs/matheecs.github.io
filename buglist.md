@@ -3526,3 +3526,114 @@ Cite: [How to Generate UML Diagrams from Python Source Code?](https://www.bhavan
 ```bash
 rosrun mouse_teleop mouse_teleop.py /mouse_vel:=/cmd_vel
 ```
+
+### Weixin for Linux
+
+Cite: <https://www.ubuntukylin.com/applications/106-cn.html>
+
+### Pinyin for Chrome
+
+[Google Input Tools](https://chrome.google.com/webstore/detail/google-input-tools/mclkkofklkfljcocdinagocijmpgbhab)
+
+### fatal error: Eigen/Core: No such file or directory
+
+```bash
+sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen
+```
+
+### Docker: Proxy setup
+
+Add file: `~/.docker/config.json`
+
+```json
+{
+ "proxies":
+ {
+   "default":
+   {
+     "httpProxy": "http://192.168.1.12:3128",
+     "httpsProxy": "http://192.168.1.12:3128",
+     "noProxy": "*.test.example.com,.example2.com,127.0.0.0/8"
+   }
+ }
+}
+```
+
+Cite: [Configure Docker to use a proxy server](https://docs.docker.com/network/proxy/)
+
+### Docker: Networking using the host network
+
+```bash
+docker run --network host -it -v $PWD:"/github/workspace" qsim /bin/bash
+```
+
+Cite: [Networking using the host network](https://docs.docker.com/network/network-tutorial-host/)
+
+### Docker: 镜像加速器
+
+Docker Desktop -> Perferences -> Docker Engine -> Add JSON
+
+```json
+{
+  "registry-mirrors": [
+    "https://hub-mirror.c.163.com",
+    "https://mirror.baidubce.com"
+  ]
+}
+```
+
+### Ubuntu: Setup GCC and Ccache
+
+```bash
+sudo apt install gcc-8 g++-8 gcc-9 g++-9 gcc-10 g++-10
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-10 100 --slave /usr/bin/g++ g++ /usr/bin/g++-10 --slave /usr/bin/gcov gcov /usr/bin/gcov-10
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 90 --slave /usr/bin/g++ g++ /usr/bin/g++-9 --slave /usr/bin/gcov gcov /usr/bin/gcov-9
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 80 --slave /usr/bin/g++ g++ /usr/bin/g++-8 --slave /usr/bin/gcov gcov /usr/bin/gcov-8
+sudo update-alternatives --config gcc
+
+export PATH=/usr/lib/ccache:$PATH
+```
+
+```bash
+$ ls -l /usr/lib/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 c++ -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 c89-gcc -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 c99-gcc -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 cc -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 g++ -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 g++-10 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 g++-11 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 g++-8 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 g++-9 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 gcc -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 gcc-10 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 gcc-11 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 gcc-8 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 gcc-9 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-g++ -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-g++-10 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-g++-11 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-g++-8 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-g++-9 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-gcc -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-gcc-10 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-gcc-11 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-gcc-8 -> ../../bin/ccache
+lrwxrwxrwx   1 root root    16 3月  20 14:53 x86_64-linux-gnu-gcc-9 -> ../../bin/ccache
+
+$ which gcc
+/usr/lib/ccache/gcc
+```
+
+Cite:
+
+* [cmake で ccache を有効化するための設定](https://www.qoosky.io/techs/cf31def8e4)
+* [How to Install GCC Compiler](https://vegastack.com/tutorials/how-to-install-gcc-compiler-on-ubuntu-20-04/)
+
+### Ubuntu: Install AppImageLauncher
+
+```bash
+sudo add-apt-repository ppa:appimagelauncher-team/stable
+sudo apt-get update
+sudo apt-get install appimagelauncher
+```
