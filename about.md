@@ -57,6 +57,7 @@ layout: about
   - [Automatic differentiation](https://en.wikipedia.org/wiki/Automatic_differentiation)
   - [Numerical Optimization](https://www.csie.ntu.edu.tw/~r97002/temp/num_optimization.pdf)
   - [Optimization-Based Control for Dynamic Legged Robots](https://arxiv.org/abs/2211.11644)
+  - [Bartosz Ciechanowski: Bicycle](https://ciechanow.ski/bicycle)
 
 ## Researchers
 
