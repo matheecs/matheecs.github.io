@@ -29,6 +29,7 @@ layout: about
 - [高性能并行编程与优化](https://github.com/parallel101/course)
 - [机器人中的数值优化](https://www.shenlanxueyuan.com/course/531)
 - [Memmo 2020 Summer School](https://memory-of-motion.github.io/summer-school/): **Pinocchio, TSID & Crocoddyl**
+- [Humanoid Control Workshop - Videos and Slides](https://robots.ihmc.us/humanoid-control-workshop/videos)
 - [Michigan Robotics Free Online Courses](https://robotics.umich.edu/academics/courses/online-courses/)
 - [Optimal Control 16-745](https://github.com/Optimal-Control-16-745)
 - [Advanced Robot Dynamics and Simulation 16-715](https://github.com/dynamics-simulation-16-715)
