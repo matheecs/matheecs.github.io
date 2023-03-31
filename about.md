@@ -304,6 +304,8 @@ layout: about
    - Markdown
      - [**Marp**](https://marp.app)
    - LaTeX
+     - [Mathpix](https://mathpix.com/)
+     - [pix2tex(free!)](https://github.com/lukas-blecher/LaTeX-OCR)
    - Inkscape
      - [TexText](https://github.com/textext/textext)
    - Linux
