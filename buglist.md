@@ -3637,3 +3637,18 @@ sudo add-apt-repository ppa:appimagelauncher-team/stable
 sudo apt-get update
 sudo apt-get install appimagelauncher
 ```
+
+### Find pip package and import it into CMake
+
+```cmake
+find_package(Python 3.8 COMPONENTS Interpreter Development.Module REQUIRED)
+
+# Detect the installed nanobind package and import it into CMake
+execute_process(
+  COMMAND "${Python_EXECUTABLE}" -m nanobind --cmake_dir
+  OUTPUT_STRIP_TRAILING_WHITESPACE OUTPUT_VARIABLE NB_DIR)
+list(APPEND CMAKE_PREFIX_PATH "${NB_DIR}")
+find_package(nanobind CONFIG REQUIRED)
+```
+
+Cite: [Setting up a build system](https://nanobind.readthedocs.io/en/latest/building.html#finding-nanobind)
