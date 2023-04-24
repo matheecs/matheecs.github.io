@@ -3656,3 +3656,17 @@ find_package(pybind11 REQUIRED)
 ```
 
 Cite: [Setting up a build system](https://nanobind.readthedocs.io/en/latest/building.html#finding-nanobind)
+
+### C++ 静态检测
+
+> 作者：吴咏炜
+链接：<https://www.zhihu.com/question/452639015/answer/1814806992>
+> 编译器仍然是最“好”的检查工具。使用 GCC/Clang 时，我现在一般会开启 `-Werror -Wfatal-errors -Wall -Wextra`，可以不费任何力气发现很多的常见错误。使用超过一个编译器。比如，如果你日常使用 GCC 的话，考虑使用 Clang 来编译；反之亦然。一般而言，最常用的三个编译器中，Clang 对 C++ 标准的符合程度最高，但凡事不绝对，多用几个为好。LLVM 项目除了产出了 LLVM 虚拟机和 Clang 编译器，还有一大堆小工具可以用。我日常用 Clang-Format 来格式化代码，用 Clang-Tidy 来检查代码的合规性。注意这两个工具就不是随便用几个命令行选项了，而是应该使用配置文件来进行配置。Clang-Tidy 的选项还是相当复杂的，从代码风格的现代化，可读性，常见错误，是否满足《C++ 核心指南》里的条款，到是否满足某些特定行业的编码规范，虽然不是应有尽有，也是相当丰富了。哦，对了，作为 Clang 生态的额外奖励，如果你的编辑环境使用 Clangd 作为语言支持（如 Visual Studio Code 和 Vim 都支持），你在添加了 Clang-Tidy 配置文件之后，可以直接在编辑环境看到问题的加亮。这绝对是效率利器。
+
+### ThinkPad X1 update firmware
+
+```shell
+fwupdmgr refresh
+fwupdmgr get-updates
+fwupdmgr update
+```
