@@ -13,6 +13,10 @@ author: "Jixiang Zhang"
   <img src="/images/offline_online_planning.jpeg" width="500"/>
 </p>
 
+<p align="center">
+  <img src="/images/to_mpc.png" width="500"/>
+</p>
+
 Cite:
 
 * [Whole-Body MPC and Online Gait Sequence Generation for Wheeled-Legged Robots](https://www.markobjelonic.com//publications/files/2021_iros_bjelonic.pdf)
