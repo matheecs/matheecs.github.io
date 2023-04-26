@@ -3670,3 +3670,11 @@ fwupdmgr refresh
 fwupdmgr get-updates
 fwupdmgr update
 ```
+
+### Print Eigen vector in spdlog & fmt
+
+```c++
+#include "spdlog/fmt/ostr.h" 
+```
+
+Cite: <https://github.com/gabime/spdlog/issues/1638>
