@@ -1564,7 +1564,7 @@ find_package(PCL 1.7 REQUIRED)
 
 ### macOS Catalina 用 brew 安装 Python
 
-Homebrew provides a formula for Python 3.x (python@3.x). The executables are organised as follows:
+Homebrew provides a formula for Python 3.x (<python@3.x>). The executables are organised as follows:
 
 * `python3` points to Homebrew’s Python 3.x (if installed)
 * `pip3` points to Homebrew’s Python 3.x’s pip (if installed)
@@ -3678,3 +3678,9 @@ fwupdmgr update
 ```
 
 Cite: <https://github.com/gabime/spdlog/issues/1638>
+
+### Merge PDFs using `pdfunite`
+
+```shell
+pdfunite *.pdf out.pdf
+```
