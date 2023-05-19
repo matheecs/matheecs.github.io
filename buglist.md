@@ -3267,6 +3267,7 @@ LCM =
 * Marshalling = Serialization (encode/decode)
 * Communication = **UDP Multicast**
 * Tools = **lcm-spy**
+* **Note: Unplug the extra network cable (拔掉多余的网线)**
 
 Cite: [UDP Multicast Setup](https://lcm-proj.github.io/multicast_setup.html)
 
