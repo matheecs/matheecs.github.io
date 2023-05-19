@@ -3700,3 +3700,7 @@ Cite: <https://mirrors.ustc.edu.cn/help/brew.git.html>
 ### ARM or x86? ISA Doesn’t Matter
 
 > Here in this article we’ll bring together research, comments from people who are very familiar with CPUs, and a bit of our in-house data to show why focusing on the ISA is a waste of time(1) and to start us off on our little adventure, let’s reference Anandtech’s interview of Jim Keller, an engineer who worked on several successful CPU designs including AMD’s Zen and Apple’s A4/A5. cite: <https://chipsandcheese.com/2021/07/13/arm-or-x86-isa-doesnt-matter>
+
+### Compare CPUs
+
+Cite: <https://nanoreview.net/en/cpu-compare>
