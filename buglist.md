@@ -3704,3 +3704,9 @@ Cite: <https://mirrors.ustc.edu.cn/help/brew.git.html>
 ### Compare CPUs
 
 Cite: <https://nanoreview.net/en/cpu-compare>
+
+### How to create a Minimal, Reproducible Example
+
+MCVE = minimal, complete and verifiable example
+
+cite: <https://stackoverflow.com/help/minimal-reproducible-example>
