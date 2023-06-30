@@ -2,7 +2,7 @@
 layout: about
 ---
 
-## About Me (I am a Robotics Engineer)
+## Me (Robotics Engineer)
 
 - Email: <matheecs[at]qq[dot]com>
 - [Resume/CV (Chinese)](/files/cv/cv2022.pdf)
@@ -10,7 +10,8 @@ layout: about
   - Master, Control Science and Engineering, [XJTU](http://en.xjtu.edu.cn)
   - Student Exchange Program, [UWM](https://uwm.edu)
   - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
-- Research Interests: Optimization-based <mark style="background-color: blue">Planning(MPC)</mark> and <mark style="background-color: red">Control(WBC)</mark> of <mark>Underactuated Robotics<mark/>
+- Research Interests: Optimization-based <mark style="background-color: blue">Planning</mark> and <mark style="background-color: red">Control</mark> of <mark>Robot<mark/>
+- [my old blog](https://matheecs.blogspot.com)
 
 ---
 
@@ -68,7 +69,7 @@ layout: about
 - [David C. Conner](https://scholar.google.com/citations?user=sb3lPX8AAAAJ&hl=en)
 - [Howie Choset](https://www.cs.cmu.edu/~./choset/)
 - [Russ Tedrake](https://groups.csail.mit.edu/locomotion/russt.html)
-- [Benjamin Stephens](https://www.cs.cmu.edu/~bstephe1/)
+- [**Benjamin Stephens**](https://www.cs.cmu.edu/~bstephe1/)
 - [Tobia Marcucci](https://tobiamarcucci.github.io)
 - [andrew j. barry](https://abarry.org)
 - [Hongkai Dai](https://hongkai-dai.github.io)
@@ -82,7 +83,7 @@ layout: about
 - [Lars Blackmore](http://larsblackmore.com)
 - [Wenzel Jakob](https://rgl.epfl.ch/people/wjakob)
 - [Yuto Nakanishi](https://spectrum.ieee.org/schaft-robot-company-bought-by-google-darpa-robotics-challenge-winner)
-- [Eric Whitman](https://www.cs.cmu.edu/~cga/ewhitman/)
+- [**Eric Whitman**](https://www.cs.cmu.edu/~cga/ewhitman/)
 - [Pierre-Brice Wieber](http://www.inrialpes.fr/bipop/people/wieber/)
 - [Zac Manchester](http://roboticexplorationlab.org)
 - [C. Karen Liu](https://profiles.stanford.edu/c-karen-liu)
@@ -94,7 +95,6 @@ layout: about
 - [Tobia Marcucci](https://tobiamarcucci.github.io)
 - [Twan Koolen](https://scholar.google.com/citations?user=0k4k1WUAAAAJ&hl=en)
 - [Salman Faraji](https://salmanfaraji.github.io)
-- [Eric Whitman](https://www.cs.cmu.edu/~cga/ewhitman/)
 - [Christopher G. Atkeson](http://www.cs.cmu.edu/~cga/)
 - [Alexander Winkler](http://alex-winkler.com)
 - [Gill Pratt](https://scholar.google.com/citations?user=lvUyYroAAAAJ&hl=en)
@@ -172,6 +172,7 @@ layout: about
      - [IHMC-Robotics](https://github.com/GabrielEGC/IHMC-Robotics)
    - [A1-QP-MPC-Controller](https://github.com/matheecs/A1-QP-MPC-Controller)
      - [legged_mpc_control](https://github.com/RoboticExplorationLab/legged_mpc_control)
+   - [unitree_guide](https://github.com/unitreerobotics/unitree_guide)
    - [**IHMC Open Robotics Software**](https://github.com/ihmcrobotics/ihmc-open-robotics-software)
      - [🎬Invited talk (Deployment of humanoid robots for challenging tasks)](https://www.youtube.com/watch?v=rPqKbUkxayY)
      - [🎬humanoid robotics chan](https://www.youtube.com/user/humanoidroboticschan)
