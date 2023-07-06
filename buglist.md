@@ -3710,3 +3710,7 @@ Cite: <https://nanoreview.net/en/cpu-compare>
 MCVE = minimal, complete and verifiable example
 
 cite: <https://stackoverflow.com/help/minimal-reproducible-example>
+
+### TO with PD
+
+torque = damping + motor
