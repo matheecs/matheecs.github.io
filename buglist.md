@@ -3714,3 +3714,16 @@ cite: <https://stackoverflow.com/help/minimal-reproducible-example>
 ### TO with PD
 
 torque = damping + motor
+
+### Memory Alignment
+
+* [Structures in C: From Basics to Memory Alignment](https://abstractexpr.com/2023/06/29/structures-in-c-from-basics-to-memory-alignment/)
+* [The Lost Art of Structure Packing](http://www.catb.org/esr/structure-packing/)
+
+### Anna’s Archive
+
+<https://annas-archive.org>
+
+### Mobile Phone Museum
+
+<https://www.mobilephonemuseum.com/catalogue>
