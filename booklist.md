@@ -12,12 +12,13 @@ author: "Jixiang Zhang"
 
 ------
 
-### 视频收藏夹
+### 影视收藏夹
 
 * [公开视频收藏夹(matheecs)](https://space.bilibili.com/395348622/favlist)
 
 ### 编程与实践
 
+* [Crafting Interpreters](https://craftinginterpreters.com/)
 * 大话数据结构
 * 大话设计模式
 * Head First 设计模式
@@ -122,8 +123,9 @@ author: "Jixiang Zhang"
 * 经典力学的数学方法
 * 半转翼飞行
 * Springer **Handbook of Robotics** + **Encyclopedia of Robotics**
+* [3D Math Primer for Graphics and Game Development](https://gamemath.com/)
 
-### 机器人规划
+### 机器人规控
 
 * Behavior-Based Robotics
 * How the Body Shapes the Way We Think
@@ -177,6 +179,7 @@ author: "Jixiang Zhang"
 * 流体动画的计算艺术
 * [Just for Fun](https://book.douban.com/subject/1451172/)
 * [The Character of Physical Law](https://book.douban.com/subject/2880875/)
+* [思考的孩子](https://book.douban.com/subject/35038244/)
 
 ### 生活与哲学
 
