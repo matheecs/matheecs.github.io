@@ -47,4 +47,6 @@ markeri.scale.y = 2.*numpy.sqrt(numpy.absolute(eigValues[2]+eigValues[0]-eigValu
 markeri.scale.z = 2.*numpy.sqrt(numpy.absolute(eigValues[0]+eigValues[1]-eigValues[2])/alpha)
 ```
 
-[^1]: https://github.com/ADVRHumanoids/robot_inertia_publisher
+[^1]: <https://github.com/ADVRHumanoids/robot_inertia_publisher>
+
+Reference: <https://github.com/RobotLocomotion/drake/blob/85195ff670d4a33c4a400ee019e1497d960686af/multibody/tree/spatial_inertia.h#L856>
