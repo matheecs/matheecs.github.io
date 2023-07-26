@@ -195,10 +195,12 @@ layout: about
    - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
    - [towr](https://github.com/ethz-adrl/towr)
    - [horizon](https://github.com/ADVRHumanoids/horizon)
+   - [ltv-mpc](https://github.com/stephane-caron/ltv-mpc)
    - [PlanningWithAttitude](https://github.com/RoboticExplorationLab/PlanningWithAttitude)
    - [GPOPS-II: Next-Generation Optimal Control Software](https://www.gpops2.com)
    - [**PSOPT**](https://github.com/PSOPT/psopt)
    - [**Drake**](https://github.com/RobotLocomotion/drake)
+     - [AcroMonk](https://github.com/dfki-ric-underactuated-lab/acromonk)
    - [Fast Robot Optimization and Simulation Toolkit](https://github.com/ayonga/frost-dev)
    - [Kris' Locomotion and Manipulation Planning Toolbox](https://github.com/krishauser/Klampt)
    - [Representation-Free MPC](https://github.com/YanranDing/RF-MPC)
@@ -208,6 +210,8 @@ layout: about
    - [**IJRR_WBLC**](https://github.com/dhkim0821/IJRR_WBLC)
      - [🎬Lecture on Whole Body Control](https://www.youtube.com/watch?v=RXT6Q96SRO4)
      - [DynaCoRE](https://github.com/DARoSLab/DynaCoRE)
+   - [QPControl](https://github.com/tkoolen/QPControl.jl)
+     - [QPWalkingControl](https://github.com/tkoolen/QPWalkingControl.jl)
    - [BehaviorTree.CPP](https://github.com/BehaviorTree/BehaviorTree.CPP)
      - [**Sequential Composition**](https://matheecs.tech/study/2022/08/23/SC.html)
        - [🎬Planning on Motion Primitive Graphs](https://www.youtube.com/watch?v=K3-xVWL08nk)
@@ -314,6 +318,8 @@ layout: about
      - ninja
    - Python
      - pybind11
+     - PyTorch
+       - [harmonic-oscillator-pinn](https://github.com/benmoseley/harmonic-oscillator-pinn)
    - Julia
    - Jupyter
      - [RISE](https://github.com/damianavila/RISE)
