@@ -60,6 +60,13 @@ layout: about
   - [Numerical Optimization](https://www.csie.ntu.edu.tw/~r97002/temp/num_optimization.pdf)
   - [Optimization-Based Control for Dynamic Legged Robots](https://arxiv.org/abs/2211.11644)
   - [Bartosz Ciechanowski: Bicycle](https://ciechanow.ski/bicycle)
+  - [Comprehensive Python Cheatsheet](https://gto76.github.io/python-cheatsheet/)
+  - [Advanced Python Mastery](https://github.com/dabeaz-course/python-mastery)
+  - [Technical Note. Exploring Python3 Language from Computer Science Perspective](https://github.com/burlachenkok/exploring-python3/blob/main/python3-note.md)
+  - [Technical Note. From C++1998 to C++2020](https://github.com/burlachenkok/CPP_from_1998_to_2020/blob/main/Cpp-Technical-Note.md#object-orientated-design)
+  - [3D Math Primer for Graphics and Game Development](https://gamemath.com/)
+  - [Python for Data Analysis, 3E](https://wesmckinney.com/book/)
+  - [Hardware Hacking](http://www.nicolascollins.com/texts/originalhackingmanual.pdf)
 
 ## Researchers
 
@@ -182,16 +189,16 @@ layout: about
      - [Perceptive MPC](https://github.com/leggedrobotics/perceptive_mpc)
    - [Crocoddyl](https://github.com/loco-3d/crocoddyl)
    - [robotoc](https://github.com/mayataka/robotoc)
-   - [TSID](https://github.com/stack-of-tasks/tsid)
-   - [Pink](https://github.com/tasts-robots/pink)
+   - [**TSID**](https://github.com/stack-of-tasks/tsid)
+   - [**Pink**](https://github.com/tasts-robots/pink)
    - [Control Toolbox](https://github.com/ethz-adrl/control-toolbox)
    - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
    - [towr](https://github.com/ethz-adrl/towr)
    - [horizon](https://github.com/ADVRHumanoids/horizon)
    - [PlanningWithAttitude](https://github.com/RoboticExplorationLab/PlanningWithAttitude)
    - [GPOPS-II: Next-Generation Optimal Control Software](https://www.gpops2.com)
-   - [PSOPT](https://github.com/PSOPT/psopt)
-   - [Drake](https://github.com/RobotLocomotion/drake)
+   - [**PSOPT**](https://github.com/PSOPT/psopt)
+   - [**Drake**](https://github.com/RobotLocomotion/drake)
    - [Fast Robot Optimization and Simulation Toolkit](https://github.com/ayonga/frost-dev)
    - [Kris' Locomotion and Manipulation Planning Toolbox](https://github.com/krishauser/Klampt)
    - [Representation-Free MPC](https://github.com/YanranDing/RF-MPC)
@@ -228,12 +235,13 @@ layout: about
 4. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RBDL](https://github.com/rbdl/rbdl)
-   - [Pinocchio](https://github.com/stack-of-tasks/pinocchio)
+   - [**Pinocchio**](https://github.com/stack-of-tasks/pinocchio)
      - [doc](https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/master/doxygen-html/namespacepinocchio.html#details)
    - [spatial_v2_extended](https://github.com/ROAM-Lab-ND/spatial_v2_extended)
    - [Dojo](https://github.com/dojo-sim/Dojo.jl)
    - [Bullet](https://github.com/bulletphysics/bullet3)
-   - [MuJoCo](https://github.com/deepmind/mujoco)
+   - [**MuJoCo**](https://github.com/deepmind/mujoco)
+     - [obj2mjcf](https://github.com/kevinzakka/obj2mjcf/)
    - [Incremental Potential Contact](https://github.com/ipc-sim/IPC)
    - [ZENO](https://github.com/zenustech/zeno)
    - [Piccolo](https://github.com/BoomingTech/Piccolo)
@@ -259,7 +267,7 @@ layout: about
    - [DynaMechs](https://github.com/yiping/DynaMechs)
 5. Visualization
    - [Vis](https://github.com/rvbust/Vis)
-   - [MeshCat](https://github.com/rdeits/meshcat-python)
+   - [**MeshCat**](https://github.com/rdeits/meshcat-python)
    - [Easy3D](https://github.com/LiangliangNan/Easy3D)
    - [ImGui](https://github.com/ocornut/imgui)
    - [Matplot++](https://github.com/alandefreitas/matplotplusplus)
@@ -267,6 +275,7 @@ layout: about
    - [SDLP](https://github.com/ZJU-FAST-Lab/SDLP)
    - [SDQP](https://github.com/ZJU-FAST-Lab/SDQP)
    - [LBFGS-Lite](https://github.com/ZJU-FAST-Lab/LBFGS-Lite)
+   - [**OSQP**](https://osqp.org/)
    - [ProxQP](https://github.com/Simple-Robotics/proxsuite)
    - [HPIPM](https://github.com/giaf/hpipm)
      - [BLAS For Embedded Optimization](https://github.com/giaf/blasfeo)
@@ -284,8 +293,8 @@ layout: about
    - [MPOPT](https://github.com/mpopt/mpopt)
    - [JuMP](https://github.com/jump-dev/JuMP.jl)
 7. *Numerical Computation*
-   - [NumPy](https://numpy.org)
-   - [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page)
+   - [**NumPy**](https://numpy.org)
+   - [**Eigen**](https://eigen.tuxfamily.org/index.php?title=Main_Page)
 8. *Tools*
    - [ROS](https://github.com/ros/ros_comm)
      - [Tracing tools for ROS](https://github.com/boschresearch/ros1_tracetools)
@@ -294,6 +303,7 @@ layout: about
      - [LCM](https://github.com/lcm-proj/lcm)
        - [LCM to ROS](https://github.com/nrjl/lcm_to_ros)
      - [catkin](https://github.com/ros/catkin)
+     - [PySHMXtreme](https://github.com/aminsung/PySHMXtreme/tree/data_type_fix)
    - [mc_rtc](https://github.com/jrl-umi3218/mc_rtc)
    - [The Super Tiny Compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
    - PlotJuggler
@@ -312,9 +322,11 @@ layout: about
    - Linux
    - CMake
    - Git
+     - [A Fast Intro to Git Internals](https://sites.google.com/a/chromium.org/dev/developers/fast-intro-to-git-internals)
    - GitHub/CI
    - [Timer](https://github.com/LiangliangNan/Timer)
      - [realtime_tools](https://github.com/ros-controls/realtime_tools)
+     - [loop-rate-limiters](https://github.com/tasts-robots/loop-rate-limiters)
    - [ThreadPool](https://github.com/progschj/ThreadPool)
    - Sourcetrail
    - [macOS Cross toolchain](https://github.com/tpoechtrager/osxcross)
@@ -330,8 +342,12 @@ layout: about
    - STM32
      - [motorcontrol](https://github.com/bgkatz/motorcontrol) & STM32CubeIDE
      - [ODrive](https://github.com/odriverobotics/ODrive)
-     - [moteus brushless servo](https://github.com/mjbots/moteus)
+     - [**moteus** brushless servo](https://github.com/mjbots/moteus)
      - [SPIne](https://os.mbed.com/users/benkatz/code/SPIne/)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mjbots/moteus/main/docs/control_structure.png" width="500"/>
+</p>
 
 <p align="center">
   <img src="/images/some_def.jpg" width="500"/>
