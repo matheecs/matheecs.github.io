@@ -307,7 +307,13 @@ layout: about
    - [mc_rtc](https://github.com/jrl-umi3218/mc_rtc)
    - [The Super Tiny Compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
    - PlotJuggler
-   - C++/Python
+   - C++
+     - clang
+     - clangd
+     - ccache
+     - ninja
+   - Python
+     - pybind11
    - Julia
    - Jupyter
      - [RISE](https://github.com/damianavila/RISE)
