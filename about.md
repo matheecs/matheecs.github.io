@@ -318,13 +318,13 @@ layout: about
      - ninja
      - mold
    - Python
+     - Jupyter Notebook 7
+       - [RISE](https://github.com/damianavila/RISE)
+       - [jupyterlab_rise](https://github.com/jupyterlab-contrib/rise)
      - pybind11
      - PyTorch
        - [harmonic-oscillator-pinn](https://github.com/benmoseley/harmonic-oscillator-pinn)
    - Julia
-   - Jupyter
-     - [RISE](https://github.com/damianavila/RISE)
-     - [jupyterlab_rise](https://github.com/jupyterlab-contrib/rise)
    - Markdown
      - [**Marp**](https://marp.app)
    - LaTeX
