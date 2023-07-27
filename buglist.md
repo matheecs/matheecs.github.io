@@ -3727,3 +3727,18 @@ torque = damping + motor
 ### Mobile Phone Museum
 
 <https://www.mobilephonemuseum.com/catalogue>
+
+### Use mold (A Modern faster Linker)
+
+```bash
+sudo apt install mold
+
+# ld.lld: No such file or directory
+sudo ln -s /usr/bin/ld.lld-16 /usr/bin/ld.lld
+```
+
+CMake support
+
+```cmake
+add_link_options("-fuse-ld=mold")
+```

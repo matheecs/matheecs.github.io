@@ -316,6 +316,7 @@ layout: about
      - clangd
      - ccache
      - ninja
+     - mold
    - Python
      - pybind11
      - PyTorch
