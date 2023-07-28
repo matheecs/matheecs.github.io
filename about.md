@@ -242,6 +242,7 @@ layout: about
    - [Vulp (Real-time motion control for Python)](https://github.com/tasts-robots/vulp#performance)
 4. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
+   - [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl)
    - [RBDL](https://github.com/rbdl/rbdl)
    - [**Pinocchio**](https://github.com/stack-of-tasks/pinocchio)
      - [doc](https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/master/doxygen-html/namespacepinocchio.html#details)
@@ -329,8 +330,12 @@ layout: about
      - PyTorch
        - [harmonic-oscillator-pinn](https://github.com/benmoseley/harmonic-oscillator-pinn)
    - Julia
+   - Node.js(JavaScript runtime environment)
+     - [nvm](https://github.com/nvm-sh/nvm)
+     - [reveal.js](https://revealjs.com/)
    - Markdown
      - [**Marp**](https://marp.app)
+     - [reveal-md](https://github.com/webpro/reveal-md#usage)
    - LaTeX
      - [Mathpix](https://mathpix.com/)
      - [pix2tex(free!)](https://github.com/lukas-blecher/LaTeX-OCR)
