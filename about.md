@@ -40,6 +40,10 @@ layout: about
 - [AirLab Summer School 2020](https://theairlab.org/summer2020/)
 - [6.002](https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/)
 - [Numerical Optimization (Prof. Dr. Moritz Diehl)](https://www.syscop.de/teaching/ws2022/numerical-optimization)
+- [IHMC Humanoid Robotics Lectures: **Twists**](https://www.youtube.com/watch?v=Gamh_HPVgWs&list=PLt7_h2sMj9b-FS3WaHwJ2hbZ7WwdyhDLT&pp=iAQB)
+- [IHMC Humanoid Robotics Lectures: **State Estimation**](https://www.youtube.com/watch?v=iaoNSOy1TL0&list=PLt7_h2sMj9b_FcpsgPyM0Jac-Qumgh3qX&pp=iAQB)
+- [IHMC Humanoid Robotics Lectures: **Legged Locomotion**](https://www.youtube.com/watch?v=MvjAj8kmTcM&list=PLt7_h2sMj9b-RJHffU7e-BwyAQckFEPFf&pp=iAQB)
+- [IHMC Humanoid Robotics Lectures: **Controls**](https://www.youtube.com/watch?v=gBMwFVGFaKE&list=PLt7_h2sMj9b8_vSGiOMWMGEdfo1--VsM_&pp=iAQB)
 - 📚Textbook or Documentation
   - [Robotic Systems (draft)](https://motion.cs.illinois.edu/RoboticSystems/)
   - [Spot Autowalk](https://support.bostondynamics.com/s/spot/autowalk)
