@@ -3742,3 +3742,14 @@ CMake support
 ```cmake
 add_link_options("-fuse-ld=mold")
 ```
+
+### Eigen: do not use the `auto` keywords
+
+DO NOT use the `auto` keywords with Eigen's expressions, unless you are 100% sure about what you are doing. In particular, do not use the auto keyword as a replacement for a `Matrix<>` type.
+
+Cite:
+
+* <https://eigen.tuxfamily.org/dox/TopicPitfalls.html>
+* <https://download.tuxfamily.org/eigen/eigen_CGLibs_Giugno_Pisa_2013.pdf>
+* Aliasing: <https://eigen.tuxfamily.org/dox/group__TopicAliasing.html>
+* myDemo: <https://godbolt.org/z/KPM4hvvan>
