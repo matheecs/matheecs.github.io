@@ -3753,3 +3753,15 @@ Cite:
 * <https://download.tuxfamily.org/eigen/eigen_CGLibs_Giugno_Pisa_2013.pdf>
 * Aliasing: <https://eigen.tuxfamily.org/dox/group__TopicAliasing.html>
 * myDemo: <https://godbolt.org/z/KPM4hvvan>
+
+### Swapping the FN and CTRL keys on MacBook/ThinkPad
+
+* BIOS (ThinkPad)
+* Preferences > Keyboard > Keyboard Shortcuts... > Modifier Keys (MacBook)
+
+### Use cProfile & snakeviz
+
+```python
+python -m cProfile -o demo.prof demo.py
+snakeviz demo.prof
+```
