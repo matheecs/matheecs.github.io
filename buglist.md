@@ -3765,3 +3765,10 @@ Cite:
 python -m cProfile -o demo.prof demo.py
 snakeviz demo.prof
 ```
+
+* **ncalls**: Total number of calls to the function. If there are two numbers, that means the function recursed and the first is the total number of calls and the second is the number of primitive (non-recursive) calls.
+* **tottime**: Total time spent in the function, not including time spent in calls to sub-functions
+* **percall**: tottime divided by ncalls
+* **cumtime**: Cumulative time spent in this function and all sub-functions
+* **percall**: cumtime divided by ncalls
+* **filename**:lineno(function): File name and line number were the function is defined, and the function’s name
