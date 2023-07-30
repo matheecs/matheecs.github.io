@@ -242,6 +242,7 @@ layout: about
    - [Vulp (Real-time motion control for Python)](https://github.com/tasts-robots/vulp#performance)
    - [Benjamin Stephens: Weighted Objective Inverse Dynamics (WBC)](https://www.cs.cmu.edu/~bstephe1/inverse_dynamics.zip)
    - [Benjamin Stephens: Push Recovery MPC](https://www.cs.cmu.edu/~bstephe1/mpcsolver.zip)
+   - [Benjamin Stephens: Two-Legged EKF](https://www.cs.cmu.edu/~bstephe1/state_estimator.zip)
 4. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl)
