@@ -10,7 +10,7 @@ layout: about
   - Master, Control Science and Engineering, [XJTU](http://en.xjtu.edu.cn)
   - Student Exchange Program, [UWM](https://uwm.edu)
   - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
-- Research Interests: Optimization-based <mark style="background-color: blue">MPC</mark> and <mark style="background-color: red">WBC</mark>
+- Research Interests: Optimization/QP-based <mark style="background-color: blue">MPC</mark> and <mark style="background-color: red">WBC</mark>
 - [my old blog](https://matheecs.blogspot.com)
 
 ---
