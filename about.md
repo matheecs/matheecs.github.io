@@ -262,6 +262,7 @@ layout: about
    - [OpenSim](https://simtk.org/projects/opensim)
      - [📖Biomechanics of Movement](https://biomech.stanford.edu)
      - [🎬Biomechanics of Movement](https://www.youtube.com/channel/UCDNGy0KKNLQ-ztcL5h2Z6zA)
+   - [MyoSuite](https://github.com/facebookresearch/myosuite)
    - [B-Human](https://github.com/bhuman/BHumanCodeRelease)
    - [Taichi](https://github.com/taichi-dev/taichi)
    - [Blender](https://github.com/blender/blender)
