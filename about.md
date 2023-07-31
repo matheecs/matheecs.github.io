@@ -326,6 +326,7 @@ layout: about
      - ccache
      - ninja
      - mold
+     - musl (Implementation of the C standard library built on top of the Linux system call API)
    - Python
      - Jupyter Notebook 7
        - [RISE](https://github.com/damianavila/RISE)
