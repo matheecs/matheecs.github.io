@@ -170,7 +170,10 @@ layout: about
      - [Old version of FIRI](https://github.com/ZJU-FAST-Lab/GCOPTER/blob/ebfbeaf49b2ea20618290e4b6eda3d0e4c333f44/gcopter/include/gcopter/firi.hpp#L25)
    - [GaitMesh](https://github.com/ori-drs/gaitmesh)
    - [Recast & Detour (Navigation-mesh Toolset)](https://github.com/recastnavigation/recastnavigation)
-3. PnC = Formulation(Pinocchio,CppAD&CppADCodeGen) + Optimization(DDP/SQP,OSQP/ALM/IPM) + Visualization
+3. Modeling
+   - [URDF](https://arxiv.org/pdf/2308.00514.pdf)
+   - MeshLab
+4. PnC = Formulation(Pinocchio,CppAD&CppADCodeGen) + Optimization(DDP/SQP,OSQP/ALM/IPM) + Visualization
    - [Terrain Planner](https://github.com/leggedrobotics/art_planner)
    - [flight](https://github.com/andybarry/flight)
    - [ego-planner-swarm](https://github.com/ZJU-FAST-Lab/ego-planner-swarm)
@@ -243,7 +246,7 @@ layout: about
    - [Benjamin Stephens: Weighted Objective Inverse Dynamics (WBC)](https://www.cs.cmu.edu/~bstephe1/inverse_dynamics.zip)
    - [Benjamin Stephens: Push Recovery MPC](https://www.cs.cmu.edu/~bstephe1/mpcsolver.zip)
    - [Benjamin Stephens: Two-Legged EKF](https://www.cs.cmu.edu/~bstephe1/state_estimator.zip)
-4. Dynamics & Simulation or Animation
+5. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl)
    - [RBDL](https://github.com/rbdl/rbdl)
@@ -278,13 +281,15 @@ layout: about
    - [DOOM source code](https://github.com/id-Software/DOOM)
    - [Panda3D](https://github.com/panda3d/panda3d)
    - [DynaMechs](https://github.com/yiping/DynaMechs)
-5. Visualization
+6. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [**MeshCat**](https://github.com/rdeits/meshcat-python)
    - [Easy3D](https://github.com/LiangliangNan/Easy3D)
    - [ImGui](https://github.com/ocornut/imgui)
    - [Matplot++](https://github.com/alandefreitas/matplotplusplus)
-6. *Numerical Optimization*
+   - [meshcat-viz-python](https://github.com/ami-iit/meshcat-viz-python)
+   - Three.js
+7. Optimization
    - [SDLP](https://github.com/ZJU-FAST-Lab/SDLP)
    - [SDQP](https://github.com/ZJU-FAST-Lab/SDQP)
    - [LBFGS-Lite](https://github.com/ZJU-FAST-Lab/LBFGS-Lite)
@@ -305,10 +310,10 @@ layout: about
    - [Manopt](https://github.com/NicolasBoumal/manopt)
    - [MPOPT](https://github.com/mpopt/mpopt)
    - [JuMP](https://github.com/jump-dev/JuMP.jl)
-7. *Numerical Computation*
+8. Numerical Computation
    - [**NumPy**](https://numpy.org)
    - [**Eigen**](https://eigen.tuxfamily.org/index.php?title=Main_Page)
-8. *Tools*
+9. Tools
    - [ROS](https://github.com/ros/ros_comm)
      - [Tracing tools for ROS](https://github.com/boschresearch/ros1_tracetools)
      - [RossROS](https://github.com/rlhatton/RossROS)
