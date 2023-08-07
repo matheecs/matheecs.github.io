@@ -3772,3 +3772,9 @@ snakeviz demo.prof
 * **cumtime**: Cumulative time spent in this function and all sub-functions
 * **percall**: cumtime divided by ncalls
 * **filename**:lineno(function): File name and line number were the function is defined, and the function’s name
+
+### Git export zip file
+
+```bash
+git archive --format=zip --output /full/path/to/zipfile.zip master
+```
