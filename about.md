@@ -71,6 +71,7 @@ layout: about
   - [3D Math Primer for Graphics and Game Development](https://gamemath.com/)
   - [Python for Data Analysis, 3E](https://wesmckinney.com/book/)
   - [Hardware Hacking](http://www.nicolascollins.com/texts/originalhackingmanual.pdf)
+  - [High-Dimensional Data Analysis with Low-Dimensional Models](https://book-wright-ma.github.io/)
 
 ## Researchers
 
@@ -134,6 +135,7 @@ layout: about
 - [Junjie Shen](http://www.seas.ucla.edu/~junjie/)
 - [Nicolas Mansard](https://gepettoweb.laas.fr/index.php/Members/NicolasMansard)
 - [Yuval Tassa](https://www.cs.washington.edu/people/postdocs/tassa)
+- [Yi Ma](https://people.eecs.berkeley.edu/~yima/)
 
 ## Algorithm Tree
 
