@@ -72,6 +72,9 @@ layout: about
   - [Python for Data Analysis, 3E](https://wesmckinney.com/book/)
   - [Hardware Hacking](http://www.nicolascollins.com/texts/originalhackingmanual.pdf)
   - [High-Dimensional Data Analysis with Low-Dimensional Models](https://book-wright-ma.github.io/)
+  - [The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra)
+  - [Optimization Techniques for GPU Programming](https://dl.acm.org/doi/pdf/10.1145/3570638)
+  - [Systems, math and explosions](https://pjonori.blog/posts/systems-math-explosions/)
 
 ## Researchers
 
@@ -136,6 +139,7 @@ layout: about
 - [Nicolas Mansard](https://gepettoweb.laas.fr/index.php/Members/NicolasMansard)
 - [Yuval Tassa](https://www.cs.washington.edu/people/postdocs/tassa)
 - [Yi Ma](https://people.eecs.berkeley.edu/~yima/)
+- [Andrea Del Prete](https://andreadelprete.github.io/)
 
 ## Algorithm Tree
 
@@ -334,6 +338,7 @@ layout: about
      - ninja
      - mold
      - musl (Implementation of the C standard library built on top of the Linux system call API)
+     - [Loguru](https://github.com/emilk/loguru)
    - Python
      - Jupyter Notebook 7
        - [RISE](https://github.com/damianavila/RISE)
@@ -354,6 +359,8 @@ layout: about
    - Inkscape
      - [TexText](https://github.com/textext/textext)
    - Linux
+     - [rsync-time-backup](https://github.com/laurent22/rsync-time-backup)
+     - [Arch Linux](https://archlinux.org/)
    - CMake
    - Git
      - [A Fast Intro to Git Internals](https://sites.google.com/a/chromium.org/dev/developers/fast-intro-to-git-internals)
@@ -378,6 +385,10 @@ layout: about
      - [ODrive](https://github.com/odriverobotics/ODrive)
      - [**moteus** brushless servo](https://github.com/mjbots/moteus)
      - [SPIne](https://os.mbed.com/users/benkatz/code/SPIne/)
+
+<p align="center">
+  <img src="/images/2023_tro_wensing.png" width="500"/>
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/mjbots/moteus/main/docs/control_structure.png" width="500"/>
