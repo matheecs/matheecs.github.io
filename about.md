@@ -10,7 +10,7 @@ layout: about
   - Master, Control Science and Engineering, [XJTU](http://en.xjtu.edu.cn)
   - Student Exchange Program, [UWM](https://uwm.edu)
   - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
-- Research Interests: Optimization/QP-based <mark style="background-color: blue">MPC</mark> and <mark style="background-color: red">WBC</mark>
+- Research Interests: Optimization/QP-based <mark style="background-color: blue">MPC</mark> and <mark style="background-color: red">WBC</mark> for humanoid robot
 - [my old blog](https://matheecs.blogspot.com)
 
 ---
@@ -329,6 +329,7 @@ layout: about
      - [catkin](https://github.com/ros/catkin)
      - [PySHMXtreme](https://github.com/aminsung/PySHMXtreme/tree/data_type_fix)
    - [mc_rtc](https://github.com/jrl-umi3218/mc_rtc)
+     - [mc_mujoco](https://github.com/rohanpsingh/mc_mujoco)
    - [The Super Tiny Compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
    - PlotJuggler
    - C++
@@ -388,6 +389,10 @@ layout: about
 
 <p align="center">
   <img src="/images/2023_tro_wensing.png" width="500"/>
+</p>
+
+<p align="center">
+  <img src="https://jrl-umi3218.github.io/mc_rtc/assets/tutorials/introduction/img/mc_rtc_architecture.jpg" width="500"/>
 </p>
 
 <p align="center">
