@@ -3788,3 +3788,5 @@ git archive --format=zip --output /full/path/to/zipfile.zip master
 Use smart pointers to create and delete your objects. The easiest one to use is `unique_ptr`.
 
 Cite: [how to destroy an object in C++](https://stackoverflow.com/questions/60432224/how-to-destroy-an-object-in-c)
+
+### use 'rsync'
