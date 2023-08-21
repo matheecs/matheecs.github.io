@@ -3789,4 +3789,7 @@ Use smart pointers to create and delete your objects. The easiest one to use is 
 
 Cite: [how to destroy an object in C++](https://stackoverflow.com/questions/60432224/how-to-destroy-an-object-in-c)
 
-### use 'rsync'
+### Use `rsync` rather than `scp`
+
+* `rsync` is good for incremental transfers and for taking the backup.
+* `scp` is good while securely pushing or pulling the small file from or to the remote nodes.
