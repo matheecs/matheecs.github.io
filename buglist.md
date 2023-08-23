@@ -3793,3 +3793,12 @@ Cite: [how to destroy an object in C++](https://stackoverflow.com/questions/6043
 
 * `rsync` is good for incremental transfers and for taking the backup.
 * `scp` is good while securely pushing or pulling the small file from or to the remote nodes.
+
+### CMAKE_BUILD_TYPE
+
+1. Release: `-O3 -DNDEBUG`
+2. Debug: `-O0 -g`
+3. RelWithDebInfo: `-O2 -g -DNDEBUG`
+4. MinSizeRel: `-Os -DNDEBUG`
+
+Cite: <https://stackoverflow.com/questions/48754619/what-are-cmake-build-type-debug-release-relwithdebinfo-and-minsizerel>
