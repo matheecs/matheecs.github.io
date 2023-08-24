@@ -77,6 +77,8 @@ layout: about
   - [The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra)
   - [Optimization Techniques for GPU Programming](https://dl.acm.org/doi/pdf/10.1145/3570638)
   - [Systems, math and explosions](https://pjonori.blog/posts/systems-math-explosions/)
+  - [**The Hitchhiker's Guide to Operating Systems**](https://www.usenix.org/system/files/atc23-jiang-yanyan.pdf)
+    - [MOSAIC](https://github.com/jiangyy/mosaic)
 
 ## Researchers
 
@@ -342,6 +344,8 @@ layout: about
      - mold
      - musl (Implementation of the C standard library built on top of the Linux system call API)
      - [Loguru](https://github.com/emilk/loguru)
+     - Valgrind(Memcheck)
+     - [AddressSanitizer](https://github.com/google/sanitizers)
    - Python
      - Jupyter Notebook 7
        - [RISE](https://github.com/damianavila/RISE)
@@ -364,6 +368,8 @@ layout: about
    - Linux
      - [rsync-time-backup](https://github.com/laurent22/rsync-time-backup)
      - [Arch Linux](https://archlinux.org/)
+     - [Modern Unix](https://github.com/ibraheemdev/modern-unix)
+     - [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
    - CMake
    - Git
      - [A Fast Intro to Git Internals](https://sites.google.com/a/chromium.org/dev/developers/fast-intro-to-git-internals)
