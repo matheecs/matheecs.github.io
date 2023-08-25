@@ -350,6 +350,7 @@ layout: about
      - Jupyter Notebook 7
        - [RISE](https://github.com/damianavila/RISE)
        - [jupyterlab_rise](https://github.com/jupyterlab-contrib/rise)
+       - [jupyterlab-urdf](https://github.com/jupyter-robotics/jupyterlab-urdf)
      - pybind11
      - PyTorch
        - [harmonic-oscillator-pinn](https://github.com/benmoseley/harmonic-oscillator-pinn)
