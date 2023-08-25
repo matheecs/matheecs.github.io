@@ -3802,3 +3802,19 @@ Cite: [how to destroy an object in C++](https://stackoverflow.com/questions/6043
 4. MinSizeRel: `-Os -DNDEBUG`
 
 Cite: <https://stackoverflow.com/questions/48754619/what-are-cmake-build-type-debug-release-relwithdebinfo-and-minsizerel>
+
+### Core dump
+
+<https://askubuntu.com/questions/1349047/where-do-i-find-core-dump-files-and-how-do-i-view-and-analyze-the-backtrace-st>
+
+### Systemd usage
+
+<https://abhinand05.medium.com/run-any-executable-as-systemd-service-in-linux-21298674f66f>
+
+Command to list services that start on startup?
+
+```bash
+sudo systemctl --all list-unit-files --type=service
+```
+
+cite: <https://askubuntu.com/questions/218/command-to-list-services-that-start-on-startup>
