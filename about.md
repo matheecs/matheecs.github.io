@@ -246,6 +246,7 @@ layout: about
    - [bipedal-locomotion-framework](https://github.com/ami-iit/bipedal-locomotion-framework)
    - [walking-controllers](https://github.com/robotology/walking-controllers)
    - [variable-height-double-pendulum](https://github.com/S-Dafarra/variable-height-double-pendulum)
+     - $m \ddot{\boldsymbol{x}}=-m \boldsymbol{g}+\sum_i{ }^{\mathcal{I}} \boldsymbol{f}_i$ + Koolen's QP WBC
    - [pymanoid](https://github.com/stephane-caron/pymanoid)
    - [LIPM Walking Controller](https://github.com/stephane-caron/lipm_walking_controller)
    - [Planning and Control Algorithms for Robotics](https://github.com/junhyeokahn/PnC)
