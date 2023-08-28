@@ -398,7 +398,15 @@ layout: about
      - [SPIne](https://os.mbed.com/users/benkatz/code/SPIne/)
 
 <p align="center">
+  <img src="/images/Core.png" width="500"/>
+</p>
+
+<p align="center">
   <img src="/images/2023_tro_wensing.png" width="500"/>
+</p>
+
+<p align="center">
+  <img src="/images/Choreonoid.png" width="500"/>
 </p>
 
 <p align="center">
