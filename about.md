@@ -191,6 +191,7 @@ layout: about
    - [Motion Planning around Obstacles with Convex Optimization](https://github.com/mpetersen94/gcs)
      - [🎬Invited talk](https://www.youtube.com/watch?v=FoqAAgqgn-o)
    - [OMPL](https://ompl.kavrakilab.org)
+   - [Motion Planning Templates (MPT)](https://github.com/UNC-Robotics/mpt)
    - [GCOPTER](https://github.com/ZJU-FAST-Lab/GCOPTER)
    - [**Cheetah-Software**](https://github.com/mit-biomimetics/Cheetah-Software)
      - [IHMC-Robotics](https://github.com/GabrielEGC/IHMC-Robotics)
@@ -397,15 +398,7 @@ layout: about
      - [SPIne](https://os.mbed.com/users/benkatz/code/SPIne/)
 
 <p align="center">
-  <img src="/images/Core.png" width="500"/>
-</p>
-
-<p align="center">
   <img src="/images/2023_tro_wensing.png" width="500"/>
-</p>
-
-<p align="center">
-  <img src="/images/Choreonoid.png" width="500"/>
 </p>
 
 <p align="center">
