@@ -171,6 +171,7 @@ layout: about
    - [ROG-Map](https://github.com/hku-mars/ROG-Map)
    - [OpenVDB](https://www.openvdb.org)
      - [Bonxai](https://github.com/facontidavide/Bonxai)
+     - [VDB Mapping](https://github.com/fzi-forschungszentrum-informatik/vdb_mapping)
    - [voxblox](https://github.com/ethz-asl/voxblox)
    - [nvblox](https://github.com/nvidia-isaac/nvblox)
    - [Fast Plane Extraction](https://github.com/ai4ce/peac)
@@ -258,6 +259,12 @@ layout: about
    - [Benjamin Stephens: Weighted Objective Inverse Dynamics (WBC)](https://www.cs.cmu.edu/~bstephe1/inverse_dynamics.zip)
    - [Benjamin Stephens: Push Recovery MPC](https://www.cs.cmu.edu/~bstephe1/mpcsolver.zip)
    - [Benjamin Stephens: Two-Legged EKF](https://www.cs.cmu.edu/~bstephe1/state_estimator.zip)
+   - [Reactive Landing Controller](https://github.com/iit-DLSLab/reactive_landing_controller)
+   - [QuasiDynamics](https://github.com/baceituno/QuasiDynamics)
+     - [A Global Quasi-Dynamic Model for Contact-Trajectory Optimization](https://www.roboticsproceedings.org/rss16/p047.pdf)
+   - [LittleDog (mixed-integer convex optimization)](https://github.com/baceituno/LittleDog)
+     - [A Mixed-Integer Convex Optimization Framework for Robust Multilegged Robot Locomotion Planning over Challenging Terrain](https://sci-hub.hkvisa.net/10.1109/IROS.2017.8206313)
+   - [planning_through_contact](https://github.com/pangtao22/planning_through_contact)
 5. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl)
@@ -293,6 +300,7 @@ layout: about
    - [DOOM source code](https://github.com/id-Software/DOOM)
    - [Panda3D](https://github.com/panda3d/panda3d)
    - [DynaMechs](https://github.com/yiping/DynaMechs)
+   - [Sheldon's Little Rigid Body Simulator](https://github.com/sheldona/slrbs)
 6. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [**MeshCat**](https://github.com/rdeits/meshcat-python)
@@ -354,6 +362,7 @@ layout: about
        - [jupyterlab_rise](https://github.com/jupyterlab-contrib/rise)
        - [jupyterlab-urdf](https://github.com/jupyter-robotics/jupyterlab-urdf)
      - pybind11
+       > 彭于斌: Python 调用 C++/CUDA 的 kernel 才是今后不论科学计算还是神经学习的主流
      - PyTorch
        - [harmonic-oscillator-pinn](https://github.com/benmoseley/harmonic-oscillator-pinn)
    - Julia
