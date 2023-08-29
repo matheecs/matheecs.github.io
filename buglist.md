@@ -3818,3 +3818,9 @@ sudo systemctl --all list-unit-files --type=service
 ```
 
 cite: <https://askubuntu.com/questions/218/command-to-list-services-that-start-on-startup>
+
+### Convert PDF to JPEG
+
+```bash
+pdftoppm -jpeg input.pdf > out.jpeg
+```

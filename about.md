@@ -70,7 +70,7 @@ layout: about
   - [Technical Note. From C++1998 to C++2020](https://github.com/burlachenkok/CPP_from_1998_to_2020/blob/main/Cpp-Technical-Note.md#object-orientated-design)
   - [3D Math Primer for Graphics and Game Development](https://gamemath.com/)
   - [Game Programming Patterns](http://gameprogrammingpatterns.com/)
-  - [Crafting Interpreters](https://craftinginterpreters.com/)
+  - [**Crafting Interpreters**](https://craftinginterpreters.com/)
   - [Python for Data Analysis, 3E](https://wesmckinney.com/book/)
   - [Hardware Hacking](http://www.nicolascollins.com/texts/originalhackingmanual.pdf)
   - [High-Dimensional Data Analysis with Low-Dimensional Models](https://book-wright-ma.github.io/)
@@ -79,6 +79,7 @@ layout: about
   - [Systems, math and explosions](https://pjonori.blog/posts/systems-math-explosions/)
   - [**The Hitchhiker's Guide to Operating Systems**](https://www.usenix.org/system/files/atc23-jiang-yanyan.pdf)
     - [MOSAIC](https://github.com/jiangyy/mosaic)
+  - [The mathematical program should be arranged in such a way](http://imperium.lenin.ru/~verbit/MATH/programma.html)
 
 ## Researchers
 
