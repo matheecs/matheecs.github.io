@@ -277,6 +277,7 @@ layout: about
    - [Bullet](https://github.com/bulletphysics/bullet3)
    - [**MuJoCo**](https://github.com/deepmind/mujoco)
      - [obj2mjcf](https://github.com/kevinzakka/obj2mjcf/)
+     - [Lec: MuJoCo Bootcamp](https://pab47.github.io/mujoco.html)
    - [Incremental Potential Contact](https://github.com/ipc-sim/IPC)
    - [ZENO](https://github.com/zenustech/zeno)
    - [Piccolo](https://github.com/BoomingTech/Piccolo)
@@ -407,6 +408,8 @@ layout: about
      - [ODrive](https://github.com/odriverobotics/ODrive)
      - [**moteus** brushless servo](https://github.com/mjbots/moteus)
      - [SPIne](https://os.mbed.com/users/benkatz/code/SPIne/)
+   - machine emulator and virtualizer
+     - [QEMU](https://www.qemu.org/)
 
 <p align="center">
   <img src="/images/Core.png" width="500"/>
