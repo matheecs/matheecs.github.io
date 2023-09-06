@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1692446859 "cv2022.xdv" "cv2022.pdf" "cv2022" 1692446860 0
-  "cv2022.xdv" 1692446859 20368 e016c3db93d0cb4056192b0368124fa1 "xelatex"
+["xdvipdfmx"] 1694015057 "cv2022.xdv" "cv2022.pdf" "cv2022" 1694015057 0
+  "cv2022.xdv" 1694015057 21680 c26309929ac0dc64d140da65a28f8b1d "xelatex"
   (generated)
   "cv2022.pdf"
   (rewritten before read)
-["xelatex"] 1692446859 "cv2022.tex" "cv2022.xdv" "cv2022" 1692446860 0
+["xelatex"] 1694015056 "cv2022.tex" "cv2022.xdv" "cv2022" 1694015057 0
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1246382020 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -176,9 +176,9 @@
   "/usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681165822 40967 d940221f8762fd5848760382d97d1226 ""
   "/usr/local/texlive/2023/texmf-var/web2c/xetex/xelatex.fmt" 1685866641 10509967 4144528df929539d60c9ec9f16c2e3f8 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "cv2022.aux" 1692446859 2070 d13c4cbba774ea00d5ea2a5f637a4d2f "xelatex"
-  "cv2022.out" 1692446859 1470 9e1a753b0251d8489fcccfb9f778af64 "xelatex"
-  "cv2022.tex" 1692446837 6489 03a74cfdc95e32331fe862b6dcef8be7 ""
+  "cv2022.aux" 1694015057 2070 d13c4cbba774ea00d5ea2a5f637a4d2f "xelatex"
+  "cv2022.out" 1694015057 1470 9e1a753b0251d8489fcccfb9f778af64 "xelatex"
+  "cv2022.tex" 1694015054 6576 23435d018fa8806893d6a3461f67ef61 ""
   "fontawesome.sty" 1658758853 2828 ec82d2185059d2978744ff07b8dadd99 ""
   "fontawesomesymbols-generic.tex" 1658758853 33234 a3a3e12d9315f667a3e24bd6b3d6058b ""
   "fontawesomesymbols-xeluatex.tex" 1658758853 45782 7166bfdff927bad3f81e302543d76c90 ""
