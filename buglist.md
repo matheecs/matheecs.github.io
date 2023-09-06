@@ -3824,3 +3824,16 @@ cite: <https://askubuntu.com/questions/218/command-to-list-services-that-start-o
 ```bash
 pdftoppm -jpeg input.pdf > out.jpeg
 ```
+
+### ABI problem from CasADi (installed by `pip`)
+
+Solution: Building CasADi from sources
+
+```bash
+cmake -Bbuild -GNinja -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$HOME/mylibs -DWITH_IPOPT=ON
+```
+
+References
+
+* [CasADi Installation](https://github.com/casadi/casadi/wiki/InstallationLinux)
+* [Dual ABI & Troubleshooting](https://gcc.gnu.org/onlinedocs/libstdc++/manual/using_dual_abi.html)
