@@ -80,6 +80,7 @@ layout: about
   - [**The Hitchhiker's Guide to Operating Systems**](https://www.usenix.org/system/files/atc23-jiang-yanyan.pdf)
     - [MOSAIC](https://github.com/jiangyy/mosaic)
   - [The mathematical program should be arranged in such a way](http://imperium.lenin.ru/~verbit/MATH/programma.html)
+  - [MODEL-BASED OPTIMIZATION FOR ROBOTICS](https://www.ieee-ras.org/model-based-optimization-for-robotics/resources)
 
 ## Researchers
 
