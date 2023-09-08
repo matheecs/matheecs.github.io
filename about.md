@@ -81,6 +81,8 @@ layout: about
     - [MOSAIC](https://github.com/jiangyy/mosaic)
   - [The mathematical program should be arranged in such a way](http://imperium.lenin.ru/~verbit/MATH/programma.html)
   - [MODEL-BASED OPTIMIZATION FOR ROBOTICS](https://www.ieee-ras.org/model-based-optimization-for-robotics/resources)
+  - [Trajectory Optimization Terminology](http://www.matthewpeterkelly.com/tutorials/trajectoryOptimization/terminology.html)
+  - [Cool Things in Optimal Control and Physics](https://cgliu.github.io/posts/optimal-control/optimization-physics.html)
 
 ## Researchers
 
@@ -147,6 +149,7 @@ layout: about
 - [Yi Ma](https://people.eecs.berkeley.edu/~yima/)
 - [Andrea Del Prete](https://andreadelprete.github.io/)
 - [Anil V. Rao](https://www.anilvrao.com/)
+- [Chenggang Liu](https://cgliu.github.io/)
 
 ## Algorithm Tree
 
