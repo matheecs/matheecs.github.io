@@ -146,6 +146,7 @@ layout: about
 - [Yuval Tassa](https://www.cs.washington.edu/people/postdocs/tassa)
 - [Yi Ma](https://people.eecs.berkeley.edu/~yima/)
 - [Andrea Del Prete](https://andreadelprete.github.io/)
+- [Anil V. Rao](https://www.anilvrao.com/)
 
 ## Algorithm Tree
 
