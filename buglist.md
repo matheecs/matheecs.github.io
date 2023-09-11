@@ -3837,3 +3837,8 @@ References
 
 * [CasADi Installation](https://github.com/casadi/casadi/wiki/InstallationLinux)
 * [Dual ABI & Troubleshooting](https://gcc.gnu.org/onlinedocs/libstdc++/manual/using_dual_abi.html)
+
+### CAUTION Pinocchio
+
+* Quaternion MUST normalize!
+* Use `revolute` joint type in URDF! (but `continuous`)
