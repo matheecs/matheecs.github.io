@@ -3842,3 +3842,4 @@ References
 
 * Quaternion MUST normalize!
 * Use `revolute` joint type in URDF! (but `continuous`)
+* JointV of JointModelSphericalZYX is base_orientation_zyx_derivatives
