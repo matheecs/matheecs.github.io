@@ -10,7 +10,7 @@ layout: about
   - Master, Control Science and Engineering, [XJTU](http://en.xjtu.edu.cn)
   - Student Exchange Program, [UWM](https://uwm.edu)
   - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
-- Research Interests: Optimization/QP-based <mark style="background-color: blue">MPC</mark> and <mark style="background-color: red">WBC</mark> for humanoid robot
+- Research Interests: Optimization/QP-based TO and MPC for humanoid robot using Pinocchio, CasADi and MeshCat
 - [my old blog](https://matheecs.blogspot.com)
 
 ---
@@ -150,6 +150,8 @@ layout: about
 - [Andrea Del Prete](https://andreadelprete.github.io/)
 - [Anil V. Rao](https://www.anilvrao.com/)
 - [Chenggang Liu](https://cgliu.github.io/)
+- [Jessy Grizzle](http://grizzle.robotics.umich.edu/)
+- [Marc Toussaint](https://www.user.tu-berlin.de/mtoussai/)
 
 ## Algorithm Tree
 
