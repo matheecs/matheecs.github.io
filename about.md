@@ -365,6 +365,7 @@ layout: about
      - [Loguru](https://github.com/emilk/loguru)
      - Valgrind(Memcheck)
      - [AddressSanitizer](https://github.com/google/sanitizers)
+     - [VTune](https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html)
    - Python
      - Jupyter Notebook 7
        - [RISE](https://github.com/damianavila/RISE)
