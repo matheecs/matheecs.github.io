@@ -84,6 +84,9 @@ layout: about
   - [MODEL-BASED OPTIMIZATION FOR ROBOTICS](https://www.ieee-ras.org/model-based-optimization-for-robotics/resources)
   - [Trajectory Optimization Terminology](http://www.matthewpeterkelly.com/tutorials/trajectoryOptimization/terminology.html)
   - [Cool Things in Optimal Control and Physics](https://cgliu.github.io/posts/optimal-control/optimization-physics.html)
+  - [维度：数学漫步](https://www.bilibili.com/video/BV17E411Q7sm)
+    - [Dimensions](http://www.dimensions-math.org/Dim_tour_ZH_si.htm)
+  - [邵红亮：几何变换——从相似和全等谈起](https://mp.weixin.qq.com/s/gzZJjAEcZFOag3DjRNNPSw)
 
 ## Researchers
 
