@@ -11,7 +11,8 @@ layout: about
   - Student Exchange Program, [UWM](https://uwm.edu)
   - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
 - Research Interests: Optimization/QP-based TO and MPC for humanoid robot with **Pinocchio, CasADi and MeshCat using JupyterLab**
-- [my old blog](https://matheecs.blogspot.com)
+- [old blog](https://matheecs.blogspot.com)
+- [eHomeLib](https://github.com/matheecs/eHomeLib)
 
 ---
 
