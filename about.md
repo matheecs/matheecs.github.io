@@ -273,6 +273,7 @@ layout: about
    - [LittleDog (mixed-integer convex optimization)](https://github.com/baceituno/LittleDog)
      - [A Mixed-Integer Convex Optimization Framework for Robust Multilegged Robot Locomotion Planning over Challenging Terrain](https://sci-hub.hkvisa.net/10.1109/IROS.2017.8206313)
    - [planning_through_contact](https://github.com/pangtao22/planning_through_contact)
+   - [MuJoCo MPC](https://github.com/google-deepmind/mujoco_mpc)
 5. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl)
@@ -315,6 +316,7 @@ layout: about
    - [**MeshCat**](https://github.com/rdeits/meshcat-python)
    - [Easy3D](https://github.com/LiangliangNan/Easy3D)
    - [ImGui](https://github.com/ocornut/imgui)
+     - [Dear PyGui](https://github.com/hoffstadt/DearPyGui)
    - [Matplot++](https://github.com/alandefreitas/matplotplusplus)
    - [meshcat-viz-python](https://github.com/ami-iit/meshcat-viz-python)
    - Three.js
