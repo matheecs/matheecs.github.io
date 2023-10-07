@@ -156,6 +156,7 @@ layout: about
 - [Chenggang Liu](https://cgliu.github.io/)
 - [Jessy Grizzle](http://grizzle.robotics.umich.edu/)
 - [Marc Toussaint](https://www.user.tu-berlin.de/mtoussai/)
+- [Moritz Bächer](https://www.baecher.info/): utilize the differentiability of the simulators to (1) *numerically optimize* design, control, and material parameters, or to (2) *learn* control strategies if stochasticity is present in the modeling task.
 
 ## Algorithm Tree
 
