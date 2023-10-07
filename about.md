@@ -88,6 +88,7 @@ layout: about
     - [Dimensions](http://www.dimensions-math.org/Dim_tour_ZH_si.htm)
   - [邵红亮：几何变换——从相似和全等谈起](https://mp.weixin.qq.com/s/gzZJjAEcZFOag3DjRNNPSw)
   - [wizard zines](https://wizardzines.com/)
+  - [A Map of Reinforcement Learning](https://louiskirsch.com/maps/reinforcement-learning)
 
 ## Researchers
 
