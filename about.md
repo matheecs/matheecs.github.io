@@ -87,6 +87,7 @@ layout: about
   - [维度：数学漫步](https://www.bilibili.com/video/BV17E411Q7sm)
     - [Dimensions](http://www.dimensions-math.org/Dim_tour_ZH_si.htm)
   - [邵红亮：几何变换——从相似和全等谈起](https://mp.weixin.qq.com/s/gzZJjAEcZFOag3DjRNNPSw)
+  - [wizard zines](https://wizardzines.com/)
 
 ## Researchers
 
@@ -157,6 +158,7 @@ layout: about
 - [Jessy Grizzle](http://grizzle.robotics.umich.edu/)
 - [Marc Toussaint](https://www.user.tu-berlin.de/mtoussai/)
 - [Moritz Bächer](https://www.baecher.info/): utilize the differentiability of the simulators to (1) *numerically optimize* design, control, and material parameters, or to (2) *learn* control strategies if stochasticity is present in the modeling task.
+- [Julia Evans](https://jvns.ca/)
 
 ## Algorithm Tree
 
