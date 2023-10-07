@@ -89,6 +89,7 @@ layout: about
   - [邵红亮：几何变换——从相似和全等谈起](https://mp.weixin.qq.com/s/gzZJjAEcZFOag3DjRNNPSw)
   - [wizard zines](https://wizardzines.com/)
   - [A Map of Reinforcement Learning](https://louiskirsch.com/maps/reinforcement-learning)
+  - [UCL Course on RL](https://www.davidsilver.uk/teaching/)
 
 ## Researchers
 
@@ -433,6 +434,10 @@ layout: about
 
 <p align="center">
   <img src="/images/rbda.png" width="500"/>
+</p>
+
+<p align="center">
+  <img src="https://araffin.github.io/slides/rl-tuto-jnrr19/images/rl_landscape.png" width="500"/>
 </p>
 
 <p align="center">
