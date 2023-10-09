@@ -3843,3 +3843,15 @@ References
 * Quaternion MUST normalize!
 * Use `revolute` joint type in URDF! (but `continuous`)
 * JointV of JointModelSphericalZYX is base_orientation_zyx_derivatives
+
+### How to install Arch
+
+* [v2rayA:快速上手|透明代理](https://v2raya.org/docs/prologue/quick-start/)
+* [Arch Linux 安装使用教程](https://archlinuxstudio.github.io/ArchLinuxTutorial/#/)
+* [Xfce](https://wiki.archlinuxcn.org/wiki/Xfce#%E9%85%8D%E7%BD%AE)
+* [yay](https://github.com/Jguer/yay)
+* [Swap file](https://wiki.archlinux.org/title/Swap)
+* [Hibernation](https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate)
+* [NetworkManager](https://wiki.archlinux.org/title/NetworkManager#nm-applet)
+* [LightDM](https://wiki.archlinux.org/title/LightDM)
+* [system-installation-guide.md](https://gist.github.com/varqox/6152373bcafb29186d0bd9337779f51b)
