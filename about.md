@@ -10,7 +10,7 @@ layout: about
   - Master, Control Science and Engineering, [XJTU](http://en.xjtu.edu.cn)
   - Student Exchange Program, [UWM](https://uwm.edu)
   - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
-- Research Interests: Optimization/QP-based TO and MPC for humanoid robot with **Pinocchio, CasADi and MeshCat using JupyterLab**
+- Research Interests: Optimization/QP-based TO and MPC for humanoid robot with **Pinocchio, CasADi and MeshCat with Arch Linux**
 - [old blog](https://matheecs.blogspot.com)
 - [eHomeLib](https://github.com/matheecs/eHomeLib)
 
@@ -90,6 +90,7 @@ layout: about
   - [wizard zines](https://wizardzines.com/)
   - [A Map of Reinforcement Learning](https://louiskirsch.com/maps/reinforcement-learning)
   - [UCL Course on RL](https://www.davidsilver.uk/teaching/)
+  - [Deep Reinforcement Learning Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html)
 
 ## Researchers
 
@@ -401,12 +402,14 @@ layout: about
      - [TexText](https://github.com/textext/textext)
    - Linux
      - [rsync-time-backup](https://github.com/laurent22/rsync-time-backup)
-     - [Arch Linux](https://archlinux.org/)
+     - [**Arch Linux**](https://archlinux.org/)
      - [Modern Unix](https://github.com/ibraheemdev/modern-unix)
      - [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
+     - [Cosmopolitan](https://justine.lol/cosmopolitan/index.html)
    - CMake
    - Git
      - [A Fast Intro to Git Internals](https://sites.google.com/a/chromium.org/dev/developers/fast-intro-to-git-internals)
+     - [What is in that .git directory?](https://blog.meain.io/2023/what-is-in-dot-git/)
    - GitHub/CI
    - [Timer](https://github.com/LiangliangNan/Timer)
      - [realtime_tools](https://github.com/ros-controls/realtime_tools)
