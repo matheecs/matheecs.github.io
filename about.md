@@ -91,6 +91,7 @@ layout: about
   - [A Map of Reinforcement Learning](https://louiskirsch.com/maps/reinforcement-learning)
   - [UCL Course on RL](https://www.davidsilver.uk/teaching/)
   - [Deep Reinforcement Learning Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html)
+  - [Model-Based Reinforcement Learning: Theory and Practice](https://bair.berkeley.edu/blog/2019/12/12/mbpo/)
 
 ## Researchers
 
