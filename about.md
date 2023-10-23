@@ -10,9 +10,9 @@ layout: about
   - Master, Control Science and Engineering, [XJTU](http://en.xjtu.edu.cn)
   - Student Exchange Program, [UWM](https://uwm.edu)
   - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
-- Research Interests: Optimization/QP-based TO and MPC for humanoid robot with **Pinocchio, CasADi and MeshCat with Arch Linux**
-- [old blog](https://matheecs.blogspot.com)
-- [eHomeLib](https://github.com/matheecs/eHomeLib)
+- Research Interests: Optimization (TO & MPC) for robot with **Pinocchio, CasADi and MeshCat** with **Arch Linux**
+- [blogspot](https://matheecs.blogspot.com)
+- [elibrary](https://github.com/matheecs/eHomeLib)
 
 ---
 
