@@ -2,7 +2,7 @@
 layout: about
 ---
 
-# Me (Robotics Behavior Coordination Engineer)
+# a robot behavior coordination engineer
 
 - Email: <matheecs[at]qq[dot]com>
 - [Resume/CV (Chinese)](/files/cv/cv2022.pdf)
