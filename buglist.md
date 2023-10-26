@@ -3846,7 +3846,7 @@ References
 
 ### How to install Arch
 
-* [v2rayA:快速上手|透明代理](https://v2raya.org/docs/prologue/quick-start/)
+* [v2rayA:快速上手-透明代理](https://v2raya.org/docs/prologue/quick-start/)
 * [Arch Linux 安装使用教程](https://archlinuxstudio.github.io/ArchLinuxTutorial/#/)
 * [Xfce](https://wiki.archlinuxcn.org/wiki/Xfce#%E9%85%8D%E7%BD%AE)
 * [yay](https://github.com/Jguer/yay)
