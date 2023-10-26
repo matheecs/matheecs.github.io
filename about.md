@@ -290,6 +290,7 @@ layout: about
    - [LittleDog (mixed-integer convex optimization)](https://github.com/baceituno/LittleDog)
      - [A Mixed-Integer Convex Optimization Framework for Robust Multilegged Robot Locomotion Planning over Challenging Terrain](https://sci-hub.hkvisa.net/10.1109/IROS.2017.8206313)
    - [planning_through_contact](https://github.com/pangtao22/planning_through_contact)
+   - [Contact Wrench Cones for Rectangular Support Areas](https://github.com/stephane-caron/analytical-wrench-cone)
    - [MuJoCo MPC](https://github.com/google-deepmind/mujoco_mpc)
 5. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
