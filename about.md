@@ -301,6 +301,7 @@ layout: about
    - [spatial_v2_extended](https://github.com/ROAM-Lab-ND/spatial_v2_extended)
    - [Dojo](https://github.com/dojo-sim/Dojo.jl)
    - [Bullet](https://github.com/bulletphysics/bullet3)
+   - [Hyfydy = Actuator Model + Contact Model](https://hyfydy.com/)
    - [**MuJoCo**](https://github.com/deepmind/mujoco)
      - [obj2mjcf](https://github.com/kevinzakka/obj2mjcf/)
      - [Lec: MuJoCo Bootcamp](https://pab47.github.io/mujoco.html)

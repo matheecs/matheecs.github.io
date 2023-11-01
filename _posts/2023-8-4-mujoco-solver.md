@@ -28,3 +28,29 @@ The reference acceleration $a_{ref}$ determines what the constraint is trying to
 <p align="center">
   <img src="https://tajimarobotics.com/wp-content/uploads/2017/12/MSD-System-04-1024x476.png" width="500"/>
 </p>
+
+---
+
+The [Hyfydy](https://hyfydy.com/) and MuJoCo simulation engines [differ in these key areas](https://sites.google.com/view/naturalwalkingrl):
+
+- Musculotendon dynamics: The muscle model in Hyfydy is based on Millard at el. [59] and includes elastic tendons, muscle pennation, and muscle fiber damping. The MuJoCo muscle model is based on a simplified Hill-type model, parameterized to match existing OpenSim models [42], and supports only rigid tendons and does not include variable pennation angles.
+- **Contact forces**: Hyfydy uses the **Hunt-Crossly** [60] contact model with non-linear damping to generate contact forces, with a friction cone based on **dynamic, static, and viscous friction coefficients** [61]. MuJoCo contacts are rigid, with a friction pyramid instead of a cone, and without separate coefficients for dynamic and viscous friction.
+
+<p align="center">
+  <img src="https://www.researchgate.net/publication/222576909/figure/fig4/AS:393906853302276@1470926120111/Stribeck-friction-curve-for-two-lubricated-metallic-surfaces-in-contact.png" width="500"/>
+</p>
+
+- **Contact geometry**: The MuJoCo model uses a convex mesh for foot geometry, while in the Hyfydy models the foot geometry is approximated using three contact **spheres**.
+
+<p align="center">
+  <img src="https://hyfydy.com/wp-content/uploads/2021/07/force1b.png" width="500"/>
+</p>
+
+- Integration: Hyfydy uses an error-controlled integrator with variable step size, while MuJoCo uses a fixed step size and no error control. The average simulation step size in Hyfydy is around 0.00014s (7000 Hz) for the H2190 model, compared to the fixed MyoSuite step size of 0.001s (1000 Hz) for the MyoLeg model.
+
+references:
+
+- [42] V. Caggiano, H. Wang, G. Durandau, M. Sartori, and V. Kumar, “Myosuite – a contact-rich simulation suite for musculoskeletal motor control,” <https://github.com/facebookresearch/myosuite>, 2022. [Online].
+- [59] M. Millard, T. Uchida, A. Seth, and S. L. Delp, “Flexing computational muscle: modeling and simulation of musculotendon dynamics.” Journal of biomechanical engineering, vol. 135, no. 2, p. 021005, feb 2013.
+- [60] K. H. Hunt and F. R. E. Crossley, “Coefficient of Restitution Interpreted as Damping in Vibroimpact,” Journal of Applied Mechanics, vol. 42, no. 2, p. 440, jun 1975.
+- [61] M. a. Sherman, A. Seth, and S. L. Delp, “Simbody: multibody dynamics for biomedical research,” Procedia IUTAM, vol. 2, pp. 241–261, jan 2011.
