@@ -226,6 +226,7 @@ layout: about
    - [**IHMC Open Robotics Software**](https://github.com/ihmcrobotics/ihmc-open-robotics-software)
      - [🎬Invited talk (Deployment of humanoid robots for challenging tasks)](https://www.youtube.com/watch?v=rPqKbUkxayY)
      - [🎬humanoid robotics chan](https://www.youtube.com/user/humanoidroboticschan)
+   - [oh-distro](https://github.com/openhumanoids/oh-distro)
    - [Whole-Body Control and Simulation Software](https://www.whole-body-control.org/60.php)
    - [OCS2](https://github.com/leggedrobotics/ocs2)
      - [legged_control](https://github.com/qiayuanliao/legged_control)
@@ -414,7 +415,7 @@ layout: about
      - [**Arch Linux**](https://archlinux.org/)
      - [Modern Unix](https://github.com/ibraheemdev/modern-unix)
      - [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
-     - [Cosmopolitan](https://justine.lol/cosmopolitan/index.html)
+     - [Cosmopolitan](https://github.com/jart/cosmopolitan)
    - CMake
    - Git
      - [A Fast Intro to Git Internals](https://sites.google.com/a/chromium.org/dev/developers/fast-intro-to-git-internals)

@@ -3855,3 +3855,24 @@ References
 * [NetworkManager](https://wiki.archlinux.org/title/NetworkManager#nm-applet)
 * [LightDM](https://wiki.archlinux.org/title/LightDM)
 * [system-installation-guide.md](https://gist.github.com/varqox/6152373bcafb29186d0bd9337779f51b)
+
+### use **latexmk**
+
+```shell
+sudo apt-get install texlive-full
+sudo apt install ttf-mscorefonts-installer
+sudo fc-cache -f -v
+# sudo apt install --reinstall ttf-mscorefonts-installer
+```
+
+books:
+
+* [C++ Templates](https://github.com/xiaoweiChen/Cpp-Templates-2nd)
+* [Software-Architecture-with-Cpp](https://github.com/xiaoweiChen/Software-Architecture-with-Cpp)
+
+### Creating Mirror-Image 3D Models
+
+* Step1: Filters $\to$ Transform: Flip and/or swap axis
+* Step2: Filters $\to$ Invert Faces Orientation
+
+<https://www.youtube.com/watch?v=0EUIVnp1V0Q&t=186s>
