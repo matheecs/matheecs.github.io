@@ -92,6 +92,7 @@ layout: about
   - [UCL Course on RL](https://www.davidsilver.uk/teaching/)
   - [Deep Reinforcement Learning Doesn't Work Yet](https://www.alexirpan.com/2018/02/14/rl-hard.html)
   - [Model-Based Reinforcement Learning: Theory and Practice](https://bair.berkeley.edu/blog/2019/12/12/mbpo/)
+  - [How Instagram scaled to 14 million users with only 3 engineers](https://engineercodex.substack.com/p/how-instagram-scaled-to-14-million)
 
 ## Researchers
 
@@ -450,7 +451,7 @@ layout: about
 </p>
 
 <p align="center">
-  <img src="https://araffin.github.io/slides/rl-tuto-jnrr19/images/rl_landscape.png" width="500"/>
+  <img src="/images/Instagram.png" width="500"/>
 </p>
 
 <p align="center">
