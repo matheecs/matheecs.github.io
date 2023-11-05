@@ -7,7 +7,7 @@ author: "Jixiang Zhang"
 
 <!-- ### RS232与TTL
 
-![RS232和TTL的时序对比](https://tva4.sinaimg.cn/large/d494c514ly1gaj9iefrmmj20k00bwjtn.jpg) -->
+![RS232和TTL的时序对比](https://i0.wp.com/tva4.sinaimg.cn/large/d494c514ly1gaj9iefrmmj20k00bwjtn.jpg) -->
 
 ### 2020.01.04四轮差速底盘测试记录
 

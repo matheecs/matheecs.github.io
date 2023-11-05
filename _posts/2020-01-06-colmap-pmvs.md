@@ -13,9 +13,9 @@ author: "Jixiang Zhang"
 **重建步骤**
 
 1. 采集数据
-   ![数据集](https://tva3.sinaimg.cn/large/d494c514ly1gamnn5fdnrj215i0umx6q.jpg)
+   ![数据集](https://i0.wp.com/tva3.sinaimg.cn/large/d494c514ly1gamnn5fdnrj215i0umx6q.jpg)
 2. SfM（COLMAP）
-   ![COLMAP](https://tvax1.sinaimg.cn/large/d494c514ly1gan75lq9adj21r414s7gg.jpg)
+   ![COLMAP](https://i0.wp.com/tvax1.sinaimg.cn/large/d494c514ly1gan75lq9adj21r414s7gg.jpg)
 3. MVS（PMVS）
 
    ```bash
@@ -23,4 +23,4 @@ author: "Jixiang Zhang"
    ```
 
 4. 用 meshlab 观察重建结果
-   ![snapshot00](https://tvax4.sinaimg.cn/large/d494c514ly1gamnople40j21we11443x.jpg)
+   ![snapshot00](https://i0.wp.com/tvax4.sinaimg.cn/large/d494c514ly1gamnople40j21we11443x.jpg)

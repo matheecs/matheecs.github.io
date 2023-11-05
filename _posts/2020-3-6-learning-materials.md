@@ -5,7 +5,7 @@ categories: study
 author: "Jixiang Zhang"
 ---
 
-![IMG_7828](https://tva3.sinaimg.cn/large/d494c514ly1gcvn71h4ygj21ds0n0tuv.jpg)
+![IMG_7828](https://i0.wp.com/tva3.sinaimg.cn/large/d494c514ly1gcvn71h4ygj21ds0n0tuv.jpg)
 
 ### **学习渠道**
 

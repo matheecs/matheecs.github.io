@@ -5,7 +5,7 @@ categories: study
 author: "Jixiang Zhang"
 ---
 
-![Lecture-2-Virtualized-Reality](https://tva2.sinaimg.cn/large/d494c514gy1gazbsgkliij21n91bc0z9.jpg)
+![Lecture-2-Virtualized-Reality](https://i0.wp.com/tva2.sinaimg.cn/large/d494c514gy1gazbsgkliij21n91bc0z9.jpg)
 
 **参考文献**
 

@@ -1374,7 +1374,7 @@ SimHei 和 SimSun 可以从 Word 软件中导出安装到 macOS 系统。Word �
 ### 腾讯云域名绑定GitHub博客
 
 腾讯云域名解析配置：
-![域名解析](https://tvax4.sinaimg.cn/large/d494c514ly1gcj5t561jfj20v006gaan.jpg)
+![域名解析](https://i0.wp.com/tvax4.sinaimg.cn/large/d494c514ly1gcj5t561jfj20v006gaan.jpg)
 
 * [GitHub Pages域名绑定](https://blog.csdn.net/FlowerDance17/article/details/80685112)
 
@@ -1414,7 +1414,7 @@ Note that you may have to update "Team" to your own account (General Tab -> Sign
 
 ### Git 底层原理
 
-![](https://tvax4.sinaimg.cn/large/d494c514ly1gcllr1akggg20m80m87wi.gif)
+![](https://i0.wp.com/tvax4.sinaimg.cn/large/d494c514ly1gcllr1akggg20m80m87wi.gif)
 
 这张动态图解来自[这才是真正的GIT：GIT原理及实用技巧](https://www.lzane.com/slide/git-under-the-hood/index.html#/)。
 
@@ -1459,7 +1459,7 @@ SQ4R = SURVEY + QUESTION + READ + RECITE + WRITE + REVIEW
   * `t`, `d`, `and`→`n`
 * 重读
 
-![IMG_7827](https://tvax3.sinaimg.cn/large/d494c514ly1gcvnepcdw6j20p00m2whc.jpg)
+![IMG_7827](https://i0.wp.com/tvax3.sinaimg.cn/large/d494c514ly1gcvnepcdw6j20p00m2whc.jpg)
 
 ### macOS 上 texstudio 外部pdf浏览器查看可以正常显示中文但内置的pdf浏览器不能显示中文
 
