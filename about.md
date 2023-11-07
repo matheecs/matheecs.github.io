@@ -172,6 +172,8 @@ layout: about
 1. State Estimation & Calibration
    - [MSF](https://github.com/ethz-asl/ethzasl_msf)
    - [Cerberus](https://github.com/ShuoYangRobotics/Cerberus)
+   - [Cerberus 2.0](https://github.com/ShuoYangRobotics/Cerberus2.0)
+     - [MATLAB Version: Multi-IMU-Proprioceptive-Odometry](https://github.com/ShuoYangRobotics/Multi-IMU-Proprioceptive-Odometry)
    - [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)
    - [Pronto](https://github.com/ori-drs/pronto)
    - [MVStudio](https://github.com/LiangliangNan/MVStudio)

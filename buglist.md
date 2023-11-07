@@ -3876,3 +3876,11 @@ books:
 * Step2: Filters $\to$ Invert Faces Orientation
 
 <https://www.youtube.com/watch?v=0EUIVnp1V0Q&t=186s>
+
+### undefined reference to symbol 'exp@@GLIBC_2.2.5'
+
+```cmake
+TARGET_LINK_LIBRARIES(exe -lm ${LIBS})
+```
+
+<https://askubuntu.com/questions/527665/undefined-reference-to-symbol-expglibc-2-2-5>
