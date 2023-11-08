@@ -166,6 +166,7 @@ layout: about
 - [Moritz Bächer](https://www.baecher.info/): utilize the differentiability of the simulators to (1) *numerically optimize* design, control, and material parameters, or to (2) *learn* control strategies if stochasticity is present in the modeling task.
 - [Julia Evans](https://jvns.ca/)
 - [Xue Bin (Jason) Peng](https://xbpeng.github.io/)
+- [Bartolomeo Stellato](https://stellato.io/)
 
 ## Algorithm Tree
 
@@ -447,6 +448,10 @@ layout: about
    - machine emulator and virtualizer
      - [QEMU](https://www.qemu.org/)
      - [UTM: Virtual machines for iOS and macOS](https://github.com/utmapp/UTM)
+
+<p align="center">
+  <img src="https://stellato.io/assets/images/research/overview.png" width="500"/>
+</p>
 
 <p align="center">
   <img src="/images/rbda.png" width="500"/>
