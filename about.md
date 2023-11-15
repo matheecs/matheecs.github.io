@@ -269,8 +269,10 @@ layout: about
      - [Subsumption Architecture](http://users.dimi.uniud.it/~antonio.dangelo/Robotica/2013/lessons/M02mar20.pdf)
      - [Finite State Machine](https://github.com/mit-biomimetics/Cheetah-Software/tree/master/user/MIT_Controller/FSM_States): OS, State diagram
      - [KinodynamicFabrics.jl](https://github.com/adubredu/KinodynamicFabrics.jl)
+     - [digit_controller](https://github.com/GTLIDAR/digit_controller)
      - [Free Gait](https://github.com/leggedrobotics/free_gait)
    - [Cassie Gait Library Optimization using C-FROST](https://github.com/UMich-BipedLab/Cassie_CFROST)
+   - [CentroidalTrajOpt.jl](https://github.com/tkoolen/CentroidalTrajOpt.jl)
    - [OpenRAVE](https://github.com/rdiankov/openrave)
    - [mpc_controller](https://github.com/google-research/motion_imitation/tree/master/mpc_controller)
    - [reactive_planners](https://github.com/machines-in-motion/reactive_planners)
@@ -297,6 +299,7 @@ layout: about
    - [planning_through_contact](https://github.com/pangtao22/planning_through_contact)
    - [Contact Wrench Cones for Rectangular Support Areas](https://github.com/stephane-caron/analytical-wrench-cone)
    - [MuJoCo MPC](https://github.com/google-deepmind/mujoco_mpc)
+   - [Diffusion Policy](https://github.com/real-stanford/diffusion_policy)
 5. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl)
@@ -338,6 +341,7 @@ layout: about
 6. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [**MeshCat**](https://github.com/rdeits/meshcat-python)
+   - [vedo](https://github.com/marcomusy/vedo)
    - [Easy3D](https://github.com/LiangliangNan/Easy3D)
    - [ImGui](https://github.com/ocornut/imgui)
      - [Dear PyGui](https://github.com/hoffstadt/DearPyGui)
@@ -366,6 +370,8 @@ layout: about
    - [Manopt](https://github.com/NicolasBoumal/manopt)
    - [MPOPT](https://github.com/mpopt/mpopt)
    - [JuMP](https://github.com/jump-dev/JuMP.jl)
+   - [Parametron.jl](https://github.com/tkoolen/Parametron.jl)
+   - [legged_gym](https://github.com/leggedrobotics/legged_gym)
 8. Numerical Computation
    - [**NumPy**](https://numpy.org)
    - [**Eigen**](https://eigen.tuxfamily.org/index.php?title=Main_Page)
@@ -380,6 +386,7 @@ layout: about
      - [PySHMXtreme](https://github.com/aminsung/PySHMXtreme/tree/data_type_fix)
    - [mc_rtc](https://github.com/jrl-umi3218/mc_rtc)
      - [mc_mujoco](https://github.com/rohanpsingh/mc_mujoco)
+   - [cactus-rt](https://github.com/cactusdynamics/cactus-rt)
    - [The Super Tiny Compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
    - PlotJuggler
    - C++
