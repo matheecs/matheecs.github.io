@@ -299,7 +299,6 @@ layout: about
    - [planning_through_contact](https://github.com/pangtao22/planning_through_contact)
    - [Contact Wrench Cones for Rectangular Support Areas](https://github.com/stephane-caron/analytical-wrench-cone)
    - [MuJoCo MPC](https://github.com/google-deepmind/mujoco_mpc)
-   - [Diffusion Policy](https://github.com/real-stanford/diffusion_policy)
 5. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl)
@@ -373,11 +372,14 @@ layout: about
    - [MPOPT](https://github.com/mpopt/mpopt)
    - [JuMP](https://github.com/jump-dev/JuMP.jl)
    - [Parametron.jl](https://github.com/tkoolen/Parametron.jl)
+   - [nevergrad](https://facebookresearch.github.io/nevergrad/getting_started.html)
+8. ML
    - [legged_gym](https://github.com/leggedrobotics/legged_gym)
-8. Numerical Computation
+   - [Diffusion Policy](https://github.com/real-stanford/diffusion_policy)
+   - [Isaac Gym Environments for Legged Robots](https://github.com/leggedrobotics/legged_gym)
+9. Tools
    - [**NumPy**](https://numpy.org)
    - [**Eigen**](https://eigen.tuxfamily.org/index.php?title=Main_Page)
-9. Tools
    - [ROS](https://github.com/ros/ros_comm)
      - [Tracing tools for ROS](https://github.com/boschresearch/ros1_tracetools)
      - [RossROS](https://github.com/rlhatton/RossROS)
