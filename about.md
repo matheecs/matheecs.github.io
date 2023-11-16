@@ -342,6 +342,8 @@ layout: about
    - [Vis](https://github.com/rvbust/Vis)
    - [**MeshCat**](https://github.com/rdeits/meshcat-python)
    - [vedo](https://github.com/marcomusy/vedo)
+   - [PyVista](https://github.com/pyvista/pyvista)
+     - [PyVistaQt](https://github.com/pyvista/pyvistaqt)
    - [Easy3D](https://github.com/LiangliangNan/Easy3D)
    - [ImGui](https://github.com/ocornut/imgui)
      - [Dear PyGui](https://github.com/hoffstadt/DearPyGui)
