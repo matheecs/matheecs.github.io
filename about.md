@@ -299,6 +299,7 @@ layout: about
    - [planning_through_contact](https://github.com/pangtao22/planning_through_contact)
    - [Contact Wrench Cones for Rectangular Support Areas](https://github.com/stephane-caron/analytical-wrench-cone)
    - [MuJoCo MPC](https://github.com/google-deepmind/mujoco_mpc)
+   - [L4CasADi](https://github.com/TUM-AAS/ml-casadi)
 5. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl)
