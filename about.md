@@ -259,7 +259,7 @@ layout: about
      - [🎬Lecture on Whole Body Control](https://www.youtube.com/watch?v=RXT6Q96SRO4)
      - [DynaCoRE](https://github.com/DARoSLab/DynaCoRE)
    - [QPControl](https://github.com/tkoolen/QPControl.jl)
-     - [QPWalkingControl](https://github.com/tkoolen/QPWalkingControl.jl)
+     - [**QPWalkingControl**](https://github.com/tkoolen/QPWalkingControl.jl)
    - [BehaviorTree.CPP](https://github.com/BehaviorTree/BehaviorTree.CPP)
      - [**Sequential Composition**](https://matheecs.tech/study/2022/08/23/SC.html)
        - [🎬Planning on Motion Primitive Graphs](https://www.youtube.com/watch?v=K3-xVWL08nk)
@@ -415,6 +415,7 @@ layout: about
      - PyTorch
        - [harmonic-oscillator-pinn](https://github.com/benmoseley/harmonic-oscillator-pinn)
    - Julia
+     - [StaticArrays(Statically sized arrays)](https://github.com/JuliaArrays/StaticArrays.jl): the size can be determined from the *type*, and "static" does not necessarily imply immutable.
    - Node.js(JavaScript runtime environment)
      - [nvm](https://github.com/nvm-sh/nvm)
      - [reveal.js](https://revealjs.com/)
