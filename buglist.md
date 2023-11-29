@@ -3883,4 +3883,10 @@ books:
 TARGET_LINK_LIBRARIES(exe -lm ${LIBS})
 ```
 
+libm - C math library
+
 <https://askubuntu.com/questions/527665/undefined-reference-to-symbol-expglibc-2-2-5>
+
+### C++ Memory Model: Migrating from X86 to ARM
+
+<https://arangodb.com/2021/02/cpp-memory-model-migrating-from-x86-to-arm/>
