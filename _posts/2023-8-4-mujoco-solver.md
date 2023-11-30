@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MuJoCo Solver notes"
+title: "MuJoCo Solver Notes"
 categories: study
 author: "Jixiang Zhang"
 ---
