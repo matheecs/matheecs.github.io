@@ -378,6 +378,9 @@ layout: about
    - [legged_gym](https://github.com/leggedrobotics/legged_gym)
    - [Diffusion Policy](https://github.com/real-stanford/diffusion_policy)
    - [Isaac Gym Environments for Legged Robots](https://github.com/leggedrobotics/legged_gym)
+   - [extreme-parkour](https://github.com/chengxuxin/extreme-parkour)
+   - [parkour](https://github.com/ZiwenZhuang/parkour)
+   - [Dobb·E](https://github.com/notmahi/dobb-e)
 9. Tools
    - [**NumPy**](https://numpy.org)
    - [**Eigen**](https://eigen.tuxfamily.org/index.php?title=Main_Page)
@@ -406,6 +409,10 @@ layout: about
      - [AddressSanitizer](https://github.com/google/sanitizers)
      - [VTune](https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html)
    - Python
+     - Poetry
+     - pytest
+     - mypy
+     - [pdir2](https://github.com/laike9m/pdir2)
      - Jupyter Notebook 7
        - [RISE](https://github.com/damianavila/RISE)
        - [jupyterlab_rise](https://github.com/jupyterlab-contrib/rise)
@@ -425,6 +432,11 @@ layout: about
    - LaTeX
      - [Mathpix](https://mathpix.com/)
      - [pix2tex(free!)](https://github.com/lukas-blecher/LaTeX-OCR)
+   - PDF
+     - [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)
+     - [Nougat](https://github.com/facebookresearch/nougat/tree/main)
+     - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
+     - [Marker](https://github.com/VikParuchuri/marker)
    - Inkscape
      - [TexText](https://github.com/textext/textext)
    - Linux
