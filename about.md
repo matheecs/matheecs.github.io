@@ -374,13 +374,14 @@ layout: about
    - [JuMP](https://github.com/jump-dev/JuMP.jl)
    - [Parametron.jl](https://github.com/tkoolen/Parametron.jl)
    - [nevergrad](https://facebookresearch.github.io/nevergrad/getting_started.html)
-8. ML
+8. Machine learning
    - [legged_gym](https://github.com/leggedrobotics/legged_gym)
    - [Diffusion Policy](https://github.com/real-stanford/diffusion_policy)
    - [Isaac Gym Environments for Legged Robots](https://github.com/leggedrobotics/legged_gym)
    - [extreme-parkour](https://github.com/chengxuxin/extreme-parkour)
    - [parkour](https://github.com/ZiwenZhuang/parkour)
    - [Dobb·E](https://github.com/notmahi/dobb-e)
+   - [MLX: An array framework for Apple silicon](https://github.com/ml-explore/mlx)
 9. Tools
    - [**NumPy**](https://numpy.org)
    - [**Eigen**](https://eigen.tuxfamily.org/index.php?title=Main_Page)
