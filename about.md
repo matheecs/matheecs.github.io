@@ -355,6 +355,7 @@ layout: about
    - [SDQP](https://github.com/ZJU-FAST-Lab/SDQP)
    - [LBFGS-Lite](https://github.com/ZJU-FAST-Lab/LBFGS-Lite)
    - [**OSQP**](https://osqp.org/)
+   - [**CVXGEN**](https://cvxgen.com/docs/index.html)
    - [ProxQP](https://github.com/Simple-Robotics/proxsuite)
    - [HPIPM](https://github.com/giaf/hpipm)
      - [BLAS For Embedded Optimization](https://github.com/giaf/blasfeo)
@@ -374,6 +375,7 @@ layout: about
    - [JuMP](https://github.com/jump-dev/JuMP.jl)
    - [Parametron.jl](https://github.com/tkoolen/Parametron.jl)
    - [nevergrad](https://facebookresearch.github.io/nevergrad/getting_started.html)
+   - [Sequential Convex Programming Toolbox](https://github.com/UW-ACL/SCPToolbox.jl)
 8. Machine learning
    - [legged_gym](https://github.com/leggedrobotics/legged_gym)
    - [Diffusion Policy](https://github.com/real-stanford/diffusion_policy)
