@@ -5,7 +5,9 @@ categories: study
 author: "Jixiang Zhang"
 ---
 
-Result(speed) in TrajOpti(CasADi + IPopt): MA57 ≈ [**MUMPS**](https://mumps-solver.org/index.php) >> HSL_MA86 > HSL_MA97 (default solver of [WORHP](https://worhp.de/))
+Result(speed) in TrajOpti(CasADi + IPopt):
+
+$$MA57 ≈ MUMPS >> MA86 > MA97 (default\,solver\,of\,WORHP)$$
 
 <table>
    <tr>
