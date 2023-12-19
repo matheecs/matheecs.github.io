@@ -5,6 +5,8 @@ categories: study
 author: "Jixiang Zhang"
 ---
 
+Result(speed) in TrajOpti(CasADi + IPopt): MA57 ≈ [**MUMPS**](https://mumps-solver.org/index.php) >> HSL_MA86 > HSL_MA97 (default solver of [WORHP](https://worhp.de/))
+
 <table>
    <tr>
       <th>Solver</th>
@@ -22,7 +24,7 @@ author: "Jixiang Zhang"
       <td>Small</td>
       <td>No</td>
       <td>Yes</td>
-      <td class="note">Outdated, relatively slow.&nbsp; <br><a href="https://licences.stfc.ac.uk/product/coin-hsl-archive">Can be downloaded as a standalone package</a>.</td>
+      <td class="note">Outdated, relatively slow</td>
    </tr>
    <tr>
       <td>MA57</td>
@@ -59,11 +61,9 @@ author: "Jixiang Zhang"
       <td>Yes</td>
       <td class="note">Slower than HSL_MA86 on large problems</td>
    </tr>
-</table>[^1]
+</table>
 
-Result(speed) in TrajOpti(CasADi + IPopt): MA57 ≈ [**MUMPS**](https://mumps-solver.org/index.php) >> HSL_MA86 > HSL_MA97
-
-* Note: HSL_MA86 achieves repeatable answers in serial, however when running in parallel operations may be reordered for better performance. This leads to different (but equally valid) solutions.
+* Note: HSL_MA86 achieves repeatable answers in serial, however when running in parallel operations may be reordered for better performance. This leads to different (but equally valid) solutions.[^1]
 * For many problems scaling is not necessary.[^2]
 
 [^1]: Coin-HSL <https://licences.stfc.ac.uk/product/coin-hsl>
