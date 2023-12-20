@@ -3890,3 +3890,16 @@ libm - C math library
 ### C++ Memory Model: Migrating from X86 to ARM
 
 <https://arangodb.com/2021/02/cpp-memory-model-migrating-from-x86-to-arm/>
+
+### How to use [WORHP](https://worhp.de/) and MA57
+
+```shell
+# MA57
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+sudo ln -s /usr/local/lib/libcoinhsl.so /usr/local/lib/libhsl.so
+
+# WORHP
+export LD_LIBRARY_PATH=/home/matheecs/Downloads/worhp_1.15-0_linux/lib:$LD_LIBRARY_PATH
+```
+
+cite: <https://github.com/coin-or-tools/ThirdParty-HSL>
