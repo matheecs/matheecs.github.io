@@ -376,6 +376,7 @@ layout: about
    - [Parametron.jl](https://github.com/tkoolen/Parametron.jl)
    - [nevergrad](https://facebookresearch.github.io/nevergrad/getting_started.html)
    - [Sequential Convex Programming Toolbox](https://github.com/UW-ACL/SCPToolbox.jl)
+   - [PDFO = COBYLA, UOBYQA, NEWUOA, BOBYQA, and LINCOA](https://pdfo.net/index.html)
 8. Machine learning
    - [legged_gym](https://github.com/leggedrobotics/legged_gym)
    - [Diffusion Policy](https://github.com/real-stanford/diffusion_policy)
