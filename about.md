@@ -211,6 +211,7 @@ layout: about
    - MeshLab
 4. PnC = Formulation(Pinocchio,CppAD&CppADCodeGen) + Optimization(DDP/SQP,OSQP/ALM/IPM) + Visualization
    - [Terrain Planner](https://github.com/leggedrobotics/art_planner)
+   - [MRPT](https://github.com/MRPT/mrpt)
    - [flight](https://github.com/andybarry/flight)
    - [ego-planner-swarm](https://github.com/ZJU-FAST-Lab/ego-planner-swarm)
    - [Ewok](https://github.com/VladyslavUsenko/ewok)
@@ -309,6 +310,7 @@ layout: about
    - [spatial_v2_extended](https://github.com/ROAM-Lab-ND/spatial_v2_extended)
    - [Dojo](https://github.com/dojo-sim/Dojo.jl)
    - [Bullet](https://github.com/bulletphysics/bullet3)
+   - [tiny-differentiable-simulator](https://github.com/erwincoumans/tiny-differentiable-simulator)
    - [Hyfydy = Actuator Model + Contact Model](https://hyfydy.com/)
    - [**MuJoCo**](https://github.com/deepmind/mujoco)
      - [obj2mjcf](https://github.com/kevinzakka/obj2mjcf/)
@@ -434,6 +436,7 @@ layout: about
    - Markdown
      - [**Marp**](https://marp.app)
      - [reveal-md](https://github.com/webpro/reveal-md#usage)
+   - Typst
    - LaTeX
      - [Mathpix](https://mathpix.com/)
      - [pix2tex(free!)](https://github.com/lukas-blecher/LaTeX-OCR)
