@@ -209,6 +209,8 @@ layout: about
 3. Modeling
    - [URDF](https://arxiv.org/pdf/2308.00514.pdf)
    - MeshLab
+   - [V-HACD](https://github.com/kmammou/v-hacd)
+   - [CoACD](https://github.com/SarahWeiii/CoACD)
 4. PnC = Formulation(Pinocchio,CppAD&CppADCodeGen) + Optimization(DDP/SQP,OSQP/ALM/IPM) + Visualization
    - [Terrain Planner](https://github.com/leggedrobotics/art_planner)
    - [MRPT](https://github.com/MRPT/mrpt)
@@ -340,6 +342,7 @@ layout: about
    - [Panda3D](https://github.com/panda3d/panda3d)
    - [DynaMechs](https://github.com/yiping/DynaMechs)
    - [Sheldon's Little Rigid Body Simulator](https://github.com/sheldona/slrbs)
+   - [Simulately](https://simulately.wiki/)
 6. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [**MeshCat**](https://github.com/rdeits/meshcat-python)
