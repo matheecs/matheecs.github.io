@@ -68,5 +68,7 @@ $$MA57 ≈ MUMPS >> MA86 > MA97 (default\,solver\,of\,WORHP)$$
 * Note: HSL_MA86 achieves repeatable answers in serial, however when running in parallel operations may be reordered for better performance. This leads to different (but equally valid) solutions.[^1]
 * For many problems scaling is not necessary.[^2]
 
+---
+
 [^1]: Coin-HSL <https://licences.stfc.ac.uk/product/coin-hsl>
 [^2]: On the effects of scaling on the performance of Ipopt <https://epubs.stfc.ac.uk/manifestation/8693/RAL-P-2012-009.pdf>

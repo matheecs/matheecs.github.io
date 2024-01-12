@@ -456,6 +456,7 @@ layout: about
      - [Modern Unix](https://github.com/ibraheemdev/modern-unix)
      - [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
      - [Cosmopolitan](https://github.com/jart/cosmopolitan)
+     - [McFly - fly through your shell history](https://github.com/cantino/mcfly)
    - CMake
    - Git
      - [A Fast Intro to Git Internals](https://sites.google.com/a/chromium.org/dev/developers/fast-intro-to-git-internals)

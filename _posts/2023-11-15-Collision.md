@@ -1,13 +1,30 @@
 ---
 layout: post
-title: "Simulation tips"
+title: "Collision💥Notes"
 categories: study
 author: "Jixiang Zhang"
 ---
 
 > There are three main approaches used to modeling contact with "rigid" body systems: 1) rigid contact approximated with stiff compliant contact, 2) hybrid models with collision event detection, impulsive reset maps, and continuous (constrained) dynamics between collision events, and 3) rigid contact approximated with time-averaged forces (impulses) in a time-stepping scheme.[^4]
 
-## Contact Model
+## Collision Detection
+
+* FCL
+* libccd
+* Bullet
+* ODE
+
+## Collision resolution
+
+normal force + friction force
+
+* MuJoCo
+* MJX
+* Bullet
+* Drake
+* ODE
+* jiminy
+* RigidBodyDynamics.jl
 
 <object data="/files/contact_model.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="/files/contact_model.pdf">
@@ -18,7 +35,9 @@ author: "Jixiang Zhang"
     </embed>
 </object>
 
-implementation of jiminy
+---
+
+### implementation of jiminy[^9]
 
 ```c++
 // Extract some proxies
@@ -47,7 +66,7 @@ if (contactOptions_.transitionEps > EPS)
 }
 ```
 
-implementation of RigidBodyDynamics.jl[^2]
+### implementation of RigidBodyDynamics.jl[^2]
 
 ```julia
 function normal_force(model::HuntCrossleyModel, ::Nothing, z, ż)
@@ -78,7 +97,7 @@ function friction_force(model::ViscoelasticCoulombModel, state::ViscoelasticCoul
 end
 ```
 
-implementation of MIT Cheetah Software[^1]
+### implementation of MIT Cheetah Software[^1]
 
 ```c++
 template <typename T>
@@ -143,9 +162,9 @@ void ContactSpringDamper<T>::_groundContactWithOffset(T K, T D) {
 }
 ```
 
-implementation of MuJoCo: mj_step() -> mj_forward() -> mj_forwardSkip() -> mj_fwdConstraint() -> mj_solPGS()
+### implementation of MuJoCo: mj_step() -> mj_forward() -> mj_forwardSkip() -> mj_fwdConstraint() -> mj_solPGS()
 
-implementation of Drake: **Pressure Field Contact**[^5] [^6]
+### implementation of Drake: **Pressure Field Contact**[^5] [^6]
 
 > There are many ways to model contact between rigid bodies. Drake uses an approach we call “compliant” contact. In compliant contact, nominally rigid bodies are allowed to penetrate slightly, as if the rigid body had a slightly deformable layer, but whose compression has no appreciable effect on the body’s mass properties. The contact force between two deformed bodies is distributed over a contact patch with an uneven pressure distribution over that patch. It is common in robotics to model that as a single point contact or a set of point contacts. Hydroelastic contact instead attempts to approximate the patch and pressure distribution to provide much richer and more realistic contact behavior. For a high-level overview, see this blog post.[^7] Drake implements two models for resolving contact to forces: point contact and hydroelastic contact.[^8]
 
@@ -164,13 +183,17 @@ implementation of Drake: **Pressure Field Contact**[^5] [^6]
 
 $$
 q_t=q_0+t*v_q \to q_t=q_0*\exp(t*v_q)
-$$[^3]
+$$
+[^3]
+
+---
 
 [^1]: Azad, Morteza and Roy Featherstone. “Modeling the contact between a rolling sphere and a compliant ground plane.” (2010).
 [^2]: Marhefka, Duane W. and David E. Orin. “A compliant contact model with nonlinear damping for simulation of robotic systems.” IEEE Trans. Syst. Man Cybern. Part A 29 (1999): 566-572.
-[^3]: https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/master/doxygen-html/md_doc_c-maths_se3.html
-[^4]: https://underactuated.csail.mit.edu/multibody.html#contact
-[^5]: https://ryanelandt.github.io/projects/pressure_field_contact
-[^6]: https://github.com/ryanelandt/PressureFieldContact.jl
+[^3]: <https://gepettoweb.laas.fr/doc/stack-of-tasks/pinocchio/master/doxygen-html/md_doc_c-maths_se3.html>
+[^4]: <https://underactuated.csail.mit.edu/multibody.html#contact>
+[^5]: <https://ryanelandt.github.io/projects/pressure_field_contact>
+[^6]: <https://github.com/ryanelandt/PressureFieldContact.jl>
 [^7]: [Rethinking Contact Simulation for Robot Manipulation](https://medium.com/toyotaresearch/rethinking-contact-simulation-for-robot-manipulation-434a56b5ec88)
 [^8]: [Hydroelastic Contact User Guide](https://drake.mit.edu/doxygen_cxx/group__hydroelastic__user__guide.html)
+[^9]: <https://github.com/duburcqa/jiminy>

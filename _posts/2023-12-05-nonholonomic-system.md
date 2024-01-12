@@ -32,6 +32,8 @@ Nonholonomic system[^1]
     </embed>
 </object>
 
+---
+
 [^1]: <https://en.wikipedia.org/wiki/Falling_cat_problem>
 [^2]: <https://inria.hal.science/inria-00390428/document>
 [^3]: <https://inria.hal.science/hal-02487855/document>
