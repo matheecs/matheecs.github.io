@@ -25,6 +25,7 @@ normal force + friction force
 * ODE
 * jiminy
 * RigidBodyDynamics.jl
+* PhysX[^10]
 
 <object data="/files/contact_model.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="/files/contact_model.pdf">
@@ -168,6 +169,17 @@ void ContactSpringDamper<T>::_groundContactWithOffset(T K, T D) {
 
 > There are many ways to model contact between rigid bodies. Drake uses an approach we call “compliant” contact. In compliant contact, nominally rigid bodies are allowed to penetrate slightly, as if the rigid body had a slightly deformable layer, but whose compression has no appreciable effect on the body’s mass properties. The contact force between two deformed bodies is distributed over a contact patch with an uneven pressure distribution over that patch. It is common in robotics to model that as a single point contact or a set of point contacts. Hydroelastic contact instead attempts to approximate the patch and pressure distribution to provide much richer and more realistic contact behavior. For a high-level overview, see this blog post.[^7] Drake implements two models for resolving contact to forces: point contact and hydroelastic contact.[^8]
 
+## Comparison of Bullet, Havok, MuJoCo, ODE and PhysX
+
+<object data="https://homes.cs.washington.edu/~todorov/papers/ErezICRA15.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://homes.cs.washington.edu/~todorov/papers/ErezICRA15.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it:
+            <a href="https://homes.cs.washington.edu/~todorov/papers/ErezICRA15.pdf">Download PDF
+            </a>.
+        </p>
+    </embed>
+</object>
+
 ---
 
 ## Integration on SO(3)
@@ -197,3 +209,4 @@ $$
 [^7]: [Rethinking Contact Simulation for Robot Manipulation](https://medium.com/toyotaresearch/rethinking-contact-simulation-for-robot-manipulation-434a56b5ec88)
 [^8]: [Hydroelastic Contact User Guide](https://drake.mit.edu/doxygen_cxx/group__hydroelastic__user__guide.html)
 [^9]: <https://github.com/duburcqa/jiminy>
+[^10]: <https://developer.nvidia.com/physx-sdk>
