@@ -38,7 +38,7 @@ normal force + friction force
 
 ---
 
-### implementation of jiminy[^9]
+### Implementation of jiminy[^9]
 
 ```c++
 // Extract some proxies
@@ -67,7 +67,7 @@ if (contactOptions_.transitionEps > EPS)
 }
 ```
 
-### implementation of RigidBodyDynamics.jl[^2]
+### Implementation of RigidBodyDynamics.jl[^2]
 
 ```julia
 function normal_force(model::HuntCrossleyModel, ::Nothing, z, ż)
@@ -98,7 +98,7 @@ function friction_force(model::ViscoelasticCoulombModel, state::ViscoelasticCoul
 end
 ```
 
-### implementation of MIT Cheetah Software[^1]
+### Implementation of MIT Cheetah Software[^1]
 
 ```c++
 template <typename T>
@@ -163,9 +163,13 @@ void ContactSpringDamper<T>::_groundContactWithOffset(T K, T D) {
 }
 ```
 
-### implementation of MuJoCo: mj_step() -> mj_forward() -> mj_forwardSkip() -> mj_fwdConstraint() -> mj_solPGS()
+### Implementation of MuJoCo
 
-### implementation of Drake: **Pressure Field Contact**[^5] [^6]
+```text
+mj_step() -> mj_forward() -> mj_forwardSkip() -> mj_fwdConstraint() -> mj_solPGS()
+```
+
+### Implementation of Drake: **Pressure Field Contact**[^5] [^6]
 
 > There are many ways to model contact between rigid bodies. Drake uses an approach we call “compliant” contact. In compliant contact, nominally rigid bodies are allowed to penetrate slightly, as if the rigid body had a slightly deformable layer, but whose compression has no appreciable effect on the body’s mass properties. The contact force between two deformed bodies is distributed over a contact patch with an uneven pressure distribution over that patch. It is common in robotics to model that as a single point contact or a set of point contacts. Hydroelastic contact instead attempts to approximate the patch and pressure distribution to provide much richer and more realistic contact behavior. For a high-level overview, see this blog post.[^7] Drake implements two models for resolving contact to forces: point contact and hydroelastic contact.[^8]
 
