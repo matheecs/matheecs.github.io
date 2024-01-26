@@ -5,6 +5,8 @@ categories: study
 author: "Jixiang Zhang"
 ---
 
+[Documentation](https://choreonoid.org/en/documents/latest/index.html#)
+
 ### Build with
 
 * [fmt](https://github.com/fmtlib/fmt) **7.1.3**! (ubuntu_22.04)
@@ -15,7 +17,11 @@ author: "Jixiang Zhang"
 
 ### URDF Model convert to Body Model
 
-* Check BodyItem $\to$ Right Click $\to$ Save as
+Check BodyItem > Right Click > `Save as`
+
+### create videos
+
+`View` > `Show Toolbar` > `MovieRecorderBar`
 
 ### 追加情報の記述
 
