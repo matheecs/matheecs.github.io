@@ -5,6 +5,8 @@ categories: study
 author: "Jixiang Zhang"
 ---
 
+动画师 Notebook: personal observations on the principles of movement
+
 [Documentation](https://choreonoid.org/en/documents/latest/index.html#)
 
 ### Build with
