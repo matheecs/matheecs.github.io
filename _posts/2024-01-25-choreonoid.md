@@ -9,6 +9,21 @@ author: "Jixiang Zhang"
 
 [Documentation](https://choreonoid.org/en/documents/latest/index.html#)
 
+<p align="center">
+  <img src="/images/Choreonoid.png" width="500"/>
+</p>
+
+### Design of the Framework
+
+* plugin system
+* view system
+* item tree system
+* signal system
+
+<p align="center">
+  <img src="/images/sig.png" width="500"/>
+</p>
+
 ### Build with
 
 * [fmt](https://github.com/fmtlib/fmt) **7.1.3**! (ubuntu_22.04)
