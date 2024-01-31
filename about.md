@@ -443,6 +443,7 @@ layout: about
    - LaTeX
      - [Mathpix](https://mathpix.com/)
      - [pix2tex(free!)](https://github.com/lukas-blecher/LaTeX-OCR)
+     - [Overleaf](https://www.overleaf.com/project)
    - PDF
      - [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)
      - [Nougat](https://github.com/facebookresearch/nougat/tree/main)
