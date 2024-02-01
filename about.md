@@ -375,6 +375,7 @@ layout: about
    - [CppAD](https://github.com/coin-or/CppAD)
      - [CppADCodeGen](https://github.com/joaoleal/CppADCodeGen)
    - [CasADi](https://github.com/casadi/casadi)
+   - [Ungar: Simplifying optimal control with metaprogramming](https://github.com/fdevinc/ungar)
    - [Manopt](https://github.com/NicolasBoumal/manopt)
    - [MPOPT](https://github.com/mpopt/mpopt)
    - [JuMP](https://github.com/jump-dev/JuMP.jl)
