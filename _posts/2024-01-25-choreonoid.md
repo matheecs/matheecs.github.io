@@ -40,6 +40,21 @@ Check BodyItem > Right Click > `Save as`
 
 `View` > `Show Toolbar` > `MovieRecorderBar`
 
+### enable media plugin
+
+install libs:
+
+```shell
+sudo apt install libunwind-dev
+sudo apt install gstreamer1.0-libav
+```
+
+rebuild:
+
+```cmake
+cmake -Bbuild -DBUILD_MEDIA_PLUGIN=ON
+```
+
 ### 追加情報の記述
 
 ```yaml

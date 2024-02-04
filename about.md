@@ -167,6 +167,8 @@ layout: about
 - [Julia Evans](https://jvns.ca/)
 - [Xue Bin (Jason) Peng](https://xbpeng.github.io/)
 - [Bartolomeo Stellato](https://stellato.io/)
+- [LN Trefethen](https://people.maths.ox.ac.uk/trefethen/index.html)
+- [Tim Davis](https://people.engr.tamu.edu/davis/welcome.html)
 
 ## Algorithm Tree
 
@@ -346,6 +348,7 @@ layout: about
 6. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [**MeshCat**](https://github.com/rdeits/meshcat-python)
+   - [viser](https://github.com/nerfstudio-project/viser)
    - [vedo](https://github.com/marcomusy/vedo)
    - [PyVista](https://github.com/pyvista/pyvista)
      - [PyVistaQt](https://github.com/pyvista/pyvistaqt)
@@ -354,6 +357,7 @@ layout: about
      - [Dear PyGui](https://github.com/hoffstadt/DearPyGui)
    - [Matplot++](https://github.com/alandefreitas/matplotplusplus)
    - [meshcat-viz-python](https://github.com/ami-iit/meshcat-viz-python)
+   - [Polyscope](https://github.com/nmwsharp/polyscope)
    - Three.js
 7. Optimization
    - [SDLP](https://github.com/ZJU-FAST-Lab/SDLP)
@@ -432,6 +436,7 @@ layout: about
        > 彭于斌: Python 调用 C++/CUDA 的 kernel 才是今后不论科学计算还是神经学习的主流
      - PyTorch
        - [harmonic-oscillator-pinn](https://github.com/benmoseley/harmonic-oscillator-pinn)
+     - [gnuplot for numpy](https://github.com/dkogan/gnuplotlib) `import gnuplotlib as gp`
    - Julia
      - [StaticArrays(Statically sized arrays)](https://github.com/JuliaArrays/StaticArrays.jl): the size can be determined from the *type*, and "static" does not necessarily imply immutable.
    - Node.js(JavaScript runtime environment)
