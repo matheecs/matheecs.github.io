@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Choreonoid in Robot(≈UE in Game)"
+title: "Choreonoid🕺"
 categories: study
 author: "Jixiang Zhang"
 ---
 
-动画师 Notebook: personal observations on the principles of movement
+动画师 Notebook
 
 [Documentation](https://choreonoid.org/en/documents/latest/index.html#)
 

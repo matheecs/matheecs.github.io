@@ -4,13 +4,13 @@ layout: about
 
 # a robot behavior coordination engineer
 
-- Email: <matheecs[at]qq[dot]com>
-- [Resume/CV (Chinese)](/files/cv/cv2022.pdf)
-- Education
-  - Master, Control Science and Engineering, [XJTU](http://en.xjtu.edu.cn)
-  - Student Exchange Program, [UWM](https://uwm.edu)
-  - B.S., Electrical Engineering, [CQU](https://www.cqu.edu.cn)
-- Research Interests: Optimization for **umwelt** robot using Pin3, CasADi and MeshCat
+- email: <matheecs[at]qq[dot]com>
+- [resume/cv(Chinese)](/files/cv/cv2022.pdf)
+- education
+  - master, control science and engineering, [XJTU](http://en.xjtu.edu.cn)
+  - student exchange program, [UWM](https://uwm.edu)
+  - B.S., electrical engineering, [CQU](https://www.cqu.edu.cn)
+- research interests: optimization for **umwelt** robot using Pin3, CasADi and MeshCat
 - [blogspot](https://matheecs.blogspot.com)
 - [elibrary](https://github.com/matheecs/eHomeLib)
 
