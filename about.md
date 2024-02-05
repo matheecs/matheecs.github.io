@@ -359,7 +359,7 @@ layout: about
    - [meshcat-viz-python](https://github.com/ami-iit/meshcat-viz-python)
    - [Polyscope](https://github.com/nmwsharp/polyscope)
    - Three.js
-7. Optimization
+7. Numerics & Optimization
    - [SDLP](https://github.com/ZJU-FAST-Lab/SDLP)
    - [SDQP](https://github.com/ZJU-FAST-Lab/SDQP)
    - [LBFGS-Lite](https://github.com/ZJU-FAST-Lab/LBFGS-Lite)
@@ -387,6 +387,7 @@ layout: about
    - [nevergrad](https://facebookresearch.github.io/nevergrad/getting_started.html)
    - [Sequential Convex Programming Toolbox](https://github.com/UW-ACL/SCPToolbox.jl)
    - [PDFO = COBYLA, UOBYQA, NEWUOA, BOBYQA, and LINCOA](https://pdfo.net/index.html)
+   - [Chebfun](https://www.chebfun.org/)
 8. Machine learning
    - [legged_gym](https://github.com/leggedrobotics/legged_gym)
    - [Diffusion Policy](https://github.com/real-stanford/diffusion_policy)
