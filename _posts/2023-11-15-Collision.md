@@ -27,10 +27,10 @@ normal force + friction force
 * RigidBodyDynamics.jl
 * PhysX[^10]
 
-<object data="files/contact_model.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="files/contact_model.pdf">
+<object data="{{site.baseurl}}/files/contact_model.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="{{site.baseurl}}/files/contact_model.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it:
-            <a href="files/contact_model.pdf">Download PDF
+            <a href="{{site.baseurl}}/files/contact_model.pdf">Download PDF
             </a>.
         </p>
     </embed>
@@ -188,10 +188,10 @@ mj_step() -> mj_forward() -> mj_forwardSkip() -> mj_fwdConstraint() -> mj_solPGS
 
 ## Integration on SO(3)
 
-<object data="files/lie-group-methods.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="files/lie-group-methods.pdf">
+<object data="{{site.baseurl}}/files/lie-group-methods.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="{{site.baseurl}}/files/lie-group-methods.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it:
-            <a href="files/lie-group-methods.pdf">Download PDF
+            <a href="{{site.baseurl}}/files/lie-group-methods.pdf">Download PDF
             </a>.
         </p>
     </embed>

@@ -9,7 +9,7 @@ author: "Jixiang Zhang"
 
 视频效果：
 
-<video style="display:block; width:100%; height:auto;" src="files/icra2019.mp4"  controls preload></video>
+<video style="display:block; width:100%; height:auto;" src="{{site.baseurl}}/files/icra2019.mp4"  controls preload></video>
 
 本文局域网特指单网络环境，比如只有一个路由器的情况。
 

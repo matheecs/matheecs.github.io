@@ -499,23 +499,23 @@ layout: about
 </p>
 
 <p align="center">
-  <img src="images/rbda.png" width="500"/>
+  <img src="{{site.baseurl}}/images/rbda.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="images/Instagram.png" width="500"/>
+  <img src="{{site.baseurl}}/images/Instagram.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="images/Core.png" width="500"/>
+  <img src="{{site.baseurl}}/images/Core.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="images/2023_tro_wensing.png" width="500"/>
+  <img src="{{site.baseurl}}/images/2023_tro_wensing.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="images/Choreonoid.png" width="500"/>
+  <img src="{{site.baseurl}}/images/Choreonoid.png" width="500"/>
 </p>
 
 <p align="center">
@@ -527,17 +527,17 @@ layout: about
 </p>
 
 <p align="center">
-  <img src="images/some_def.jpg" width="500"/>
+  <img src="{{site.baseurl}}/images/some_def.jpg" width="500"/>
 </p>
 
 <p align="center">
-  <img src="images/Games_105.png" width="500"/>
+  <img src="{{site.baseurl}}/images/Games_105.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="images/note2022.png" width="500"/>
+  <img src="{{site.baseurl}}/images/note2022.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="images/juggling.gif" width="500"/>
+  <img src="{{site.baseurl}}/images/juggling.gif" width="500"/>
 </p>

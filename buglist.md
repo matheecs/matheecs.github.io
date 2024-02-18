@@ -2663,7 +2663,7 @@ Ref:
 ### 点云编辑工具 Point Clouds Editor
 
 <p align="center">
-  <img src="images/cloud_compare.jpg" width="500"/>
+  <img src="{{site.baseurl}}/images/cloud_compare.jpg" width="500"/>
 </p>
 
 ### How to make uninstall
@@ -3185,7 +3185,7 @@ Cite: [rqt_launchtree](https://github.com/Kuo-Feng/rqt_launchtree/tree/noetic)
 ### Operation Costs in CPU Clock Cycles
 
 <p align="center">
-  <img src="images/part101_infographics_v08.png" width="500"/>
+  <img src="{{site.baseurl}}/images/part101_infographics_v08.png" width="500"/>
 </p>
 
 Cite: [Infographics: Operation Costs in CPU Clock Cycles](http://ithare.com/infographics-operation-costs-in-cpu-clock-cycles/)

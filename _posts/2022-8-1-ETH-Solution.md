@@ -30,7 +30,7 @@ author: "Jixiang Zhang"
 
 <!-- ![api](images/ompl_api.png) -->
 <p align="center">
-  <img src="images/ompl_api.png" width="500"/>
+  <img src="{{site.baseurl}}/images/ompl_api.png" width="500"/>
 </p>
 
 [An OMPL Tutorial with Examples](https://www.youtube.com/watch?v=yggi7QjfOUM)

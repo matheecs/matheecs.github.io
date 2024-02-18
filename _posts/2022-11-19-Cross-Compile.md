@@ -98,7 +98,7 @@ set(CMAKE_SYSROOT ${cross_root}/${cross_triple})
 ```
 
 <p align="center">
-  <img src="images/carbon.png" width="500"/>
+  <img src="{{site.baseurl}}/images/carbon.png" width="500"/>
 </p>
 
 ### Cite

@@ -8,7 +8,7 @@ author: "Jixiang Zhang"
 SparseMatrix
 
 <p align="center">
-  <img src="images/SparseMatrix.png" width="500"/>
+  <img src="{{site.baseurl}}/images/SparseMatrix.png" width="500"/>
 </p>
 
 ```text
