@@ -10,7 +10,7 @@ author: "Jixiang Zhang"
 [Documentation](https://choreonoid.org/en/documents/latest/index.html#)
 
 <p align="center">
-  <img src="/images/Choreonoid.png" width="500"/>
+  <img src="images/Choreonoid.png" width="500"/>
 </p>
 
 ### Design of the Framework
@@ -21,7 +21,7 @@ author: "Jixiang Zhang"
 * signal system
 
 <p align="center">
-  <img src="/images/sig.png" width="500"/>
+  <img src="images/sig.png" width="500"/>
 </p>
 
 ### Build with

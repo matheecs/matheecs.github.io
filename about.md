@@ -5,7 +5,7 @@ layout: about
 # a robot behavior coordination engineer
 
 - email: <matheecs[at]qq[dot]com>
-- [resume/cv(Chinese)](/files/cv/cv2022.pdf)
+- [resume/cv(Chinese)](files/cv/cv2022.pdf)
 - education
   - master, control science and engineering, [XJTU](http://en.xjtu.edu.cn)
   - student exchange program, [UWM](https://uwm.edu)
@@ -499,23 +499,23 @@ layout: about
 </p>
 
 <p align="center">
-  <img src="/images/rbda.png" width="500"/>
+  <img src="images/rbda.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="/images/Instagram.png" width="500"/>
+  <img src="images/Instagram.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="/images/Core.png" width="500"/>
+  <img src="images/Core.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="/images/2023_tro_wensing.png" width="500"/>
+  <img src="images/2023_tro_wensing.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="/images/Choreonoid.png" width="500"/>
+  <img src="images/Choreonoid.png" width="500"/>
 </p>
 
 <p align="center">
@@ -527,17 +527,17 @@ layout: about
 </p>
 
 <p align="center">
-  <img src="/images/some_def.jpg" width="500"/>
+  <img src="images/some_def.jpg" width="500"/>
 </p>
 
 <p align="center">
-  <img src="/images/Games_105.png" width="500"/>
+  <img src="images/Games_105.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="/images/note2022.png" width="500"/>
+  <img src="images/note2022.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="/images/juggling.gif" width="500"/>
+  <img src="images/juggling.gif" width="500"/>
 </p>

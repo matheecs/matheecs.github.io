@@ -35,7 +35,7 @@ author: "Jixiang Zhang"
 
 ### 大纲
 
-![](/images/framework.jpg)
+![](images/framework.jpg)
 
 # Part 1 **计算机视觉**
 
@@ -43,7 +43,7 @@ author: "Jixiang Zhang"
 
 ### 数字图像的流水线
 
-![](/images/pipeline.jpg)
+![](images/pipeline.jpg)
 
 ### 图像滤波
 
@@ -287,11 +287,11 @@ author: "Jixiang Zhang"
 
 ## 20 Adaptive Monte Carlo Localization
 
-![](/images/MCL.jpg)
+![](images/MCL.jpg)
 
 ## 21 A Star Algorithm
 
-![](/images/AStar.jpg)
+![](images/AStar.jpg)
 
 ## 22 Dynamic Window Approach
 
@@ -323,7 +323,7 @@ References
 
 ## 23 行为树
 
-![](/images/decisionBT.jpg)
+![](images/decisionBT.jpg)
 
 References
 
@@ -373,4 +373,4 @@ References
   - MT19937
 - 图模型
 
-![](/images/reward.jpg)
+![](images/reward.jpg)

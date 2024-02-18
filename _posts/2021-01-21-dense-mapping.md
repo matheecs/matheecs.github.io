@@ -46,4 +46,4 @@ author: "Jixiang Zhang"
 * 路面 Terrain
 * 障碍 Obstacle
 
-![](/images/densemap.jpg)
+![](images/densemap.jpg)

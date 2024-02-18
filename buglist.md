@@ -434,7 +434,7 @@ std::chrono::steady_clock::time_point t2 = std::chrono::steady_clock::now();
 
 孙师兄回国给大家分享他博士期间的科研成果，强调**矩阵论**的重要性。讲座笔记
 
-[https://matheecs.tech/images/20180523.jpeg](/images/20180523.jpeg)
+[https://matheecs.tech/images/20180523.jpeg](images/20180523.jpeg)
 
 第二天上午师兄给课题组组织分享会，几点收获：掌握矩阵和优化，Just do it 赶走拖延症，英语很重要！
 
@@ -1144,13 +1144,13 @@ export LANG=en_US.UTF-8
 
 ### 理解 GitHub
 
-[https://matheecs.tech/images/Git.jpg](/images/Git.jpg)
+[https://matheecs.tech/images/Git.jpg](images/Git.jpg)
 
 ### 使用 CMake/CPack/CTest/Catkin
 
 ### IMU模型
 
-[https://matheecs.tech/images/imumodel.jpg](/images/imumodel.jpg)
+[https://matheecs.tech/images/imumodel.jpg](images/imumodel.jpg)
 
 ### 安装LaTeX依赖包
 
@@ -1966,7 +1966,7 @@ References:
 
 > spline function是一类分段（片）光滑、并且在各段交接处也有一定光滑性的函数。简称样条。样条一词来源于工程绘图人员为了将一些指定点连接成一条光顺曲线所使用的工具，即富有弹性的细木条或薄钢条。由这样的样条形成的曲线在连接点处具有连续的坡度与曲率。分段低次多项式、在分段处具有一定光滑性的函数插值就是模拟以上原理发展起来的，它克服了高次多项式插值可能出现的振荡现象，具有较好的数值稳定性和收敛性，由这种插值过程产生的函数就是多项式样条函数。
 
-![](/images/Spline.png)
+![](images/Spline.png)
 
 [样条函数](https://zh.wikipedia.org/wiki/样条函数)
 
@@ -2663,7 +2663,7 @@ Ref:
 ### 点云编辑工具 Point Clouds Editor
 
 <p align="center">
-  <img src="/images/cloud_compare.jpg" width="500"/>
+  <img src="images/cloud_compare.jpg" width="500"/>
 </p>
 
 ### How to make uninstall
@@ -3185,7 +3185,7 @@ Cite: [rqt_launchtree](https://github.com/Kuo-Feng/rqt_launchtree/tree/noetic)
 ### Operation Costs in CPU Clock Cycles
 
 <p align="center">
-  <img src="/images/part101_infographics_v08.png" width="500"/>
+  <img src="images/part101_infographics_v08.png" width="500"/>
 </p>
 
 Cite: [Infographics: Operation Costs in CPU Clock Cycles](http://ithare.com/infographics-operation-costs-in-cpu-clock-cycles/)

@@ -5,7 +5,7 @@ categories: study
 author: "Jixiang Zhang"
 ---
 
-![](/images/RMP.gif)
+![](images/RMP.gif)
 
 Cite: [Reaction Mass Pendulum](https://www.youtube.com/watch?v=Qf3iyco-3rc)
 

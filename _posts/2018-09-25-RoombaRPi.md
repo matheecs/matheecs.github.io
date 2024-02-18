@@ -7,9 +7,9 @@ author: "Jixiang Zhang"
 
 去年在密村购了一台 iRobot  Create 2（Roomba 600），最近打算对它改造一下：加个脑子（Raspberry Pi）和眼睛（单目相机）。改造结果：
 
-![](/images/roomba00.jpeg)
+![](images/roomba00.jpeg)
 
-![](/images/roomba01.jpeg)
+![](images/roomba01.jpeg)
 
 ### 电源
 

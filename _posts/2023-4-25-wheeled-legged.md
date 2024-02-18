@@ -6,15 +6,15 @@ author: "Jixiang Zhang"
 ---
 
 <p align="center">
-  <img src="/images/wheel_model.png" width="500"/>
+  <img src="images/wheel_model.png" width="500"/>
 </p>
 
 <p align="center">
-  <img src="/images/offline_online_planning.jpeg" width="500"/>
+  <img src="images/offline_online_planning.jpeg" width="500"/>
 </p>
 
 <p align="center">
-  <img src="/images/to_mpc.png" width="500"/>
+  <img src="images/to_mpc.png" width="500"/>
 </p>
 
 Cite:

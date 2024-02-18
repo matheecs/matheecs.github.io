@@ -16,7 +16,7 @@ author: "Jixiang Zhang"
 | 10/5    |  Hongkai Ye |  路径规划  |
 | 10/6    |  Hongkai Ye |  全局规划  |
 
-![](/images/quadcopter-class-notes.jpg)
+![](images/quadcopter-class-notes.jpg)
 
 本课程自底向上介绍了无人机系统，从硬件到软件，从理论到实践，从控制到规划。重点讲解了无人机的最新规划控制算法。
 
@@ -192,19 +192,19 @@ Kinodynamic RRT*适用于全局大空间，引入时间。前向/后向可达解
 
 #### 仿真代码框架
 
-![](/images/sim_ros.jpg)
+![](images/sim_ros.jpg)
 
 #### 实机代码框架
 
-![](/images/real_ros.jpg)
+![](images/real_ros.jpg)
 
 #### MINCO 实验
 
-![](/images/minco.gif)
+![](images/minco.gif)
 
 #### min snap 实验
 
-![](/images/minsnap.gif)
+![](images/minsnap.gif)
 
 ### References
 
@@ -219,4 +219,4 @@ Kinodynamic RRT*适用于全局大空间，引入时间。前向/后向可达解
 
 最后感谢各位老师助教同学和深蓝学院工作人员，特别是第三组的小伙伴，一起努力实现了线性控制器、SE3控制器、min snap和MINCO轨迹规划及其实验。
 
-![](/images/group3.jpg)
+![](images/group3.jpg)

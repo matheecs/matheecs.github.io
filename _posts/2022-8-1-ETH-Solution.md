@@ -28,9 +28,9 @@ author: "Jixiang Zhang"
 
 > LazyPRM is a planner that constructs a roadmap of **milestones** that approximate the connectivity of the state space, just like PRM does. The difference is that the planner uses lazy collision checking.
 
-<!-- ![api](/images/ompl_api.png) -->
+<!-- ![api](images/ompl_api.png) -->
 <p align="center">
-  <img src="/images/ompl_api.png" width="500"/>
+  <img src="images/ompl_api.png" width="500"/>
 </p>
 
 [An OMPL Tutorial with Examples](https://www.youtube.com/watch?v=yggi7QjfOUM)

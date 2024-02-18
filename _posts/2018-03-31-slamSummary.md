@@ -5,7 +5,7 @@ categories: research
 author: "Jixiang Zhang"
 ---
 
-![Stanley](/images/640px-Stanley2.JPG)
+![Stanley](images/640px-Stanley2.JPG)
 
 近期研究视觉SLAM，把一些学习资料整理如下：
 

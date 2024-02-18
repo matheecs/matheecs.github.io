@@ -17,22 +17,22 @@ Encoded in the large, highly evolved sensory and motor portions of the human bra
 
 ### 控制理论框架
 
-![](/images/OC课程总结.jpg)
+![](images/OC课程总结.jpg)
 
 ### 其他
 
-![6832](/images/6832.jpg)
+![6832](images/6832.jpg)
 
-![文獻回顧與分析的程序](/images/文獻回顧與分析的程序.jpg)
+![文獻回顧與分析的程序](images/文獻回顧與分析的程序.jpg)
 
-![kalman](/images/kalman.jpg)
+![kalman](images/kalman.jpg)
 
-![6001](/images/6001.jpg)
+![6001](images/6001.jpg)
 
-![treeMath](/images/treeMath.gif)
+![treeMath](images/treeMath.gif)
 
-![6002](/images/6002.jpg)
+![6002](images/6002.jpg)
 
 ### Robot Architecture
 
-![](/images/robotarchi.jpg)
+![](images/robotarchi.jpg)

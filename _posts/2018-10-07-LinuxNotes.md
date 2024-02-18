@@ -129,7 +129,7 @@ systemd
 
 systemctl
 
-![HackTheWorld](/images/HackTheWorld.png)
+![HackTheWorld](images/HackTheWorld.png)
 
 一般正常的情況下， Linux 的開機流程會是如下所示：
 

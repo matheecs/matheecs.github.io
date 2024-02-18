@@ -5,18 +5,11 @@ categories: study
 author: "Jixiang Zhang"
 ---
 
-目录
-
-* toc
-{:toc}
-
-------
-
 ### Paper reading
 
 * [Universal Manipulation Interface](https://umi-gripper.github.io)
 
-  ![UMI_hardware](images/UMI_hardware.jpg)
+  ![UMI Demonstration Interface Design](images/UMI_hardware.jpg)
 
 ------
 

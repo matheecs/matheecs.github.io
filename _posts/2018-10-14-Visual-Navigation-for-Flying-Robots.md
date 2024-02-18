@@ -61,7 +61,7 @@ How would you tackle this?
    $$
    Sense \to Act
    $$
-   Such as Roomba Robot. ![](/images/bbr.jpg)
+   Such as Roomba Robot. ![](images/bbr.jpg)
 
 3. Hybrid approaches
 
@@ -176,7 +176,7 @@ $$
 
 **Be Creative & Do Research** $\to$ Write and  Submit Paper $\to$ Prepare Talk/Poster $\to$ Present Work at Conference $\to$ Talk with People & Get Inspired $\to$ ...
 
-![](/images/state.jpg)
+![](images/state.jpg)
 
 ## Sensor Model
 
@@ -195,7 +195,7 @@ $$
 x^{\prime}=g(x,u)
 $$
 
-![](/images/control.jpg)
+![](images/control.jpg)
 
 ## Assumptions of Cascaded Control
 
@@ -221,7 +221,7 @@ Why is this *unrealistic* in practice?
 
 > PD Control is equivalent to adding spring-dampers between the desired values and the current position
 
-![](/images/PD.jpg)
+![](images/PD.jpg)
 
 ## Advanced Control Techniques
 

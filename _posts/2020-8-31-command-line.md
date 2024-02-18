@@ -34,7 +34,7 @@ author: "Jixiang Zhang"
 [出现](http://www.quora.com/What-are-the-most-useful-Swiss-army-knife-one-liners-on-Unix)
 于 [Quora](http://www.quora.com/What-are-some-time-saving-tips-that-every-Linux-user-should-know)，
 但已经迁移到了 Github，并由众多高手做出了许多改进。
-如果你在本文中发现了错误或者存在可以改善的地方，请[**贡献你的一份力量**](/CONTRIBUTING.md)。
+如果你在本文中发现了错误或者存在可以改善的地方，请[**贡献你的一份力量**](CONTRIBUTING.md)。
 
 ## 前言
 
