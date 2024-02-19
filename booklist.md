@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "个人书单📚"
+title: "阅读清单📚"
 categories: study
 author: "Jixiang Zhang"
 ---
