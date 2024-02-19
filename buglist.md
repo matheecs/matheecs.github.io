@@ -5,13 +5,6 @@ categories: study
 author: "Jixiang Zhang"
 ---
 
-**目录**
-
-* toc
-{:toc}
-
-------
-
 ### 参数取值范围错误
 
 原文链接 [一起做RGB-D SLAM (3)](http://www.cnblogs.com/gaoxiang12/p/4659805.html)

@@ -11,11 +11,19 @@ author: "Jixiang Zhang"
 
   ![UMI Demonstration Interface Design](images/UMI_hardware.jpg)
 
+  * GoPro as the only sensor and recording device.
+  * Note the physical side mirrors highlighted in green which provide implicit stereo information.
+  * Latency Measurement.
+  * We use Diffusion Policy for all tasks.
+
+* [Learning to Fly in Seconds](https://github.com/arplaboratory/learning-to-fly)
+* [RLtools (~acados)](https://github.com/rl-tools/rl-tools)
+* [GRiD: GPU-Accelerated Rigid Body Dynamics = URDFParser + GRiDCodeGenerator + RBDReference](https://brianplancher.com/publication/grid/)
+* [MPCGPU: NMPC through PCG on GPU](https://arxiv.org/pdf/2309.08079.pdf)
+* [TinyMPC](https://github.com/TinyMPC/TinyMPC)
+* [Efficient Trajectory Optimization for Robot Motion Planning (**CasADi + Chebfun**)](https://arxiv.org/pdf/1810.04255.pdf)
+
 ------
-
-### 影视收藏夹
-
-* [公开视频收藏夹(matheecs)](https://space.bilibili.com/395348622/favlist)
 
 ### 编程与实践
 
