@@ -22,6 +22,9 @@ author: "Jixiang Zhang"
 * [MPCGPU: NMPC through PCG on GPU](https://arxiv.org/pdf/2309.08079.pdf)
 * [TinyMPC](https://github.com/TinyMPC/TinyMPC)
 * [Efficient Trajectory Optimization for Robot Motion Planning (**CasADi + Chebfun**)](https://arxiv.org/pdf/1810.04255.pdf)
+* [Efficient Tactile Simulation with Differentiability for Robotic Manipulation](https://openreview.net/pdf?id=6BIffCl6gsM)
+  * [Tactile-Based Control Environments](https://github.com/eanswer/TactileSimulation)
+  * [DiffRedMax](https://github.com/eanswer/DiffHand)
 
 ------
 
