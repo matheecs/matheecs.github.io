@@ -3896,3 +3896,20 @@ export LD_LIBRARY_PATH=/home/matheecs/Downloads/worhp_1.15-0_linux/lib:$LD_LIBRA
 ```
 
 cite: <https://github.com/coin-or-tools/ThirdParty-HSL>
+
+### MATLAB 文件夹
+
+* 类文件夹: 名称以 `@` 字符开头，后跟类名 (当使用多个文件定义一个类时，请使用此类型的文件夹)
+* 包文件夹: 名称以 `+` 字符开头
+
+  ```graphql
+  +mypack
+  +mypack/pkfcn.m  % a package function
+  +mypack/@myClass % class folder in a package
+  ```
+
+  引用包中的包成员
+
+  ```matlab
+  z = mypack.pkfcn(x,y);
+  ```

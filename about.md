@@ -170,6 +170,7 @@ layout: about
 - [Bartolomeo Stellato](https://stellato.io/)
 - [LN Trefethen](https://people.maths.ox.ac.uk/trefethen/index.html)
 - [Tim Davis](https://people.engr.tamu.edu/davis/welcome.html)
+- [Alberto Rodriguez](https://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU)
 
 ## Algorithm Tree
 

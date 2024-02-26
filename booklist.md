@@ -25,6 +25,8 @@ author: "Jixiang Zhang"
 * [Efficient Tactile Simulation with Differentiability for Robotic Manipulation](https://openreview.net/pdf?id=6BIffCl6gsM)
   * [Tactile-Based Control Environments](https://github.com/eanswer/TactileSimulation)
   * [DiffRedMax](https://github.com/eanswer/DiffHand)
+  * [RedMax: efficient & flexible approach for articulated dynamics](https://dl.acm.org/doi/10.1145/3306346.3322952)
+  * [GelSlim 3.0](https://github.com/mcubelab/gelslim)
 
 ------
 
