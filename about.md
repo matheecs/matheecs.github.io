@@ -288,6 +288,7 @@ layout: about
    - [variable-height-double-pendulum](https://github.com/S-Dafarra/variable-height-double-pendulum)
      - $m \ddot{\boldsymbol{x}}=-m \boldsymbol{g}+\sum_i{ }^{\mathcal{I}} \boldsymbol{f}_i$ + Koolen's QP WBC
    - [pymanoid](https://github.com/stephane-caron/pymanoid)
+   - [TinyWBC](https://github.com/noctrog/TinyWBC)
    - [LIPM Walking Controller](https://github.com/stephane-caron/lipm_walking_controller)
    - [Planning and Control Algorithms for Robotics](https://github.com/junhyeokahn/PnC)
    - [SIMBICON: Simple Biped Locomotion Control](https://www.cs.ubc.ca/~van/papers/Simbicon.htm)
@@ -307,7 +308,7 @@ layout: about
    - [Contact Wrench Cones for Rectangular Support Areas](https://github.com/stephane-caron/analytical-wrench-cone)
    - [MuJoCo MPC](https://github.com/google-deepmind/mujoco_mpc)
    - [L4CasADi](https://github.com/TUM-AAS/ml-casadi)
-5. Dynamics & Simulation or Animation
+1. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl)
    - [RBDL](https://github.com/rbdl/rbdl)
@@ -347,7 +348,7 @@ layout: about
    - [DynaMechs](https://github.com/yiping/DynaMechs)
    - [Sheldon's Little Rigid Body Simulator](https://github.com/sheldona/slrbs)
    - [Simulately](https://simulately.wiki/)
-6. Visualization
+2. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [**MeshCat**](https://github.com/rdeits/meshcat-python)
    - [viser](https://github.com/nerfstudio-project/viser)
@@ -361,7 +362,7 @@ layout: about
    - [meshcat-viz-python](https://github.com/ami-iit/meshcat-viz-python)
    - [Polyscope](https://github.com/nmwsharp/polyscope)
    - Three.js
-7. Numerics & Optimization
+3. Numerics & Optimization
    - [SDLP](https://github.com/ZJU-FAST-Lab/SDLP)
    - [SDQP](https://github.com/ZJU-FAST-Lab/SDQP)
    - [LBFGS-Lite](https://github.com/ZJU-FAST-Lab/LBFGS-Lite)

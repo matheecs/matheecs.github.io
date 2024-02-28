@@ -3913,3 +3913,12 @@ cite: <https://github.com/coin-or-tools/ThirdParty-HSL>
   ```matlab
   z = mypack.pkfcn(x,y);
   ```
+
+### a bug from `$pip install gym`
+
+```shell
+pip install setuptools==65.5.0 pip==21  # gym 0.21 installation is broken with more recent versions
+pip install wheel==0.38.0
+```
+
+cite <https://stackoverflow.com/a/77205046/14562781>
