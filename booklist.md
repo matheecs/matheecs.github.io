@@ -27,6 +27,18 @@ author: "Jixiang Zhang"
   * [DiffRedMax](https://github.com/eanswer/DiffHand)
   * [RedMax: efficient & flexible approach for articulated dynamics](https://dl.acm.org/doi/10.1145/3306346.3322952)
   * [GelSlim 3.0](https://github.com/mcubelab/gelslim)
+* [TRI’s Robots Learn New Manipulation Skills in an Afternoon. Here’s How.](https://medium.com/toyotaresearch/tris-robots-learn-new-skills-in-an-afternoon-here-s-how-2c30b1a8c573)
+
+  ![diffusion](https://miro.medium.com/v2/resize:fit:720/format:webp/0*EDER_bsMs0Xido2d)
+
+* [Meet Punyo, TRI’s Soft Robot for Whole-Body Manipulation Research](https://medium.com/toyotaresearch/meet-punyo-tris-soft-robot-for-whole-body-manipulation-research-949c934ac3d8)
+
+  > If a policy works in Drake, it typically works in the real world.
+  ![ぷにょ](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*i7VKuTYxPJGyfoASZwjZpw.png)
+
+* [Disney’s Newest Robot Demonstrates Collaborative Cuteness](https://spectrum.ieee.org/disney-robot-2666681104)
+
+  ![CollaborativeBot](https://spectrum.ieee.org/media-library/the-duke-weaselton-animatronic-character-under-development-at-disney-imagineering.gif?id=51434452&width=1200&height=676)
 
 ------
 
