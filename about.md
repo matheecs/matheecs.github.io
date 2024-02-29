@@ -94,6 +94,7 @@ layout: about
   - [Model-Based Reinforcement Learning: Theory and Practice](https://bair.berkeley.edu/blog/2019/12/12/mbpo/)
   - [How Instagram scaled to 14 million users with only 3 engineers](https://engineercodex.substack.com/p/how-instagram-scaled-to-14-million)
   - [自然な歩き方をする](http://robo-g1.cocolog-nifty.com/)
+  - [Learn to read Korean in 15 minutes](https://www.ryanestrada.com/learntoreadkoreanin15minutes/)
 
 ## Researchers
 
@@ -171,6 +172,7 @@ layout: about
 - [LN Trefethen](https://people.maths.ox.ac.uk/trefethen/index.html)
 - [Tim Davis](https://people.engr.tamu.edu/davis/welcome.html)
 - [Alberto Rodriguez](https://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU)
+- [Justin Solomon](http://people.csail.mit.edu/jsolomon/)
 
 ## Algorithm Tree
 
@@ -308,7 +310,7 @@ layout: about
    - [Contact Wrench Cones for Rectangular Support Areas](https://github.com/stephane-caron/analytical-wrench-cone)
    - [MuJoCo MPC](https://github.com/google-deepmind/mujoco_mpc)
    - [L4CasADi](https://github.com/TUM-AAS/ml-casadi)
-1. Dynamics & Simulation or Animation
+5. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl)
    - [RBDL](https://github.com/rbdl/rbdl)
@@ -348,7 +350,7 @@ layout: about
    - [DynaMechs](https://github.com/yiping/DynaMechs)
    - [Sheldon's Little Rigid Body Simulator](https://github.com/sheldona/slrbs)
    - [Simulately](https://simulately.wiki/)
-2. Visualization
+6. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [**MeshCat**](https://github.com/rdeits/meshcat-python)
    - [viser](https://github.com/nerfstudio-project/viser)
@@ -362,7 +364,7 @@ layout: about
    - [meshcat-viz-python](https://github.com/ami-iit/meshcat-viz-python)
    - [Polyscope](https://github.com/nmwsharp/polyscope)
    - Three.js
-3. Numerics & Optimization
+7. Numerics & Optimization
    - [SDLP](https://github.com/ZJU-FAST-Lab/SDLP)
    - [SDQP](https://github.com/ZJU-FAST-Lab/SDQP)
    - [LBFGS-Lite](https://github.com/ZJU-FAST-Lab/LBFGS-Lite)

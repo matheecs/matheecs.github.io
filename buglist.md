@@ -2254,7 +2254,10 @@ Window::on_button_clicked()
 }
 ```
 
-### [YouTube Transcript 字幕提取](https://youtubetranscript.com)
+### YouTube tools
+
+* [YouTube Transcript](https://youtubetranscript.com)
+* [Youtube Summaries](https://www.youtubesummaries.com/)
 
 ### Roslaunch 使用方法
 
