@@ -173,6 +173,7 @@ layout: about
 - [Tim Davis](https://people.engr.tamu.edu/davis/welcome.html)
 - [Alberto Rodriguez](https://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU)
 - [Justin Solomon](http://people.csail.mit.edu/jsolomon/)
+- [Evan Drumwright](https://edrumwri.github.io/)
 
 ## Algorithm Tree
 
@@ -350,6 +351,8 @@ layout: about
    - [DynaMechs](https://github.com/yiping/DynaMechs)
    - [Sheldon's Little Rigid Body Simulator](https://github.com/sheldona/slrbs)
    - [Simulately](https://simulately.wiki/)
+   - [Moby multi-rigid body dynamics simulator](https://github.com/PositronicsLab/Moby)
+   - [awesome-simulation](https://github.com/Housz/awesome-simulation)
 6. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [**MeshCat**](https://github.com/rdeits/meshcat-python)
