@@ -353,6 +353,9 @@ layout: about
    - [Simulately](https://simulately.wiki/)
    - [Moby multi-rigid body dynamics simulator](https://github.com/PositronicsLab/Moby)
    - [awesome-simulation](https://github.com/Housz/awesome-simulation)
+   - [fluid-engine-dev](https://github.com/doyubkim/fluid-engine-dev)
+   - [Automatic Differentiation for rigid-body-dynamics AlgorithMs](https://github.com/ami-iit/adam)
+   - [RBDReference](https://github.com/robot-acceleration/RBDReference)
 6. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [**MeshCat**](https://github.com/rdeits/meshcat-python)
@@ -404,6 +407,7 @@ layout: about
    - [parkour](https://github.com/ZiwenZhuang/parkour)
    - [Dobb·E](https://github.com/notmahi/dobb-e)
    - [MLX: An array framework for Apple silicon](https://github.com/ml-explore/mlx)
+   - [ml-engineering](https://github.com/stas00/ml-engineering)
 9. Tools
    - [**NumPy**](https://numpy.org)
    - [**Eigen**](https://eigen.tuxfamily.org/index.php?title=Main_Page)
@@ -549,3 +553,5 @@ layout: about
 <p align="center">
   <img src="{{site.baseurl}}/images/juggling.gif" width="500"/>
 </p>
+
+[Library of Juggling](https://libraryofjuggling.com)
