@@ -244,6 +244,7 @@ layout: about
    - [Whole-Body Control and Simulation Software](https://www.whole-body-control.org/60.php)
    - [OCS2](https://github.com/leggedrobotics/ocs2)
      - [legged_control](https://github.com/qiayuanliao/legged_control)
+       - [hunter_bipedal_control](https://github.com/bridgedp/hunter_bipedal_control)
      - [Perceptive MPC](https://github.com/leggedrobotics/perceptive_mpc)
    - [Crocoddyl](https://github.com/loco-3d/crocoddyl)
    - [robotoc](https://github.com/mayataka/robotoc)
@@ -408,6 +409,7 @@ layout: about
    - [Dobb·E](https://github.com/notmahi/dobb-e)
    - [MLX: An array framework for Apple silicon](https://github.com/ml-explore/mlx)
    - [ml-engineering](https://github.com/stas00/ml-engineering)
+   - [Humanoid-Gym](https://github.com/roboterax/humanoid-gym)
 9. Tools
    - [**NumPy**](https://numpy.org)
    - [**Eigen**](https://eigen.tuxfamily.org/index.php?title=Main_Page)
@@ -429,7 +431,8 @@ layout: about
      - clang
      - clangd
      - ccache
-     - ninja
+     - Ninja
+     - Bazel
      - mold
      - musl (Implementation of the C standard library built on top of the Linux system call API)
      - [Loguru](https://github.com/emilk/loguru)
