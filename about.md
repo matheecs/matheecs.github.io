@@ -10,7 +10,7 @@ layout: about
   - master, control science and engineering, [XJTU](http://en.xjtu.edu.cn)
   - student exchange program, [UWM](https://uwm.edu)
   - B.S., electrical engineering, [CQU](https://www.cqu.edu.cn)
-- research interests: optimization for **umwelt** robot using Pin3, CasADi and MeshCat
+- research interests: optimization for **UMWELT** robot with [Pin3](https://github.com/stack-of-tasks/pinocchio) + [CasADi](https://github.com/casadi/casadi) + [MeshCat](https://github.com/meshcat-dev/meshcat-python) = [Drake](https://github.com/RobotLocomotion/drake)
 - [blogspot](https://matheecs.blogspot.com)
 - [elibrary](https://github.com/matheecs/eHomeLib)
 
