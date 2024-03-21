@@ -40,6 +40,8 @@ author: "Jixiang Zhang"
 
   ![CollaborativeBot](https://spectrum.ieee.org/media-library/the-duke-weaselton-animatronic-character-under-development-at-disney-imagineering.gif?id=51434452&width=1200&height=676)
 
+* [Build systems à la carte](https://dl.acm.org/doi/10.1145/3236774)
+
 ------
 
 ### 编程与实践
