@@ -32,6 +32,9 @@ author: "Jixiang Zhang"
   ![diffusion](https://miro.medium.com/v2/resize:fit:720/format:webp/0*EDER_bsMs0Xido2d)
 
 * [Meet Punyo, TRI’s Soft Robot for Whole-Body Manipulation Research](https://medium.com/toyotaresearch/meet-punyo-tris-soft-robot-for-whole-body-manipulation-research-949c934ac3d8)
+  * [Punyo-1: Soft tactile-sensing upper-body robot for large object manipulation and physical HRI](https://arxiv.org/pdf/2111.09354.pdf)
+
+    > Exploiting mechanical intelligence often leads to simplifications in the control strategy for intelligent systems.  
 
   > If a policy works in Drake, it typically works in the real world.
   ![ぷにょ](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*i7VKuTYxPJGyfoASZwjZpw.png)
