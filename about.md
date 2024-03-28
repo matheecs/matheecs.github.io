@@ -174,6 +174,7 @@ layout: about
 - [Alberto Rodriguez](https://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU)
 - [Justin Solomon](http://people.csail.mit.edu/jsolomon/)
 - [Evan Drumwright](https://edrumwri.github.io/)
+- [Alex Alspach](http://alexalspach.com/cv/)
 
 ## Algorithm Tree
 
