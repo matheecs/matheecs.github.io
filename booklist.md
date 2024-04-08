@@ -7,6 +7,8 @@ author: "Jixiang Zhang"
 
 ### Paper reading
 
+* [Russ Tedrake: Planning with Graphs of Convex Sets (in the age of foundation models)](https://www.youtube.com/watch?v=JZokn4Pc-YY)
+* [Siyuan Feng & Ben Burchfiel: Towards Large Behavior Models](https://www.youtube.com/watch?v=fwBbj6UmK-I&t=3742s)
 * [**cuRobo**: CUDA Accelerated Robot Library](https://curobo.org/index.html)
 * [Universal Manipulation Interface](https://umi-gripper.github.io)
 
