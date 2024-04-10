@@ -340,6 +340,7 @@ layout: about
    - [B-Human](https://github.com/bhuman/BHumanCodeRelease)
    - [Taichi](https://github.com/taichi-dev/taichi)
    - [Blender](https://github.com/blender/blender)
+   - [Cascadeur: standalone 3D software that lets you create keyframe animation](https://cascadeur.com/)
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
    - [mjbots quad](https://github.com/mjbots/quad)
    - [Choreonoid](https://github.com/choreonoid/choreonoid)
