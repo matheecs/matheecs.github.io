@@ -3398,6 +3398,10 @@ ocrmypdf -l eng --deskew --jobs 4 --force-ocr input.pdf output.pdf
 
 [Kitware APT Repository](https://apt.kitware.com/)
 
+```shell
+cmake -Bbuild -GNinja -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_COLOR_DIAGNOSTICS=ON
+```
+
 ### ROS workspace setup for VSCode IDE
 
 ```bash
