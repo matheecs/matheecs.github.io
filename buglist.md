@@ -3007,7 +3007,7 @@ Setting
 ---
 geometry: margin=2cm
 output: pdf_document
-mainfont: MiSans
+CJKmainfont: MiSans
 colorlinks: true
 linkcolor: blue
 urlcolor: red
