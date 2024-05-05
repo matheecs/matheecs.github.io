@@ -36,6 +36,10 @@ author: "Jixiang Zhang"
 
 Check BodyItem > Right Click > `Save as`
 
+### Export Motion
+
+Choose `motion` of PoseSeq > `File` > `Save Selected Items As`
+
 ### create videos
 
 `View` > `Show Toolbar` > `MovieRecorderBar`
