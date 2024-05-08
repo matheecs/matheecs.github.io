@@ -32,6 +32,10 @@ author: "Jixiang Zhang"
 ./build/bin/choreonoid sample/PoseSeq/GR001.cnoid
 ```
 
+```shell
+cmake -Bbuild -DCMAKE_BUILD_TYPE=Release -DBUILD_POSE_SEQ_PLUGIN=ON -DBUILD_BALANCER_PLUGIN=ON
+```
+
 ### URDF Model convert to Body Model
 
 Check BodyItem > Right Click > `Save as`
