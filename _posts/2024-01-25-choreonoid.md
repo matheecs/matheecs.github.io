@@ -5,7 +5,10 @@ categories: study
 author: "Jixiang Zhang"
 ---
 
-动画师 Notebook
+Learning Material:
+
+1. <https://choreonoid.org/ja/choreograph-tutorial>
+2. <https://choreonoid.org/ja/tutorial-videos.html>
 
 [Documentation](https://choreonoid.org/en/documents/latest/index.html#)
 
