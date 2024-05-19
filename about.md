@@ -10,7 +10,7 @@ layout: about
   - master, control science and engineering, [XJTU](http://en.xjtu.edu.cn)
   - student exchange program, [UWM](https://uwm.edu)
   - B.S., electrical engineering, [CQU](https://www.cqu.edu.cn)
-- research interests: optimization for **UMWELT** robot with
+- research interests: animation and robotics with
   - [Pinocchio](https://github.com/stack-of-tasks/pinocchio)
   - [CasADi](https://github.com/casadi/casadi)
   - [MeshCat](https://github.com/meshcat-dev/meshcat-python)
