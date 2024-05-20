@@ -11,12 +11,11 @@ layout: about
   - student exchange program, [UWM](https://uwm.edu)
   - B.S., electrical engineering, [CQU](https://www.cqu.edu.cn)
 - research interests: animation and robotics with
-  - [Pinocchio](https://github.com/stack-of-tasks/pinocchio)
-  - [CasADi](https://github.com/casadi/casadi)
-  - [MeshCat](https://github.com/meshcat-dev/meshcat-python)
+  - [Pinocchio 3](https://github.com/stack-of-tasks/pinocchio) ≈ [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl)
+  - [CasADi](https://github.com/casadi/casadi) ≈ [JuMP.jl](https://github.com/jump-dev/JuMP.jl) + [ForwardDiff.jl](https://github.com/JuliaDiff/ForwardDiff.jl)
+  - [meshcat-python](https://github.com/meshcat-dev/meshcat-python) ≈ [MeshCat.jl](https://github.com/rdeits/MeshCat.jl)
   - [Drake](https://github.com/RobotLocomotion/drake)
   - [Choreonoid](https://github.com/choreonoid/choreonoid)
-  - [JuliaRobotics](https://github.com/JuliaRobotics)
 - [blogspot](https://matheecs.blogspot.com)
 - [elibrary](https://github.com/matheecs/eHomeLib)
 
