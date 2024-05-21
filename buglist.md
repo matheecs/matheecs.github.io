@@ -3934,12 +3934,12 @@ cite <https://stackoverflow.com/a/77205046/14562781>
 
 Dependencies
 
-[x] Eigen3
-[x] urdfdom_headers(**APT**) & urdfdom(**APT**) & [console_bridge](https://github.com/ros/console_bridge)
-[x] [Boost](https://www.boost.org/doc/libs/1_81_0/more/getting_started/unix-variants.html) `./bootstrap.sh && sudo ./b2 install`
-[x] [eigenpy](https://github.com/stack-of-tasks/eigenpy/tree/devel)
-[x] [hpp-fcl](https://github.com/humanoid-path-planner/hpp-fcl) (`BUILD_WITH_COLLISION_SUPPORT=ON`)
-[x] [CasADi](https://github.com/casadi/casadi/wiki/InstallationLinux) (`BUILD_WITH_CASADI_SUPPORT=ON`)
+* [x] Eigen3
+* [x] urdfdom_headers(**APT**) & urdfdom(**APT**) & [console_bridge](https://github.com/ros/console_bridge)
+* [x] [Boost](https://www.boost.org/doc/libs/1_81_0/more/getting_started/unix-variants.html) `./bootstrap.sh && sudo ./b2 install`
+* [x] [eigenpy](https://github.com/stack-of-tasks/eigenpy/tree/devel)
+* [x] [hpp-fcl](https://github.com/humanoid-path-planner/hpp-fcl) (`BUILD_WITH_COLLISION_SUPPORT=ON`)
+* [x] [CasADi](https://github.com/casadi/casadi/wiki/InstallationLinux) (`BUILD_WITH_CASADI_SUPPORT=ON`)
 
 CasADi (不要用 pip 安装的包，因为 C++ ABI 不兼容):
 
