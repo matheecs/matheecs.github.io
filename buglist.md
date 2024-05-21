@@ -3930,7 +3930,7 @@ pip install wheel==0.38.0
 
 cite <https://stackoverflow.com/a/77205046/14562781>
 
-### How to build Pin3
+### How to build Pin3 [源码安装]
 
 Dependencies
 
@@ -3941,7 +3941,7 @@ Dependencies
 [x] [hpp-fcl](https://github.com/humanoid-path-planner/hpp-fcl) (`BUILD_WITH_COLLISION_SUPPORT=ON`)
 [x] [CasADi](https://github.com/casadi/casadi/wiki/InstallationLinux) (`BUILD_WITH_CASADI_SUPPORT=ON`)
 
-CasADi:
+CasADi (不要用 pip 安装的包，因为 C++ ABI 不兼容):
 
 ```bash
 cmake -Bbuild -GNinja -DCMAKE_BUILD_TYPE=Release -DCMAKE_COLOR_DIAGNOSTICS=ON -DCMAKE_INSTALL_PREFIX=$HOME/mylibs -DWITH_IPOPT=ON -DWITH_OSQP=ON -DWITH_PYTHON3=ON -DWITH_PYTHON=ON
