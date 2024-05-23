@@ -3956,3 +3956,20 @@ cmake -Bbuild -GNinja -DCMAKE_BUILD_TYPE=Release -DCMAKE_COLOR_DIAGNOSTICS=ON -D
 
 cmake --install build
 ```
+
+### How to install Orbit
+
+Use the bundled python with Isaac Sim! (wo `conda`)
+
+```python
+# carb_settings_iface.set_string(
+#     "/persistent/isaac/asset_root/default",
+#     "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1",
+# )
+# carb_settings_iface.set_string(
+#     "/persistent/isaac/asset_root/nvidia",
+#     "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1",
+# )
+```
+
+> One of the most difficult software applications ever. Big framework, Bad experience.
