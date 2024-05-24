@@ -3985,3 +3985,9 @@ Run Isaac Sim with the flag below to use the local assets:
 ```
 
 > One of the most difficult software applications ever. Big framework, Bad experience.
+
+three main workflows when developing in Omniverse Isaac Sim
+
+* GUI
+* Extensions
+* Standalone Python
