@@ -3932,7 +3932,9 @@ cite <https://stackoverflow.com/a/77205046/14562781>
 
 ### How to build Pin3 [源码安装]
 
-Dependencies
+[c++标准库abi兼容性问题](https://zhuanlan.zhihu.com/p/662089259)
+
+Dependencies:
 
 * [x] Eigen3
 * [x] urdfdom_headers(**APT**) & urdfdom(**APT**) & [console_bridge](https://github.com/ros/console_bridge)
