@@ -3963,15 +3963,25 @@ cmake --install build
 
 Use the bundled python with Isaac Sim! (wo `conda`)
 
+**N.B.** Use [local assets pack](https://docs.omniverse.nvidia.com/isaacsim/latest/installation/install_faq.html#assets-pack) but ~~Nucleus~~
+
+![isaac sim assets pack](https://docs.omniverse.nvidia.com/isaacsim/latest/_images/isaac_sim_faq_assets_pack.png)
+
 ```python
-# carb_settings_iface.set_string(
-#     "/persistent/isaac/asset_root/default",
-#     "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1",
-# )
-# carb_settings_iface.set_string(
-#     "/persistent/isaac/asset_root/nvidia",
-#     "http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/2023.1.1",
-# )
+carb_settings_iface.set_string(
+    "/persistent/isaac/asset_root/default",
+    "/media/matheecs/BF0F1C9B0BED3510/isaac_sim-assets-2023.1.1/Assets/Isaac/2023.1.1",
+)
+carb_settings_iface.set_string(
+    "/persistent/isaac/asset_root/nvidia",
+    "/media/matheecs/BF0F1C9B0BED3510/isaac_sim-assets-2023.1.1/Assets/Isaac/2023.1.1",
+)
+```
+
+Run Isaac Sim with the flag below to use the local assets:
+
+```bash
+./isaac-sim.sh --/persistent/isaac/asset_root/default="/home/<username>/Downloads/isaac_sim-assets-1-2023.1.1/Assets/Isaac/2023.1.1"
 ```
 
 > One of the most difficult software applications ever. Big framework, Bad experience.
