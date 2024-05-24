@@ -7,9 +7,16 @@ author: "Jixiang Zhang"
 
 ### Paper reading
 
+* [Interactive Design of Stylized Walking Gaits for Robotic Characters](https://la.disneyresearch.com/publication/interactive-design-of-stylized-walking-gaits-for-robotic-characters/)
+  
+  ![Interactive Design](https://la.disneyresearch.com/wp-content/uploads/Images_Interactive_Design_of_Stylized_Walking_Gaits_for_Robotic_Characters-4-1024x255.jpg)
+
 * [Russ Tedrake: Planning with Graphs of Convex Sets (in the age of foundation models)](https://www.youtube.com/watch?v=JZokn4Pc-YY)
 * [Siyuan Feng & Ben Burchfiel: Towards Large Behavior Models](https://www.youtube.com/watch?v=fwBbj6UmK-I&t=3742s)
-* [**cuRobo**: CUDA Accelerated Robot Library](https://curobo.org/index.html)
+* [Orbit: A Unified Simulation Framework for Interactive Robot Learning Environments](https://isaac-orbit.github.io/)
+
+  ![Orbit](https://isaac-orbit.github.io/teaser.jpg)
+
 * [Universal Manipulation Interface](https://umi-gripper.github.io)
 
   ![UMI Demonstration Interface Design](images/UMI_hardware.jpg)
