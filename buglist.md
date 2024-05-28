@@ -3991,3 +3991,25 @@ three main workflows when developing in Omniverse Isaac Sim
 * GUI
 * Extensions
 * Standalone Python
+
+### Error mounting /dev/sda1 at /media/ on Ubuntu
+
+```bash
+$ sudo ntfsfix /dev/sda1
+
+Mounting volume... $MFTMirr does not match $MFT (record 0).
+FAILED
+Attempting to correct errors... 
+Processing $MFT and $MFTMirr...
+Reading $MFT... OK
+Reading $MFTMirr... OK
+Comparing $MFTMirr to $MFT... FAILED
+Correcting differences in $MFTMirr record 0...OK
+Correcting differences in $MFTMirr record 3...OK
+Processing of $MFT and $MFTMirr completed successfully.
+Setting required flags on partition... OK
+Going to empty the journal ($LogFile)... OK
+Checking the alternate boot sector... OK
+NTFS volume version is 3.1.
+NTFS partition /dev/sda1 was processed successfully.
+```
