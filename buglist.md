@@ -3536,9 +3536,11 @@ rosrun mouse_teleop mouse_teleop.py /mouse_vel:=/cmd_vel
 
 Cite: <https://www.ubuntukylin.com/applications/106-cn.html>
 
-### Pinyin for Chrome
+### Pinyin for ~~Chrome~~ Linux(Ubuntu/Arch)
 
-[Google Input Tools](https://chrome.google.com/webstore/detail/google-input-tools/mclkkofklkfljcocdinagocijmpgbhab)
+old: [~~Google Input Tools~~](https://chrome.google.com/webstore/detail/google-input-tools/mclkkofklkfljcocdinagocijmpgbhab)
+
+new: `sudo apt-get install ibus-pinyin`; `Settings` -> `Input Sources` -> `Chinese(Intelligent Pinyin)`
 
 ### fatal error: Eigen/Core: No such file or directory
 
