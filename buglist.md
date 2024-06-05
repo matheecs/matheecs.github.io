@@ -3986,7 +3986,7 @@ Run Isaac Sim with the flag below to use the local assets:
 ./isaac-sim.sh --/persistent/isaac/asset_root/default="/home/<username>/Downloads/isaac_sim-assets-1-2023.1.1/Assets/Isaac/2023.1.1"
 ```
 
-> One of the most difficult software applications ever. Big framework, Bad experience.
+> One of the worst software experience to use. Big framework, Bad experience.
 
 three main workflows when developing in Omniverse Isaac Sim
 
@@ -4015,3 +4015,21 @@ Checking the alternate boot sector... OK
 NTFS volume version is 3.1.
 NTFS partition /dev/sda1 was processed successfully.
 ```
+
+### Install Miniconda and disable conda auto activate
+
+```bash
+mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm -rf ~/miniconda3/miniconda.sh
+
+
+~/miniconda3/bin/conda init bash
+~/miniconda3/bin/conda init zsh
+
+
+conda config --set auto_activate_base false
+```
+
+[Quick command line install Miniconda3](https://docs.anaconda.com/free/miniconda/)
