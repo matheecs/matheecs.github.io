@@ -13,9 +13,9 @@ layout: about
 - research interests: animation and robotics with
   - [Pinocchio3](https://github.com/stack-of-tasks/pinocchio) ≈ [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl)
   - [CasADi](https://github.com/casadi/casadi) ≈ [JuMP.jl](https://github.com/jump-dev/JuMP.jl) + [ForwardDiff.jl](https://github.com/JuliaDiff/ForwardDiff.jl)
-  - [MeshCat(Python)](https://github.com/meshcat-dev/meshcat-python)
+  - [MeshCat(Python)](https://github.com/meshcat-dev/meshcat-python) + PyQt + VTK
   - [Drake](https://github.com/RobotLocomotion/drake)/[Choreonoid](https://github.com/choreonoid/choreonoid)
-  - [Isaac Gym](https://developer.nvidia.com/isaac-gym) + [Warp=CUDA+AD](https://github.com/NVIDIA/warp)
+  - [Isaac Gym(=PhysX)](https://developer.nvidia.com/isaac-gym) + [Warp(=**CUDA**+AD)](https://github.com/NVIDIA/warp)
 - [blogspot](https://matheecs.blogspot.com)
 - [eHomeLib](https://github.com/matheecs/eHomeLib)
 
