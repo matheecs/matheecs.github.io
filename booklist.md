@@ -7,6 +7,10 @@ author: "Jixiang Zhang"
 
 ### Paper reading
 
+* Learning from Observation Paradigm: Leg Task Models for Enabling a Biped Humanoid Robot to Imitate Human Dances
+
+  ![](images/dance.png)
+
 * [Interactive Design of Stylized Walking Gaits for Robotic Characters](https://la.disneyresearch.com/publication/interactive-design-of-stylized-walking-gaits-for-robotic-characters/)
   
   ![Interactive Design](https://la.disneyresearch.com/wp-content/uploads/Images_Interactive_Design_of_Stylized_Walking_Gaits_for_Robotic_Characters-4-1024x255.jpg)
