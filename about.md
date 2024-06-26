@@ -241,6 +241,7 @@ layout: about
      - [legged_mpc_control](https://github.com/RoboticExplorationLab/legged_mpc_control)
    - [unitree_guide](https://github.com/unitreerobotics/unitree_guide)
    - [Simulation Software for HECTOR](https://github.com/DRCL-USC/Hector_Simulation)
+     - [OpenLoong Dynamics Control](https://atomgit.com/openloong/openloong-dyn-control)
    - [Upper Body Vertical Control](https://ai2001.ifdef.jp/uvc/uvc_Eng.html)
    - [骑自行车的双足机器人](https://ai2001.ifdef.jp/primer_V2/primer_V2.html)
    - [**IHMC Open Robotics Software**](https://github.com/ihmcrobotics/ihmc-open-robotics-software)
