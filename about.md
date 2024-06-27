@@ -242,6 +242,7 @@ layout: about
    - [unitree_guide](https://github.com/unitreerobotics/unitree_guide)
    - [Simulation Software for HECTOR](https://github.com/DRCL-USC/Hector_Simulation)
      - [OpenLoong Dynamics Control](https://atomgit.com/openloong/openloong-dyn-control)
+   - [Generalized Biped Walking Control](https://www.cs.ubc.ca/~van/papers/2010-TOG-gbwc/): [cartwheel-3d](https://github.com/Banbury/cartwheel-3d)
    - [Upper Body Vertical Control](https://ai2001.ifdef.jp/uvc/uvc_Eng.html)
    - [骑自行车的双足机器人](https://ai2001.ifdef.jp/primer_V2/primer_V2.html)
    - [**IHMC Open Robotics Software**](https://github.com/ihmcrobotics/ihmc-open-robotics-software)
@@ -259,6 +260,8 @@ layout: about
    - [**Pink**](https://github.com/tasts-robots/pink)
    - [Control Toolbox](https://github.com/ethz-adrl/control-toolbox)
    - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
+   - [Aligator](https://github.com/Simple-Robotics/aligator)
+   - [fatrop](https://github.com/meco-group/fatrop)
    - [towr](https://github.com/ethz-adrl/towr)
    - [horizon](https://github.com/ADVRHumanoids/horizon)
    - [ltv-mpc](https://github.com/stephane-caron/ltv-mpc)
@@ -408,6 +411,7 @@ layout: about
    - [Sequential Convex Programming Toolbox](https://github.com/UW-ACL/SCPToolbox.jl)
    - [PDFO = COBYLA, UOBYQA, NEWUOA, BOBYQA, and LINCOA](https://pdfo.net/index.html)
    - [Chebfun](https://www.chebfun.org/)
+   - [proxsuite-nlp](https://github.com/Simple-Robotics/proxsuite-nlp)
 8. Machine learning
    - [legged_gym](https://github.com/leggedrobotics/legged_gym)
    - [Diffusion Policy](https://github.com/real-stanford/diffusion_policy)
@@ -418,6 +422,8 @@ layout: about
    - [MLX: An array framework for Apple silicon](https://github.com/ml-explore/mlx)
    - [ml-engineering](https://github.com/stas00/ml-engineering)
    - [Humanoid-Gym](https://github.com/roboterax/humanoid-gym)
+   - [AdaptNet](https://motion-lab.github.io/AdaptNet/)
+   - [Composite Motion Learning with Task Control](https://github.com/xupei0610/CompositeMotion)
 9. Tools
    - [**NumPy**](https://numpy.org)
    - [**Eigen**](https://eigen.tuxfamily.org/index.php?title=Main_Page)
