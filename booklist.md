@@ -7,6 +7,10 @@ author: "Jixiang Zhang"
 
 ### Paper reading
 
+* [Visualizing Movement Control Optimization Landscapes](https://arxiv.org/abs/1909.07869)
+
+  ![](images/landscape.jpg)
+
 * Learning from Observation Paradigm: Leg Task Models for Enabling a Biped Humanoid Robot to Imitate Human Dances
 
   ![](images/dance.png)
