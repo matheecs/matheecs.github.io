@@ -427,10 +427,13 @@ layout: about
    - [MLX: An array framework for Apple silicon](https://github.com/ml-explore/mlx)
    - [ml-engineering](https://github.com/stas00/ml-engineering)
    - [Humanoid-Gym](https://github.com/roboterax/humanoid-gym)
-   - Motion
+   - **Motion**: from animation to robotics
      - [AdaptNet](https://motion-lab.github.io/AdaptNet/)
      - [Composite Motion Learning with Task Control](https://github.com/xupei0610/CompositeMotion)
      - [Flexible Motion In-betweening with Diffusion Models](https://github.com/setarehc/diffusion-motion-inbetweening)
+     - [Learned Motion Matching](https://github.com/orangeduck/Motion-Matching)
+     - [Animation Looping](https://github.com/orangeduck/Animation-Looping)
+     - [BVHView](https://github.com/orangeduck/BVHView)
    - [WarpDrive](https://github.com/salesforce/warp-drive)
 9. Tools
    - [**NumPy**](https://numpy.org)
