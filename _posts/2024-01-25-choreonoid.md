@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Choreonoid🕺"
+title: "Choreonoid Notes"
 categories: study
 author: "Jixiang Zhang"
 ---
@@ -9,8 +9,11 @@ Learning Material:
 
 1. <https://choreonoid.org/ja/choreograph-tutorial>
 2. <https://choreonoid.org/ja/tutorial-videos.html>
-
-[Documentation](https://choreonoid.org/en/documents/latest/index.html#)
+3. [YouTube: Humanoid Virtual Athletics Challenge 2024](https://www.youtube.com/@HumanoidVirtualAthletics-gx8ip)
+4. [HUMANOID VIRTUAL ATHLETICS CHALLENGE 解説ブログ](https://koomiy.github.io/posts/intro/)
+5. [Humanoid Virtual Athletics Challenge](https://ytazz.github.io/vnoid/)
+   1. [vnoid](https://github.com/ytazz/vnoid)
+6. [Documentation](https://choreonoid.org/en/documents/latest/index.html#)
 
 <p align="center">
   <img src="{{site.baseurl}}/images/Choreonoid.png" width="500"/>
