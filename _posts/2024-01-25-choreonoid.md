@@ -33,6 +33,8 @@ Learning Material:
 ### Build with
 
 * [fmt](https://github.com/fmtlib/fmt) **7.1.3**! (ubuntu_22.04)
+* After fmt v10+, `enum` or `enum class` must have their own specialization[^1]
+  * solution: cast the argument by `fmt::underlying()`
 
 ```shell
 ./build/bin/choreonoid sample/PoseSeq/GR001.cnoid
@@ -135,3 +137,5 @@ symmetricIkLinks:
 collision_detection_rules:
   - disabled_link_chain_level: 2
 ```
+
+[^1]: <https://stackoverflow.com/questions/77751341/fmt-failed-to-compile-while-formatting-enum-after-upgrading-to-v10-and-above>
