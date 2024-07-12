@@ -32,21 +32,22 @@ Learning Material:
 
 ### Build with
 
-* [fmt](https://github.com/fmtlib/fmt) **7.1.3**! (ubuntu_22.04)
+* ~~[fmt](https://github.com/fmtlib/fmt) **7.1.3**! (ubuntu_22.04)~~
 * After fmt v10+, `enum` or `enum class` must have their own specialization[^1]
-  * solution: cast the argument by `fmt::underlying()`
 
 ```shell
 ./build/bin/choreonoid sample/PoseSeq/GR001.cnoid
 ```
 
 ```shell
-cmake -Bbuild -DCMAKE_BUILD_TYPE=Release -DBUILD_POSE_SEQ_PLUGIN=ON -DBUILD_BALANCER_PLUGIN=ON
+cmake -Bbuild -GNinja -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_COLOR_DIAGNOSTICS=ON -DBUILD_POSE_SEQ_PLUGIN=ON -DBUILD_BALANCER_PLUGIN=ON -DBUILD_MOCAP_PLUGIN=ON -DBUILD_HRP4C_HANDLER=ON -DBUILD_MEDIA_PLUGIN=ON
 ```
 
 ### URDF Model convert to Body Model
 
-Check BodyItem > Right Click > `Save as`
+1. File > New > `World`
+2. File > Load > `Body`
+3. Check BodyItem > Right Click > `Save as`
 
 ### Export Motion
 
