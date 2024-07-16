@@ -16,6 +16,7 @@ layout: about
   - [MeshCat(Python)](https://github.com/meshcat-dev/meshcat-python) + PyQt + VTK
   - [Drake](https://github.com/RobotLocomotion/drake)/[Choreonoid](https://github.com/choreonoid/choreonoid)
   - [Isaac Gym(=PhysX)](https://developer.nvidia.com/isaac-gym) + [Warp(=**CUDA**+AD)](https://github.com/NVIDIA/warp)
+  - Arch Linux(x86_64) + CMake + clang/clangd + Ninja + ccache + miniconda + VSCode + Chrome
 - [blogspot](https://matheecs.blogspot.com)
 - [eHomeLib](https://github.com/matheecs/eHomeLib)
 
