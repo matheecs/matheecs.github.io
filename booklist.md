@@ -7,6 +7,10 @@ author: "Jixiang Zhang"
 
 ### Paper reading
 
+* [Whole-Body MPC](https://www.youtube.com/watch?v=Xmi7AFGhlFc)
+
+  ![MIT](https://arxiv.org/html/2407.10789v1/x1.png)
+
 * [Visualizing Movement Control Optimization Landscapes](https://arxiv.org/abs/1909.07869)
 
   ![](images/landscape.jpg)
@@ -14,6 +18,10 @@ author: "Jixiang Zhang"
 * Learning from Observation Paradigm: Leg Task Models for Enabling a Biped Humanoid Robot to Imitate Human Dances
 
   ![](images/dance.png)
+
+* [Design and Control of a Bipedal Robotic Character](https://la.disneyresearch.com/publication/design-and-control-of-a-bipedal-robotic-character/)
+
+  ![Robotic Character](https://la.disneyresearch.com/wp-content/uploads/BDX-1024x683.png)
 
 * [Interactive Design of Stylized Walking Gaits for Robotic Characters](https://la.disneyresearch.com/publication/interactive-design-of-stylized-walking-gaits-for-robotic-characters/)
   
