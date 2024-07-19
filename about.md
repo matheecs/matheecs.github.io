@@ -420,6 +420,7 @@ layout: about
    - [PDFO = COBYLA, UOBYQA, NEWUOA, BOBYQA, and LINCOA](https://pdfo.net/index.html)
    - [Chebfun](https://www.chebfun.org/)
    - [proxsuite-nlp](https://github.com/Simple-Robotics/proxsuite-nlp)
+   - [StagewiseSQP](https://github.com/machines-in-motion/StagewiseSQP)
 8. Machine learning
    - [legged_gym](https://github.com/leggedrobotics/legged_gym)
    - [Diffusion Policy](https://github.com/real-stanford/diffusion_policy)
