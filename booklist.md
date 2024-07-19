@@ -11,6 +11,16 @@ author: "Jixiang Zhang"
 
   ![MIT](https://arxiv.org/html/2407.10789v1/x1.png)
 
+  * Related: [Aligator](https://github.com/Simple-Robotics/aligator), [Crocoddyl](https://github.com/loco-3d/crocoddyl)
+  * Tricks:
+    * tailor the solution accuracy to the computational budget by running a small but **fixed number of iterations** at high rates
+    * CBF constraints at the first timestep for self-collision avoidance: $\boldsymbol{J}_{\boldsymbol{h}} \dot{\boldsymbol{v}}+\dot{\boldsymbol{J}}_{\boldsymbol{h}} \dot{\boldsymbol{q}}+\left(\alpha_1+\alpha_2\right) \boldsymbol{J}_{\boldsymbol{h}} \dot{\boldsymbol{q}}+\left(\alpha_1 \alpha_2\right) \boldsymbol{h}(\boldsymbol{q}) \geq \mathbf{0}$
+    * ADMM(OSQP)
+    * warm-start
+    * inverse dynamics (RNEA) but ~~FD~~
+    * keeps structure of the QP **fixed**
+    * The constraints and derivatives are computed using **CasADi**’s AD and codegeneration
+
 * [Visualizing Movement Control Optimization Landscapes](https://arxiv.org/abs/1909.07869)
 
   ![](images/landscape.jpg)

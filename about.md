@@ -264,6 +264,8 @@ layout: about
    - [robotoc](https://github.com/mayataka/robotoc)
    - [**TSID**](https://github.com/stack-of-tasks/tsid)
    - [**Pink**](https://github.com/tasts-robots/pink)
+   - [LoIK](https://github.com/Simple-Robotics/LoIK)
+   - [Dual-Arm Diff IK](https://github.com/EricCousineau-TRI/drake_diff_ik_dual_arm)
    - [Control Toolbox](https://github.com/ethz-adrl/control-toolbox)
    - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
    - [Aligator](https://github.com/Simple-Robotics/aligator)
