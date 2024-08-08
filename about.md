@@ -423,6 +423,8 @@ layout: about
    - [StagewiseSQP](https://github.com/machines-in-motion/StagewiseSQP)
 8. Machine learning
    - [legged_gym](https://github.com/leggedrobotics/legged_gym)
+   - [ModelBasedFootstepPlanning](https://github.com/hojae-io/ModelBasedFootstepPlanning-IROS2024)
+   - [Berkeley Humanoid](https://berkeley-humanoid.com/static/berkeley_humanoid.pdf)
    - [Diffusion Policy](https://github.com/real-stanford/diffusion_policy)
    - [Isaac Gym Environments for Legged Robots](https://github.com/leggedrobotics/legged_gym)
    - [extreme-parkour](https://github.com/chengxuxin/extreme-parkour)
@@ -455,6 +457,7 @@ layout: about
    - [cactus-rt](https://github.com/cactusdynamics/cactus-rt)
    - [The Super Tiny Compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
    - PlotJuggler
+   - [matplotlive](https://github.com/stephane-caron/matplotlive)
    - [DataTamer](https://github.com/PickNikRobotics/data_tamer)
    - C++
      - clang
