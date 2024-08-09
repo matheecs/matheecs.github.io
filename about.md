@@ -31,6 +31,7 @@ layout: about
   - [GAMES103 基于物理的计算机动画入门](https://games-cn.org/games103/)
   - [GAMES104 现代游戏引擎](https://space.bilibili.com/512313464/channel/collectiondetail?sid=292637)
   - [GAMES105 计算机角色动画基础](https://games-105.github.io)
+- [Physics-Based Simulation](https://phys-sim-book.github.io/)
 - tiny* (DIY)
   - [raytracer](https://github.com/ssloy/tinyraytracer/wiki)
   - [raycaster](https://github.com/ssloy/tinyraycaster/wiki)
