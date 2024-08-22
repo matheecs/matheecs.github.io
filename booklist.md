@@ -7,6 +7,10 @@ author: "Jixiang Zhang"
 
 ### Paper reading
 
+* CusADi
+
+  ![](images/CusADi.png)
+
 * [Whole-Body MPC](https://www.youtube.com/watch?v=Xmi7AFGhlFc)
 
   ![MIT](https://arxiv.org/html/2407.10789v1/x1.png)
