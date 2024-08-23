@@ -32,6 +32,7 @@ layout: about
   - [GAMES104 现代游戏引擎](https://space.bilibili.com/512313464/channel/collectiondetail?sid=292637)
   - [GAMES105 计算机角色动画基础](https://games-105.github.io)
 - [Physics-Based Simulation](https://phys-sim-book.github.io/)
+- [Putting the “You” in CPU](https://cpu.land/)
 - tiny* (DIY)
   - [raytracer](https://github.com/ssloy/tinyraytracer/wiki)
   - [raycaster](https://github.com/ssloy/tinyraycaster/wiki)
@@ -333,6 +334,7 @@ layout: about
    - [L4CasADi](https://github.com/TUM-AAS/ml-casadi)
 5. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
+   - [RedMax](https://github.com/sueda/redmax)
    - [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl)
    - [RBDL](https://github.com/rbdl/rbdl)
    - [**Pinocchio**](https://github.com/stack-of-tasks/pinocchio)
@@ -346,6 +348,8 @@ layout: about
      - [obj2mjcf](https://github.com/kevinzakka/obj2mjcf/)
      - [Lec: MuJoCo Bootcamp](https://pab47.github.io/mujoco.html)
    - [Incremental Potential Contact](https://github.com/ipc-sim/IPC)
+   - [Stark](https://github.com/InteractiveComputerGraphics/stark)
+   - [PositionBasedDynamics](https://github.com/InteractiveComputerGraphics/PositionBasedDynamics)
    - [ZENO](https://github.com/zenustech/zeno)
    - [Piccolo](https://github.com/BoomingTech/Piccolo)
    - [SCONE](https://scone.software/doku.php)
@@ -359,7 +363,9 @@ layout: about
    - [Taichi](https://github.com/taichi-dev/taichi)
    - [Blender](https://github.com/blender/blender)
    - [Cascadeur: standalone 3D software that lets you create keyframe animation](https://cascadeur.com/)
-   - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
+   - [Box2D](https://github.com/erincatto/box2d)
+     - [Solver2D](https://github.com/erincatto/solver2d)
+   - [bepuphysics](https://github.com/bepu/bepuphysics2)
    - [mjbots quad](https://github.com/mjbots/quad)
    - [Choreonoid](https://github.com/choreonoid/choreonoid)
      - [OpenHRP3](https://fkanehiro.github.io/openhrp3-doc/en/index.html)
@@ -453,6 +459,7 @@ layout: about
        - [LCM to ROS](https://github.com/nrjl/lcm_to_ros)
      - [catkin](https://github.com/ros/catkin)
      - [PySHMXtreme](https://github.com/aminsung/PySHMXtreme/tree/data_type_fix)
+   - [OSC](https://hexler.net/touchosc)
    - [mc_rtc](https://github.com/jrl-umi3218/mc_rtc)
      - [mc_mujoco](https://github.com/rohanpsingh/mc_mujoco)
    - [cactus-rt](https://github.com/cactusdynamics/cactus-rt)
@@ -515,6 +522,7 @@ layout: about
      - [Cosmopolitan](https://github.com/jart/cosmopolitan)
      - [McFly - fly through your shell history](https://github.com/cantino/mcfly)
    - CMake
+     - [CPM.cmake](https://github.com/cpm-cmake/CPM.cmake)
    - Git
      - [A Fast Intro to Git Internals](https://sites.google.com/a/chromium.org/dev/developers/fast-intro-to-git-internals)
      - [What is in that .git directory?](https://blog.meain.io/2023/what-is-in-dot-git/)
@@ -542,6 +550,10 @@ layout: about
    - machine emulator and virtualizer
      - [QEMU](https://www.qemu.org/)
      - [UTM: Virtual machines for iOS and macOS](https://github.com/utmapp/UTM)
+   - SteamOS
+     - [steamos-teardown](https://github.com/randombk/steamos-teardown)
+     - [SteamOS 3.x source code](https://gitlab.com/evlaV/holo-PKGBUILD)
+     - [Steam Deck Optimization Guide](https://github.com/denis-g/steam-deck-optimization-guide)
 
 <p align="center">
   <img src="https://stellato.io/assets/images/research/overview.png" width="500"/>
