@@ -7,6 +7,11 @@ author: "Jixiang Zhang"
 
 ### Paper reading
 
+* *Learning agile and dynamic motor skills for legged robots*: 作者 Hwangbo 同时开发了 RaiSim 仿真器和 RL 框架 👍👍👍
+
+  ![](images/eth_RL.jpeg)
+  ![](images/eth_training.jpeg)
+
 * CusADi
 
   ![](images/CusADi.png)

@@ -334,6 +334,7 @@ layout: about
    - [L4CasADi](https://github.com/TUM-AAS/ml-casadi)
 5. Dynamics & Simulation or Animation
    - [Jolt Physics](https://github.com/jrouwe/JoltPhysics)
+   - [Peng: A minimal quadrotor pipeline in Rust](https://github.com/makeecat/Peng)
    - [RedMax](https://github.com/sueda/redmax)
    - [RigidBodyDynamics.jl](https://github.com/JuliaRobotics/RigidBodyDynamics.jl)
    - [RBDL](https://github.com/rbdl/rbdl)
