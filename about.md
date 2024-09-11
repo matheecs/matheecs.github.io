@@ -232,6 +232,9 @@ layout: about
    - MeshLab
    - [V-HACD](https://github.com/kmammou/v-hacd)
    - [CoACD](https://github.com/SarahWeiii/CoACD)
+   - [libigl](https://github.com/libigl/libigl)
+     - [libigl python bindings](https://github.com/libigl/libigl-python-bindings)
+   - [bvh-python](https://github.com/20tab/bvh-python)
 4. PnC = Formulation(Pinocchio,CppAD&CppADCodeGen) + Optimization(DDP/SQP,OSQP/ALM/IPM) + Visualization
    - [Terrain Planner](https://github.com/leggedrobotics/art_planner)
    - [MRPT](https://github.com/MRPT/mrpt)
@@ -270,6 +273,7 @@ layout: about
    - [Dual-Arm Diff IK](https://github.com/EricCousineau-TRI/drake_diff_ik_dual_arm)
    - [Control Toolbox](https://github.com/ethz-adrl/control-toolbox)
    - [OptimTraj](https://github.com/MatthewPeterKelly/OptimTraj)
+   - [Differential Dynamic Programming](https://github.com/imgeorgiev/ddp)
    - [Aligator](https://github.com/Simple-Robotics/aligator)
    - [fatrop](https://github.com/meco-group/fatrop)
    - [towr](https://github.com/ethz-adrl/towr)
@@ -368,6 +372,7 @@ layout: about
    - [Cascadeur: standalone 3D software that lets you create keyframe animation](https://cascadeur.com/)
    - [Box2D](https://github.com/erincatto/box2d)
      - [Solver2D](https://github.com/erincatto/solver2d)
+     - [Nova Physics](https://github.com/kadir014/nova-physics)
    - [bepuphysics](https://github.com/bepu/bepuphysics2)
    - [mjbots quad](https://github.com/mjbots/quad)
    - [Choreonoid](https://github.com/choreonoid/choreonoid)
@@ -420,6 +425,11 @@ layout: about
    - [CppAD](https://github.com/coin-or/CppAD)
      - [CppADCodeGen](https://github.com/joaoleal/CppADCodeGen)
    - [CasADi](https://github.com/casadi/casadi)
+     - [CusADi](https://github.com/se-hwan/cusadi)
+     - [JaxADi](https://github.com/based-robotics/jaxadi)
+   - [RAPTOR](https://github.com/roahmlab/RAPTOR)
+   - [PyRoboCOP](https://github.com/merlresearch/PyRoboCOP)
+   - [Bioptim](https://github.com/pyomeca/bioptim)
    - [Ungar: Simplifying optimal control with metaprogramming](https://github.com/fdevinc/ungar)
    - [Manopt](https://github.com/NicolasBoumal/manopt)
    - [JuMP](https://github.com/jump-dev/JuMP.jl)
@@ -450,6 +460,8 @@ layout: about
      - [Animation Looping](https://github.com/orangeduck/Animation-Looping)
      - [BVHView](https://github.com/orangeduck/BVHView)
    - [WarpDrive](https://github.com/salesforce/warp-drive)
+   - [Reinforcement Learning Meets Visual Odometry](https://github.com/uzh-rpg/rl_vo)
+   - [SkillMimic](https://github.com/wyhuai/SkillMimic)
 9. Tools
    - [**NumPy**](https://numpy.org)
    - [**Eigen**](https://eigen.tuxfamily.org/index.php?title=Main_Page)
@@ -482,6 +494,8 @@ layout: about
      - [AddressSanitizer](https://github.com/google/sanitizers)
      - [VTune](https://www.intel.com/content/www/us/en/developer/tools/oneapi/vtune-profiler.html)
      - [Build systems à la carte](https://dl.acm.org/doi/10.1145/3236774)
+     - [binvis.io](https://binvis.io/#/)
+       - [bin-graph](https://github.com/8dcc/bin-graph)
    - Python
      - Poetry
      - pytest
@@ -523,6 +537,8 @@ layout: about
      - [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
      - [Cosmopolitan](https://github.com/jart/cosmopolitan)
      - [McFly - fly through your shell history](https://github.com/cantino/mcfly)
+     - btop
+     - [Bash-Oneliner](https://onceupon.github.io/Bash-Oneliner/)
    - CMake
      - [CPM.cmake](https://github.com/cpm-cmake/CPM.cmake)
    - Git
