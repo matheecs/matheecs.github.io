@@ -7,9 +7,10 @@ author: "Jixiang Zhang"
 
 ### Paper reading
 
-* [LVIS](https://github.com/rdeits/LVIS-dev): Learning from Value Interval Sampling (Offline planning + Online control)
+* [LVIS](https://github.com/rdeits/LVIS-dev): Learning from Value Interval Sampling (Offline planning + Online **MIQP**, Early termination)
 
   ![](images/LVIS.png)
+  ![](images/lvis_off_on.png)
 
 * *Learning agile and dynamic motor skills for legged robots*: 作者 Hwangbo 同时开发了 RaiSim 仿真器和 RL 框架 👍👍👍
 
