@@ -7,7 +7,7 @@ author: "Jixiang Zhang"
 
 ### Paper reading
 
-* [LVIS](https://github.com/rdeits/LVIS-dev): Learning from Value Interval Sampling (Offline + Online)
+* [LVIS](https://github.com/rdeits/LVIS-dev): Learning from Value Interval Sampling (Offline planning + Online control)
 
   ![](images/LVIS.png)
 
