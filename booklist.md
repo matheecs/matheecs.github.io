@@ -7,6 +7,10 @@ author: "Jixiang Zhang"
 
 ### Paper reading
 
+* Model-Based Diffusion for Trajectory Optimization
+  
+  ![](images/mbd.png)
+
 * [LVIS](https://github.com/rdeits/LVIS-dev): Learning from Value Interval Sampling (Offline planning + Online **MIQP**, Early termination)
 
   ![](images/LVIS.png)
