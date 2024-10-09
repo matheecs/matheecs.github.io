@@ -370,6 +370,7 @@ layout: about
    - [Taichi](https://github.com/taichi-dev/taichi)
    - [Blender](https://github.com/blender/blender)
    - [Cascadeur: standalone 3D software that lets you create keyframe animation](https://cascadeur.com/)
+     - [ragdolldynamics](https://ragdolldynamics.com/)
    - [Box2D](https://github.com/erincatto/box2d)
      - [Solver2D](https://github.com/erincatto/solver2d)
      - [Nova Physics](https://github.com/kadir014/nova-physics)
