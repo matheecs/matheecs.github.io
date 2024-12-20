@@ -10,6 +10,7 @@ author: "Jixiang Zhang"
 * [Catch It!](https://mobile-dex-catch.github.io/): Two-Stage Training (Tracking + Catching) From Easy to Hard👍
   
   ![](images/catchit.png)
+  ![](images/real_robot.png)
 
 * Model-Based Diffusion for Trajectory Optimization
   
