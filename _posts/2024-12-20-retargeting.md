@@ -5,4 +5,4 @@ categories: study
 author: "Jixiang Zhang"
 ---
 
-<p align="center"><img src="{{site.baseurl}}/images/lafan1.jpg" width="500"/></p>
+<p align="center"><img src="{{site.baseurl}}/images/lafan1.png" width="500"/></p>
