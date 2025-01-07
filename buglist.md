@@ -4033,3 +4033,10 @@ conda config --set auto_activate_base false
 ```
 
 [Quick command line install Miniconda3](https://docs.anaconda.com/free/miniconda/)
+
+### siconos
+
+```shell
+conda install swig=4.2.1
+cmake -Bbuild -GNinja -DCMAKE_COLOR_DIAGNOSTICS=ON -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=Release -DPython_EXECUTABLE=$(which python)
+```
