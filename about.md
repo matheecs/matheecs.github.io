@@ -33,6 +33,7 @@ layout: about
   - [GAMES105 计算机角色动画基础](https://games-105.github.io)
 - [Physics-Based Simulation](https://phys-sim-book.github.io/)
 - [Putting the “You” in CPU](https://cpu.land/)
+- [CS Primer](https://csprimer.com/courses/)
 - tiny* (DIY)
   - [raytracer](https://github.com/ssloy/tinyraytracer/wiki)
   - [raycaster](https://github.com/ssloy/tinyraycaster/wiki)
@@ -392,6 +393,10 @@ layout: about
    - [fluid-engine-dev](https://github.com/doyubkim/fluid-engine-dev)
    - [Automatic Differentiation for rigid-body-dynamics AlgorithMs](https://github.com/ami-iit/adam)
    - [RBDReference](https://github.com/robot-acceleration/RBDReference)
+   - [flybody](https://github.com/TuragaLab/flybody)
+   - [DCOL](https://github.com/kevin-tracy/DifferentiableCollisions.jl)
+   - [Unified Incremental Potential Contact](https://github.com/spiriMirror/libuipc)
+   - [BlenderProc2](https://github.com/DLR-RM/BlenderProc)
 6. Visualization
    - [Vis](https://github.com/rvbust/Vis)
    - [**MeshCat**](https://github.com/rdeits/meshcat-python)
@@ -464,6 +469,7 @@ layout: about
    - [Reinforcement Learning Meets Visual Odometry](https://github.com/uzh-rpg/rl_vo)
    - [SkillMimic](https://github.com/wyhuai/SkillMimic)
 9. Tools
+   - [Open-source 35mm full-frame (36mm x 24mm) CCD mirror-less interchangable lens camera (MILC)](https://gitlab.com/zephray/sitina1)
    - [**NumPy**](https://numpy.org)
    - [**Eigen**](https://eigen.tuxfamily.org/index.php?title=Main_Page)
    - [ROS](https://github.com/ros/ros_comm)
