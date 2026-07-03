@@ -1426,14 +1426,14 @@ AABB 重叠非常快，但并不很精确，因为它只考虑形状包围盒。
 
 在此示例中，我从一个球创建形状代理，然后调用 `b3World_OverlapShape()`。该函数接收 `b3OverlapResultFcn()` 以接收结果并控制搜索进程。
 
-```c
+{% raw %}```c
 b3Sphere sphere = {{0.0f, 0.0f, 0.0f}, 0.2f};
 b3ShapeProxy proxy;
 proxy.points = &sphere.center;
 proxy.count  = 1;
 proxy.radius = sphere.radius;
 b3World_OverlapShape(myWorldId, b3Pos_zero, &proxy, grenadeFilter, MyOverlapCallback, &myGame);
-```
+```{% endraw %}
 
 ### Ray-casts
 
@@ -1493,7 +1493,7 @@ if (result.hit)
 
 形状投射类似于射线投射。你可以把射线投射视为沿一条线追踪一个点。形状投射允许你沿一条线追踪一个形状。与形状重叠查询类似，形状投射使用 `b3ShapeProxy` 表示任意形状。
 
-```c
+{% raw %}```c
 struct MyRayCastContext
 {
     b3ShapeId shapeId;
@@ -1523,7 +1523,7 @@ proxy.count  = 1;
 proxy.radius = sphere.radius;
 b3Vec3 translation = {10.0f, -5.0f, 0.0f};
 b3World_CastShape(myWorldId, b3Pos_zero, &proxy, translation, grenadeFilter, MyCastCallback, &context);
-```
+```{% endraw %}
 
 形状投射的设置方式类似于射线投射。形状投射通常比射线投射慢，因此只有在射线投射不能满足需求时才使用形状投射。
 
