@@ -95,24 +95,25 @@ $$
 
 本文档中的方程使用表 [symbols] 中描述的符号。
 
-|          符号             |           定义
+|          符号             |           定义            |
 |:-------------------------:|:---------------------------|
-| $v$                       | 视线单位向量
-| $l$                       | 入射光单位向量
-| $n$                       | 表面法线单位向量
-| $h$                       | $l$ 和 $v$ 之间的半角单位向量
-| $f$                       | BRDF
-| $\fDiffuse$               | BRDF 的漫反射分量
-| $\fSpecular$              | BRDF 的镜面反射分量
-| $\alpha$                  | 粗糙度，通过输入的 `perceptualRoughness` 重新映射得到
-| $\sigma$                  | 漫反射率
-| $\Omega$                  | 球面域
-| $\fNormal$                | 法线入射时的反射率
-| $\fGrazing$               | 掠射角时的反射率
-| $\chi^+(a)$               | 阶跃函数（若 $a > 0$ 则为 1，否则为 0）
-| $n_{ior}$                 | 界面的折射率 (IOR)
-| $\left< \NoL \right>$     | 截断到 [0..1] 的点积
-| $\left< a \right>$        | 饱和值（截断到 [0..1]）
+| $v$                       | 视线单位向量               |
+| $l$                       | 入射光单位向量             |
+| $n$                       | 表面法线单位向量           |
+| $h$                       | $l$ 和 $v$ 之间的半角单位向量 |
+| $f$                       | BRDF                       |
+| $\fDiffuse$               | BRDF 的漫反射分量          |
+| $\fSpecular$              | BRDF 的镜面反射分量        |
+| $\alpha$                  | 粗糙度，通过输入的 `perceptualRoughness` 重新映射得到 |
+| $\sigma$                  | 漫反射率                   |
+| $\Omega$                  | 球面域                     |
+| $\fNormal$                | 法线入射时的反射率         |
+| $\fGrazing$               | 掠射角时的反射率           |
+| $\chi^+(a)$               | 阶跃函数（若 $a > 0$ 则为 1，否则为 0） |
+| $n_{ior}$                 | 界面的折射率 (IOR)         |
+| $\left< \NoL \right>$     | 截断到 [0..1] 的点积       |
+| $\left< a \right>$        | 饱和值（截断到 [0..1]）    |
+
 [表 [symbols]：符号定义]
 
 # 材质系统
@@ -610,14 +611,15 @@ Fr *= pixel.energyCompensation;
 表[standardParameters]描述了满足我们约束条件的参数列表。
 
 
-       Parameter      |      Definition
----------------------:|:---------------------
-**BaseColor**         | 非金属表面的漫反射反照率，以及金属表面的镜面反射颜色
-**Metallic**          | 表面表现为电介质（0.0）还是导体（1.0）。通常用作二值（0或1）
-**Roughness**         | 表面的感知光滑度（0.0）或粗糙度（1.0）。光滑表面呈现清晰的反射
-**Reflectance**       | 电介质表面在法线入射时的菲涅尔反射率。替代了显式的折射率
-**Emissive**          | 附加漫反射反照率，用于模拟自发光表面（如霓虹灯等）。该参数在带有泛光（bloom）效果的HDR管线中尤为有用
-**Ambient occlusion** | 定义环境光对表面点的可达程度。这是一个介于0.0和1.0之间的逐像素阴影因子。该参数将在光照部分详细讨论
+| Parameter | Definition |
+|---------------------:|:---------------------|
+| **BaseColor** | 非金属表面的漫反射反照率，以及金属表面的镜面反射颜色 |
+| **Metallic** | 表面表现为电介质（0.0）还是导体（1.0）。通常用作二值（0或1） |
+| **Roughness** | 表面的感知光滑度（0.0）或粗糙度（1.0）。光滑表面呈现清晰的反射 |
+| **Reflectance** | 电介质表面在法线入射时的菲涅尔反射率。替代了显式的折射率 |
+| **Emissive** | 附加漫反射反照率，用于模拟自发光表面（如霓虹灯等）。该参数在带有泛光（bloom）效果的HDR管线中尤为有用 |
+| **Ambient occlusion** | 定义环境光对表面点的可达程度。这是一个介于0.0和1.0之间的逐像素阴影因子。该参数将在光照部分详细讨论 |
+
 [Table [standardParameters]: 标准模型的参数]
 
 图[material_parameters]展示了金属度、粗糙度和反射率参数如何影响表面的外观。
@@ -629,14 +631,15 @@ Fr *= pixel.energyCompensation;
 理解材质模型不同参数的类型和范围非常重要，如表[standardParametersTypes]所示。
 
 
-       Parameter      |    Type and range
----------------------:|:---------------------
-**BaseColor**         | 线性RGB [0..1]
-**Metallic**          | 标量 [0..1]
-**Roughness**         | 标量 [0..1]
-**Reflectance**       | 标量 [0..1]
-**Emissive**          | 线性RGB [0..1] + 曝光补偿
-**Ambient occlusion** | 标量 [0..1]
+| Parameter | Type and range |
+|---------------------:|:---------------------|
+| **BaseColor** | 线性RGB [0..1] |
+| **Metallic** | 标量 [0..1] |
+| **Roughness** | 标量 [0..1] |
+| **Reflectance** | 标量 [0..1] |
+| **Emissive** | 线性RGB [0..1] + 曝光补偿 |
+| **Ambient occlusion** | 标量 [0..1] |
+
 [Table [standardParametersTypes]: 标准模型参数的范围和类型]
 
 需要注意的是，这里描述的类型和范围是着色器所期望的格式。API和/或工具UI应当允许使用其他对艺术家更直观的类型和范围来指定参数。
@@ -689,34 +692,36 @@ n_{ior} = \frac{2}{1 - \sqrt{\fNormal}} - 1
 表[commonMatReflectance]描述了各类材质可接受的菲涅尔反射率值（没有真实世界材质的反射率低于2%）。
 
 
-          Material         |    Reflectance   |        IOR       |   Linear value
---------------------------:|:-----------------|:-----------------|:----------------
-Water                      | 2%               | 1.33             | 0.35
-Fabric                     | 4% to 5.6%       | 1.5 to 1.62      | 0.5 to 0.59
-Common liquids             | 2% to 4%         | 1.33 to 1.5      | 0.35 to 0.5
-Common gemstones           | 5% to 16%        | 1.58 to 2.33     | 0.56 to 1.0
-Plastics, glass            | 4% to 5%         | 1.5 to 1.58      | 0.5 to 0.56
-Other dielectric materials | 2% to 5%         | 1.33 to 1.58     | 0.35 to 0.56
-Eyes                       | 2.5%             | 1.38             | 0.39
-Skin                       | 2.8%             | 1.4              | 0.42
-Hair                       | 4.6%             | 1.55             | 0.54
-Teeth                      | 5.8%             | 1.63             | 0.6
-Default value              | 4%               | 1.5              | 0.5
+| Material | Reflectance | IOR | Linear value |
+|--------------------------:|:-----------------|:-----------------|:----------------|
+| Water | 2% | 1.33 | 0.35 |
+| Fabric | 4% to 5.6% | 1.5 to 1.62 | 0.5 to 0.59 |
+| Common liquids | 2% to 4% | 1.33 to 1.5 | 0.35 to 0.5 |
+| Common gemstones | 5% to 16% | 1.58 to 2.33 | 0.56 to 1.0 |
+| Plastics, glass | 4% to 5% | 1.5 to 1.58 | 0.5 to 0.56 |
+| Other dielectric materials | 2% to 5% | 1.33 to 1.58 | 0.35 to 0.56 |
+| Eyes | 2.5% | 1.38 | 0.39 |
+| Skin | 2.8% | 1.4 | 0.42 |
+| Hair | 4.6% | 1.55 | 0.54 |
+| Teeth | 5.8% | 1.63 | 0.6 |
+| Default value | 4% | 1.5 | 0.5 |
+
 [Table [commonMatReflectance]: 常见材质的反射率（来源：Real-Time Rendering 第4版）]
 
 表[fNormalMetals]列出了一些金属的$\fNormal$值。这些值以sRGB形式给出，在我们的材质模型中应作为基础颜色使用。关于如何从测量数据计算这些sRGB颜色的说明，请参考附录中的[镜面反射颜色]一节。
 
 
-    Metal  | $\fNormal$ in sRGB  |  Hexadecimal |               Color
-----------:|:-------------------:|:------------:|-------------------------------------------------------
-Silver     | 0.97, 0.96, 0.91    | #f7f4e8     | <div style="background-color: #f7f4e8; width: 60px">&nbsp;</div>
-Aluminum   | 0.91, 0.92, 0.92    | #e8eaea     | <div style="background-color: #e8eaea; width: 60px">&nbsp;</div>
-Titanium   | 0.76, 0.73, 0.69    | #c1baaf     | <div style="background-color: #c1baaf; width: 60px">&nbsp;</div>
-Iron       | 0.77, 0.78, 0.78    | #c4c6c6     | <div style="background-color: #c4c6c6; width: 60px">&nbsp;</div>
-Platinum   | 0.83, 0.81, 0.78    | #d3cec6     | <div style="background-color: #d3cec6; width: 60px">&nbsp;</div>
-Gold       | 1.00, 0.85, 0.57    | #ffd891     | <div style="background-color: #ffd891; width: 60px">&nbsp;</div>
-Brass      | 0.98, 0.90, 0.59    | #f9e596     | <div style="background-color: #f9e596; width: 60px">&nbsp;</div>
-Copper     | 0.97, 0.74, 0.62    | #f7bc9e     | <div style="background-color: #f7bc9e; width: 60px">&nbsp;</div>
+| Metal | $\fNormal$ in sRGB | Hexadecimal | Color |
+|----------:|:-------------------:|:------------:|-------------------------------------------------------|
+| Silver | 0.97, 0.96, 0.91 | #f7f4e8 | <div style="background-color: #f7f4e8; width: 60px">&nbsp;</div> |
+| Aluminum | 0.91, 0.92, 0.92 | #e8eaea | <div style="background-color: #e8eaea; width: 60px">&nbsp;</div> |
+| Titanium | 0.76, 0.73, 0.69 | #c1baaf | <div style="background-color: #c1baaf; width: 60px">&nbsp;</div> |
+| Iron | 0.77, 0.78, 0.78 | #c4c6c6 | <div style="background-color: #c4c6c6; width: 60px">&nbsp;</div> |
+| Platinum | 0.83, 0.81, 0.78 | #d3cec6 | <div style="background-color: #d3cec6; width: 60px">&nbsp;</div> |
+| Gold | 1.00, 0.85, 0.57 | #ffd891 | <div style="background-color: #ffd891; width: 60px">&nbsp;</div> |
+| Brass | 0.98, 0.90, 0.59 | #f9e596 | <div style="background-color: #f9e596; width: 60px">&nbsp;</div> |
+| Copper | 0.97, 0.74, 0.62 | #f7bc9e | <div style="background-color: #f7bc9e; width: 60px">&nbsp;</div> |
+
 [Table [fNormalMetals]: 常见金属的$\fNormal$值]
 
 所有材质在掠射角处的菲涅尔反射率均为100%，因此我们将在评估镜面BRDF $\fSpecular$时按如下方式设置$\fGrazing$：
@@ -868,10 +873,11 @@ f(v,l)=\fDiffuse(v,l) (1 - F_c) + \fSpecular(v,l) (1 - F_c) + f_c(v,l)
 清漆涂层材质模型包含标准材质模型先前定义的所有参数，外加表 [clearCoatParameters] 中描述的两个参数。
 
 
-        Parameter      |      Definition
-----------------------:|:---------------------
-**ClearCoat**          | 清漆涂层强度。标量，取值范围 0 到 1
-**ClearCoatRoughness** | 清漆涂层的感知平滑度或粗糙度。标量，取值范围 0 到 1
+| Parameter | Definition |
+|----------------------:|:---------------------|
+| **ClearCoat** | 清漆涂层强度。标量，取值范围 0 到 1 |
+| **ClearCoatRoughness** | 清漆涂层的感知平滑度或粗糙度。标量，取值范围 0 到 1 |
+
 [Table [clearCoatParameters]: 清漆涂层模型参数]
 
 清漆涂层粗糙度参数以与标准材质粗糙度参数类似的方式进行重映射和钳制。
@@ -1037,9 +1043,10 @@ float V_SmithGGXCorrelated_Anisotropic(float at, float ab, float ToV, float BoV,
 各向异性材质模型包含标准材质模式先前定义的所有参数，外加表 [anisotropicParameters] 中描述的一个额外参数。
 
 
-        Parameter      |      Definition
-----------------------:|:---------------------
-**Anisotropy**         | 各向异性程度。标量，取值范围 -1 到 1
+| Parameter | Definition |
+|----------------------:|:---------------------|
+| **Anisotropy** | 各向异性程度。标量，取值范围 -1 到 1 |
+
 [Table [anisotropicParameters]: 各向异性模型参数]
 
 无需进一步的重映射。请注意，负值将使各向异性沿副切向方向对齐，而不是切向方向。图 [anisotropyParameter] 展示了各向异性参数如何影响粗糙金属表面的外观。
@@ -1190,10 +1197,11 @@ color *= (lightIntensity * lightAttenuation * NoL) * lightColor;
 布料材质模型包含了为标准材质模型先前定义的所有参数，但 **_metallic_** 和 **_reflectance_** 除外。表 [clothParameters] 中描述的两个额外参数也可用。
 
 
-       Parameter      |      Definition
----------------------:|:---------------------
-**SheenColor**        | 高光色调，用于创建双色调高光织物（默认为 0.04，与标准反射率一致）
-**SubsurfaceColor**   | 光线经过材质散射和吸收后，漫反射颜色的色调
+| Parameter | Definition |
+|---------------------:|:---------------------|
+| **SheenColor** | 高光色调，用于创建双色调高光织物（默认为 0.04，与标准反射率一致） |
+| **SubsurfaceColor** | 光线经过材质散射和吸收后，漫反射颜色的色调 |
+
 [Table [clothParameters]: 布料模型参数]
 
 
@@ -1227,6 +1235,7 @@ color *= (lightIntensity * lightAttenuation * NoL) * lightColor;
 | 辐射功率 | $\Phi_e$ | 瓦特 ($W$) |
 | 光视效能 | $\eta$ | 流明每瓦 ($\frac{lm}{W}$) |
 | 光视效率 | $V$ | 百分比 (%) |
+
 [表 [lightUnits]: 光度学单位]
 
 为了实现完全一致的照明，我们必须使用能够反映真实场景中各种光强度之间比例的光单位。这些强度的变化范围很大，从家用灯泡的大约800 $lm$，到白天天空和太阳照明的120,000 $lx$。
@@ -1244,6 +1253,7 @@ color *= (lightIntensity * lightAttenuation * NoL) * lightColor;
 | 掩码光度学光源 | 光功率 ($lm$) |
 | 面光源 | 光功率 ($lm$) |
 | 基于图像的光源 | 亮度 ($\frac{cd}{m^2}$) |
+
 [表 [lightTypesUnits]: 每种光源类型的强度单位]
 
 **关于辐射功率单位的说明**
@@ -1269,6 +1279,7 @@ $$\begin{equation}\label{radiantPowerLuminousEfficiency}
 | 白炽灯 | 14-35 | 2-5% |
 | LED | 28-100 | 4-15% |
 | 荧光灯 | 60-100 | 9-15% |
+
 [表 [lightTypesEfficacy]: 各类光源的光视效能和光视效率]
 
 ### 光单位验证
@@ -1328,6 +1339,7 @@ L_{out} = f(v,l) E_{\bot} \left< \NoL \right>
 | $Sky_{\bot} + Sun_{\bot}$ | 120,000 | 130,000 | 90,000 |
 | $Sky_{\bot}$ | 20,000 | 25,000 | 9,000 |
 | $Sun_{\bot}$ | 100,000 | 105,000 | 81,000 |
+
 [表 [sunSkyIlluminance]: 照度值，单位为 $lx$（满月的照度为 1 $lx$）]
 
 动态方向光在运行时评估特别廉价，如代码清单 [glslDirectionalLight] 所示。
@@ -1611,6 +1623,7 @@ float lightIntensity = photometricLight.getMaxIntensity() * multiplier;
 | **光度学分布文件** | 表示光度学光源分布文件的纹理，仅对点光源有效 |
 | **掩码分布文件** | 布尔值，指示 IES 分布文件是否作为掩码使用。作为掩码使用时，光源的亮度将乘以用户指定强度与集成后的 IES 分布文件强度之间的比值。不作为掩码使用时，用户指定的强度被忽略，转而使用 IES 乘数 |
 | **光度学乘数** | 光度学光源的亮度乘数（如果 IES 作为掩码关闭） |
+
 [表 [lightParameters]: 光源类型参数]
 
 **注意**：为简化实现，所有光功率在发送到着色器之前都将转换为发光强度（$cd$）。此转换取决于光源类型，并在前面的章节中进行了说明。
@@ -1713,6 +1726,7 @@ C_{sRGB} = \begin{cases} 12.92 \times \hat{C}_{linear} & \hat{C}_{linear} \le 0.
 | 6,500 | RGB 显示器白点 | <div style="background-color: #fff8fe; width: 60px">&nbsp;</div> |
 | 7,000-8,000 | 室外阴影区域 | <div style="background-color: #ebecff; width: 60px">&nbsp;</div> |
 | 8,000-10,000 | 多云天空 | <div style="background-color: #d6e0ff; width: 60px">&nbsp;</div> |
+
 [表 [colorTemperatureSamples]: 常见光源的归一化相关色温]
 
 ### 预曝光光源
