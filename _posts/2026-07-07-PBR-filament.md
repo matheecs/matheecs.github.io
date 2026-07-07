@@ -1084,7 +1084,7 @@ D_{velvet}(v,h,\alpha) = c_{norm}(1 + 4 exp\left(\frac{-{cot}^2\theta_{h}}{\alph
 这个 NDF 是同一位作者在 [#Ashikhmin00] 中描述的 NDF 的变体，主要修改包括添加了一个偏移量（此处设为 1）和一个幅度（4）。在 [#Neubelt13] 中，Neubelt 和 Pettineo 提出了这个 NDF 的归一化版本：
 
 $$\begin{equation}
-D_{velvet}(v,h,\alpha) = \frac{1}{\pi(1 + 4\alpha^2)} (1 + 4 \frac{exp\left(\frac{-{cot}^2\theta_{h}}{\alpha^2}\right)}{{sin}^4\theta_{h}})
+D_{velvet}(v,h,\alpha) = \frac{1}{\pi(1 + 4\alpha^2)} (1 + 4 \frac{exp\left(\frac{-{cot}^2\theta_{h}}{\alpha^2}\right)}{ {sin}^4\theta_{h}})
 \end{equation}$$
 
 对于完整的高光 BRDF，我们也遵循 [#Neubelt13] 的方法，用更平滑的变体替换了传统的分母：
