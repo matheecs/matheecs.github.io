@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Animation Graphs —— 游戏动画系统架构深度解析（YouTube 讲座中译）"
+title: "[Claude+DSv4 译] Animation Graphs"
 date: 2026-07-29
 categories: tech
 author: "翻译: matheecs"
